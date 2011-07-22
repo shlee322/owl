@@ -1,11 +1,11 @@
-//½ÃÀÛ : 2011-07-15 15:00
+//ï¿½ï¿½ï¿½ï¿½ : 2011-07-15 15:00
 package Sender;
 
 import java.io.*;
 import java.lang.*;
 import java.util.*;
 import java.net.*;
-
+// aaaaa
 public class Connect {
 	Task Task;
 	long ToIndex;
@@ -22,18 +22,18 @@ public class Connect {
 	
 	public boolean Send()
 	{
-		System.out.print(Thread.currentThread().getName() + " ÁØºñ:");
+		System.out.print(Thread.currentThread().getName() + " ï¿½Øºï¿½:");
 		System.out.println(System.currentTimeMillis());
 		
 		int hoststart = this.Mail.indexOf("@");
 		String User = this.Mail.substring(0, hoststart);
 		String Host = this.Mail.substring(hoststart+1);
 		
-		System.out.print(Thread.currentThread().getName() + " DNS ±¸ÇÏ±â:");
+		System.out.print(Thread.currentThread().getName() + " DNS ï¿½ï¿½ï¿½Ï±ï¿½:");
 		System.out.println(System.currentTimeMillis());
 		DNS dns = Sender.GetDNS(Host);
 		
-		System.out.print(Thread.currentThread().getName() + " DNS ±¸ÇÏ±â ¿Ï·á:");
+		System.out.print(Thread.currentThread().getName() + " DNS ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½Ï·ï¿½:");
 		System.out.println(System.currentTimeMillis());
 		
 		Socket socket;
@@ -61,7 +61,7 @@ public class Connect {
 	            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
 	            	continue;
 	            
-	            //¿¹¿Ü ÀÏ¶§ Ã³¸® Â÷ÈÄ ¼öÁ¤
+	            //ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¶ï¿½ Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	            if(!this.SendCmd("HELO", "250"))
 	            	continue;
 	            
@@ -86,7 +86,7 @@ public class Connect {
 	            
 	            socket.close();
 	            send = true;
-	    		System.out.print(Thread.currentThread().getName() + " Àü¼Û:");
+	    		System.out.print(Thread.currentThread().getName() + " ï¿½ï¿½ï¿½:");
 	    		System.out.println(System.currentTimeMillis());
 	    		break;
 			} catch (IOException e) {
