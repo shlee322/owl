@@ -13,7 +13,7 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.concurrent.SynchronousQueue;
 import java.net.*;
-
+//ë””ë ‰í† ë¦¬ ìˆ˜ì •í›„ ë˜ëŠ”ê°€
 public class Sender {
 	public static Hashtable <String, DNS> DNS_Cache;
 	//public static HashMap<long, Task> TaskList;
@@ -48,15 +48,15 @@ public class Sender {
 		    }
 		}
 		
-		for(int i=0; i<50; i++) //Â÷ÈÄ IP¸¦ ¹ŞÀ¸¸é 50(IP¼ö)*16°³ = 800, ¹°·Ğ Ã³¸®±¸Á¶¸¦ ¾à°£¹Ù²ã¼­
+		for(int i=0; i<50; i++) //ï¿½ï¿½ï¿½ï¿½ IPï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 50(IPï¿½ï¿½)*16ï¿½ï¿½ = 800, ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½à°£ï¿½Ù²ã¼­
 			new TaskThread().start();
 		
-		System.out.println("Ã³¸® ½º·¡µå ÁØºñ ¿Ï·á");
+		System.out.println("Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Øºï¿½ ï¿½Ï·ï¿½");
 		
-		System.out.print("½ÃÀÛ:");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½:");
 		System.out.println(System.currentTimeMillis());
 		
-		Task task = new Task(1, "test@laeradr.com", "Å×½ºÆ®","Å×½ºÆ®ÀÔ´Ï´Ù.");
+		Task task = new Task(1, "test@laeradr.com", "ï¿½×½ï¿½Æ®","ï¿½×½ï¿½Æ®ï¿½Ô´Ï´ï¿½.");
 		try {
 			for(int i=0; i<2; i++)
 				Sender.Connect.put(new Connect(task, 1, "shlee322@gmail.com"));
@@ -83,7 +83,7 @@ public class Sender {
 				while(true)
 				{
 					len = in.read(buffer);
-					String string = new String(buffer, 0, len);//¿ØÁö ±×³É ¹öÆÛ¸¸ ÀûÀ¸¸é ¹®Á¦°¡ ÀÖÀ»°Í °°À½.
+					String string = new String(buffer, 0, len);//ï¿½ï¿½ï¿½ï¿½ ï¿½×³ï¿½ ï¿½ï¿½ï¿½Û¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 					string = string_buffer + string;
 					String[] Packet = string.split("\0");
 					
@@ -119,8 +119,8 @@ public class Sender {
 		{
 		    public void run()
 		    {
-				//Å×½ºÆ®
-				Task task = new Task(1, "test@laeradr.com", "Å×½ºÆ®","Å×½ºÆ®ÀÔ´Ï´Ù.");
+				//ï¿½×½ï¿½Æ®
+				Task task = new Task(1, "test@laeradr.com", "ï¿½×½ï¿½Æ®","ï¿½×½ï¿½Æ®ï¿½Ô´Ï´ï¿½.");
 
 		    	for(int i=0; i<20; i++)
 		    	{
@@ -192,7 +192,7 @@ public class Sender {
 				 if(line.length() < host_len || !line.substring(0, host_len).equals(Host))
 					 continue;
 				 
-				 Data = line.split(" "); //Data[3] : ¿ì¼±¼øÀ§, Data[7] : ¸ŞÀÏ¼­¹ö
+				 Data = line.split(" "); //Data[3] : ï¿½ì¼±ï¿½ï¿½ï¿½ï¿½, Data[7] : ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½
 				 Server server = new Server();
 				 server.ranking = Integer.parseInt(Data[3].substring(0, Data[3].length()-1));
 				 server.Host = Data[7];
