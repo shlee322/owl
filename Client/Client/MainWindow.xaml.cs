@@ -26,5 +26,10 @@ namespace Client
 
 			// Insert code required on object creation below this point.
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("빌어처먹을 테스트닷!!!");
+        }
     }
 }

@@ -26,7 +26,7 @@
                                     Header="Group1">
                     <ribbon:RibbonButton x:Name="Button1"
                                          LargeImageSource="Images\LargeIcon.png"
-                                         Label="Button1" />
+                                         Label="Button1" Click="Button1_Click" />
 
                     <ribbon:RibbonButton x:Name="Button2"
                                          SmallImageSource="Images\SmallIcon.png"
