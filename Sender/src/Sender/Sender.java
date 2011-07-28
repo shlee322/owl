@@ -13,9 +13,9 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.concurrent.SynchronousQueue;
 import java.net.*;
-//디렉토리 수정후 되는가
+//�붾젆�좊━ �섏젙���섎뒗媛�
 public class Sender {
-	public static Hashtable <String, DNS> DNS_Cache;
+	public static HashMap <String, DNS> DNS_Cache;
 	//public static HashMap<long, Task> TaskList;
 	public static SynchronousQueue<Connect> Connect;
 	public static Socket Socket;
@@ -23,7 +23,7 @@ public class Sender {
 	
 	public static void main(String ar[])
 	{
-		Sender.DNS_Cache = new Hashtable<String, DNS>(11, 0);
+		Sender.DNS_Cache = new HashMap<String, DNS>();
 		//Sender.DNS_Cache.
 		Sender.Connect = new SynchronousQueue<Connect>();
 		
@@ -48,17 +48,21 @@ public class Sender {
 		    }
 		}
 		
-		for(int i=0; i<50; i++) //���� IP�� ������ 50(IP��)*16�� = 800, ���� ó�������� �ణ�ٲ㼭
+		for(int i=0; i<50; i++) //占쏙옙占쏙옙 IP占쏙옙 占쏙옙占쏙옙占쏙옙 50(IP占쏙옙)*16占쏙옙 = 800, 占쏙옙占쏙옙 처占쏙옙占쏙옙占쏙옙占쏙옙 占썅간占쌕꿔서
 			new TaskThread().start();
 		
-		System.out.println("ó�� ������ �غ� �Ϸ�");
+		Monitoring.Run();
 		
-		System.out.print("����:");
+		
+		
+		System.out.println("처占쏙옙 占쏙옙占쏙옙占쏙옙 占쌔븝옙 占싹뤄옙");
+		
+		System.out.print("占쏙옙占쏙옙:");
 		System.out.println(System.currentTimeMillis());
 		
-		Task task = new Task(1, "test@laeradr.com", "�׽�Ʈ","�׽�Ʈ�Դϴ�.");
+		Task task = new Task(1, "test@laeradr.com", "占쌓쏙옙트","占쌓쏙옙트占쌉니댐옙.");
 		try {
-			for(int i=0; i<2; i++)
+			for(int i=0; i<100; i++)
 				Sender.Connect.put(new Connect(task, 1, "shlee322@gmail.com"));
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -83,7 +87,7 @@ public class Sender {
 				while(true)
 				{
 					len = in.read(buffer);
-					String string = new String(buffer, 0, len);//���� �׳� ���۸� ������ ������ ������ ����.
+					String string = new String(buffer, 0, len);//占쏙옙占쏙옙 占쌓놂옙 占쏙옙占쌜몌옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙.
 					string = string_buffer + string;
 					String[] Packet = string.split("\0");
 					
@@ -119,8 +123,8 @@ public class Sender {
 		{
 		    public void run()
 		    {
-				//�׽�Ʈ
-				Task task = new Task(1, "test@laeradr.com", "�׽�Ʈ","�׽�Ʈ�Դϴ�.");
+				//占쌓쏙옙트
+				Task task = new Task(1, "test@laeradr.com", "占쌓쏙옙트","占쌓쏙옙트占쌉니댐옙.");
 
 		    	for(int i=0; i<20; i++)
 		    	{
@@ -192,7 +196,7 @@ public class Sender {
 				 if(line.length() < host_len || !line.substring(0, host_len).equals(Host))
 					 continue;
 				 
-				 Data = line.split(" "); //Data[3] : �켱����, Data[7] : ���ϼ���
+				 Data = line.split(" "); //Data[3] : 占쎌선占쏙옙占쏙옙, Data[7] : 占쏙옙占싹쇽옙占쏙옙
 				 Server server = new Server();
 				 server.ranking = Integer.parseInt(Data[3].substring(0, Data[3].length()-1));
 				 server.Host = Data[7];
