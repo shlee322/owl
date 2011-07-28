@@ -1,11 +1,18 @@
-package Protocol; 
-message Root {
-    optional sint64 id = 1;
-    optional string name = 2;
-    optional Some some = 3;
+option java_package = "protocol";
+option java_outer_classname = "Sender-Controller";
+
+message CalcRequest {
+    required int32 op1 = 1;
+    required int32 op2 = 2;
 }
-message Some {
-    optional sint64 someId = 1;
-    optional string someName = 2;
-    optional Some some = 3;
+
+message CalcResponse {
+    required int32 result = 1;
+}
+
+service CalcService {
+    rpc Add(CalcRequest) returns (CalcResponse);
+    rpc Subtract(CalcRequest) returns (CalcResponse);
+    rpc Multiply(CalcRequest) returns (CalcResponse);
+    rpc Divide(CalcRequest) returns (CalcResponse);
 }
