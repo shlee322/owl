@@ -7,7 +7,7 @@ message CertifyRequest {
 }
 
 message CertifyResponse {
-    required bool result = 1;
+    required boolean result = 1;
 }
 
 message NewTaskRequest {
@@ -30,7 +30,7 @@ message GetMailListResponse {
 message GetMailStatusRequest {
     required int64 TaskId = 1;
     required int64 AddressId = 2;
-    required int32 code = 3;
+    required int code = 3;
 }
 
 message GetMailStatusResponse {
