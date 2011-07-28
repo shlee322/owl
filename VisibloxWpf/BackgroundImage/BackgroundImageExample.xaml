@@ -1,0 +1,92 @@
+﻿<UserControl x:Class="Visiblox.Charts.Examples.BackgroundImage.BackgroundImageExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:charts="clr-namespace:Visiblox.Charts;assembly=Visiblox.Charts"
+    xmlns:local="clr-namespace:Visiblox.Charts.Examples.BackgroundImage"
+    mc:Ignorable="d"
+    Height="350" Width="600">
+    <UserControl.Resources>
+        <!-- Define data in the XAML -->
+        <local:DateDoubleDataPointList x:Key="ChartData">
+            <local:DateDoubleDataPoint X="2000-01-01" Y="62"/>
+            <local:DateDoubleDataPoint X="2001-01-01" Y="59"/>
+            <local:DateDoubleDataPoint X="2002-01-01" Y="87"/>
+            <local:DateDoubleDataPoint X="2003-01-01" Y="105"/>
+            <local:DateDoubleDataPoint X="2004-01-01" Y="124"/>
+            <local:DateDoubleDataPoint X="2005-01-01" Y="131"/>
+            <local:DateDoubleDataPoint X="2006-01-01" Y="147"/>
+            <local:DateDoubleDataPoint X="2007-01-01" Y="149"/>
+            <local:DateDoubleDataPoint X="2008-01-01" Y="168"/>
+            <local:DateDoubleDataPoint X="2009-01-01" Y="164"/>
+            <local:DateDoubleDataPoint X="2010-01-01" Y="167"/>
+        </local:DateDoubleDataPointList>
+        <!-- Define the style to use as background for the Chart -->
+        <Style TargetType="Grid" x:Key="ChartPlotAreaStyle">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <ImageBrush ImageSource="background.jpg" Opacity="0.12"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!-- Define the style of the columns to be somewhat transparent-->
+        <SolidColorBrush x:Key="BarBrush" Color="#FF9E9E9E" Opacity="0.7" />
+        <Style x:Key="ColumnNormalStyle" TargetType="charts:ColumnSeries">
+            <Setter Property="PointFill" Value="{StaticResource BarBrush}" />
+        </Style>
+        
+        <!-- Define border for plot area -->
+        <Style x:Key="NoBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
+        
+        <!-- Define tooltip template -->
+        <ControlTemplate x:Key="CustomTooltipTemplate">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="15,0,0,0" >
+                <Grid Margin="0" Background="LightGray" >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Y}" />
+                        <TextBlock Text=",000 units sold"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </ControlTemplate>
+    </UserControl.Resources>
+    
+    <Grid x:Name="LayoutRoot" Margin="10">
+        <!-- Define the style of the plot area which has its background set-->
+        <charts:Chart x:Name="BackgroundChart" Width="575" PlotAreaStyle="{StaticResource ChartPlotAreaStyle}" FontFamily="Arial" LegendVisibility="Collapsed" PlotAreaBorderStyle="{StaticResource NoBorder}">
+            <!-- Note that uncommenting the following line would set the background of the whole chart (not just the plot area) -->
+            <!--
+            <charts:Chart.Background>
+                <ImageBrush ImageSource="background.jpg" Opacity="0.7"/>
+            </charts:Chart.Background>
+            --> 
+            <!-- Enable zooming-->
+            <charts:Chart.Behaviour>
+                <charts:ZoomBehaviour />
+            </charts:Chart.Behaviour>           
+            <!-- Customize the look of the axes-->
+            <charts:Chart.XAxis>
+                <charts:DateTimeAxis ShowMinorTicks="False" ShowGridlines="False" MajorTickInterval="1" MajorTickIntervalType="Years" ShowMajorTicks="False" />
+            </charts:Chart.XAxis>
+            <charts:Chart.YAxis>
+                <charts:LinearAxis ShowGridlines="False" ShowMinorTicks="False" LabelFormatString="N0" Title="Units Sold (thousands)" MajorTickInterval="20" />
+            </charts:Chart.YAxis>            
+            <!-- Define a column series-->
+            <charts:Chart.Series>
+                <charts:ColumnSeries NormalStyle="{StaticResource ColumnNormalStyle}" ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries x:Name="bindableSeries"
+                                      XValueBinding="{Binding Path=X}"
+                                      YValueBinding="{Binding Path=Y}"
+                                      ItemsSource="{StaticResource ChartData}">
+                        </charts:BindableDataSeries>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+            </charts:Chart.Series>
+        </charts:Chart>
+    </Grid>
+</UserControl>

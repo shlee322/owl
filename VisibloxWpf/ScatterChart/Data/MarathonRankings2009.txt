@@ -1,0 +1,1551 @@
+﻿1	2:12:14	 	 	2:12:13	2:12:14	Dan Robinson	 	13.01.75	 	Stroud	Amsterdam, NED	18 Oct 09
+2	2:15:20	 	 	2:15:20	2:15:20	Andi Jones	 	10.10.78	 	Salford H	London	26 Apr 09
+3	2:15:35	 	 	2:15:35	2:10:37	Tomas Abyu	 	05.05.78	 	Salford H	Berlin, GER	20 Sep 09
+4	2:17:29	 	 	 	2:17:29	Tom Payn	 	18.10.79	 	Winchester	Fukuoka, JPN	6 Dec 09
+5	2:18:14	 	 	2:18:14	2:18:14	Benedict Whitby	 	06.01.77	 	Windsor, Slough, Eton & Hounslow	London	26 Apr 09
+6	2:18:24	a	 	 	2:18:24a	Martin Williams	 	27.09.77	 	Tipton	Edinburgh	31 May 09
+7	2:19:48	 	 	2:19:48	2:18:41	Richie Gardiner	V35	11.06.73	 	Cardiff	London	26 Apr 09
+8	2:20:30	 	 	2:20:30	2:18:57	Neil Renault	 	30.07.83	 	Medway & Maidstone	London	26 Apr 09
+9	2:20:44	 	 	2:20:44	2:17:53	John McFarlane	V35	09.06.72	 	Thames Hare & Hounds	London	26 Apr 09
+10	2:20:45	 	 	2:20:43	2:20:45	Ben Fish	 	21.05.82	 	Blackburn	Toronto, CAN	27 Sep 09
+11	2:21:14	 	 	2:21:13	2:21:14	Ben Moreau	 	15.12.81	 	Aldershot, Farnham & District	Florence, ITA	29 Nov 09
+12	2:22:15	 	 	2:22:15	2:22:15	Matthew Pierson	 	15.05.85	 	Holmfirth	London	26 Apr 09
+13	2:23:32	 	 	2:23:32	2:20:50	Darran Bilton	V40	02.09.65	 	Leeds City	London	26 Apr 09
+14	2:23:48	 	 	2:23:48	2:23:48	Nathaniel Williams	 	13.03.84	 	North York Moors	London	26 Apr 09
+15	2:23:53	a	 	 	2:23:12	Peter Tucker	 	17.04.81	 	Blackheath & Bromley	Edinburgh	31 May 09
+16	2:23:55	 	 	2:23:54	2:23:55	David Kirkland	V35	23.01.72	 	Alnwick	Inverness	4 Oct 09
+17	2:24:10	 	 	2:24:07	2:24:10	Tom Bedford	 	12.12.83	 	Shaftesbury Barnet	Dublin, IRL	26 Oct 09
+18	2:24:11	 	 	2:24:11	2:24:11	Jethro Lennox	 	06.12.76	 	Shettleston	London	26 Apr 09
+19	2:25:00	 	 	2:25:00	2:25:00	Steven Way	 	06.07.74	 	Bournemouth	London	26 Apr 09
+20	2:25:03	 	 	2:25:03	2:25:03	Jonathan Frost	U23	03.02.86	 	Kingston upon Hull	London	26 Apr 09
+21	2:25:04	 	 	2:25:04	2:25:04	Eddie Simpson	V40	14.01.68	 	Barrow & Furness	London	26 Apr 09
+22	2:25:09	 	 	2:24:57	2:25:09	Gareth Price	 	27.11.79	 	Shaftesbury Barnet	Berlin, GER	20 Sep 09
+23	2:25:32	 	 	2:25:31	2:25:32	Paul Hasler	V35	07.10.71	 	Paddock Wood	Chicago IL, USA	11 Oct 09
+24	2:26:06	 	 	2:26:06	2:26:06	Owen Greene	 	25.07.80	 	Trafford	London	26 Apr 09
+25	2:26:21	 	 	2:26:21	2:26:21	James Sumpter	 	13.04.76	 	Thames Valley	London	26 Apr 09
+26	2:26:24	c	 	 	2:26:24c	Stuart Burton	V35	21.10.71	 	Bowerman AC	New York NY, USA	1 Nov 09
+27	2:26:36	a	 	 	2:26:36a	Chris Wilson	 	27.04.83	 	Cambuslang	Edinburgh	31 May 09
+28	2:26:37	 	 	2:26:36	2:26:37	Matt Janes	 	12.12.82	 	Bedford & County	Copenhagen, DEN	24 May 09
+29	2:26:43	 	 	2:26:43	2:26:43	Kevin Robertson	 	11.09.75	 	Shaftesbury Barnet	London	26 Apr 09
+30	2:26:58	 	 	2:26:58	2:26:58	Paul Molyneux	 	27.01.81	 	Springfield	London	26 Apr 09
+31	2:27:01	 	 	2:26:58	2:27:01	Andrew Davies	 	30.10.79	 	Maldwyn	Dublin, IRL	26 Oct 09
+32	2:27:13	 	 	2:27:09	2:27:13	James Connor	 	21.03.83	 	Kent	Frankfurt, GER	25 Oct 09
+33	2:27:14	 	 	2:27:09	2:27:14	Stuart Fox	 	29.12.76	 	Bournemouth	Amsterdam, NED	18 Oct 09
+34	2:27:37	 	 	2:27:37	2:27:37	Andrew Thake	 	16.11.76	 	Hallamshire	London	26 Apr 09
+35	2:27:45	 	 	2:27:45	2:27:45	Carl Ryde	 	26.11.78	 	Doncaster	London	26 Apr 09
+36	2:27:55	 	 	2:27:55	2:27:55	Nigel Stirk	V35	13.03.72	 	Tipton	London	26 Apr 09
+37	2:27:59	 	 	2:27:37	2:27:59	Brian Wilder	V35	08.09.71	 	Herne Hill	Berlin, GER	20 Sep 09
+38	2:28:22	 	 	2:28:22	2:18:25	Nigel Leighton	 	18.06.79	 	VOTwo TC	Frankfurt, GER	25 Oct 09
+39	2:28:25	 	 	2:28:25	2:28:25	Steffan North	 	19.07.76	 	Sale Harriers Manchester	London	26 Apr 09
+40	2:28:36	 	 	2:28:36	2:25:21	Steve Littler	V35	20.09.73	 	Wesham	London	26 Apr 09
+41	2:28:40	 	 	2:28:40	2:28:40	Paul Marchant	V35	27.03.73	 	Rothwell	London	26 Apr 09
+42	2:28:41	 	 	2:28:41	2:26:08	Nick Martyn	V45	28.09.63	 	Highgate	London	26 Apr 09
+43	2:28:43	 	 	2:28:43	2:26:42	Julian Baker	V40	23.11.68	 	Les Croupiers	London	26 Apr 09
+44	2:28:53	 	 	2:28:53	2:28:53	Cameron Brooks	V40	12.03.68	 	Knavesmire	London	26 Apr 09
+45	2:29:08	 	 	2:29:08	2:29:08	Ben Hope	 	26.12.76	 	Woodford Green with Essex Ladies	London	26 Apr 09
+46	2:29:11	 	 	2:29:11	2:29:11	Stuart Moran	 	19.07.76	 	Brighton & Hove	London	26 Apr 09
+47	2:29:13	 	 	2:29:13	2:24:21	Andrew Weir	V40	22.08.67	 	Thames Hare & Hounds	London	26 Apr 09
+48	2:29:14	 	 	2:29:14	2:29:14	Martin Matthews	 	28.07.76	 	Birmingham Rowheath	London	26 Apr 09
+49	2:29:15	 	 	2:28:57	2:29:15	Jamie Stevenson	 	25.03.75	 	Unattached	Berlin, GER	20 Sep 09
+50	2:29:17	 	 	2:29:17	2:29:17	Ben Paviour	V35	09.11.72	 	Herne Hill	London	26 Apr 09
+51	2:29:20	 	 	2:29:20	2:29:20	Ross Milne	 	20.08.77	 	Moray	London	26 Apr 09
+52	2:29:27	 	 	2:29:16	2:29:27	James Buis	 	15.05.77	 	Heaton	Paris, FRA	5 Apr 09
+53	2:29:40	 	 	2:29:40	2:29:40	Garry Dixon	V35	20.02.71	 	Barrow & Furness	London	26 Apr 09
+54	2:29:46	a	 	 	2:29:46a	Martin Formstone	 	02.04.78	 	Cleethorpes	Edinburgh	31 May 09
+55	2:29:51	 	 	2:29:51	2:29:51	Steve Neill	V35	12.11.70	 	Pudsey & Bramley	London	26 Apr 09
+56	2:30:14	a	 	 	2:26:57a	Gary Dunn	V40	30.11.68	 	Thirsk & Sowerby	Edinburgh	31 May 09
+57	2:30:16	 	 	 	2:30:16	Jeffrey Cunningham	 	20.02.82	 	Herne Hill	Fukuoka, JPN	6 Dec 09
+58	2:30:17	 	 	2:30:17	2:30:17	Robert Baker	 	10.02.78	 	Hallamshire	London	26 Apr 09
+59	2:30:23	 	 	2:30:23	2:30:23	Ian Crampton	V45	28.01.62	 	Durham	London	26 Apr 09
+60	2:30:25	 	 	2:29:06	2:30:25	Mark Dalkins	V35	09.06.70	 	Telford AC	Lisbon, POR	6 Dec 09
+61	2:30:28	 	 	2:30:25	2:30:28	Ray Ward	 	22.08.75	 	Edinburgh	Florence, ITA	29 Nov 09
+62	2:30:35	 	 	2:30:35	2:24:01	Steve Bateson	V35	08.05.73	 	East Hull	London	26 Apr 09
+63	2:30:47	 	 	2:30:40	2:30:47	Oliver Gibson	 	10.10.79	 	Newquay RR	Amsterdam, NED	18 Oct 09
+64	2:31:08	 	 	2:31:08	2:31:08	Nigel Marley	 	16.02.83	 	Coventry	London	26 Apr 09
+65	2:31:13	 	 	2:31:13	2:28:46	Mike Boucher	 	21.08.79	 	Aldershot, Farnham & District	London	26 Apr 09
+66	2:31:14	 	 	2:31:08	2:31:14	Ben Bennett	V40	20.07.69	 	Redhill RR	Berlin, GER	20 Sep 09
+66	2:31:14	 	 	2:31:08	2:31:14	Robert Keal	V35	06.05.74	 	Notts	Berlin, GER	20 Sep 09
+68	2:31:16	 	 	2:31:16	2:31:16	Dave Alcock	 	20.08.80	 	Victoria Park & Tower Hamlets	London	26 Apr 09
+69	2:31:21	 	 	2:31:21	2:31:21	Richard Turkington	 	07.01.75	 	Armagh	London	26 Apr 09
+70	2:31:24	 	 	2:31:13	2:31:24	Robert Turner	V35	04.09.72	 	Harmeny	Berlin, GER	20 Sep 09
+71	2:31:25	 	 	2:31:25	2:27:18	Will Cockerell	V35	19.11.73	 	Belgrave	London	26 Apr 09
+72	2:31:29	 	 	2:31:25	2:29:49	Ian Nurse	 	 	iD	Greater Boston TC	Eugene OR, USA	3 May 09
+73	2:31:35	 	 	2:31:35	2:11:06	Dave Buzza	V45	06.12.62	 	Cornwall	London	26 Apr 09
+74	2:31:41	 	 	2:31:41	2:31:41	Ian Williams	 	08.03.85	 	Tipton	London	26 Apr 09
+75	2:31:48	 	 	2:31:48	2:31:48	Ross Houston	 	05.12.79	 	Central	London	26 Apr 09
+76	2:31:54	 	 	2:31:54	2:29:25	Julian Rendall	 	31.08.77	 	Tonbridge	London	26 Apr 09
+77	2:31:59	 	 	2:31:56	2:30:11	Matthew Bell	 	14.07.76	 	Edinburgh	Rotterdam, NED	5 Apr 09
+78	2:32:09	 	 	2:32:06	2:32:09	Alan Macpherson	 	28.06.76	 	Cambuslang	Berlin, GER	20 Sep 09
+79	2:32:10	 	 	 	2:32:10	Jamal Mohamed	 	01.01.83	 	Newham & Essex Beagles	Carpi, ITA	11 Oct 09
+80	2:32:29	 	 	2:32:29	2:32:29	Colin Potts	V35	02.06.70	 	Liverpool H	London	26 Apr 09
+81	2:32:39	 	 	2:32:39	2:32:39	Andy Naylor	V35	 	iD	Glossopdale	London	26 Apr 09
+82	2:32:40	 	 	 	2:32:40	Ian Sharman	 	30.08.80	 	Serpentine	Richland WA, USA	25 Oct 09
+83	2:32:45	 	 	2:32:45	2:32:45	Chris Southam	V40	07.09.64	 	Stilton	London	26 Apr 09
+84	2:32:51	 	 	2:32:51	2:32:51	Chris Illman	U23	14.04.87	 	Cirencester	London	26 Apr 09
+85	2:32:56	 	 	2:32:56	2:32:56	Graham Breen	 	17.03.76	 	Aldershot, Farnham & District	London	26 Apr 09
+86	2:33:03	 	 	2:33:03	2:33:03	Chris Riley	V35	08.01.72	 	Bedford & County	London	26 Apr 09
+87	2:33:06	 	 	2:33:06	2:25:23	Ben Reynolds	V45	10.01.64	 	Thames Hare & Hounds	London	26 Apr 09
+88	2:33:09	 	 	 	2:28:54	Alan McCullough	V45	09.08.63	 	Willowfield	Belfast	4 May 09
+89	2:33:13	 	 	2:33:13	2:29:47	Andy Greenleaf	 	21.09.82	 	Winchester	London	26 Apr 09
+89	2:33:13	 	 	2:33:05	2:33:13	Craig McMillan	 	13.01.77	 	Belgrave	Chicago IL, USA	11 Oct 09
+91	2:33:16	 	 	2:33:10	2:28:12	Matt Blunden	 	25.02.80	 	Notts	Amsterdam, NED	18 Oct 09
+92	2:33:17	 	 	 	2:28:18	Dennis Walmsley	V45	05.09.62	 	Bourton	Lahti, FIN	30 Jul 09
+93	2:33:23	 	 	2:33:23	2:33:23	Rob Downs	V45	01.03.64	 	Wilmslow	London	26 Apr 09
+94	2:33:26	 	 	2:33:20	2:33:26	Mark Dickinson	V35	28.10.71	 	Garden City Runners	Berlin, GER	20 Sep 09
+95	2:33:34	a	 	 	2:20:54	Martin Hilton	 	09.05.75	 	Leeds City	Edinburgh	31 May 09
+96	2:33:53	 	 	2:33:53	2:33:53	Mark Bendall	V35	16.03.70	 	Horsforth	London	26 Apr 09
+96	2:33:53	 	 	2:33:53	2:33:53	Jamie Loxam	 	07.07.77	 	Stockport	London	26 Apr 09
+98	2:33:57	 	 	2:33:57	2:33:57	Michael Halman	 	23.10.75	 	Wilmslow	London	26 Apr 09
+99	2:33:59	 	 	2:33:59	2:16:02	Mark Croasdale	V40	09.01.65	 	Lancaster & Morecambe	London	26 Apr 09
+100	2:34:08	 	 	2:34:08	2:34:08	Lee Aherne	V40	11.07.66	 	Les Croupiers	London	26 Apr 09
+101	2:34:20	 	 	2:34:19	2:34:20	Husain Ahmed	 	 	iD	Herne Hill	London	26 Apr 09
+102	2:34:24	 	 	2:34:24	2:34:24	Adrian Lowther	 	27.08.81	 	Medway & Maidstone	London	26 Apr 09
+103	2:34:27	 	 	2:34:27	2:34:27	Paul Lewis	V35	05.12.72	 	Long Eaton	London	26 Apr 09
+104	2:34:35	 	 	2:34:35	2:33:21	Dave Carter	 	14.12.74	 	Phoenix AC	London	26 Apr 09
+105	2:34:41	 	 	2:34:41	2:34:41	Crispian Bloomfield	 	29.04.76	 	Billericay	London	26 Apr 09
+106	2:34:44	 	 	2:34:44	2:34:44	Ryan Prout	 	20.05.83	 	Thrift Green	London	26 Apr 09
+107	2:34:47	 	 	2:34:47	2:30:09	Stephen Wylie	V35	12.11.71	 	Cambuslang	London	26 Apr 09
+108	2:34:51	 	 	2:34:49	2:29:44	Darren McNeely	 	01.12.75	 	Serpentine	Dublin, IRL	26 Oct 09
+109	2:34:56	 	 	2:34:56	2:34:36	Gary Chandler	V40	29.10.68	 	Springfield	London	26 Apr 09
+110	2:34:57	a	 	 	2:18:57	Chris Birchall	 	08.03.79	 	Leeds City	Edinburgh	31 May 09
+111	2:34:59	 	 	2:34:49	2:34:59	Stuart Maycock	V35	09.03.71	 	Hallamshire	London	26 Apr 09
+112	2:35:00	 	 	2:35:00	2:35:00	Andrew Savery	 	31.08.82	 	Army	London	26 Apr 09
+113	2:35:07	 	 	2:35:05	2:22:04	Matt Norminton	 	25.01.77	 	Herne Hill	Edmonton, CAN	16 Aug 09
+114	2:35:10	 	 	2:34:22	2:35:10	Alex Brooks	 	14.11.78	 	Serpentine	London	26 Apr 09
+115	2:35:11	 	 	2:35:11	2:34:03	Martin Lewis	 	30.01.83	 	Poole Runners	London	26 Apr 09
+115	2:35:11	 	 	2:35:08	2:35:11	Justin Mitchell	V35	01.12.72	 	Woking	Dublin, IRL	26 Oct 09
+117	2:35:17	 	 	2:35:17	2:35:17	Nicholas Houlton	V35	25.04.71	 	Uknetrunner	London	26 Apr 09
+118	2:35:18	 	 	2:35:18	2:35:18	Robin Tuddenham	V40	08.07.68	 	Serpentine	London	26 Apr 09
+119	2:35:19	 	 	2:35:19	2:35:19	James R Moore	 	12.08.85	 	 	Seattle WA, USA	27 Jun 09
+120	2:35:20	 	 	2:35:09	2:35:20	Stuart McLay	V45	23.09.63	 	Serpentine	Lake Buena Vista FL, USA	11 Jan 09
+121	2:35:21	 	 	2:35:21	2:35:21	David Freeman	V40	08.12.66	 	Tadworth	London	26 Apr 09
+122	2:35:34	 	 	 	2:20:38	Ian Fisher	V35	15.09.70	 	Otley	Ambleside	17 May 09
+123	2:35:37	 	 	2:35:20	2:35:37	Stuart Crees	 	20.12.77	 	Les Croupiers	Berlin, GER	20 Sep 09
+124	2:35:38	 	 	2:35:37	2:35:38	Sean Fenwick	V35	20.07.70	 	Harborough	Leicester	11 Oct 09
+125	2:35:43	 	 	2:35:43	2:35:43	Steven Rees	 	08.12.77	 	Port Talbot	London	26 Apr 09
+126	2:35:45	 	 	2:35:44	2:35:45	David Lindsay	 	17.09.76	 	Central	Inverness	4 Oct 09
+127	2:35:47	 	 	2:35:47	2:35:47	Julian Macdonald	V35	06.12.70	 	Chester TC	London	26 Apr 09
+128	2:35:58	 	 	 	2:35:45	Nathan Aspinall	V35	26.05.73	 	Aldershot, Farnham & District	Abingdon	18 Oct 09
+129	2:36:00	 	 	2:36:00	2:36:00	James Trapmore	 	31.07.75	 	Shaftesbury Barnet	London	26 Apr 09
+130	2:36:01	 	 	2:36:01	2:34:08	Andrew McNeill	V40	02.12.65	 	Long Eaton	London	26 Apr 09
+131	2:36:11	 	 	2:36:11	2:36:11	Paul Miller	V35	12.02.74	 	Bedford & County	London	26 Apr 09
+132	2:36:18	 	 	2:36:18	2:36:18	Richard Whitelegg	V35	29.09.69	 	Hinckley	London	26 Apr 09
+133	2:36:22	 	 	2:36:22	2:33:35	David Connor	V40	04.11.65	 	Derby	London	26 Apr 09
+133	2:36:22	c	 	 	2:36:22c	Chris Jordan	 	12.05.80	 	Hinckley	New York NY, USA	1 Nov 09
+133	2:36:22	 	 	 	2:36:22	Martin Kennard	V35	11.03.72	 	Athletics Veterans of Hong Kong	Fukuoka, JPN	6 Dec 09
+136	2:36:25	 	 	2:36:25	2:29:00	Derek Brown	V45	23.01.60	 	Chiltern	London	26 Apr 09
+137	2:36:26	 	 	2:36:25	2:36:26	Michael Pluckrose	V35	21.04.70	 	Border	Paris, FRA	5 Apr 09
+138	2:36:27	 	 	2:36:27	2:36:27	David Knapman	 	25.09.80	 	Winchester	London	26 Apr 09
+139	2:36:30	 	 	2:36:30	2:36:30	Colin McGill	 	23.12.74	 	Bellahouston RR	London	26 Apr 09
+140	2:36:37	 	 	2:36:32	2:36:37	George Taylor	V45	15.07.63	 	Giffnock North	Berlin, GER	20 Sep 09
+141	2:36:42	 	 	2:36:42	2:36:42	James Meldrum	 	24.12.79	 	Liverpool H	London	26 Apr 09
+142	2:36:45	 	 	2:36:45	2:29:06a	Paul Adams	 	16.11.80	 	St. Albans Striders	London	26 Apr 09
+143	2:36:48	 	 	2:36:48	2:34:20	James Savage	 	16.08.82	 	Stourbridge	London	26 Apr 09
+143	2:36:48	 	 	 	2:36:48	George McCourt	V35	05.12.73	 	Aldershot, Farnham & District	Abingdon	18 Oct 09
+145	2:36:51	 	 	2:36:51	2:36:51	Glenn Saqui	 	09.02.80	 	Highgate	London	26 Apr 09
+146	2:36:54	 	 	2:36:54	2:36:54	Alexander Gibbins	 	23.06.76	 	Blackheath & Bromley	London	26 Apr 09
+147	2:36:55	a	 	 	2:36:55a	Scott Bradley	V35	06.03.74	 	Carnegie	Edinburgh	31 May 09
+148	2:36:56	 	 	2:36:56	2:30:04	Bertie Powell	U23	28.03.86	 	Woodford Green with Essex Ladies	London	26 Apr 09
+149	2:36:58	 	 	2:36:58	2:36:58	Stephen Marklew T13/F13	V45	08.04.64	 	Royal Sutton Coldfield	London	26 Apr 09
+150	2:37:03	 	 	 	2:33:23	Michael Aldridge	V35	14.09.73	 	Wootton RR	Luton	6 Dec 09
+151	2:37:05	 	 	2:36:51	2:37:05	Darren Hiscox	V35	21.02.72	 	Bridgend	London	26 Apr 09
+152	2:37:09	a	 	 	2:37:09a	Paul Hocking	 	18.03.75	 	Stroud	Edinburgh	31 May 09
+153	2:37:11	 	 	2:37:11	2:37:11	Gareth Riddell	 	26.07.79	 	Basildon	London	26 Apr 09
+154	2:37:13	 	 	2:37:06	2:37:13	Lee Turner	 	25.02.77	 	Torbay	London	26 Apr 09
+155	2:37:15	 	 	2:37:15	2:37:15	Andrew Harrison	V40	31.07.64	 	Great Western	London	26 Apr 09
+156	2:37:21	 	 	 	2:37:21	Chris Ray	V40	 	iD	Unattached	Taunton	5 Apr 09
+157	2:37:25	 	 	2:37:25	2:37:25	Grant Ramsay	V35	08.06.72	 	Barnet	London	26 Apr 09
+157	2:37:25	a	 	 	2:35:33a	Shaun O'Grady	 	24.08.75	 	New Marske	Edinburgh	31 May 09
+159	2:37:29	 	 	2:37:29	2:37:29	Andrew Buttery	V35	30.03.70	 	Rossendale	London	26 Apr 09
+160	2:37:30	 	 	2:37:30	2:36:55	Nigel Rackham	V45	22.06.62	 	Metros	London	26 Apr 09
+161	2:37:36	 	 	 	2:31:26a	Robert Malseed	V35	16.09.71	 	Clonliffe	Belfast	4 May 09
+162	2:37:37	 	 	2:37:37	2:37:26	Tony Jackson	 	11.10.80	 	Perth RR	London	26 Apr 09
+163	2:37:44	 	 	2:37:44	2:36:59	Mark Prestwood	V40	 	iD	Royal Air Force	London	26 Apr 09
+164	2:37:45	 	 	2:37:45	2:31:23	Alistair Hart	V35	25.09.71	 	Edinburgh	London	26 Apr 09
+165	2:37:47	 	 	2:37:47	2:37:47	Jon Fairs	 	12.08.77	 	Serpentine	London	26 Apr 09
+166	2:37:50	 	 	2:37:50	2:22:54	Rhodri Jones	V40	14.08.66	 	Westbury	London	26 Apr 09
+167	2:37:51	 	 	2:37:51	2:37:51	Daniel Weston	 	31.05.79	 	Wrexham	London	26 Apr 09
+168	2:37:52	 	 	2:37:52	2:37:52	Paul Waby	V45	25.07.63	 	Dudley & Stourbridge	London	26 Apr 09
+169	2:37:58	 	 	2:37:58	2:35:39	Tim Artus	V35	19.04.72	 	Royal Air Force	London	26 Apr 09
+170	2:38:01	 	 	2:38:01	2:37:23	Gavin Davies	 	16.05.80	 	Ipswich Jaffa	London	26 Apr 09
+170	2:38:01	 	 	2:38:01	2:35:30	Jonathan Ferguson	 	28.05.77	 	Liverpool H	London	26 Apr 09
+170	2:38:01	 	 	 	2:36:48	Matthew Williamson	 	15.04.79	 	Bellahouston RR	Belfast	4 May 09
+173	2:38:02	 	 	2:38:02	2:26:48	Bill Speake	V35	24.01.71	 	Notts	London	26 Apr 09
+173	2:38:02	 	 	 	2:38:02	Panos Aristotelous	 	05.09.81	 	Valley Striders	Fleetwood	13 Sep 09
+175	2:38:06	 	 	2:37:39	2:38:06	Timothy Hawkins	V35	05.06.71	 	Wells City	Berlin, GER	20 Sep 09
+176	2:38:11	 	 	2:38:09	2:32:30	Philip Chritchlow	V40	17.10.67	 	Beaumont	Inverness	4 Oct 09
+177	2:38:13	 	 	2:38:13	2:38:13	Steve Jeffrey	V40	26.04.69	 	Victory	London	26 Apr 09
+178	2:38:14	 	 	2:38:12	2:38:14	Stephen Paterson	 	03.04.78	 	San Domenico	London	26 Apr 09
+179	2:38:21	 	 	 	2:38:21	Stephen Male	V40	04.05.65	 	Oxford City	Abingdon	18 Oct 09
+180	2:38:23	 	 	2:38:23	2:38:23	Jonathan Stead	 	04.02.82	 	Herne Hill	Leicester	11 Oct 09
+181	2:38:29	 	 	2:38:29	2:38:29	Stuart Maxwell	V35	26.11.72	 	Woodford Green with Essex Ladies	Chicago IL, USA	11 Oct 09
+181	2:38:29	 	 	 	2:37:05	Trevor Hunter	V40	14.05.69	 	Handy Cross	Abingdon	18 Oct 09
+183	2:38:31	 	 	2:38:26	2:38:31	Simon A. James	 	 	iD	Unattached	London	26 Apr 09
+183	2:38:31	 	 	2:38:31	2:35:53	Turlough Donnelly	 	29.06.77	 	Abbey AC	London	26 Apr 09
+183	2:38:31	 	 	 	2:35:37	Allen Smalls	V40	01.04.68	 	Colchester H	Halstead	10 May 09
+186	2:38:32	 	 	2:38:27	2:38:32	Phil Dickens	 	18.10.79	 	Formula One Circuit Crew	Eugene OR, USA	3 May 09
+187	2:38:33	 	 	 	2:36:37	Colin Paton	V35	19.12.72	 	Aldershot, Farnham & District	Abingdon	18 Oct 09
+188	2:38:34	 	 	2:38:34	2:29:08	Garry Payne	V50	31.01.57	 	George Eliot	London	26 Apr 09
+188	2:38:34	 	 	2:38:20	2:38:34	Dave Bird	V40	05.12.64	 	Bournemouth	Florence, ITA	29 Nov 09
+190	2:38:35	 	 	2:38:35	2:38:35	Simon Newton	 	03.10.78	 	Askern	London	26 Apr 09
+191	2:38:36	a	 	 	2:35:31	Kerry Wilson	V35	16.09.70	 	Cambuslang	Edinburgh	31 May 09
+192	2:38:37	 	 	2:38:33	2:38:37	Rupert Shute	 	11.07.78	 	Reading RR	London	26 Apr 09
+192	2:38:37	 	 	2:28:46	2:25:08	Gavin Jones	V45	15.02.61	 	Ranelagh	Frankfurt, GER	25 Oct 09
+194	2:38:39	 	 	2:38:33	2:38:39	Mike Stocks	V40	04.04.69	 	London Heathside	Berlin, GER	20 Sep 09
+195	2:38:44	 	 	 	2:38:44	Richard O'Sullivan	V35	30.10.72	 	Tipton	Abingdon	18 Oct 09
+196	2:38:47	 	 	2:38:47	2:37:55	Darren Purvis	 	30.12.75	 	Chester-le-Street	London	26 Apr 09
+197	2:38:48	 	 	2:38:45	2:38:48	Leonard Passingham	V40	14.09.67	 	Alton	London	26 Apr 09
+197	2:38:48	 	 	2:38:48	2:38:48	Jim Benson	V40	07.01.67	 	North Belfast	London	26 Apr 09
+199	2:38:50	 	 	2:38:50	2:31:13	Wayne Dashper	 	19.10.74	 	Telford AC	London	26 Apr 09
+200	2:38:52	 	 	2:38:52	2:38:52	Paul Gregory	V35	17.03.73	 	Charnwood	London	26 Apr 09
+201	2:38:55	 	 	2:38:55	2:33:40	Peter Stainer	V45	28.02.62	 	Shaftesbury Barnet	London	26 Apr 09
+202	2:38:58	 	 	2:38:58	2:38:16	Dominic Elsby	 	25.11.75	 	Victoria Park & Tower Hamlets	London	26 Apr 09
+202	2:38:58	 	 	2:38:51	2:38:58	Gary Jones	 	03.06.79	 	Morpeth	Berlin, GER	20 Sep 09
+204	2:39:04	 	 	2:39:04	2:32:11	Paul Mountford	 	26.04.78	 	Tipton	Stratford-upon-Avon	26 Apr 09
+205	2:39:07	 	 	2:38:23	2:39:07	Andrew Fisher	V35	 	iD	Royal Air Force	Berlin, GER	20 Sep 09
+206	2:39:18	 	 	2:39:17	2:34:01	Stuart Kerr	V35	20.07.71	 	Kirkintilloch	Inverness	4 Oct 09
+207	2:39:27	 	 	2:39:24	2:39:06	Geoff Knight	V40	10.02.68	 	Boston	Nottingham	13 Sep 09
+208	2:39:28	a	 	 	2:39:28a	Gethin Butler	V40	06.11.68	 	Preston	Edinburgh	31 May 09
+209	2:39:30	 	 	2:39:30	2:39:30	Matthew Lole	 	23.01.83	 	Coventry	London	26 Apr 09
+209	2:39:30	 	 	2:39:26	2:36:34	Greg Stevens	V45	01.09.61	 	Serpentine	Berlin, GER	20 Sep 09
+209	2:39:30	 	 	2:39:30	2:39:21	Niku Millott	 	16.04.81	 	Metro Aberdeen	Inverness	4 Oct 09
+212	2:39:32	 	 	2:39:32	2:35:51	Paul Sankey	V40	14.02.69	 	Liverpool RC	London	26 Apr 09
+213	2:39:36	 	 	2:39:36	2:39:36	Ian Berry	V35	05.07.72	 	Winchester	London	26 Apr 09
+213	2:39:36	 	 	2:39:36	2:39:36	Roy Scott	 	 	iD	Southend	London	26 Apr 09
+215	2:39:38	 	 	2:39:38	2:39:38	Craig Holgate	 	21.09.76	 	Ely	London	26 Apr 09
+215	2:39:38	 	 	2:39:35	2:35:39	Alistair Lockey	V40	13.01.66	 	Bourton	Dublin, IRL	26 Oct 09
+217	2:39:42	a	 	 	2:39:42a	Jon Carpenter	 	 	iD	Sheen	Edinburgh	31 May 09
+218	2:39:43	a	 	 	2:39:43a	Paul Carroll	V40	28.05.69	 	Annadale	Edinburgh	31 May 09
+219	2:39:52	 	 	2:39:52	2:39:52	Alasdair Anthony	 	31.05.77	 	Central	London	26 Apr 09
+220	2:39:57	 	 	2:39:57	2:34:52	Shaun Milford	V45	13.07.63	 	Newquay RR	London	26 Apr 09
+221	2:39:58	 	 	2:39:57	2:39:58	Dave Thompson	V35	06.08.74	 	Barnsley AC	Inverness	4 Oct 09
+222	2:39:59	 	 	 	2:39:59	Alan Ryder	V45	23.01.64	 	Erme Valley	Taunton	5 Apr 09
+222	2:39:59	 	 	2:39:22	2:34:00	Alan Ramage	V40	18.05.68	 	Unattached	London	26 Apr 09
+224	2:40:03	 	 	2:40:03	2:39:41	Daniel J. Higgins	 	02.12.78	 	Highgate	London	26 Apr 09
+225	2:40:05	 	 	 	2:39:34	Nigel Thompson	V40	23.05.66	 	Lytham St. Annes	Blackpool	5 Apr 09
+226	2:40:07	 	 	2:40:07	2:36:06	Alasdair Tatham	V35	16.09.72	 	Quakers	London	26 Apr 09
+227	2:40:10	 	 	2:40:10	2:35:25	Kevin Crenol	V40	19.07.67	 	Burnham	London	26 Apr 09
+227	2:40:10	 	 	2:40:04	2:35:12	Matthew Clapp	V35	22.09.70	 	Redhill RR	Dublin, IRL	26 Oct 09
+229	2:40:11	 	 	2:40:11	2:40:11	Edward Blake	 	13.05.81	 	St. Albans Striders	London	26 Apr 09
+229	2:40:11	 	 	2:40:11	2:37:59	Nick Baker	V40	17.12.67	 	Denmead	London	26 Apr 09
+231	2:40:12	a	 	 	2:40:12a	Hugh McInnes	 	 	iD	Unattached	Edinburgh	31 May 09
+232	2:40:14	 	 	2:40:14	2:40:14	Joe Rye	V40	14.11.67	 	Eastleigh RC	London	26 Apr 09
+233	2:40:16	 	 	2:39:57	2:40:16	Steve Watterson	 	29.08.75	 	Westbury	Florence, ITA	29 Nov 09
+234	2:40:20	 	 	2:40:11	2:40:20	Paul Gregg	V40	01.02.66	 	Tamar	London	26 Apr 09
+234	2:40:20	 	 	2:40:20	2:37:23	Nick Hodges	 	26.09.75	 	Dorking & Mole Valley	London	26 Apr 09
+236	2:40:24	 	 	2:40:24	2:32:02	Daniel Anderson	 	01.08.77	 	Hastings AC	London	26 Apr 09
+236	2:40:24	 	 	 	2:40:24	John Trelfa	V45	30.09.62	 	Scarborough	Abingdon	18 Oct 09
+238	2:40:25	 	 	 	2:39:01	Mark Shepherd	V35	09.11.70	 	Team Kennet	Hamburg, GER	25 Jan 09
+239	2:40:26	 	 	2:40:26	2:37:54	Matthew Ray	V35	16.04.74	 	Team Bath	London	26 Apr 09
+240	2:40:27	 	 	2:40:27	2:35:36	Gareth Briggs	V35	30.03.72	 	Staffordshire Moorlands	London	26 Apr 09
+241	2:40:32	 	 	2:40:32	2:40:32	Jonathan Hanley	V35	30.01.72	 	Great Western	London	26 Apr 09
+241	2:40:32	 	 	2:40:28	2:40:32	Mark Russell	V40	 	iD	Bolton Metro TC	Palma de Mallorca, ESP	18 Oct 09
+243	2:40:38	 	 	2:40:38	2:38:56	Paul Fernandez	V35	24.03.74	 	Abingdon	London	26 Apr 09
+244	2:40:39	 	 	2:40:39	2:40:39	Jason Williams	 	29.07.75	 	Clevedon	London	26 Apr 09
+245	2:40:55	 	 	2:40:55	2:37:04	Mark Woodman	V45	22.10.63	 	Road Runners Club	London	26 Apr 09
+246	2:40:57	 	 	2:40:57	2:40:57	Mark Greenwood	 	24.06.74	 	Lincoln Wellington	London	26 Apr 09
+247	2:40:58	 	 	2:40:58	2:40:58	Andrew Dunwoody	 	06.02.76	 	Annadale	London	26 Apr 09
+248	2:41:00	 	 	2:41:00	2:41:00	Toby Pearson	 	21.12.77	 	Thames Hare & Hounds	London	26 Apr 09
+249	2:41:02	 	 	2:40:57	2:41:02	Mark Pearce	 	26.11.79	 	Unattached	Amsterdam, NED	18 Oct 09
+250	2:41:05	 	 	2:40:15	2:41:05	James Cordwell	 	10.04.76	 	City of Sheffield	Berlin, GER	20 Sep 09
+251	2:41:06	 	 	2:41:06	2:40:38	Danny Norman	 	11.07.79	 	Stragglers	London	26 Apr 09
+252	2:41:14	 	 	2:41:14	2:37:11	Paul Guinan	V40	13.01.69	 	Blackburn	London	26 Apr 09
+253	2:41:17	 	 	2:41:17	2:38:41	Stephen Whiting	V40	03.01.67	 	Highgate	London	26 Apr 09
+254	2:41:19	 	 	2:41:35	2:37:44	Andrew Cooney	V40	14.09.68	 	Datchet	Frankfurt, GER	25 Oct 09
+255	2:41:21	 	 	2:41:21	2:41:21	Matthew J Bidwell	 	 	iD	City of Norwich	London	26 Apr 09
+256	2:41:23	 	 	2:41:15	2:41:23	Matt Lockett	 	11.06.79	 	Tipton	Dublin, IRL	26 Oct 09
+257	2:41:25	 	 	2:41:24	2:29:18	Andy Wetherill	V50	06.12.57	 	Redhill RR	Nottingham	13 Sep 09
+258	2:41:33	 	 	2:41:33	2:39:30	John Siddens	V40	29.04.67	 	Sleaford	London	26 Apr 09
+259	2:41:35	 	 	2:41:35	2:41:26	Paul Couldridge	 	09.05.74	 	Aldershot, Farnham & District	London	26 Apr 09
+260	2:41:36	c	 	 	2:41:36c	Ed Green	 	25.12.81	 	Highgate	New York NY, USA	1 Nov 09
+261	2:41:43	 	 	2:41:41	2:41:43	Russell Whittington	V35	21.04.71	 	Bellahouston RR	Inverness	4 Oct 09
+262	2:41:46	 	 	2:40:47	2:41:46	Dominic Biddick	 	 	iD	Cambridge Uni	London	26 Apr 09
+263	2:41:47	 	 	2:41:47	2:41:47	Charles Lound	V40	26.05.67	 	Dulwich	London	26 Apr 09
+263	2:41:47	 	 	 	2:36:20	Martin Ferguson	V40	17.09.64	 	Edinburgh	Elgin	13 Sep 09
+265	2:41:51	 	 	2:41:39	2:41:51	Viesturs Dude	V45	16.06.62	 	Crawley	London	26 Apr 09
+265	2:41:51	 	 	2:41:51	2:41:51	Keith Robertshaw	V40	01.06.65	 	Chester-le-Street	London	26 Apr 09
+265	2:41:51	 	 	2:41:51	2:41:51	Ben Osborn	 	11.03.77	 	Stragglers	London	26 Apr 09
+268	2:41:52	 	 	2:41:52	2:41:52	James Baulch	 	08.06.76	 	Poole Runners	London	26 Apr 09
+269	2:41:53	 	 	2:41:41	2:41:53	Gary Hetherington	V50	13.09.59	 	Sedgefield	Amsterdam, NED	18 Oct 09
+270	2:42:01	 	 	2:42:34	2:42:01	Paul Payne	V40	15.09.67	 	Stockport	Frankfurt, GER	25 Oct 09
+271	2:42:03	 	 	 	2:42:03	John Matheson	V40	19.01.66	 	Metro Aberdeen	Amsterdam, NED	18 Oct 09
+272	2:42:06	 	 	2:42:06	2:42:06	James Walker	 	 	iD	Steyning	London	26 Apr 09
+273	2:42:10	 	 	2:42:06	2:42:10	Ian James	V45	27.05.60	 	Wrexham	London	26 Apr 09
+274	2:42:16	 	 	2:41:57	2:42:16	Matthew J Harvey	 	 	iD	Unknown	London	26 Apr 09
+275	2:42:17	 	 	2:42:17	2:42:17	Julian Hough	U23	27.05.86	 	Stroud	London	26 Apr 09
+275	2:42:17	 	 	2:42:17	2:34:53	Tom Ellacott	V35	20.06.73	 	Belgrave	London	26 Apr 09
+277	2:42:18	 	 	2:42:10	2:42:18	Dan Gay	 	05.05.75	 	Hunters Bog Trotters	London	26 Apr 09
+278	2:42:20	 	 	2:41:51	2:42:20	Charlie Pearson	 	 	iD	Unattached	London	26 Apr 09
+278	2:42:20	 	 	2:42:12	2:42:20	Alan Wray	V35	06.01.71	 	Harrow	London	26 Apr 09
+280	2:42:22	 	 	2:42:19	2:42:22	Stephen Shanks	 	12.04.78	 	Holme Pierrepont	Nottingham	13 Sep 09
+281	2:42:23	 	 	2:40:32	2:29:11	Brian Cole	V35	03.10.71	 	Blackburn	Washington DC, USA	25 Oct 09
+282	2:42:26	 	 	2:42:22	2:42:26	Ben Martin-Dye	V40	03.09.69	 	Bracknell Forest	Berlin, GER	20 Sep 09
+283	2:42:33	 	 	 	2:40:25	David Tomlin	V35	09.01.73	 	Teignbridge	Taunton	5 Apr 09
+284	2:42:37	 	 	2:42:32	2:42:37	Stuart Cunningham	V45	05.03.63	 	North Derbyshire	London	26 Apr 09
+284	2:42:37	 	 	2:42:37	2:34:43	Robbie James	V35	12.02.71	 	Lewes	London	26 Apr 09
+284	2:42:37	 	 	2:42:29	2:40:46	George Stewart	V40	09.06.68	 	London Heathside	Ljubljana, SLO	25 Oct 09
+287	2:42:39	 	 	2:42:30	2:42:39	Neil Kapoor	V40	13.05.68	 	Trent Park	Paris, FRA	5 Apr 09
+287	2:42:39	 	 	2:42:39	2:35:58	Peter Waumsley	V35	27.11.72	 	Tamar	Washington DC, USA	25 Oct 09
+289	2:42:46	 	 	 	2:42:46	Scott Richardson	 	14.12.80	 	Tonbridge	Amsterdam, NED	18 Oct 09
+290	2:42:48	a	 	 	2:42:48a	Paul Houston	 	 	iD	Harmeny	Edinburgh	31 May 09
+291	2:42:49	 	 	2:42:49	2:42:49	Jonathan M Withey	 	 	iD	St. Edmunds Pacers	London	26 Apr 09
+292	2:42:51	 	 	2:42:45	2:42:51	Dale Laughlin	V40	28.12.66	 	Thrift Green	London	26 Apr 09
+293	2:42:53	 	 	 	2:42:53	Chris Burgoyne	 	10.02.81	 	Springfield	Copenhagen, DEN	24 May 09
+294	2:42:55	 	 	 	2:42:55	Lorcan Cronin	 	 	iD	Bangor Uni	Belfast	4 May 09
+295	2:42:56	 	 	2:41:23	2:29:42	Mark Goodridge	V35	13.04.70	 	Royal Navy	Washington DC, USA	25 Oct 09
+296	2:42:57	 	 	2:42:57	2:42:57	Andrew Yarker	 	 	iD	Alton	London	26 Apr 09
+297	2:42:58	 	 	2:42:58	2:29:29	Steven Cairns	V40	03.11.67	 	Annadale	London	26 Apr 09
+297	2:42:58	 	 	2:42:58	2:28:46	Phil Cook	V35	07.05.69	 	Les Croupiers	London	26 Apr 09
+299	2:43:01	 	 	2:42:59	2:43:01	Scott Kennedy	V35	10.09.70	 	Bellahouston RR	Inverness	4 Oct 09
+300	2:43:05	 	 	2:42:46	2:30:43	Paul Harwood	V35	19.07.71	 	Leamington	Leicester	11 Oct 09
+301	2:43:06	 	 	2:42:41	2:40:34	Simon Dobbs	V40	29.09.64	 	Moray	London	26 Apr 09
+301	2:43:06	 	 	2:43:05	2:43:06	Nigel Bedell	V40	27.12.64	 	Keighley & Craven	Leicester	11 Oct 09
+303	2:43:08	 	 	 	2:29:00	Bernie Murphy	V40	27.03.66	 	Liverpool Pembroke Sefton	Abingdon	18 Oct 09
+304	2:43:09	 	 	2:43:09	2:43:09	Simon Longthorpe	 	27.09.77	 	Taunton	London	26 Apr 09
+305	2:43:10	 	 	2:43:10	2:43:10	Martin Graham	 	25.04.81	 	Shettleston	London	26 Apr 09
+306	2:43:12	 	 	2:43:05	2:43:12	Roddy McGregor	V40	 	iD	Norwich RR	London	26 Apr 09
+307	2:43:13	c	 	 	2:42:43	Luke Reddy	 	07.06.84	 	Liverpool H	New York NY, USA	1 Nov 09
+308	2:43:15	 	 	2:43:15	2:34:31	Andrew Jackson	 	21.04.80	 	Ackworth	London	26 Apr 09
+309	2:43:17	 	 	2:43:17	2:43:17	Justin Montague	 	15.11.80	 	Swindon	London	26 Apr 09
+310	2:43:18	 	 	2:43:04	2:43:18	Gregan Clarkson	 	06.05.82	 	Kingston upon Hull	London	26 Apr 09
+311	2:43:20	 	 	2:43:20	2:43:03	Duncan Bell	V40	30.04.67	 	Willowfield	London	26 Apr 09
+311	2:43:20	a	 	 	2:43:20a	Stuart Spencer	 	11.11.82	 	Barrow Runners	Edinburgh	31 May 09
+313	2:43:21	 	 	2:42:50	2:43:21	David C Green	 	 	iD	Great Bentley	London	26 Apr 09
+314	2:43:23	 	 	 	2:43:23	Paul Davies	V45	17.05.63	 	Centurion	Abingdon	18 Oct 09
+315	2:43:29	 	 	2:43:29	2:43:29	James Crampsey	V40	26.08.65	 	City of Derry	London	26 Apr 09
+315	2:43:29	 	 	2:43:29	2:40:35	Samuel Crawford	V40	22.09.65	 	East Antrim	London	26 Apr 09
+315	2:43:29	 	 	 	2:40:00	Michael Hatton	V45	01.08.61	 	South Cheshire	Abingdon	18 Oct 09
+318	2:43:30	 	 	2:43:30	2:43:30	Paul Rose	V45	09.01.64	 	Yeovil Town	London	26 Apr 09
+318	2:43:30	 	 	2:43:30	2:36:34	Steve Hallas	V35	08.02.73	 	Preston	London	26 Apr 09
+320	2:43:32	 	 	2:43:27	2:43:32	Lazloe Boden	V45	12.01.61	 	Harborough	Nottingham	13 Sep 09
+321	2:43:33	 	 	2:43:33	2:42:32	Robert Burton	V50	29.08.56	 	Chiltern	London	26 Apr 09
+322	2:43:35	 	 	2:43:35	2:36:54	Gordon Dixon	V45	18.06.60	 	Morpeth	London	26 Apr 09
+323	2:43:38	 	 	2:43:25	2:42:44	John Carr	V45	11.02.62	 	Lancaster & Morecambe	London	26 Apr 09
+323	2:43:38	 	 	2:43:30	2:43:38	Andrew Brierley	V40	18.06.67	 	Fife	London	26 Apr 09
+323	2:43:38	 	 	2:43:38	2:36:25	Philip Sanger	 	25.01.82	 	Epsom & Ewell	London	26 Apr 09
+326	2:43:40	 	 	2:43:35	2:43:40	Nicholas Clark	V35	 	iD	Unknown	Dublin, IRL	26 Oct 09
+327	2:43:41	 	 	2:43:21	2:43:41	Kevan James	V45	06.01.61	 	Ashford RRC	London	26 Apr 09
+328	2:43:43	 	 	2:43:43	2:41:59	Phil Cake	 	10.08.76	 	Guildford & Godalming	London	26 Apr 09
+329	2:43:45	 	 	2:43:35	2:43:45	Gabriel Saiz	 	20.10.79	 	Heanor	London	26 Apr 09
+330	2:43:47	 	 	 	2:43:47	Andy May	 	 	iD	Abbey Runners Leeds	Blackpool	5 Apr 09
+331	2:43:48	 	 	2:43:48	2:42:33	Dave Child	V45	22.02.60	 	Kent	London	26 Apr 09
+332	2:43:51	 	 	2:43:26	2:43:51	David Bradford	 	11.05.82	 	Lewes	London	26 Apr 09
+333	2:43:54	 	 	 	2:32:17	Stephen Dawes	 	27.08.81	 	Guernsey	Guernsey	30 Aug 09
+334	2:43:55	 	 	2:43:55	2:37:49	Mats Gedin	V45	26.04.63	 	Arena 80	London	26 Apr 09
+335	2:43:57	 	 	2:43:49	2:43:57	Lee Wilkinson	 	 	iD	Stockport	London	26 Apr 09
+336	2:44:00	 	 	 	2:38:29	Martin Rea	 	 	iD	North Belfast	Belfast	4 May 09
+337	2:44:02	 	 	2:43:59	2:41:32	Julian Ferraro	V40	11.06.65	 	London Heathside	San Sebastian, ESP	29 Nov 09
+338	2:44:10	 	 	2:44:10	2:42:38	Michael Walsh	 	07.08.82	 	Ackworth	London	26 Apr 09
+339	2:44:12	a	 	 	2:44:12a	Martin Canavan	 	 	iD	Unattached	Edinburgh	31 May 09
+340	2:44:13	 	 	2:44:13	2:43:41	Hugh Torry	 	15.10.78	 	Serpentine	London	26 Apr 09
+341	2:44:14	 	 	2:44:14	2:43:41	Julian Richardson	V40	24.04.67	 	Oxford City	London	26 Apr 09
+342	2:44:15	 	 	 	2:44:15	James Allen	V35	01.03.74	 	Fleet & Crookham	Abingdon	18 Oct 09
+343	2:44:18	 	 	2:43:40	2:44:18	Mo Rahim	 	20.01.82	 	Harrow	London	26 Apr 09
+344	2:44:20	 	 	 	2:38:57	Jon Sharkey	 	20.06.82	 	Bournemouth	Sturminster Newton	3 May 09
+345	2:44:25	 	 	2:44:12	2:44:25	Craig Mattocks	 	 	iD	Wootton RR	London	26 Apr 09
+346	2:44:26	 	 	 	2:36:34	Mohammed Manir	V35	03.03.73	 	Wigan Phoenix	Ambleside	17 May 09
+347	2:44:27	 	 	2:44:27	2:44:27	Paul Veitch	V35	03.10.71	 	Riverside	Stratford-upon-Avon	26 Apr 09
+348	2:44:28	 	 	2:44:10	2:44:28	Jon Scott	 	 	iD	St. Albans Striders	London	26 Apr 09
+348	2:44:28	 	 	2:44:28	2:44:28	Michael Sprot	 	14.10.79	 	Hallamshire	London	26 Apr 09
+350	2:44:29	 	 	2:43:59	2:44:29	Philip Avery	 	 	iD	Crawley	London	26 Apr 09
+351	2:44:34	 	 	 	2:44:34	Nicholas Browne	 	25.10.80	 	Wycombe	Luton	6 Dec 09
+351	2:44:34	 	 	 	2:34:52	Dave Stone	V35	13.02.70	 	Exmouth	Luton	6 Dec 09
+353	2:44:36	 	 	 	2:44:36	Patrick Duffy	 	 	iD	Crook	Ambleside	17 May 09
+353	2:44:36	 	 	2:44:31	2:44:36	Peter Fairhurst	V35	14.12.72	 	 	La Rochelle, FRA	29 Nov 09
+355	2:44:37	 	 	2:44:37	2:44:37	Phil McCoy	 	05.08.74	 	East Hull	London	26 Apr 09
+356	2:44:38	 	 	2:44:38	2:36:54	Nick Kinsey	V45	10.11.59	 	Blackheath & Bromley	London	26 Apr 09
+357	2:44:40	 	 	2:44:03	2:44:40	Peter Reisser	 	 	iD	Unattached	London	26 Apr 09
+357	2:44:40	 	 	2:44:10	2:44:40	Steve Pettit	V40	18.01.65	 	Ely	London	26 Apr 09
+357	2:44:40	 	 	 	2:43:23	Shaun Chandler	 	 	iD	Unattached	Abingdon	18 Oct 09
+360	2:44:41	 	 	2:44:35	2:44:41	Jeremy Gold	V40	24.08.68	 	Victoria Park & Tower Hamlets	London	26 Apr 09
+361	2:44:44	 	 	2:44:31	2:44:44	Vincent Siou	 	 	iD	Unattached	London	26 Apr 09
+362	2:44:45	 	 	2:44:45	2:35:31	Andrew Green	V40	10.11.68	 	Dartford RR	London	26 Apr 09
+363	2:44:46	 	 	2:44:46	2:30:42	Andy Clements	V50	26.03.59	 	Poole AC	London	26 Apr 09
+364	2:44:47	 	 	2:44:28	2:44:47	John S Warnock	 	 	iD	Unknown	London	26 Apr 09
+365	2:44:49	 	 	2:44:38	2:44:49	Phillip George	V35	12.05.73	 	Les Croupiers	London	26 Apr 09
+366	2:44:50	 	 	2:44:38	2:44:50	Ben Matthews	 	15.11.77	 	Ranelagh	London	26 Apr 09
+366	2:44:50	 	 	2:44:41	2:44:50	Richard Lazell	 	 	iD	Stragglers	London	26 Apr 09
+368	2:44:54	 	 	2:44:54	2:44:54	Don Travers	 	27.11.74	 	Armagh	London	26 Apr 09
+369	2:44:57	 	 	2:44:54	2:44:57	Ian McIlwee	V35	 	iD	Unattached	London	26 Apr 09
+370	2:44:58	 	 	2:44:44	2:44:58	Laurence Pidcock	 	 	iD	Garden City Runners	Barcelona, ESP	1 Mar 09
+370	2:44:58	 	 	2:44:42	2:42:44	James A Ellis	 	28.11.79	 	Clapham Chasers	London	26 Apr 09
+370	2:44:58	 	 	2:44:43	2:44:58	Martin Stevens	 	08.06.74	 	Werrington	London	26 Apr 09
+373	2:44:59	 	 	2:44:39	2:44:59	Chris Parker	V40	05.08.65	 	Swansea	London	26 Apr 09
+374	2:45:01	 	 	2:44:57	2:45:01	John Robertson	V45	02.10.62	 	Derby	London	26 Apr 09
+374	2:45:01	 	 	2:44:11	2:45:01	Neil Eckersley	V35	24.09.69	 	Unattached	Berlin, GER	20 Sep 09
+376	2:45:06	 	 	2:45:04	2:45:06	Nick Dukes	 	28.06.75	 	Les Croupiers	London	26 Apr 09
+377	2:45:08	 	 	2:44:44	2:44:53	Greg Baxter	V40	 	iD	Unattached	London	26 Apr 09
+378	2:45:09	 	 	2:45:04	2:45:09	Kevin Gadd	 	04.10.79	 	Belgrave	London	26 Apr 09
+379	2:45:10	 	 	2:45:07	2:45:10	Alessandro Coianiz	V40	20.01.66	 	Cambridge & Coleridge	London	26 Apr 09
+380	2:45:13	 	 	2:44:16	2:43:17	Michael Rix	V35	16.11.70	 	Farnham Runners	Paris, FRA	5 Apr 09
+380	2:45:13	 	 	2:44:48	2:45:13	Bruce Harrold	 	28.07.77	 	Dorking & Mole Valley	London	26 Apr 09
+380	2:45:13	 	 	2:44:27	2:45:13	Ryan Kestle	 	 	iD	Newquay RR	Berlin, GER	20 Sep 09
+383	2:45:16	 	 	 	2:29:05	Andrew Hennessy	 	24.08.77	 	Wells City	Pak Tam Chung, CHN	18 Jan 09
+383	2:45:16	 	 	2:45:16	2:45:16	Martyn Bean	 	07.04.82	 	Brighton & Hove	Portland OR, USA	4 Oct 09
+385	2:45:17	 	 	2:45:04	2:41:38	Graham Hedger	V45	 	iD	Unattached	Florence, ITA	29 Nov 09
+386	2:45:18	 	 	2:44:40	2:45:18	Dennis Speck	 	 	iD	Pocklington	London	26 Apr 09
+387	2:45:19	 	 	 	2:32:29	Paul Harper	 	23.11.80	 	Great Western	Gwalchmai	20 Sep 09
+387	2:45:19	 	 	 	2:45:19	Johnny-Stefan Lonnroth	 	 	iD	Unattached	Abingdon	18 Oct 09
+389	2:45:20	a	 	2:45:12	2:45:20a	Mark Rushbrook	 	 	iD	Unattached	Cannes, FRA	8 Nov 09
+390	2:45:21	 	 	2:45:21	2:44:49	Stephen Whitehead	V35	23.09.71	 	Ranelagh	London	26 Apr 09
+391	2:45:22	 	 	2:45:17	2:45:22	Steve Monaghan	V35	01.07.70	 	London Heathside	Chicago IL, USA	11 Oct 09
+391	2:45:22	c	 	 	2:33:09	Phil Parry	V45	31.01.63	 	Bristol & West	New York NY, USA	1 Nov 09
+393	2:45:26	 	 	2:45:01	2:45:26	Richard Howarth	V35	28.03.74	 	Wigan Phoenix	London	26 Apr 09
+393	2:45:26	 	 	 	2:45:26	Riel Carol	V35	13.08.74	 	Clapham Chasers	Abingdon	18 Oct 09
+393	2:45:26	 	 	2:45:22	2:45:26	David Pell	 	 	iD	West End	Calvia, ESP	13 Dec 09
+396	2:45:34	 	 	 	2:45:34	Paul Collins	V40	06.04.65	 	Bromsgrove & Redditch	Abingdon	18 Oct 09
+397	2:45:35	 	 	2:44:58	2:41:30	Dominic McCarter	V40	 	iD	Unattached	London	26 Apr 09
+397	2:45:35	 	 	2:45:33	2:45:35	Richard Watkinson	 	 	iD	Unattached	Inverness	4 Oct 09
+399	2:45:36	 	 	 	2:45:36	Brian Fogarty	 	19.12.83	 	Blackburn	Amsterdam, NED	18 Oct 09
+400	2:45:37	 	 	2:45:26	2:45:37	Paul Halford	V35	27.09.73	 	Werrington	London	26 Apr 09
+401	2:45:38	 	 	2:45:32	2:45:38	Bryan Camfield	V40	10.08.65	 	Horsham Joggers	London	26 Apr 09
+402	2:45:41	 	 	 	2:45:41	Brian Cole	V35	03.10.70	 	City of Stoke	Wolverhampton	6 Sep 09
+403	2:45:44	 	 	 	2:45:44	Steve Osborne	 	 	iD	VOTwo TC	Pensilva	15 Nov 09
+404	2:45:48	 	 	2:45:35	2:45:48	Kerry Roberts	V45	12.04.61	 	Tiverton	London	26 Apr 09
+405	2:45:50	 	 	2:45:50	2:42:17	Peter Dimbleby	 	14.06.74	 	Birchfield H	London	26 Apr 09
+406	2:45:53	 	 	2:45:48	2:45:53	Jamie Anderson	 	11.10.76	 	Telford H	London	26 Apr 09
+407	2:45:57	 	 	 	2:43:16	Paul Roarty	 	28.04.76	 	Fife	Fort William	19 Apr 09
+408	2:45:59	 	 	2:45:52	2:45:59	Richard Darling	 	23.07.77	 	Notts	London	26 Apr 09
+409	2:46:04	c	 	 	2:46:04	Paul Davies	V45	 	iD	Staffordshire Moorlands	Boston MA, USA	20 Apr 09
+410	2:46:05	 	 	2:45:58	2:45:42	Alastair Payne	V45	 	iD	Unattached	London	26 Apr 09
+411	2:46:09	 	 	2:45:10	2:46:09	Justin West	 	 	iD	Unattached	London	26 Apr 09
+411	2:46:09	 	 	 	2:46:09	Richard Skilbeck	V35	13.01.73	 	Headington	Abingdon	18 Oct 09
+413	2:46:10	 	 	2:46:10	2:46:10	Emerson Combstock	V35	14.02.73	 	Coventry	London	26 Apr 09
+414	2:46:11	 	 	 	2:29:36	Peter Roper	V40	25.07.65	 	Poole AC	Bodelva	11 Oct 09
+415	2:46:13	 	 	2:46:10	2:46:13	Michael Bridgeland	V50	12.01.58	 	Chelmsford	London	26 Apr 09
+415	2:46:13	a	 	 	2:46:13a	Bernard Devoy	V45	 	iD	Unattached	Edinburgh	31 May 09
+417	2:46:16	 	 	2:45:59	2:43:06	Murray Lambden	V50	14.10.56	 	Manx	London	26 Apr 09
+417	2:46:16	 	 	2:46:09	2:46:16	Alex Kitromilides	 	 	iD	Mornington Chasers	London	26 Apr 09
+419	2:46:18	 	 	2:46:18	2:45:18	Phillip Taylor	 	18.07.79	 	Bridlington	London	26 Apr 09
+420	2:46:20	 	 	 	2:37:50	Jonathan Dabbs	V35	04.04.71	 	Stockport	Blackpool	5 Apr 09
+420	2:46:20	 	 	2:46:04	2:46:20	Sean Rose	V35	25.07.70	 	Bournville Harriers	London	26 Apr 09
+422	2:46:21	 	 	 	2:46:21	Nick Saunders	V35	10.01.74	 	Haywards Heath	St. Helier	27 Sep 09
+423	2:46:24	 	 	2:46:23	2:46:24	Wayne Usher	SEN-V35	 	iD	CLC Striders	Leicester	11 Oct 09
+423	2:46:24	 	 	2:46:04	2:46:24	Chris Bridge	V35	 	iD	Unknown	Florence, ITA	29 Nov 09
+425	2:46:26	 	 	 	2:46:26	Ryan Maxwell	 	 	iD	Larne	Belfast	4 May 09
+426	2:46:27	 	 	2:46:27	2:35:56	Martin Gaunt	 	12.01.83	 	Serpentine	London	26 Apr 09
+427	2:46:28	 	 	2:46:10	2:46:28	Rhodri M Darch	 	 	iD	Unattached	Barcelona, ESP	1 Mar 09
+427	2:46:28	 	 	2:46:26	2:46:28	David Weekes	V40	23.05.65	 	Folkestone	London	26 Apr 09
+429	2:46:30	 	 	2:46:20	2:46:30	Daniel Flint	 	15.06.77	 	Blaydon	London	26 Apr 09
+429	2:46:30	a	 	 	2:44:54a	Gavin Harvie	V35	16.04.70	 	Unattached	Edinburgh	31 May 09
+431	2:46:31	 	 	2:46:15	2:46:31	Mark Wilkins	 	30.06.80	 	Invicta East Kent	London	26 Apr 09
+432	2:46:32	 	 	 	2:46:32	Steven Reid	 	08.05.79	 	Fife	Fort William	19 Apr 09
+432	2:46:32	 	 	2:46:04	2:46:32	Alexander S Eggeman	 	 	iD	Unattached	London	26 Apr 09
+432	2:46:32	 	 	2:46:25	2:46:32	Gerard Duddy	V45	 	iD	City of Derry	London	26 Apr 09
+435	2:46:36	 	 	2:46:19	2:46:36	David Henderson	 	 	iD	Unattached	London	26 Apr 09
+436	2:46:38	 	 	2:46:38	2:45:57	Matthew Stephenson	V40	 	iD	RAF TC	London	26 Apr 09
+437	2:46:39	 	 	 	2:46:39	Justin Macenhill	V35	27.06.72	 	Striders of Croydon	Abingdon	18 Oct 09
+438	2:46:40	 	 	2:46:25	2:46:40	Mark Ketley	 	11.09.79	 	Elswick	Florence, ITA	29 Nov 09
+439	2:46:41	 	 	2:46:34	2:46:41	Marty Gallagher	 	 	iD	Foyle Valley	London	26 Apr 09
+440	2:46:42	 	 	2:46:42	2:46:42	Eric Phillips	 	01.11.77	 	Serpentine	London	26 Apr 09
+440	2:46:42	 	 	2:46:42	2:46:42	Gareth Wilson	 	 	iD	Glossopdale	London	26 Apr 09
+442	2:46:43	 	 	2:46:29	2:46:43	Mark Hadley	V40	23.06.66	 	Halesowen	London	26 Apr 09
+442	2:46:43	 	 	2:46:32	2:46:43	James H Mason	 	 	iD	Unattached	London	26 Apr 09
+442	2:46:43	 	 	2:46:39	2:46:43	Paul Helliwell	V40	13.02.68	 	Colchester H	London	26 Apr 09
+442	2:46:43	 	 	2:46:43	2:46:43	Andrew Ellison	V40	09.12.67	 	Team Bath	London	26 Apr 09
+446	2:46:44	 	 	2:46:38	2:46:44	Duncan Collins	V40	04.12.68	 	Tunbridge Wells	London	26 Apr 09
+446	2:46:44	 	 	2:46:44	2:44:00	Joe Corbett	 	31.05.80	 	Newham & Essex Beagles	New Milton	27 Sep 09
+448	2:46:46	 	 	2:46:46	2:43:56	David Stevens	 	 	iD	Tamworth	London	26 Apr 09
+449	2:46:47	 	 	2:46:10	2:46:47	Neil Riley	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+449	2:46:47	 	 	2:46:47	2:46:47	Richard Malin	V40	26.06.67	 	Bromsgrove & Redditch	London	26 Apr 09
+451	2:46:48	 	 	2:46:45	2:41:42	Jez Mancer	V35	07.02.70	 	Benfleet RC	London	26 Apr 09
+451	2:46:48	 	 	2:46:45	2:46:48	Charles Willis-Owen	 	 	iD	Unknown	London	26 Apr 09
+453	2:46:50	c	 	 	2:46:50c	Tony Banks	V35	 	iD	Unattached	New York NY, USA	1 Nov 09
+454	2:46:51	 	 	2:46:48	2:46:51	Darren Talbot	 	19.07.78	 	Trafford	Budapest, HUN	4 Oct 09
+454	2:46:51	 	 	2:46:45	2:46:51	Samuel Webster	V35	 	iD	Unknown	Dublin, IRL	26 Oct 09
+456	2:46:53	 	 	2:46:53	2:26:56	Peter Galpin	V35	25.08.71	 	BRJ Huntingdon	London	26 Apr 09
+457	2:46:55	 	 	2:46:49	2:45:36	Peter Chan	V45	10.12.63	 	Astley & Tyldesley	London	26 Apr 09
+457	2:46:55	 	 	 	2:46:55	Simon Grundy	V40	17.04.65	 	East Cheshire	Fleetwood	13 Sep 09
+459	2:46:58	 	 	2:46:31	2:46:58	Stephen Herring	V40	20.06.68	 	Marshall Milton Keynes	London	26 Apr 09
+459	2:46:58	 	 	2:46:47	2:38:14	Troy Garrity	V35	20.02.73	 	Corby	London	26 Apr 09
+461	2:46:59	 	 	 	2:42:18	Sean Ketteridge	V40	04.04.69	 	Colchester H	Halstead	10 May 09
+462	2:47:01	 	 	2:46:59	2:46:35	Andrew Bass	V45	11.12.60	 	Serpentine	London	26 Apr 09
+463	2:47:03	 	 	 	2:45:06	David Rantell	V40	 	iD	Cheltenham	Copenhagen, DEN	24 May 09
+463	2:47:03	 	 	2:46:58	2:47:03	Ben Partridge	U20	24.03.90	 	South West RR	Dublin, IRL	26 Oct 09
+465	2:47:04	 	 	2:46:54	2:47:04	Charles D Bruce	 	 	iD	Unattached	London	26 Apr 09
+465	2:47:04	 	 	 	2:47:04	Chris Monk	V50	31.05.59	 	Newquay RR	Abingdon	18 Oct 09
+465	2:47:04	 	 	2:46:58	2:47:04	Stephen Harkens	V40	26.08.69	 	Larne	Dublin, IRL	26 Oct 09
+465	2:47:04	c	 	 	2:47:04c	Greg Simpson	 	 	iD	Perth RR	New York NY, USA	1 Nov 09
+469	2:47:05	 	 	2:47:00	2:47:05	Andrew J Vallance	 	 	iD	Tavistock	London	26 Apr 09
+470	2:47:06	 	 	2:46:54	2:47:06	Philip Piper	V55	25.10.54	 	Unattached	Dublin, IRL	26 Oct 09
+471	2:47:09	 	 	 	2:47:09	Will Downey	 	 	iD	Unattached	Blackpool	5 Apr 09
+471	2:47:09	 	 	 	2:47:09	Stuart Mead	V40	31.05.66	 	Spa Striders	Fleetwood	13 Sep 09
+473	2:47:10	 	 	2:47:10	2:38:23	Paul Waterston	V40	02.07.65	 	Morpeth	London	26 Apr 09
+474	2:47:12	a	 	 	2:47:12a	Steven Wrigley	V45	20.07.63	 	Salford H	Edinburgh	31 May 09
+475	2:47:14	 	 	2:46:58	2:47:14	Stephen Williamson	V35	 	iD	Armagh	London	26 Apr 09
+476	2:47:16	 	 	2:47:09	2:44:35	Christopher Flavell	V40	22.02.66	 	Tipton	Rotterdam, NED	5 Apr 09
+476	2:47:16	 	 	2:46:56	2:47:16	Nicolas Kwong-Cheong	 	 	iD	Unattached	London	26 Apr 09
+476	2:47:16	 	 	2:47:16	2:41:21	Michael S Dooley	V40	15.03.68	 	Army	London	26 Apr 09
+476	2:47:16	c	 	 	2:47:16c	Alistair Hill	 	 	iD	Unattached	New York NY, USA	1 Nov 09
+480	2:47:20	 	 	 	2:47:20	Dave Wright	V50	17.02.57	 	Cirencester	Fort William	19 Apr 09
+481	2:47:21	 	 	2:46:37	2:47:21	Will Green	 	 	iD	Unattached	London	26 Apr 09
+482	2:47:23	 	 	2:47:18	2:47:23	James D Waite	 	 	iD	Unattached	London	26 Apr 09
+483	2:47:24	 	 	2:43:04	2:45:49	Neil Tait	V40	 	iD	ABRaS	Dubai, UAE	16 Jan 09
+484	2:47:28	 	 	 	2:47:28	Andy Howse	V40	10.07.66	 	Thames Hare & Hounds	Amsterdam, NED	18 Oct 09
+485	2:47:29	 	 	2:47:29	2:43:41	Clem Dixon	V45	23.05.61	 	Cambridge H	London	26 Apr 09
+486	2:47:31	 	 	2:47:10	2:47:31	Simon Hart	V45	 	iD	Havering Mayesbrook	London	26 Apr 09
+487	2:47:33	 	 	2:47:21	2:47:33	Guy Roberts	 	 	iD	South Liverpool Mossley Hill	London	26 Apr 09
+488	2:47:37	 	 	 	2:47:37	Jon Mansfield	V40	30.09.67	 	Tewkesbury	Abingdon	18 Oct 09
+489	2:47:39	 	 	 	2:39:04	Gwyn Owen	 	16.02.76	 	Eryri	Llanberis	24 Oct 09
+490	2:47:40	 	 	2:47:38	2:47:40	Alun Myers	U23	05.11.86	 	Bellahouston Harriers	Inverness	4 Oct 09
+491	2:47:41	 	 	2:47:40	2:47:41	John Herbert	V35	 	iD	Werrington	Inverness	4 Oct 09
+492	2:47:44	 	 	2:47:04	2:47:44	David Fitzpatrick	 	 	iD	Unattached	London	26 Apr 09
+493	2:47:47	a	 	 	2:47:47a	Jon Dance	 	 	iD	Unattached	Edinburgh	31 May 09
+494	2:47:48	 	 	2:47:17	2:47:48	Mike Osborne	 	 	iD	Oxford Uni	London	26 Apr 09
+494	2:47:48	 	 	2:46:57	2:47:48	Robin Bourne-Taylor	 	22.07.81	 	Unattached	Berlin, GER	20 Sep 09
+496	2:47:52	 	 	2:47:49	2:47:52	Mark Campion	V35	 	iD	Portsmouth JC	London	26 Apr 09
+497	2:47:53	 	 	2:47:53	2:47:53	James Horman	 	24.12.79	 	Liverpool H	London	26 Apr 09
+497	2:47:53	 	 	 	2:33:57	Julian Mawson	V35	28.12.70	 	Otley	Ambleside	17 May 09
+499	2:47:54	a	 	 	2:47:54a	Paul Turner	V35	10.05.72	 	Elswick	Edinburgh	31 May 09
+500	2:47:55	 	 	2:47:44	2:47:55	David Smith	V40	08.09.65	 	Hallamshire	London	26 Apr 09
+500	2:47:55	 	 	2:47:55	2:29:42	Steve Smythe	V50	18.03.58	 	Dulwich	London	26 Apr 09
+500	2:47:55	 	 	 	2:30:45	Paul Thompson	V35	27.08.71	 	Clayton le Moors	Fleetwood	13 Sep 09
+503	2:47:56	 	 	2:47:40	2:47:56	Hugh Simon Aggleton	 	28.09.84	 	Cardiff Harlequins	London	26 Apr 09
+504	2:47:57	 	 	2:47:49	2:47:57	Sean Laverty	V40	 	iD	City of Derry	London	26 Apr 09
+505	2:47:59	 	 	2:47:42	2:47:59	Carl Wright	 	 	iD	Penny Lane	London	26 Apr 09
+505	2:47:59	 	 	2:47:56	2:46:53	Craig Halsey	 	 	iD	Dunstable	London	26 Apr 09
+505	2:47:59	 	 	2:47:57	2:45:28	Graham Stephens	V45	 	iD	Unattached	London	26 Apr 09
+508	2:48:00	 	 	2:47:51	2:42:59	Ian Kitching	V55	03.10.51	 	South London	Chicago IL, USA	11 Oct 09
+509	2:48:01	 	 	2:47:56	2:48:01	Tom Hall	 	08.07.79	 	Salford H	London	26 Apr 09
+509	2:48:01	 	 	2:47:57	2:48:00	Mazeyar Firouzi	 	 	iD	Overton	London	26 Apr 09
+511	2:48:02	 	 	 	2:48:02	Edward Samuel	 	27.09.78	 	London Heathside	Amsterdam, NED	18 Oct 09
+512	2:48:04	 	 	2:47:50	2:48:04	Mark P Betts	 	 	iD	Norwich RR	London	26 Apr 09
+512	2:48:04	 	 	 	2:42:09	Craig Stewart	 	21.08.76	 	Forfar	Ambleside	17 May 09
+514	2:48:06	 	 	 	2:48:06	Paul Duff	V40	13.10.64	 	Unattached	Taunton	5 Apr 09
+515	2:48:07	c	 	 	2:44:38	Ian Whitehouse	V35	22.02.70	 	Halifax	Boston MA, USA	20 Apr 09
+516	2:48:08	 	 	2:47:56	2:48:08	William Bourne	V35	09.07.69	 	Reading RR	London	26 Apr 09
+517	2:48:09	 	 	 	2:48:09	Jim Addison	V35	29.02.72	 	Beckenham	Abingdon	18 Oct 09
+518	2:48:12	 	 	2:47:37	2:48:12	Kevin Ogden	V35	29.12.71	 	Spenborough	London	26 Apr 09
+519	2:48:14	 	 	 	2:40:29	Damian McAuley	V40	27.02.66	 	Springburn	Amsterdam, NED	18 Oct 09
+520	2:48:15	 	 	 	2:48:15	Peter Savage	V40	 	iD	North Belfast	Newry	25 May 09
+520	2:48:15	 	 	2:48:14	2:48:15	Neil Maclachlan	 	 	iD	Pitreavie	Inverness	4 Oct 09
+522	2:48:18	 	 	2:47:24	2:48:18	James McIlroy	 	30.12.76	 	Larne	London	26 Apr 09
+522	2:48:18	 	 	 	2:42:10	John Broom	V35	24.03.70	 	Holmfirth	Sturminster Newton	3 May 09
+524	2:48:19	 	 	2:48:17	2:48:19	Richard Thomson	V40	05.09.68	 	Metro Aberdeen	Inverness	4 Oct 09
+525	2:48:20	 	 	2:48:08	2:48:20	Andrew Guiseley	V35	01.06.73	 	Dewsbury	London	26 Apr 09
+526	2:48:22	 	 	2:48:09	2:48:22	Graham Bell	V40	07.08.68	 	Elswick	London	26 Apr 09
+526	2:48:22	a	 	 	2:48:22a	Tony Carter	U23	18.10.87	 	Wallsend	Edinburgh	31 May 09
+528	2:48:25	 	 	2:48:06	2:48:25	Andy Sly	V40	29.07.64	 	Retford	Paris, FRA	5 Apr 09
+528	2:48:25	 	 	2:48:12	2:48:25	Andy Stopher	 	 	iD	Aldershot, Farnham & District	London	26 Apr 09
+528	2:48:25	 	 	2:48:19	2:46:41	Steve Cunningham	V45	 	iD	Unattached	London	26 Apr 09
+531	2:48:27	 	 	2:48:21	2:48:27	Steve Babb	V40	24.03.66	 	Launceston	London	26 Apr 09
+532	2:48:29	 	 	2:48:25	2:41:31	David Byrne	V40	16.02.66	 	South London	London	26 Apr 09
+532	2:48:29	 	 	2:48:20	2:48:29	James Scott-Buccleuch	 	08.08.78	 	Stockport	Dublin, IRL	26 Oct 09
+534	2:48:30	 	 	 	2:48:30	Derek Stone	V45	 	iD	Unattached	Abingdon	18 Oct 09
+535	2:48:34	 	 	2:48:04	2:48:34	Philip Cross	V45	20.06.63	 	Woking	London	26 Apr 09
+535	2:48:34	 	 	 	2:48:34	Brian O'Connor	V40	14.08.69	 	Woodstock	Abingdon	18 Oct 09
+537	2:48:35	 	 	2:48:19	2:48:35	Steve Bazell	V35	01.02.74	 	City of Stoke	London	26 Apr 09
+538	2:48:36	 	 	 	2:48:36	Nick Morgan	 	05.09.75	 	Waverley	Abingdon	18 Oct 09
+539	2:48:38	 	 	 	2:48:38	Mark Arnold	 	 	iD	Unattached	Blackpool	5 Apr 09
+539	2:48:38	 	 	2:48:38	2:35:27	Andy Macaskill	 	19.07.78	 	Maidenhead	London	26 Apr 09
+539	2:48:38	 	 	2:48:34	2:48:38	Paul Simons	V45	04.04.64	 	Salford H	Dublin, IRL	26 Oct 09
+542	2:48:41	 	 	 	2:48:41	Stephen Donnelly	V40	 	iD	Stratford-upon-Avon	Abingdon	18 Oct 09
+543	2:48:42	 	 	2:48:39	2:42:02	Stephen Pope	V40	24.09.66	 	Unattached	Leicester	11 Oct 09
+543	2:48:42	 	 	 	2:48:42	Jason Pitcher	V35	20.11.70	 	Harborough	Abingdon	18 Oct 09
+545	2:48:43	 	 	2:48:43	2:39:52	Giovanni Nicolaci	V40	07.01.66	 	Stragglers	London	26 Apr 09
+545	2:48:43	 	 	 	2:48:43	George Dayantis	V45	06.03.62	 	Christchurch	Sturminster Newton	3 May 09
+547	2:48:45	 	 	2:48:33	2:45:28	Jonathan Lane	V35	 	iD	Royal Air Force	Chicago IL, USA	11 Oct 09
+548	2:48:47	 	 	 	2:48:47	James Press	 	 	iD	Weston	Taunton	5 Apr 09
+549	2:48:48	 	 	2:48:48	2:48:48	Richard Munn	 	25.02.79	 	Kent	London	26 Apr 09
+550	2:48:51	 	 	2:48:42	2:48:51	David Hodgins	V40	 	iD	Unattached	London	26 Apr 09
+551	2:48:52	 	 	2:48:38	2:48:52	Nick Awbery	 	 	iD	Unattached	Rome, ITA	22 Mar 09
+552	2:48:53	 	 	2:48:47	2:37:13	Alex Rowe	V50	10.04.57	 	Wesham	Dublin, IRL	26 Oct 09
+553	2:48:54	 	 	 	2:48:54	Charles Wartnaby	V35	11.01.70	 	Unattached	Abingdon	18 Oct 09
+554	2:48:58	 	 	2:48:55	2:48:58	Chris Hairs	V40	 	iD	Edinburgh	London	26 Apr 09
+555	2:48:59	 	 	2:48:59	2:45:03	Iain Robert	V45	27.08.63	 	Royal Navy	London	26 Apr 09
+555	2:48:59	 	 	2:48:55	2:48:59	Alex Webster	V40	 	iD	West End	Leicester	11 Oct 09
+557	2:49:02	 	 	2:49:00	2:49:02	Steven Morton	V35	17.04.70	 	New Forest Runners	Stratford-upon-Avon	26 Apr 09
+558	2:49:03	 	 	2:48:40	2:49:03	Mike Raynes	 	19.08.74	 	York Acorn	London	26 Apr 09
+559	2:49:04	 	 	2:49:04	2:43:44	Robert Gornall	V40	20.10.64	 	Stroud	London	26 Apr 09
+559	2:49:04	 	 	 	2:49:04	Christopher Sellens	 	08.09.84	 	Colchester H	Halstead	10 May 09
+561	2:49:05	 	 	2:49:01	2:49:05	Andrew Dobby	V35	26.10.71	 	RAF Menwith Hill	London	26 Apr 09
+562	2:49:06	 	 	2:48:57	2:49:06	Sam Forester	 	07.04.83	 	Morpeth	Berlin, GER	20 Sep 09
+563	2:49:09	c	 	 	2:49:09	Nicholas Horton	V35	27.10.70	 	Bromsgrove & Redditch	Hamburg, GER	26 Apr 09
+564	2:49:10	 	 	2:49:06	2:49:10	Andrew Sentence	 	13.04.77	 	Belgrave	Turin, ITA	19 Apr 09
+565	2:49:11	 	 	2:49:11	2:34:38	Colin Gell	 	24.01.80	 	Sale Harriers Manchester	London	26 Apr 09
+566	2:49:15	 	 	2:49:12	2:49:15	John Keating	 	 	iD	Unattached	Nottingham	13 Sep 09
+567	2:49:17	c	 	 	2:49:17	Russell Coleman	 	30.09.77	 	Victory	Boston MA, USA	20 Apr 09
+568	2:49:18	 	 	2:49:18	2:25:26	Simon Bell	V40	06.05.66	 	Fairlands Valley Spartans	London	26 Apr 09
+568	2:49:18	 	 	 	2:49:18	Lee Smith	V40	11.03.69	 	Gloucester	Abingdon	18 Oct 09
+568	2:49:18	 	 	 	2:49:18	Matthew Hayes	 	 	iD	East Hull	Amsterdam, NED	18 Oct 09
+571	2:49:19	 	 	2:48:43	2:48:32	Stephen Ward	V40	18.04.67	 	Tipton	London	26 Apr 09
+572	2:49:20	 	 	 	2:39:26	Adam Rouse	V35	26.03.74	 	Unattached	Elgin	13 Sep 09
+572	2:49:20	 	 	2:48:54	2:49:20	James Corden	V35	09.07.71	 	Stockport	Florence, ITA	29 Nov 09
+574	2:49:21	 	 	2:49:08	2:49:21	Phil Turner	 	 	iD	Fire Service	London	26 Apr 09
+574	2:49:21	 	 	2:49:12	2:49:21	David Burgess	V35	28.10.71	 	Anster Haddies	London	26 Apr 09
+576	2:49:22	 	 	2:49:22	2:49:12a	Terry Fowler	V45	13.08.62	 	Garden City Runners	London	26 Apr 09
+577	2:49:23	 	 	2:49:14	2:49:23	Toby B Courage	 	 	iD	Army	London	26 Apr 09
+578	2:49:24	 	 	2:49:17	2:49:24	Gordon Reid	V35	27.03.72	 	Stubbington Green	Paris, FRA	5 Apr 09
+579	2:49:26	 	 	2:49:18	2:49:26	James Small	 	 	iD	Unattached	Inverness	4 Oct 09
+579	2:49:26	 	 	 	2:49:26	James Bolton	 	 	iD	Woodstock	Abingdon	18 Oct 09
+579	2:49:26	 	 	2:47:50	2:49:26	Adrian Whitwam	 	25.11.75	 	Aldershot, Farnham & District	Washington DC, USA	25 Oct 09
+582	2:49:27	 	 	2:49:27	2:49:27	Steve Jones	V40	28.12.68	 	North Norfolk	Lake Buena Vista FL, USA	11 Jan 09
+583	2:49:28	 	 	2:49:15	2:49:28	Mark Hobbs	 	21.03.77	 	Bournville Harriers	London	26 Apr 09
+583	2:49:28	c	 	 	2:49:28c	Ross McLennan	 	19.04.78	 	Ochil	New York NY, USA	1 Nov 09
+585	2:49:29	 	 	2:49:22	2:49:29	Stephen Watmough	V45	24.06.62	 	Warrington	Florence, ITA	29 Nov 09
+586	2:49:31	 	 	2:49:28	2:49:31	Barry Reynolds	V35	15.10.71	 	Bristol & West	Nottingham	13 Sep 09
+587	2:49:32	a	 	 	2:49:32a	Brian Roberts	V50	05.04.58	 	North York Moors	Edinburgh	31 May 09
+587	2:49:32	 	 	2:49:28	2:45:56	Martin Halvey	V50	01.11.58	 	Ranelagh	Florence, ITA	29 Nov 09
+589	2:49:33	 	 	2:48:51	2:49:33	Neil Hogg	V40	 	iD	Unattached	Paris, FRA	5 Apr 09
+589	2:49:33	 	 	2:49:33	2:36:11	Chris Wrighton	 	31.12.80	 	Thames Hare & Hounds	London	26 Apr 09
+591	2:49:34	 	 	2:49:34	2:49:34	Robert Jackson	V40	16.10.65	 	Horwich	London	26 Apr 09
+591	2:49:34	 	 	 	2:49:34	Gary McClernon	V35	27.06.73	 	Willowfield	Belfast	4 May 09
+593	2:49:35	 	 	2:49:26	2:49:35	Mark Halls	V45	21.08.63	 	Brighton & Hove	Berlin, GER	20 Sep 09
+594	2:49:36	 	 	2:49:22	2:46:54	Matt Cartailler	V35	11.03.73	 	Farnham TC	London	26 Apr 09
+595	2:49:37	 	 	2:49:35	2:49:37	Paul J Sharpe	 	 	iD	Blackheath & Bromley	London	26 Apr 09
+596	2:49:38	 	 	2:49:15	2:49:38	Paul Tatterton	 	21.12.83	 	Pocklington	Nottingham	13 Sep 09
+597	2:49:39	 	 	2:48:40	2:49:39	David Peters	V35	30.07.71	 	Herne Hill	London	26 Apr 09
+597	2:49:39	 	 	2:49:22	2:49:39	Daniel Alsop	 	07.06.79	 	St. Austell	London	26 Apr 09
+599	2:49:40	 	 	2:49:40	2:49:40	Kingsley Nanton	V35	25.07.70	 	Chiltern	London	26 Apr 09
+600	2:49:41	 	 	2:49:40	2:44:12	Mark Pittaway	V45	16.03.62	 	Royal Manor of Portland	London	26 Apr 09
+600	2:49:41	 	 	 	2:43:03	Richard Petty	SEN-V35	 	iD	Mornington Chasers	Porto, POR	8 Nov 09
+602	2:49:43	 	 	2:48:55	2:43:05	Bill Makuwa	 	 	iD	Unattached	London	26 Apr 09
+603	2:49:44	 	 	2:49:07	2:49:44	Colin James	 	 	iD	East Antrim	London	26 Apr 09
+603	2:49:44	 	 	2:49:44	2:44:47	James Rogers	V40	14.06.64	 	East Hull	London	26 Apr 09
+605	2:49:45	 	 	2:49:19	2:48:50	Mark Sherriff	V35	 	iD	Burton	London	26 Apr 09
+605	2:49:45	 	 	2:49:22	2:49:45	Richard Fawcett	 	04.02.84	 	Headington	London	26 Apr 09
+607	2:49:46	 	 	2:49:41	2:49:42	David Meller	V40	17.05.66	 	Trent Park	London	26 Apr 09
+607	2:49:46	 	 	2:49:41	2:49:46	Paul Collingwood	V35	28.03.73	 	Askern	London	26 Apr 09
+609	2:49:47	 	 	2:49:21	2:45:28	David Coales	V35	21.03.70	 	Team Bath	Berlin, GER	20 Sep 09
+609	2:49:47	 	 	2:49:40	2:49:47	David Hiddleston	V40	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+611	2:49:48	 	 	2:49:40	2:49:48	Adam Girling	 	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+612	2:49:49	 	 	2:49:32	2:49:49	Giles Poulsom	 	 	iD	Unattached	London	26 Apr 09
+612	2:49:49	 	 	2:49:49	2:37:53	Colin Steptoe	V55	08.02.50	 	Vale of Aylesbury	London	26 Apr 09
+614	2:49:52	 	 	2:49:20	2:49:52	Paul M Watson	 	 	iD	Dragons	London	26 Apr 09
+615	2:49:55	 	 	2:49:39	2:49:55	Kenneth Macbeth	V40	 	iD	Bellahouston RR	London	26 Apr 09
+615	2:49:55	 	 	2:49:14	2:49:55	Casey Morgan	 	08.05.78	 	Shettleston	Dublin, IRL	26 Oct 09
+617	2:49:56	 	 	2:49:49	2:49:56	Timothy R Richards	 	 	iD	Unattached	London	26 Apr 09
+617	2:49:56	a	 	 	2:49:56a	George Hall	V45	 	iD	Morpeth	Edinburgh	31 May 09
+619	2:49:57	 	 	2:49:57	2:41:32	Chris Hollinshead	V40	17.01.66	 	Stafford H	London	26 Apr 09
+620	2:49:58	 	 	 	2:46:31	Ryan Barker	V35	04.09.72	 	Halifax	Ambleside	17 May 09
+620	2:49:58	 	 	2:49:49	2:49:58	Peter Lee	V40	10.05.66	 	Hercules Wimbledon	Berlin, GER	20 Sep 09
+622	2:49:59	 	 	2:49:43	2:49:59	Alastair Bayliss	 	04.04.75	 	Dulwich	London	26 Apr 09
+622	2:49:59	 	 	2:49:44	2:49:59	Simon Freeman	 	 	iD	Mornington Chasers	London	26 Apr 09
+622	2:49:59	 	 	2:49:47	2:47:22	Geoff Gray	V40	25.02.69	 	Seaford	London	26 Apr 09
+622	2:49:59	 	 	2:49:57	2:46:19	Henry Szwinto	V50	10.07.57	 	New Forest Runners	Stratford-upon-Avon	26 Apr 09
+626	2:50:00	 	 	 	2:50:00	Andrew Reynolds	 	 	iD	Neath	Abingdon	18 Oct 09
+627	2:50:01	 	 	2:49:29	2:50:01	Steve Murtagh	V45	 	iD	Unattached	London	26 Apr 09
+627	2:50:01	 	 	2:49:39	2:49:19	Reece Wood	 	 	iD	Unattached	London	26 Apr 09
+627	2:50:01	 	 	 	2:50:01	Nigel Grier	V45	 	iD	Albertville	Belfast	4 May 09
+630	2:50:02	 	 	2:49:18	2:50:02	Gregory R Allen	 	 	iD	Unattached	London	26 Apr 09
+631	2:50:03	 	 	 	2:50:03	Philip Quantrill	V35	30.07.74	 	North Norfolk	Abingdon	18 Oct 09
+632	2:50:04	 	 	2:50:01	2:50:04	Carl J Lake	 	 	iD	Unattached	Barcelona, ESP	1 Mar 09
+633	2:50:05	 	 	 	2:45:54	Kevin Smith	V40	01.04.69	 	Swindon	Geneva, SUI	10 May 09
+634	2:50:08	 	 	2:49:51	2:50:08	Krishna Dovadola	 	 	iD	Unattached	London	26 Apr 09
+634	2:50:08	 	 	2:49:47	2:50:08	Chris Tilbrook	V40	07.01.69	 	St. Albans Striders	Florence, ITA	29 Nov 09
+636	2:50:10	 	 	2:49:50	2:50:10	John Demetropoulos	V50	 	iD	Unattached	London	26 Apr 09
+636	2:50:10	 	 	2:50:07	2:50:10	Duncan Martin	 	 	iD	Unattached	Stratford-upon-Avon	26 Apr 09
+638	2:50:11	 	 	2:49:46	2:50:11	Martin Firth	V50	21.12.58	 	Queensbury	London	26 Apr 09
+638	2:50:11	 	 	2:49:49	2:50:11	Keith Thomas	V50	11.05.57	 	Lostock	London	26 Apr 09
+640	2:50:14	 	 	 	2:38:49	Donal Gallagher	V35	 	iD	Sperrin	Belfast	4 May 09
+641	2:50:17	 	 	 	2:50:17	Iain Adams	 	 	iD	Team Kennet	Abingdon	18 Oct 09
+642	2:50:18	 	 	2:50:13	2:35:43	Andy Ward	V35	07.10.73	 	Wigan Phoenix	Palma de Mallorca, ESP	18 Oct 09
+643	2:50:20	 	 	 	2:49:38	Chris Carré	V35	 	iD	Unattached	Guernsey	30 Aug 09
+644	2:50:25	 	 	2:49:28	2:50:25	Simon Fraser	 	09.04.76	 	Tonbridge	London	26 Apr 09
+644	2:50:25	 	 	2:50:11	2:50:25	Graham Moore	V45	 	iD	Unattached	London	26 Apr 09
+644	2:50:25	 	 	 	2:47:13	Andrew Orr	 	 	iD	Serpentine	Zurich, SUI	26 Apr 09
+647	2:50:26	 	 	 	2:50:26	Chris Bacon	V35	 	iD	Unattached	Abingdon	18 Oct 09
+648	2:50:28	 	 	 	2:28:44	Mark Roberts	V35	12.04.70	 	Swansea	Llanberis	24 Oct 09
+649	2:50:29	a	 	 	2:50:29a	Lee Buckwell	 	27.06.74	 	Halifax	Edinburgh	31 May 09
+649	2:50:29	 	 	2:50:28	2:49:09	Antoni Kot	V50	 	iD	Police	Leicester	11 Oct 09
+651	2:50:31	 	 	2:50:23	2:50:31	Justin Upton	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+651	2:50:31	a	 	 	2:50:31a	Vaughan Godber	V35	 	iD	Hartlepool	Edinburgh	31 May 09
+653	2:50:32	 	 	2:50:18	2:50:32	Rob Hall-McNair	V35	12.10.69	 	Hinckley	Leicester	11 Oct 09
+654	2:50:33	 	 	2:50:19	2:50:33	Bill M. Field	V45	 	iD	Unattached	London	26 Apr 09
+654	2:50:33	 	 	2:50:29	2:47:24	Martin Exley	V45	21.03.60	 	Tavistock	London	26 Apr 09
+656	2:50:34	 	 	2:50:23	2:50:34	Jerome Jauffres	 	 	iD	Unattached	London	26 Apr 09
+657	2:50:35	 	 	 	2:43:34	Alistair Duffield	V35	02.04.73	 	Willowfield	Belfast	4 May 09
+657	2:50:35	 	 	 	2:44:07	Rob Phillips	V35	30.09.72	 	Runnymede	Amsterdam, NED	18 Oct 09
+659	2:50:36	 	 	2:50:32	2:50:36	Duncan Scobie	V40	05.07.67	 	Dumfries	London	26 Apr 09
+660	2:50:38	 	 	 	2:34:37	Paul Cameron	V35	03.08.71	 	Isle of Wight RRC	Isle of Wight	4 Oct 09
+661	2:50:39	 	 	2:50:35	2:43:42	Peter Hopper	V50	07.08.59	 	Athletics Veterans of Hong Kong	Berlin, GER	20 Sep 09
+661	2:50:39	 	 	2:50:26	2:50:39	Bruce Rainford	V35	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+663	2:50:40	 	 	2:50:35	2:50:40	Leslie D Holdcroft	 	 	iD	Unattached	London	26 Apr 09
+663	2:50:40	 	 	2:50:36	2:45:39	Julian Manning	 	08.08.75	 	Denmead	London	26 Apr 09
+665	2:50:42	 	 	2:50:24	2:45:12	Michael Nichols	V40	03.01.65	 	Unattached	London	26 Apr 09
+666	2:50:43	 	 	 	2:50:43	Jamie Robbins	V35	30.07.71	 	Kendal	Ambleside	17 May 09
+666	2:50:43	 	 	 	2:50:43	Matthew Edwin Roberts	 	02.05.80	 	Eryri	Llanberis	24 Oct 09
+668	2:50:48	 	 	2:50:42	2:40:30	Stuart Shaw	V50	20.04.55	 	Burnden	London	26 Apr 09
+668	2:50:48	a	 	 	2:50:48a	Richard Meade	 	 	iD	Edinburgh TC	Edinburgh	31 May 09
+670	2:50:50	 	 	2:50:41	2:50:50	Peter Cruse	V45	28.07.62	 	Wesham	Budapest, HUN	4 Oct 09
+671	2:50:54	 	 	2:50:41	2:50:54	Benjamin Blowes	V35	 	iD	Newmarket	London	26 Apr 09
+672	2:50:55	 	 	2:50:36	2:45:19	Steve Murdoch	V45	 	iD	Motherwell	London	26 Apr 09
+673	2:50:56	 	 	2:50:50	2:50:56	Marc Grierson	 	13.06.81	 	Portobello	Inverness	4 Oct 09
+673	2:50:56	 	 	 	2:46:44a	Paul Faulkner	V40	21.06.69	 	Hallamshire	Carpi, ITA	11 Oct 09
+675	2:50:57	 	 	2:50:51	2:50:57	Richard Quantrill	 	 	iD	Chiltern	London	26 Apr 09
+676	2:51:00	c	 	 	2:50:17	Kevin Shelton-Smith	V45	 	iD	Unattached	New York NY, USA	1 Nov 09
+677	2:51:01	 	 	2:50:44	2:51:01	Martin Wilcock	V35	 	iD	Unattached	London	26 Apr 09
+678	2:51:04	 	 	2:51:01	2:51:04	Robin McNelis	V35	09.04.73	 	Ilford	London	26 Apr 09
+679	2:51:07	 	 	2:51:03	2:51:07	Matthew Wilson	 	15.09.83	 	Willowfield	Dublin, IRL	26 Oct 09
+680	2:51:08	 	 	2:50:47	2:51:08	Andrew Butler	 	31.12.75	 	Halesowen	London	26 Apr 09
+680	2:51:08	 	 	2:51:08	2:51:08	Andrew Lamont	 	24.02.75	 	Macclesfield	London	26 Apr 09
+682	2:51:09	 	 	2:50:58	2:51:09	Kelvin Amos	V50	13.09.58	 	Cheadle	London	26 Apr 09
+683	2:51:10	 	 	2:51:03	2:51:10	Jamie Sewell	 	26.01.84	 	Rugby & Northampton	Stratford-upon-Avon	26 Apr 09
+684	2:51:11	 	 	2:51:11	2:28:27	Christopher Finill	V50	31.12.58	 	Harrow	London	26 Apr 09
+685	2:51:12	 	 	 	2:51:12	Jonathan Hoo	 	06.07.82	 	Serpentine	Amsterdam, NED	18 Oct 09
+686	2:51:13	 	 	2:51:06	2:43:25	Kevin Duckworth	V40	09.06.64	 	Dudley Kingswinford	London	26 Apr 09
+687	2:51:14	 	 	2:51:12	2:51:14	Gavin Harvie	V35	16.04.70	 	Kirkintilloch	Inverness	4 Oct 09
+688	2:51:15	 	 	2:50:18	2:51:15	Richard Whitehead	 	19.07.76	 	Southwell	Chicago IL, USA	11 Oct 09
+689	2:51:17	 	 	2:51:12	2:51:17	Paul Bowden	 	28.10.77	 	Stragglers	Dublin, IRL	26 Oct 09
+690	2:51:18	 	 	2:50:46	2:51:18	Darren Rook	V35	11.01.70	 	Border	Paris, FRA	5 Apr 09
+690	2:51:18	 	 	2:51:09	2:51:18	David Grant	 	 	iD	Unattached	Nottingham	13 Sep 09
+692	2:51:19	a	 	 	2:51:19a	Jason Maddocks	 	 	iD	Unattached	Edinburgh	31 May 09
+692	2:51:19	 	 	2:51:16	2:51:19	James Charlton	V40	 	iD	Unattached	Calvia, ESP	13 Dec 09
+694	2:51:21	 	 	2:50:53	2:51:21	Barry Sampson	 	10.10.76	 	Cirencester	London	26 Apr 09
+694	2:51:21	 	 	2:51:15	2:51:21	Richard Bowker	V45	09.03.61	 	Southport Waterloo	London	26 Apr 09
+694	2:51:21	 	 	2:51:02	2:42:32	Jonathan Hobbs	V40	31.08.67	 	Lincoln & District	Florence, ITA	29 Nov 09
+697	2:51:25	a	 	 	2:51:25a	Richard Bate	 	21.06.82	 	Fairlands Valley Spartans	Edinburgh	31 May 09
+698	2:51:27	 	 	2:50:28	2:51:27	Tom Marshall	 	 	iD	Dulwich	London	26 Apr 09
+698	2:51:27	 	 	2:50:49	2:51:27	William R Sweeney	 	07.09.82	 	Reading RR	London	26 Apr 09
+698	2:51:27	 	 	2:51:22	2:44:06	Andrew Davies	V35	03.11.73	 	Serpentine	Reykjavík, ISL	22 Aug 09
+698	2:51:27	 	 	 	2:51:27	Gwilym Thomas	 	04.07.75	 	Valley Striders	Fleetwood	13 Sep 09
+698	2:51:27	 	 	2:51:26	2:51:27	Dougie Robinson	 	 	iD	Unattached	Inverness	4 Oct 09
+698	2:51:27	 	 	 	2:47:05	David Maisey	V35	31.07.70	 	Vale of Aylesbury	Abingdon	18 Oct 09
+704	2:51:28	 	 	2:51:16	2:51:28	Jonathan Bridge	V40	19.11.67	 	Blackburn	Dublin, IRL	26 Oct 09
+705	2:51:29	 	 	 	2:51:29	Peter Thompson	V50	24.07.58	 	Nene Valley	Margate	6 Sep 09
+706	2:51:30	 	 	2:51:21	2:51:30	Alex Toll	V40	 	iD	Barrow Runners	Rome, ITA	22 Mar 09
+707	2:51:33	 	 	2:51:32	2:30:51	Andy Gore	V35	04.11.69	 	Cheltenham	Stratford-upon-Avon	26 Apr 09
+707	2:51:33	 	 	 	2:51:33	Kelvin Dickinson	V35	28.05.71	 	Wirral	Abingdon	18 Oct 09
+709	2:51:34	 	 	2:51:34	2:49:55	Anthony Jackson	U23	03.04.86	 	Sittingbourne	London	26 Apr 09
+710	2:51:35	 	 	2:51:19	2:51:35	Nick Kenyon-Muir	V40	30.07.65	 	Ware Joggers	London	26 Apr 09
+710	2:51:35	 	 	2:51:25	2:51:35	Kevin A Erskine	 	 	iD	Tadcaster	London	26 Apr 09
+712	2:51:36	 	 	2:51:36	2:51:36	David Coles	V50	11.10.59	 	Les Croupiers	Venice, ITA	25 Oct 09
+713	2:51:38	 	 	2:51:22	2:51:38	Andrew Henderson	V40	16.12.64	 	Durham Fell Runners	London	26 Apr 09
+713	2:51:38	 	 	 	2:40:56	Gary Keenan	V45	22.02.63	 	Albertville	Belfast	4 May 09
+713	2:51:38	 	 	 	2:51:38	Justin Corrie	 	 	iD	Winchester	Amsterdam, NED	18 Oct 09
+716	2:51:40	 	 	2:51:20	2:50:50	Pete Summers	V40	31.12.66	 	Handy Cross	London	26 Apr 09
+717	2:51:41	 	 	 	2:43:04	Jez Bragg	 	 	iD	Unattached	Wolverhampton	6 Sep 09
+718	2:51:43	 	 	2:51:33	2:51:43	David Rayfield	V40	 	iD	Police	London	26 Apr 09
+718	2:51:43	 	 	2:51:39	2:44:37	Terry Coyle	V50	26.05.56	 	Victoria Park City of Glasgow	Inverness	4 Oct 09
+720	2:51:45	 	 	2:51:42	2:45:56	Christopher Hodgson	V45	18.12.63	 	East Hull	London	26 Apr 09
+721	2:51:47	 	 	 	2:47:44	Gareth Mayze	V35	26.04.73	 	Teviotdale	Fort William	19 Apr 09
+722	2:51:49	 	 	 	2:51:49	Ged Moore	 	 	iD	Unattached	Blackpool	5 Apr 09
+722	2:51:49	a	 	 	2:51:49a	John Armstrong	V35	 	iD	Mornington Chasers	Edinburgh	31 May 09
+724	2:51:52	 	 	2:51:49	2:51:52	Michael Kerrigan	V35	07.09.71	 	Marshall Milton Keynes	Berlin, GER	20 Sep 09
+725	2:51:53	 	 	2:51:48	2:51:53	Jason Allison	V35	20.03.71	 	Crook	London	26 Apr 09
+725	2:51:53	 	 	2:51:48	2:51:53	Adam Holland	U23	05.03.87	 	Tavistock	London	26 Apr 09
+727	2:51:54	 	 	 	2:50:18	Garry Thomson	V45	 	iD	Unattached	Fort William	19 Apr 09
+727	2:51:54	 	 	 	2:49:45	Dave Potter	V50	29.07.54	 	Leamington	Fort William	19 Apr 09
+729	2:51:55	 	 	 	2:51:55	Christopher Day	 	 	iD	Unattached	Copenhagen, DEN	24 May 09
+730	2:51:57	 	 	2:51:39	2:51:57	Matt Harrison	V40	29.08.64	 	Victoria Park & Tower Hamlets	London	26 Apr 09
+731	2:51:58	 	 	2:51:35	2:49:42	Tom Mellor	 	28.01.79	 	Taunton	London	26 Apr 09
+732	2:52:01	 	 	2:51:53	2:52:01	Ed Banks	U23	30.05.87	 	Warwick Uni	London	26 Apr 09
+732	2:52:01	 	 	 	2:37:54	Stephen Peacock	V45	08.02.64	 	Beverley	Abingdon	18 Oct 09
+734	2:52:02	 	 	 	2:52:02	Matt Langdon	V35	19.01.74	 	Bitton	Amsterdam, NED	18 Oct 09
+735	2:52:04	 	 	 	2:52:04	Paul Burslem	V40	13.04.65	 	Trentham	Blackpool	5 Apr 09
+735	2:52:04	 	 	2:52:01	2:43:03	David Cairns	V45	25.05.62	 	Red Rose	Antwerp, BEL	26 Apr 09
+737	2:52:05	 	 	2:51:33	2:52:05	Adam Perry	 	 	iD	Manchester Uni	London	26 Apr 09
+737	2:52:05	 	 	2:52:05	2:29:32	James Kovacs	V35	13.03.74	 	Salford H	London	26 Apr 09
+737	2:52:05	a	 	 	2:52:05a	James Doust	 	 	iD	Unattached	Edinburgh	31 May 09
+737	2:52:05	 	 	2:51:46	2:52:05	Jonathan Brown	V40	 	iD	Unattached	Inverness	4 Oct 09
+741	2:52:06	 	 	2:51:45	2:49:35	Mike Mansfield	V35	19.02.72	 	Leigh on Sea	London	26 Apr 09
+741	2:52:06	 	 	2:52:06	2:52:06	Simon Mace	 	17.05.77	 	Garden City Runners	London	26 Apr 09
+743	2:52:09	 	 	2:52:09	2:24:39	Gareth Williams	V40	16.08.66	 	Medway & Maidstone	London	26 Apr 09
+744	2:52:11	 	 	2:52:07	2:52:11	Padraic O'Flynn	 	 	iD	Unattached	Inverness	4 Oct 09
+745	2:52:12	 	 	2:52:06	2:52:12	Adrian Williams	 	22.04.75	 	Cirencester	Berlin, GER	20 Sep 09
+745	2:52:12	 	 	 	2:52:12	Thomas Rees	 	09.03.86	 	Swansea	Amsterdam, NED	18 Oct 09
+747	2:52:13	 	 	2:52:04	2:52:13	Danny Bradford	V35	08.07.74	 	Worthing	Eindhoven, NED	11 Oct 09
+748	2:52:14	 	 	2:51:58	2:52:14	Ian Boardley	V35	30.04.73	 	Beverley	London	26 Apr 09
+748	2:52:14	 	 	2:52:04	2:52:14	Paul Matthews	 	01.04.80	 	Metro Aberdeen	Berlin, GER	20 Sep 09
+750	2:52:15	c	 	 	2:36:09	Steve Angus	V40	31.03.69	 	Border	Boston MA, USA	20 Apr 09
+750	2:52:15	 	 	2:51:46	2:52:15	Scott McKie	 	 	iD	Reading RR	London	26 Apr 09
+750	2:52:15	 	 	 	2:52:15	Paul Singleton	 	10.11.74	 	Ambleside	Ambleside	17 May 09
+753	2:52:17	 	 	2:52:17	2:43:34	Mark Braley	V35	02.04.72	 	Serpentine	London	26 Apr 09
+754	2:52:18	 	 	2:52:07	2:52:18	Graham Donaldson	V35	25.12.73	 	Garioch	London	26 Apr 09
+754	2:52:18	 	 	2:52:13	2:49:40	Paul Humphries	 	01.01.75	 	Rotherham	Nottingham	13 Sep 09
+756	2:52:19	 	 	2:52:12	2:46:11	Ian Vaughan	 	02.01.76	 	Unattached	Paris, FRA	5 Apr 09
+756	2:52:19	 	 	2:52:07	2:52:19	Adrian Thorley	V40	 	iD	Guernsey TC	Dublin, IRL	26 Oct 09
+758	2:52:20	 	 	2:52:08	2:52:08	Andrew Tillery	V40	 	iD	Unattached	London	26 Apr 09
+758	2:52:20	 	 	2:52:11	2:52:20	David Butler	V55	24.02.53	 	Billericay	London	26 Apr 09
+760	2:52:21	 	 	2:51:31	2:52:21	Julian McGowan	 	12.08.76	 	Hillingdon	Paris, FRA	5 Apr 09
+760	2:52:21	 	 	 	2:52:21	Duncan Stewart	 	 	iD	Hatton Darts RC	Fort William	19 Apr 09
+760	2:52:21	 	 	 	2:52:21	Hans Price	V35	24.09.73	 	Woodstock	Abingdon	18 Oct 09
+763	2:52:22	 	 	2:52:02	2:48:31	David Truepenny	V50	16.08.55	 	Runnymede	Berlin, GER	20 Sep 09
+764	2:52:25	 	 	2:52:11	2:47:15	Samuel Drummond	V35	08.10.70	 	Larne	London	26 Apr 09
+765	2:52:26	 	 	2:51:42	2:47:49	Mark Lacey	V40	21.07.69	 	Poole AC	Berlin, GER	20 Sep 09
+766	2:52:27	 	 	 	2:28:48	Robin Bentley	V40	17.02.65	 	Wessex RR	Halstead	10 May 09
+766	2:52:27	c	 	 	2:51:03	Paul Bell	V40	28.09.69	 	Serpentine	New York NY, USA	1 Nov 09
+768	2:52:28	 	 	2:51:27	2:52:28	Stuart Leaney	 	 	iD	Unattached	London	26 Apr 09
+768	2:52:28	 	 	 	2:52:28	Barry Stewart	V40	 	iD	City of Lisburn	Belfast	4 May 09
+770	2:52:29	 	 	2:52:18	2:52:29	Daniel Bell	 	02.06.82	 	Clapham Chasers	London	26 Apr 09
+771	2:52:30	 	 	2:52:19	2:51:09	Geoff Campbell	V35	26.09.69	 	Alnwick	London	26 Apr 09
+771	2:52:30	 	 	 	2:52:30	Tim Drew	SEN-V35	 	iD	Mounts Bay	Pensilva	15 Nov 09
+773	2:52:31	 	 	2:52:09	2:52:31	Guy Mclaren	 	25.07.76	 	Clapham Chasers	London	26 Apr 09
+774	2:52:32	 	 	2:52:23	2:50:51	Michael Tune	V40	10.06.67	 	Swindon	London	26 Apr 09
+775	2:52:33	 	 	 	2:52:33	Jason Richards	V35	05.02.70	 	Tipton	Wolverhampton	6 Sep 09
+776	2:52:34	 	 	2:52:13	2:48:01	Trevor Martin	V40	 	iD	Unattached	Paris, FRA	5 Apr 09
+776	2:52:34	 	 	2:52:15	2:52:34	Dez Fielden	V35	11.12.71	 	North York Moors	London	26 Apr 09
+776	2:52:34	 	 	2:52:19	2:49:55	Daniel J Webber	 	 	iD	Unattached	London	26 Apr 09
+776	2:52:34	 	 	2:52:30	2:52:34	Neil Ovington	V45	26.01.63	 	Marshall Milton Keynes	Chicago IL, USA	11 Oct 09
+780	2:52:35	a	 	 	2:52:35a	Steve Leslie	V40	 	iD	Unattached	Edinburgh	31 May 09
+781	2:52:38	 	 	2:52:07	2:48:43	Iain Darby	V40	02.05.64	 	DML	London	26 Apr 09
+781	2:52:38	a	 	 	2:52:38a	Richard Simkiss	 	04.01.84	 	Kenilworth Runners	Edinburgh	31 May 09
+783	2:52:39	 	 	 	2:52:39	Anthony Powell	V40	17.02.69	 	Neath	Taunton	5 Apr 09
+783	2:52:39	 	 	2:52:33	2:46:21	Andrew Cooper	V45	13.08.59	 	Tipton	London	26 Apr 09
+785	2:52:41	 	 	 	2:52:41	Craig Cassidy	V50	 	iD	Motherwell	Fort William	19 Apr 09
+785	2:52:41	 	 	2:52:21	2:51:36	Nick Stevens	 	 	iD	Clapham Chasers	Berlin, GER	20 Sep 09
+787	2:52:42	 	 	2:52:17	2:52:42	Gary Norgrove	V40	03.07.67	 	Wrecsam TC	London	26 Apr 09
+788	2:52:44	c	 	 	2:52:44	Stuart Webber	 	 	iD	Unattached	Boston MA, USA	20 Apr 09
+788	2:52:44	 	 	2:52:28	2:52:44	Paul Hensby	V40	28.01.65	 	March	London	26 Apr 09
+790	2:52:45	 	 	2:51:45	2:52:45	Jim Burdett	V40	21.09.68	 	South London	Paris, FRA	5 Apr 09
+790	2:52:45	 	 	2:52:34	2:52:45	Chris McCormick	V40	17.02.67	 	Elmbridge	Berlin, GER	20 Sep 09
+792	2:52:46	 	 	2:52:33	2:52:46	Stephen Jones	V45	19.10.62	 	Stockport	London	26 Apr 09
+793	2:52:48	 	 	2:52:48	2:50:44	Philip Mosley	 	28.08.75	 	Bournemouth	London	26 Apr 09
+794	2:52:49	 	 	 	2:52:49	Martin Cain	 	 	iD	Unattached	Blackpool	5 Apr 09
+795	2:52:50	 	 	2:52:41	2:52:50	Sean Bowen	V40	02.11.64	 	Garden City Runners	Rotterdam, NED	5 Apr 09
+796	2:52:51	 	 	 	2:52:51	Robert McGrath	V45	15.05.64	 	Southport Waterloo	Ambleside	17 May 09
+796	2:52:51	a	 	 	2:23:49	James McGaughey	V35	04.12.73	 	Kent	Edinburgh	31 May 09
+798	2:52:52	 	 	2:52:24	2:52:52	Matthew Newton	V35	30.04.73	 	Vegan	London	26 Apr 09
+799	2:52:54	 	 	2:52:04	2:52:54	Graeme Saker	V45	12.09.61	 	Tonbridge	London	26 Apr 09
+800	2:52:55	 	 	2:52:49	2:52:55	Dean Hughes	V35	 	iD	Unattached	London	26 Apr 09
+800	2:52:55	 	 	2:52:55	2:36:27	Neil Crompton	V35	15.02.74	 	Spectrum	London	26 Apr 09
+800	2:52:55	 	 	2:52:51	2:52:55	Rajdave Singh	 	 	iD	Herne Hill	Inverness	4 Oct 09
+803	2:53:00	 	 	 	2:42:32	Tim Cook	 	09.08.77	 	Bedford & County	Prague, CZE	10 May 09
+803	2:53:00	a	 	 	2:48:11	John Kay	V50	17.02.59	 	Fife	Edinburgh	31 May 09
+805	2:53:01	 	 	2:52:41	2:51:22	Neal Humphreys	 	06.12.74	 	Corby	Dublin, IRL	26 Oct 09
+806	2:53:03	 	 	 	2:53:03	David Walsh	V45	28.01.61	 	Redhill RR	Amsterdam, NED	18 Oct 09
+807	2:53:04	 	 	 	2:43:07	Kevin Beattie	V40	21.04.68	 	Stockport	Blackpool	5 Apr 09
+807	2:53:04	 	 	 	2:53:04	Nigel Edginton	 	 	iD	Unattached	Wolverhampton	6 Sep 09
+809	2:53:05	 	 	 	2:28:32	Mike Feighan	V40	05.11.65	 	Bideford	Taunton	5 Apr 09
+810	2:53:06	 	 	2:53:01	2:53:06	Richard Harry	 	02.02.76	 	St. Albans Striders	London	26 Apr 09
+810	2:53:06	 	 	2:53:00	2:53:06	Simon Mounsey	V35	15.04.72	 	Rotherham	Nottingham	13 Sep 09
+810	2:53:06	 	 	2:53:00	2:53:06	Peter Humphreys	V40	04.01.65	 	Carnegie	Inverness	4 Oct 09
+813	2:53:07	 	 	 	2:53:07	Gordon Findlay	V35	27.11.69	 	Deal TC	Abingdon	18 Oct 09
+814	2:53:08	 	 	2:53:06	2:53:08	Craig Walker	 	 	iD	Unattached	Inverness	4 Oct 09
+815	2:53:10	 	 	2:52:16	2:53:10	Martin Williams	V40	07.09.64	 	Les Croupiers	Paris, FRA	5 Apr 09
+816	2:53:14	 	 	2:52:59	2:53:14	Russ Corsini	V50	21.04.58	 	Darwen Dashers	London	26 Apr 09
+816	2:53:14	c	 	 	2:53:14c	Linton Scarborough	V35	25.09.71	 	Perth RR	New York NY, USA	1 Nov 09
+816	2:53:14	 	 	2:53:08	2:53:14	James Middleditch	V35	 	iD	Unattached	Singapore, SIN	6 Dec 09
+819	2:53:15	 	 	2:52:45	2:53:15	Mark Armitage	V40	05.06.65	 	Halstead	London	26 Apr 09
+819	2:53:15	 	 	2:53:15	2:49:05	Paul Gaile	V40	07.05.66	 	Pudsey Pacers	London	26 Apr 09
+821	2:53:16	 	 	2:53:16	2:53:16	Eddie O'Gorman	V35	18.10.73	 	Chiltern	London	26 Apr 09
+822	2:53:17	c	 	 	2:47:38	Tom Casserley	 	 	iD	South London	New York NY, USA	1 Nov 09
+823	2:53:18	 	 	2:53:12	2:53:18	Iain Carr	 	 	iD	Unattached	Nottingham	13 Sep 09
+823	2:53:18	 	 	2:52:55	2:53:18	Mike Hall	 	 	iD	West 4	Berlin, GER	20 Sep 09
+825	2:53:19	 	 	 	2:47:02	David Headon	V45	27.04.60	 	Les Croupiers	Blackpool	5 Apr 09
+826	2:53:20	 	 	2:53:00	2:51:10	Owain Jones	V35	02.11.73	 	Swansea	London	26 Apr 09
+826	2:53:20	 	 	2:53:09	2:53:20	Richard Webster	V40	12.07.66	 	Chester TC	London	26 Apr 09
+826	2:53:20	 	 	2:53:17	2:51:14	Jason Harris	V35	27.09.71	 	Woking	London	26 Apr 09
+829	2:53:21	 	 	2:53:03	2:53:21	Steven Hawkins	V35	30.08.70	 	Shelton	London	26 Apr 09
+829	2:53:21	 	 	2:53:14	2:53:21	Mark N Hall	 	 	iD	Unattached	London	26 Apr 09
+831	2:53:22	 	 	2:53:10	2:44:05	Tony Dadd	V40	02.11.67	 	Bedford H	Rotterdam, NED	5 Apr 09
+832	2:53:23	 	 	 	2:53:23	Marc Henrion	SEN-V35	 	iD	Mornington Chasers	Luton	6 Dec 09
+833	2:53:27	 	 	2:52:55	2:52:37	Matthew R Nutt	V40	11.06.67	 	Formula One Circuit Crew	London	26 Apr 09
+833	2:53:27	 	 	2:53:12	2:53:27	Simon Spiers	V40	 	iD	 	Nottingham	13 Sep 09
+835	2:53:28	 	 	2:53:21	2:48:40	Vincent Van Woerkom	 	07.12.76	 	Epsom Oddballs	London	26 Apr 09
+835	2:53:28	 	 	2:53:25	2:53:28	Roland Stafford	V35	 	iD	Mercia Fell	Dublin, IRL	26 Oct 09
+837	2:53:29	 	 	2:53:24	2:41:49	Michael Bond	V50	25.09.56	 	Colchester H	London	26 Apr 09
+838	2:53:30	 	 	2:53:20	2:17:58	Mick McGeoch	V50	15.08.55	 	Les Croupiers	London	26 Apr 09
+839	2:53:33	 	 	2:49:13	2:33:56	Nick Berrill	V40	06.10.64	 	Sleaford TR	Dubai, UAE	16 Jan 09
+839	2:53:33	 	 	2:52:06	2:51:08	Paul Woodmansey	 	 	iD	Serpentine	Paris, FRA	5 Apr 09
+841	2:53:34	c	 	 	2:43:53	Stuart Marker	V35	 	iD	 	New York NY, USA	1 Nov 09
+841	2:53:34	 	 	2:53:09	2:53:34	Dominic Ross	V45	01.06.64	 	London Heathside	San Sebastian, ESP	29 Nov 09
+843	2:53:35	 	 	2:52:43	2:53:33	Mel Parker	V45	29.03.63	 	Barnet	London	26 Apr 09
+844	2:53:36	 	 	2:53:36	2:53:36	Mathew Grainge	 	 	iD	Holme Pierrepont	London	26 Apr 09
+844	2:53:36	 	 	2:53:35	2:53:36	Peter Walker	V40	 	iD	Royal Navy	Leicester	11 Oct 09
+844	2:53:36	 	 	 	2:39:34	Tim Price	 	31.03.76	 	Solihull & Small Heath	Abingdon	18 Oct 09
+847	2:53:37	 	 	2:53:21	2:53:37	Matthew Birchall	V35	01.11.71	 	Harrow	London	26 Apr 09
+847	2:53:37	 	 	2:53:24	2:53:37	David Garner	V35	20.05.72	 	Radcliffe	London	26 Apr 09
+849	2:53:38	 	 	2:53:26	2:53:38	Patrick Duton	V45	 	iD	Unattached	London	26 Apr 09
+849	2:53:38	 	 	2:53:35	2:51:35	Michael Craig	V40	 	iD	Unattached	London	26 Apr 09
+851	2:53:40	 	 	2:53:23	2:50:55	Martin Davis	V50	21.08.58	 	Newquay RR	Paris, FRA	5 Apr 09
+851	2:53:40	 	 	2:53:24	2:52:55	Andy Fay	V50	20.08.56	 	Dorking & Mole Valley	London	26 Apr 09
+851	2:53:40	a	 	 	2:53:40a	Conor Curran	 	15.02.75	 	Unknown	Edinburgh	31 May 09
+854	2:53:41	 	 	 	2:53:41	Jamie Clark	 	 	iD	Unknown	Amsterdam, NED	18 Oct 09
+855	2:53:42	 	 	2:53:04	2:52:19	Bryan Edgar	V45	 	iD	Springwell	London	26 Apr 09
+856	2:53:43	 	 	2:53:23	2:53:43	John Querstret	 	07.10.75	 	Runnymede	Berlin, GER	20 Sep 09
+857	2:53:45	 	 	 	2:53:45	Anthony Clarke	 	07.04.75	 	Liverpool H	Abingdon	18 Oct 09
+858	2:53:46	 	 	2:53:37	2:47:41a	Steven Cockrell	 	17.07.85	 	Fenland	London	26 Apr 09
+858	2:53:46	 	 	2:53:37	2:53:46	Barry Thompson	 	 	iD	Ledbury	London	26 Apr 09
+860	2:53:47	 	 	 	2:53:47	Robert Affleck	V35	27.09.71	 	Preston	Amsterdam, NED	18 Oct 09
+861	2:53:48	 	 	2:53:31	2:53:48	Kenny Campbell	 	 	iD	Unattached	Dublin, IRL	26 Oct 09
+862	2:53:49	a	 	 	2:53:11	Scott Balfour	V60	20.05.47	 	Lothian	Edinburgh	31 May 09
+863	2:53:51	 	 	2:53:25	2:53:51	Daire Brennan	 	07.07.77	 	Enfield & Haringey	London	26 Apr 09
+863	2:53:51	 	 	2:53:37	2:53:51	Ivan Pawluk	V45	17.03.63	 	Worcester	London	26 Apr 09
+863	2:53:51	 	 	2:53:38	2:53:51	Laurent Zandonella	V35	 	iD	Unattached	Dublin, IRL	26 Oct 09
+866	2:53:52	 	 	2:53:03	2:53:52	Chris Rainbow	V40	 	iD	Boston	London	26 Apr 09
+866	2:53:52	 	 	2:53:38	2:53:52	Peter Stockdale	 	01.12.80	 	Uknetrunner	Nottingham	13 Sep 09
+868	2:53:53	a	 	 	2:53:53a	Patrick Thompson	 	 	iD	Unattached	Edinburgh	31 May 09
+869	2:53:54	 	 	2:53:31	2:48:07	Andrew Rowland	V45	 	iD	London FrontRunners	London	26 Apr 09
+870	2:53:57	 	 	2:53:47	2:53:57	David Castle	V35	30.07.71	 	Tonbridge	London	26 Apr 09
+871	2:54:02	 	 	 	2:54:02	Andy Turnbull	V35	17.09.73	 	Central	Amsterdam, NED	18 Oct 09
+872	2:54:03	 	 	2:53:56	2:54:03	Stuart Trevallion	V40	09.11.65	 	Bedford H	London	26 Apr 09
+873	2:54:04	 	 	2:53:18	2:43:30	Jerry Watson	V45	09.04.60	 	Thames Hare & Hounds	London	26 Apr 09
+873	2:54:04	 	 	 	2:48:20a	Stuart Creech	 	30.07.79	 	Minehead	St. Helier	27 Sep 09
+873	2:54:04	 	 	2:53:59	2:54:04	Steven Keenan	V40	17.04.67	 	Wee County	Inverness	4 Oct 09
+876	2:54:05	 	 	2:53:58	2:54:05	Andrew Bunn	V40	31.10.68	 	City of Norwich	Rotterdam, NED	5 Apr 09
+877	2:54:07	 	 	2:53:48	2:54:07	Todd Stevens	 	 	iD	Unattached	London	26 Apr 09
+877	2:54:07	 	 	2:54:03	2:52:27	Mark Farrow	V45	06.08.63	 	Unattached	London	26 Apr 09
+877	2:54:07	 	 	2:54:07	2:48:49	Zippy Grice	V35	14.08.70	 	Stubbington Green	London	26 Apr 09
+880	2:54:08	 	 	2:54:06	2:54:08	Peter Holmes	 	20.07.85	 	Cheltenham	Echternach, LUX	18 Oct 09
+881	2:54:09	 	 	2:54:08	2:54:09	Paul Quine	V45	15.03.61	 	Liverpool RC	Stratford-upon-Avon	26 Apr 09
+882	2:54:10	 	 	2:53:55	2:54:10	Joe Waugh	 	 	iD	Alnwick	Barcelona, ESP	1 Mar 09
+882	2:54:10	 	 	2:53:57	2:40:02	Peter Speake	 	14.11.75	 	Bildeston Bounders	London	26 Apr 09
+884	2:54:12	c	 	 	2:54:12c	Matthew Woods	V35	 	iD	Unattached	New York NY, USA	1 Nov 09
+885	2:54:15	 	 	2:53:33	2:54:15	Andy Yates	V50	29.07.58	 	Sale Harriers Manchester	London	26 Apr 09
+885	2:54:15	 	 	 	2:54:15	Martin Lennon	 	 	iD	Unattached	Belfast	4 May 09
+887	2:54:16	 	 	2:54:03	2:54:16	Allan Barrie	 	 	iD	Stragglers	London	26 Apr 09
+887	2:54:16	 	 	2:54:09	2:53:19	Chris Upson	V45	08.08.63	 	Westerlands	London	26 Apr 09
+889	2:54:17	c	 	 	2:54:17c	James Cracknell	V35	05.05.72	 	Unattached	New York NY, USA	1 Nov 09
+890	2:54:18	 	 	2:53:46	2:54:18	Mike Ashby	 	24.01.79	 	Sale Harriers Manchester	London	26 Apr 09
+891	2:54:19	 	 	2:54:04	2:42:28	Kevin West	 	 	iD	Unattached	London	26 Apr 09
+891	2:54:19	 	 	 	2:54:19	Martin Mclaughlin	V45	 	iD	Omagh	Belfast	4 May 09
+893	2:54:20	 	 	2:53:14	2:53:57	Jason M Rudman	 	 	iD	Unattached	London	26 Apr 09
+893	2:54:20	 	 	2:54:04	2:54:20	Jon M Greig	 	 	iD	Unattached	London	26 Apr 09
+895	2:54:21	 	 	2:54:11	2:49:03	Simon Riley	V45	17.05.60	 	Leamington	Leicester	11 Oct 09
+896	2:54:22	 	 	2:53:23	2:54:22	Ben Pearce	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+897	2:54:23	 	 	 	2:54:23	David Hobbs	 	 	iD	St. Albans Striders	Bungay	19 Apr 09
+898	2:54:24	a	 	 	2:54:24a	Sam Pearch	 	 	iD	Unattached	Edinburgh	31 May 09
+898	2:54:24	 	 	2:54:05	2:48:29	Anthony Casey	V50	24.08.56	 	Runnymede	Berlin, GER	20 Sep 09
+900	2:54:26	 	 	 	2:54:26	Marc Foster	 	 	iD	Unattached	Zurich, SUI	26 Apr 09
+900	2:54:26	 	 	2:54:09	2:54:26	Henry Wilson	V35	 	iD	London FrontRunners	Berlin, GER	20 Sep 09
+900	2:54:26	 	 	 	2:54:26	Paul Schofield	V40	22.05.67	 	Manchester H	Amsterdam, NED	18 Oct 09
+900	2:54:26	 	 	2:54:11	2:54:26	Alan McDonogh	V50	 	iD	Wootton RR	Venice, ITA	25 Oct 09
+904	2:54:27	 	 	2:53:59	2:54:27	Gary Warren	V40	 	iD	St. Albans Striders	Paris, FRA	5 Apr 09
+904	2:54:27	 	 	2:54:22	2:44:33	Daniel Bishop	 	09.05.75	 	Unattached	London	26 Apr 09
+906	2:54:28	 	 	2:53:53	2:54:28	Karl S Westhead	 	 	iD	Unattached	London	26 Apr 09
+906	2:54:28	 	 	2:54:22	2:46:13	Alex Tate	 	30.07.76	 	Muddy Mucky Munkeys	London	26 Apr 09
+908	2:54:29	 	 	2:54:18	2:54:29	Brian Raggett	 	 	iD	Unattached	London	26 Apr 09
+908	2:54:29	 	 	 	2:54:29	John Morrissey	 	01.04.78	 	Wigan Phoenix	Ambleside	17 May 09
+908	2:54:29	 	 	 	2:54:29	Tony Smith	V35	28.12.70	 	Stubbington Green	Abingdon	18 Oct 09
+908	2:54:29	a	 	2:53:53	2:54:29a	Peter Davy	 	 	iD	Unknown	Cannes, FRA	8 Nov 09
+912	2:54:30	 	 	2:53:59	2:39:04	Marc Evans	 	13.02.80	 	Amman Valley	London	26 Apr 09
+912	2:54:30	 	 	2:54:26	2:54:30	Jonathon Smith	V40	26.12.65	 	Unattached	Abingdon	18 Oct 09
+914	2:54:32	 	 	2:54:25	2:44:10	Ian Keeble	V35	17.04.74	 	Stowmarket	London	26 Apr 09
+915	2:54:33	 	 	2:54:20	2:52:05	Vincent Booth	V45	26.08.63	 	Trafford	London	26 Apr 09
+915	2:54:33	 	 	2:54:22	2:54:33	Mark Reynolds	V35	17.06.70	 	Neath	London	26 Apr 09
+917	2:54:36	 	 	2:54:16	2:54:36	Mick Brearley	V45	08.08.61	 	St. Bede's	London	26 Apr 09
+917	2:54:36	a	 	 	2:54:36a	Guy Heyes	 	08.05.75	 	Horwich	Edinburgh	31 May 09
+919	2:54:37	 	 	2:54:27	2:51:03	Neil White	V35	29.08.71	 	Reading RR	London	26 Apr 09
+920	2:54:38	 	 	 	2:41:45	Adam Bardsley	V35	 	iD	Unattached	Abingdon	18 Oct 09
+921	2:54:39	 	 	2:54:35	2:54:39	Nick D Thomas	V45	02.11.63	 	Telford H	London	26 Apr 09
+921	2:54:39	 	 	2:54:37	2:51:04	Gerard Craig	V40	26.10.68	 	Victoria Park City of Glasgow	Inverness	4 Oct 09
+923	2:54:40	 	 	2:54:14	2:54:40	Simon Barnes	V35	 	iD	Stroud	London	26 Apr 09
+923	2:54:40	 	 	2:54:19	2:54:40	Richard James	V35	12.05.69	 	Unknown	London	26 Apr 09
+923	2:54:40	a	 	 	2:54:40a	Liam Fidler	 	 	iD	North Derbyshire	Edinburgh	31 May 09
+926	2:54:41	 	 	2:54:26	2:54:41	Mark Armstrong	 	22.03.79	 	Rugby & Northampton	London	26 Apr 09
+927	2:54:42	 	 	 	2:54:42	Rob Harvey	 	 	iD	Manchester TC	Blackpool	5 Apr 09
+927	2:54:42	 	 	2:54:22	2:54:42	Colin Rothwell	V55	07.02.54	 	Benfleet RC	London	26 Apr 09
+929	2:54:43	 	 	2:54:36	2:54:43	Jonathan Rae	 	18.07.79	 	Serpentine	London	26 Apr 09
+929	2:54:43	 	 	2:54:40	2:54:15	Paul A Childs	 	 	iD	Worcester	London	26 Apr 09
+929	2:54:43	 	 	 	2:54:43	Dale Mathers	V45	 	iD	Newry	Belfast	4 May 09
+932	2:54:44	 	 	 	2:50:09	Marc McColl	 	06.04.78	 	Shettleston	Fort William	19 Apr 09
+932	2:54:44	 	 	 	2:51:32	Robert Wilson	V50	01.07.58	 	Willowfield	Belfast	4 May 09
+934	2:54:45	 	 	2:54:15	2:54:45	Ed Kirk-Wilson	 	 	iD	Clapham Chasers	Paris, FRA	5 Apr 09
+934	2:54:45	 	 	2:54:39	2:54:45	Scott Newton	 	 	iD	Unattached	Nottingham	13 Sep 09
+936	2:54:46	 	 	2:54:29	2:54:46	Andre Segger	V35	 	iD	Unattached	Rotterdam, NED	5 Apr 09
+936	2:54:46	 	 	2:54:42	2:48:58	Graham Wilton	V45	26.11.62	 	Farnham Runners	London	26 Apr 09
+938	2:54:48	 	 	2:54:36	2:54:48	Brian Stout	V35	08.03.71	 	Ivanhoe	London	26 Apr 09
+939	2:54:49	 	 	2:54:14	2:54:49	Mark Saunders	 	06.10.78	 	Reading RR	London	26 Apr 09
+940	2:54:51	 	 	2:54:24	2:54:51	Roger Voaden	V40	03.09.65	 	Unattached	London	26 Apr 09
+940	2:54:51	 	 	 	2:54:51	Michael McGlade	 	 	iD	Unattached	Belfast	4 May 09
+940	2:54:51	 	 	 	2:54:51	John Hunt	V40	14.05.66	 	Wirral	Llanberis	24 Oct 09
+943	2:54:52	 	 	 	2:54:52	Jeremy Mower	V40	15.09.65	 	Gloucester	Gloucester	25 Jan 09
+943	2:54:52	 	 	2:54:45	2:54:52	Derek Dunne	V40	 	iD	Treasury	San Sebastian, ESP	29 Nov 09
+945	2:54:53	c	 	 	2:54:53	Matthew Crosse	V35	 	iD	Unattached	Boston MA, USA	20 Apr 09
+946	2:54:54	 	 	2:54:30	2:54:54	Russell Quew	V35	19.11.70	 	Plymouth H	Paris, FRA	5 Apr 09
+946	2:54:54	c	 	 	2:49:18	Matt Hannay	 	 	iD	 	Boston MA, USA	20 Apr 09
+946	2:54:54	 	 	2:54:54	2:44:58	Gavin Harkus	V35	16.08.69	 	Elmbridge	London	26 Apr 09
+946	2:54:54	 	 	 	2:54:54	Elliott Lincoln	 	 	iD	Unattached	St. Helier	27 Sep 09
+946	2:54:54	 	 	 	2:40:59	Graeme Campbell	 	 	iD	Highland HR	Athens, GRE	8 Nov 09
+951	2:54:56	 	 	2:54:41	2:54:56	Edward Donovan	 	10.04.79	 	San Domenico	Barcelona, ESP	1 Mar 09
+951	2:54:56	 	 	 	2:54:56	James Turtle	V40	16.04.66	 	Ballymena Runners	Belfast	4 May 09
+951	2:54:56	 	 	 	2:54:56	Roy Brown	 	 	iD	Teignbridge	Abingdon	18 Oct 09
+954	2:54:57	 	 	2:54:54	2:54:57	William Harrison	 	 	iD	Unknown	Krakow, POL	26 Apr 09
+955	2:54:58	a	 	 	2:54:58a	Thomas Atkinson	 	 	iD	Unattached	Edinburgh	31 May 09
+956	2:54:59	 	 	2:54:30	2:54:59	Nick Chislett	 	 	iD	Plymouth H	Paris, FRA	5 Apr 09
+956	2:54:59	c	 	 	2:54:59c	Stephen Jeffs	V40	 	iD	Unknown	New York NY, USA	1 Nov 09
+958	2:55:00	 	 	2:54:45	2:55:00	Stuart J Ives	 	31.08.75	 	London Heathside	Berlin, GER	20 Sep 09
+959	2:55:04	 	 	2:54:33	2:50:44	Owen Harries	V40	26.10.67	 	Team Southampton	London	26 Apr 09
+959	2:55:04	 	 	 	2:55:04	Kristian Morgan	 	03.01.77	 	Dulwich	Wolverhampton	6 Sep 09
+959	2:55:04	 	 	 	2:55:04	Clifford Leith	V40	21.03.68	 	Metro Aberdeen	Elgin	13 Sep 09
+962	2:55:05	 	 	2:55:05	2:54:32	James E Irvine	 	 	iD	Bath Uni	London	26 Apr 09
+962	2:55:05	 	 	2:54:56	2:55:05	Steve Paterson	V35	 	iD	Unknown	Washington DC, USA	25 Oct 09
+964	2:55:06	 	 	2:54:59	2:46:23	Barry Wilson	V55	11.09.52	 	Ludlow	Paris, FRA	5 Apr 09
+964	2:55:06	 	 	2:54:45	2:55:06	Paul Muffett	V50	 	iD	North Norfolk	London	26 Apr 09
+964	2:55:06	 	 	2:55:02	2:55:06	Ewan McKay	 	27.09.76	 	Crystal Palace TC	London	26 Apr 09
+964	2:55:06	 	 	2:54:58	2:55:06	Shaun Coulton	V40	21.02.65	 	Hermitage	Leicester	11 Oct 09
+964	2:55:06	 	 	 	2:55:06	Joshua Paparo	 	 	iD	Serpentine	Amsterdam, NED	18 Oct 09
+964	2:55:06	 	 	2:55:01	2:55:06	Mark Packer	V40	29.11.69	 	Littledown	Florence, ITA	29 Nov 09
+970	2:55:08	 	 	2:54:50	2:55:08	Darryl Carter	V35	17.07.73	 	Defra	London	26 Apr 09
+970	2:55:08	 	 	 	2:55:08	Russell Hughes	 	 	iD	County Antrim	Belfast	4 May 09
+970	2:55:08	 	 	2:55:05	2:55:08	Eddie Cooke	 	22.03.86	 	Abbey AC	Dublin, IRL	26 Oct 09
+973	2:55:09	 	 	2:54:40	2:55:09	David Haggart	 	10.01.80	 	Ealing, Southall & Middx	London	26 Apr 09
+973	2:55:09	 	 	2:54:48	2:55:09	Steve Rand	V35	29.02.72	 	Havering Mayesbrook	London	26 Apr 09
+973	2:55:09	a	 	 	2:46:06	Ian Paramore	V45	04.05.63	 	Barrow Runners	Edinburgh	31 May 09
+976	2:55:10	 	 	2:54:19	2:55:10	Stuart Fraser	V40	12.06.66	 	Hercules Wimbledon	London	26 Apr 09
+976	2:55:10	 	 	2:55:07	2:55:10	Philip Teece	V45	31.10.59	 	Billingham	London	26 Apr 09
+976	2:55:10	 	 	2:55:10	2:40:02	Martin Fuller	V35	26.02.73	 	Hallamshire	London	26 Apr 09
+976	2:55:10	 	 	 	2:55:10	Richard Roberts	 	10.11.78	 	Eryri	Llanberis	24 Oct 09
+980	2:55:11	 	 	2:54:58	2:50:30	Alastair Maclachlan	V50	24.04.59	 	Bellahouston RR	London	26 Apr 09
+980	2:55:11	 	 	2:55:02	2:43:04	Jason Barlow	V40	01.02.69	 	Wesham	Budapest, HUN	4 Oct 09
+982	2:55:12	a	 	 	2:55:12a	John Clifford	 	 	iD	Unattached	Edinburgh	31 May 09
+982	2:55:12	 	 	2:54:55	2:55:12	Tim Franklin	V50	08.04.55	 	York Acorn	Amsterdam, NED	18 Oct 09
+984	2:55:13	 	 	2:54:17	2:55:13	Chris Uff	 	05.06.75	 	London Heathside	London	26 Apr 09
+984	2:55:13	 	 	2:54:44	2:55:13	Steve Kitney	V40	14.01.68	 	Farnham Runners	London	26 Apr 09
+984	2:55:13	 	 	2:54:49	2:55:13	Mark Lewis	V40	16.02.69	 	Taunton	London	26 Apr 09
+984	2:55:13	 	 	2:55:13	2:55:13	Manuel Vaz	V50	 	iD	Unattached	London	26 Apr 09
+984	2:55:13	a	 	 	2:55:13a	Graeme Hutton	 	 	iD	 	Edinburgh	31 May 09
+989	2:55:15	a	 	 	2:55:15a	Ian Carley	V40	22.02.68	 	Farnham Runners	Edinburgh	31 May 09
+990	2:55:16	 	 	2:54:52	2:47:08	Leigh Packer	 	25.11.77	 	Crawley	London	26 Apr 09
+990	2:55:16	 	 	2:55:16	2:48:45	Brian Penny	V40	04.04.67	 	Team Bath	London	26 Apr 09
+992	2:55:17	 	 	2:54:55	2:55:17	Thomas Craggs	 	18.06.82	 	Mornington Chasers	London	26 Apr 09
+993	2:55:18	 	 	2:50:58	2:53:50	Terry Hislop	V45	 	iD	Dubai Creek	Dubai, UAE	16 Jan 09
+993	2:55:18	 	 	 	2:55:18	Graham Bootey	V35	25.02.72	 	Benfleet RC	Abingdon	18 Oct 09
+995	2:55:20	 	 	2:55:01	2:53:52	Dan Shrimpton	V35	 	iD	Unattached	London	26 Apr 09
+995	2:55:20	 	 	2:55:01	2:53:11	Tony Randell	V40	13.05.67	 	Unattached	London	26 Apr 09
+995	2:55:20	 	 	2:54:59	2:55:20	Paul Wong	V45	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+998	2:55:21	 	 	2:54:57	2:52:37	Stefan Glaysher	V45	21.06.62	 	City of Norwich	London	26 Apr 09
+999	2:55:23	 	 	2:55:04	2:55:23	Andrew Wiggins	V35	16.12.69	 	Halifax	London	26 Apr 09
+999	2:55:23	 	 	2:55:21	2:55:23	Tom Watson	 	01.12.81	 	Knavesmire	London	26 Apr 09
+1001	2:55:24	 	 	 	2:49:11	Jonathan Goodland	V50	21.03.57	 	Bristol & West	Newton Abbot	18 Oct 09
+1002	2:55:25	 	 	2:55:15	2:54:40	Bruce Lovell	 	01.06.75	 	Wellingborough	London	26 Apr 09
+1002	2:55:25	 	 	2:55:22	2:52:57	Richard Shardlow	V40	18.03.69	 	Bromsgrove & Redditch	London	26 Apr 09
+1004	2:55:26	 	 	2:55:06	2:55:26	Dan P Salter	 	29.09.75	 	Fittleworth	London	26 Apr 09
+1004	2:55:26	 	 	2:55:22	2:55:26	Steve Large	V40	04.05.65	 	Horsforth	Leicester	11 Oct 09
+1006	2:55:27	 	 	 	2:55:27	Graham Kennedy	V40	 	iD	Motherwell	Fort William	19 Apr 09
+1007	2:55:29	 	 	 	2:53:52	Brendan O'Boyle	V35	16.11.73	 	Ballymena Runners	Belfast	4 May 09
+1007	2:55:29	 	 	2:55:26	2:55:29	Stefano Addis	V35	29.01.74	 	Brighton & Hove	Brussels, BEL	4 Oct 09
+1009	2:55:30	 	 	2:55:18	2:50:52	Giles Harris	V35	08.09.71	 	Goole Viking Striders	London	26 Apr 09
+1009	2:55:30	 	 	 	2:55:30	Richard Blewitt	 	 	iD	Unattached	Amsterdam, NED	18 Oct 09
+1011	2:55:31	 	 	 	2:55:31	Chris Ledgard	V35	21.07.70	 	Great Western	Redruth	8 Mar 09
+1012	2:55:32	 	 	2:55:07	2:43:29	Brian Turner	V35	24.08.73	 	Lothian	London	26 Apr 09
+1012	2:55:32	 	 	2:55:16	2:55:32	Phil Eaves	 	 	iD	Unattached	London	26 Apr 09
+1014	2:55:33	 	 	2:54:24	2:55:33	Sam P Sharpe	 	 	iD	Unattached	London	26 Apr 09
+1015	2:55:34	 	 	 	2:55:34	Nick Palmer	 	 	iD	Stowmarket	Bungay	19 Apr 09
+1015	2:55:34	 	 	2:55:09	2:45:30	Darren Jones	V35	17.04.70	 	Wrexham	London	26 Apr 09
+1015	2:55:34	a	 	 	2:55:34a	Carl Egdell	V35	19.10.72	 	Hallamshire	Edinburgh	31 May 09
+1018	2:55:36	 	 	2:55:11	2:45:25	David Ogden	V45	21.05.59	 	South London	London	26 Apr 09
+1018	2:55:36	 	 	2:55:26	2:55:36	Mark Pigford	V40	26.08.68	 	Stainland	London	26 Apr 09
+1020	2:55:37	 	 	2:55:20	2:55:37	Steven Wherry	V45	28.01.64	 	Carn Runners of Holman	London	26 Apr 09
+1020	2:55:37	 	 	2:55:33	2:53:01	Duncan McGougan	V40	23.11.64	 	SPS AAC	Inverness	4 Oct 09
+1022	2:55:38	 	 	 	2:55:38	James Jolly	V40	 	iD	Manchester TC	Blackpool	5 Apr 09
+1022	2:55:38	 	 	 	2:51:56	Tobias Read	V40	16.06.65	 	Serpentine	Taunton	5 Apr 09
+1022	2:55:38	 	 	2:55:08	2:55:38	John Walsgrove	V45	18.12.61	 	New Forest Runners	London	26 Apr 09
+1022	2:55:38	 	 	2:55:20	2:55:38	James Wood	 	 	iD	Congleton	London	26 Apr 09
+1022	2:55:38	 	 	2:55:37	2:55:38	Graham Mairs	V40	 	iD	Unattached	London	26 Apr 09
+1022	2:55:38	 	 	 	2:55:38	Nolan Wilkens	 	10.06.77	 	Beckenham	Abingdon	18 Oct 09
+1028	2:55:39	 	 	2:55:39	2:38:09	Allan Jones	V35	05.03.71	 	Royal Navy	London	26 Apr 09
+1029	2:55:40	 	 	2:55:36	2:49:12	Gareth Huxley	V35	05.09.70	 	Wallsend	Inverness	4 Oct 09
+1030	2:55:41	 	 	2:55:28	2:54:10	Peter Rogers	V40	14.05.66	 	Stockport	London	26 Apr 09
+1031	2:55:42	 	 	2:55:02	2:55:42	Thomas Haller	V40	 	iD	Unattached	London	26 Apr 09
+1031	2:55:42	 	 	2:55:37	2:55:42	Jonathan Bateman	V60	 	iD	Road Runners Club	London	26 Apr 09
+1033	2:55:43	 	 	 	2:55:43	Alexander Abrams	 	11.03.77	 	Running Forever	Taunton	5 Apr 09
+1033	2:55:43	 	 	2:55:12	2:55:43	Jerry Shield	V40	08.03.65	 	Wimborne	London	26 Apr 09
+1033	2:55:43	 	 	2:55:20	2:55:43	Martyn J Hawkes	 	 	iD	Unattached	London	26 Apr 09
+1036	2:55:45	c	 	 	2:55:45c	David Finch	 	30.06.83	 	Unknown	New York NY, USA	1 Nov 09
+1037	2:55:46	 	 	2:55:32	2:55:46	James Chettle	 	 	iD	Cambridge Uni Hare & Hounds	London	26 Apr 09
+1037	2:55:46	a	 	2:55:41	2:55:46a	Karl Shaw	 	 	iD	 	Cannes, FRA	8 Nov 09
+1039	2:55:47	 	 	2:55:27	2:55:47	Alan Wise	V40	 	iD	Unattached	Inverness	4 Oct 09
+1040	2:55:48	 	 	2:55:47	2:55:48	Terrence Zengerink	 	 	iD	Unknown	Leicester	11 Oct 09
+1040	2:55:48	 	 	 	2:55:48	Jamie Barbour	V40-V45	 	iD	Unattached	Amsterdam, NED	18 Oct 09
+1042	2:55:49	 	 	 	2:55:49	Charles O'Halloran	 	 	iD	Unattached	Belfast	4 May 09
+1042	2:55:49	 	 	2:55:46	2:55:49	Adrian Gill	V40	 	iD	Unattached	Inverness	4 Oct 09
+1042	2:55:49	 	 	 	2:55:49	Kwame Okojie	V35	10.01.70	 	Hercules Wimbledon	Amsterdam, NED	18 Oct 09
+1045	2:55:50	 	 	2:55:10	2:55:50	Vince Fowler	 	 	iD	Unattached	London	26 Apr 09
+1045	2:55:50	 	 	2:55:26	2:50:36	Robert Harris	 	01.09.78	 	Cambridge Uni	London	26 Apr 09
+1045	2:55:50	 	 	2:55:42	2:47:41	Daniel L Jenkin	 	 	iD	Unattached	London	26 Apr 09
+1045	2:55:50	 	 	2:55:44	2:55:50	Scott Howell	V45	20.06.60	 	Les Croupiers	London	26 Apr 09
+1049	2:55:51	 	 	 	2:48:44	Lee Pattison	V40	11.12.66	 	Hogweed	Stanley, FLK	15 Mar 09
+1049	2:55:51	 	 	2:55:44	2:45:12	Kevin Minty	V40	 	iD	Weston	London	26 Apr 09
+1049	2:55:51	 	 	2:55:51	2:49:25	Steve Wright	V35	27.10.72	 	New Forest Runners	New Milton	27 Sep 09
+1049	2:55:51	 	 	2:55:11	2:55:51	Christopher Jones	 	 	iD	Unknown	Florence, ITA	29 Nov 09
+1053	2:55:52	 	 	2:54:56	2:52:37	Wayne Bell	 	 	iD	Unattached	London	26 Apr 09
+1053	2:55:52	 	 	2:55:39	2:55:52	James Miles	 	25.07.81	 	Phoenix AC	London	26 Apr 09
+1053	2:55:52	 	 	2:55:39	2:55:52	Wesley Benton	 	15.07.80	 	Sudbury Joggers	London	26 Apr 09
+1053	2:55:52	 	 	 	2:42:37	Raymond Pearce	V50	04.07.59	 	Istead & Ifield	Margate	6 Sep 09
+1057	2:55:53	 	 	2:55:42	2:55:53	Daniel Robinson	 	 	iD	Unattached	Nottingham	13 Sep 09
+1058	2:55:54	 	 	2:55:31	2:55:54	Dean Lowe	V40	 	iD	Unattached	London	26 Apr 09
+1059	2:55:55	 	 	2:55:53	2:55:55	Dan Pyne	U23	24.09.85	 	Dartford H	London	26 Apr 09
+1060	2:55:56	 	 	2:55:53	2:55:56	Richard Watson	 	 	iD	Sale Harriers Manchester	London	26 Apr 09
+1060	2:55:56	 	 	2:55:54	2:55:56	Frank Tai	V50	 	iD	Unattached	London	26 Apr 09
+1060	2:55:56	 	 	 	2:55:56	Tim Harris	 	 	iD	Unattached	Amsterdam, NED	18 Oct 09
+1063	2:55:57	 	 	2:55:35	2:55:57	Tobias Mews	 	24.06.77	 	Clapham Chasers	Paris, FRA	5 Apr 09
+1063	2:55:57	 	 	 	2:55:57	James Holland	SEN-V35	 	iD	Stone Master	St. Helier	27 Sep 09
+1065	2:55:59	 	 	2:54:59	2:55:59	Mark Stewart	V45	 	iD	Coventry	Berlin, GER	20 Sep 09
+1065	2:55:59	 	 	2:55:35	2:55:59	Tony Killilea	V45	01.03.64	 	London Heathside	San Sebastian, ESP	29 Nov 09
+1067	2:56:00	 	 	2:55:56	2:53:29	Neil Prior	V45	12.04.63	 	Dumbarton	Inverness	4 Oct 09
+1068	2:56:01	 	 	2:55:45	2:56:01	Martin J Gorman	V35	26.07.71	 	Unattached	London	26 Apr 09
+1069	2:56:02	 	 	2:55:56	2:56:02	Trevor Rayner	V45	13.12.62	 	Wesham	Rome, ITA	22 Mar 09
+1069	2:56:02	 	 	2:55:06	2:56:02	Iain Williams	 	 	iD	Teviotdale	London	26 Apr 09
+1069	2:56:02	 	 	2:55:36	2:51:32	Trevor Clough	V50	19.12.57	 	Leeds City	London	26 Apr 09
+1072	2:56:04	 	 	2:56:01	2:56:04	Steve Speirs	V40	18.08.66	 	Les Croupiers	Virginia Beach VA, USA	22 Mar 09
+1072	2:56:04	 	 	2:56:04	2:56:04	Ged Keane	V40	10.12.64	 	Dundee Hawkhill	London	26 Apr 09
+1074	2:56:05	 	 	2:55:41	2:56:05	Chris Baynes	 	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+1075	2:56:07	 	 	2:55:54	2:56:07	Brian Stopher	 	08.04.80	 	Aldershot, Farnham & District	London	26 Apr 09
+1075	2:56:07	 	 	2:56:07	2:30:58	Robin Copestick	 	19.09.79	 	Bournemouth	London	26 Apr 09
+1077	2:56:08	 	 	2:55:26	2:55:10	John L Payne	 	 	iD	Unattached	London	26 Apr 09
+1077	2:56:08	 	 	2:55:46	2:49:40	Tadeusz Zaranko	V45	02.07.59	 	Richmond & Zetland	London	26 Apr 09
+1079	2:56:09	 	 	2:55:48	2:56:09	Richard Connor	 	 	iD	Lasswade	London	26 Apr 09
+1079	2:56:09	 	 	2:55:54	2:56:09	John Manlow	V40	 	iD	Ely	London	26 Apr 09
+1079	2:56:09	 	 	2:56:07	2:56:09	Tony Rickman	V35	30.01.74	 	Southampton RC	New Milton	27 Sep 09
+1079	2:56:09	 	 	2:56:03	2:56:09	Johnny Lawson	 	01.01.75	 	Portobello	Inverness	4 Oct 09
+1083	2:56:10	 	 	2:56:00	2:56:10	Zac S Taylor	 	 	iD	Bedford H	London	26 Apr 09
+1083	2:56:10	 	 	 	2:53:34	Ben Scott	V35	23.05.72	 	Western	Ramsey	9 Aug 09
+1085	2:56:11	 	 	 	2:56:11	Richard Kingsford	 	 	iD	Unattached	Amsterdam, NED	18 Oct 09
+1086	2:56:14	 	 	2:55:52	2:56:14	David Brewer	V40	 	iD	Unattached	Rotterdam, NED	5 Apr 09
+1087	2:56:15	 	 	2:55:47	2:56:15	Edward O'Reilly	 	 	iD	Unattached	Nottingham	13 Sep 09
+1088	2:56:16	 	 	2:55:57	2:56:16	James Rd Ward	 	16.03.77	 	Herne Hill	London	26 Apr 09
+1088	2:56:16	 	 	2:56:14	2:54:05	Andy Payne	V45	07.11.61	 	Arena 80	New Milton	27 Sep 09
+1090	2:56:20	 	 	2:56:20	2:56:20	Jamie Philip	 	04.02.85	 	Carnegie	London	26 Apr 09
+1090	2:56:20	 	 	 	2:56:20	Deon McNeilly	V45	05.11.62	 	Newcastle & District	Amsterdam, NED	18 Oct 09
+1090	2:56:20	c	 	 	2:56:20c	Philip Vondra	V40	 	iD	Unknown	New York NY, USA	1 Nov 09
+1093	2:56:21	 	 	2:56:06	2:56:21	Rich Collinson	 	 	iD	Westbury	London	26 Apr 09
+1094	2:56:22	 	 	2:56:10	2:55:16	Thomas Jarrett	 	 	iD	Ipswich Jaffa	London	26 Apr 09
+1094	2:56:22	 	 	2:56:10	2:48:31	Alan Burns	V40	 	iD	Perth RR	Inverness	4 Oct 09
+1094	2:56:22	c	 	 	2:55:55	Adam Jackson	V45	 	iD	Unattached	New York NY, USA	1 Nov 09
+1097	2:56:25	a	 	2:56:25	2:56:25a	Chris O'Neill	 	19.09.77	 	Owls Leicester	Sliema, MLT	1 Mar 09
+1097	2:56:25	 	 	2:56:09	2:56:25	Matthew East	 	 	iD	Unattached	Inverness	4 Oct 09
+1099	2:56:26	 	 	2:55:35	2:56:26	Robert Jowett	U20	27.02.89	 	Sale Harriers Manchester	London	26 Apr 09
+1100	2:56:27	 	 	2:54:56	2:56:27	Philip Brokenshire	 	 	iD	Fareham	Budapest, HUN	4 Oct 09
+1101	2:56:28	 	 	2:56:16	2:46:44	Neil Jackson	V35	26.12.71	 	Metro Aberdeen	London	26 Apr 09
+1101	2:56:28	 	 	2:55:58	2:56:28	Ed Hardy	 	 	iD	Unattached	Inverness	4 Oct 09
+1103	2:56:30	a	 	 	2:56:30a	Stephen Dunbar	V40	 	iD	Unattached	Edinburgh	31 May 09
+1103	2:56:30	a	 	 	2:56:30a	Richard Ginn	V35	28.02.70	 	Pocklington	Edinburgh	31 May 09
+1103	2:56:30	 	 	2:56:10	2:56:30	Paul Robertson	V45	17.04.61	 	Ellesmere Port	Florence, ITA	29 Nov 09
+1106	2:56:31	 	 	 	2:56:31	Philip Owen	 	 	iD	Unattached	Blackpool	5 Apr 09
+1106	2:56:31	a	 	 	2:38:52	Stephen Davies	V50	04.02.58	 	Mansfield	Edinburgh	31 May 09
+1108	2:56:33	 	 	2:56:33	2:51:19	Richard Wild	 	09.10.76	 	Bellahouston RR	London	26 Apr 09
+1109	2:56:35	 	 	2:56:19	2:56:35	Tony McKnight	V40	01.11.68	 	Irvine	London	26 Apr 09
+1109	2:56:35	 	 	 	2:56:35	Iain Hindes	V35	15.12.69	 	North Devon	Wolverhampton	6 Sep 09
+1111	2:56:37	 	 	2:56:17	2:56:37	Sam O'Shea	 	 	iD	Unknown	Madrid, ESP	26 Apr 09
+1111	2:56:37	 	 	 	2:56:37	Jon Ellis	 	31.08.81	 	Wimbledon Windmilers	Luton	6 Dec 09
+1113	2:56:38	 	 	2:55:37	2:56:38	Stephen Evans	 	 	iD	Unattached	London	26 Apr 09
+1113	2:56:38	 	 	2:56:22	2:56:38	Simon Woodward	 	 	iD	Silson	London	26 Apr 09
+1113	2:56:38	 	 	2:56:23	2:56:38	Tom Mogford	 	 	iD	Unknown	Brussels, BEL	4 Oct 09
+1113	2:56:38	 	 	 	2:56:38	Paul Sperrin	V50	19.02.58	 	Bitton	Amsterdam, NED	18 Oct 09
+1113	2:56:38	 	 	2:56:32	2:56:38	Matthew Reynolds	V35	27.07.73	 	Poole Runners	Dublin, IRL	26 Oct 09
+1118	2:56:40	 	 	2:56:33	2:56:40	Jason Smith	V35	20.05.71	 	Headington	Leicester	11 Oct 09
+1118	2:56:40	 	 	 	2:56:40	Paul Gillham	 	22.05.79	 	Chippenham	Abingdon	18 Oct 09
+1120	2:56:42	 	 	2:56:06	2:56:42	Nigel Rogerson	V35	24.11.73	 	Lytchett Manor	Paris, FRA	5 Apr 09
+1120	2:56:42	 	 	 	2:43:31	Robert Wilson	V55	22.12.53	 	Greenock Glenpark	Fort William	19 Apr 09
+1120	2:56:42	 	 	2:56:26	2:56:42	Alun M Rose	 	 	iD	Unattached	London	26 Apr 09
+1120	2:56:42	 	 	2:56:29	2:56:42	John Sharp	 	 	iD	Unknown	Dublin, IRL	26 Oct 09
+1124	2:56:43	 	 	 	2:56:43	Gavin Astin	V45	06.12.62	 	Stockport	Blackpool	5 Apr 09
+1124	2:56:43	 	 	2:56:24	2:56:43	Michael J Dury	 	 	iD	Islwyn	London	26 Apr 09
+1124	2:56:43	 	 	2:56:41	2:56:43	Richard White	 	08.03.82	 	Centurion	Quebec, CAN	30 Aug 09
+1127	2:56:44	c	 	 	2:56:44	Scott Cameron	V35	 	iD	Unattached	Boston MA, USA	20 Apr 09
+1127	2:56:44	 	 	 	2:56:44	Robbie Higgins	 	 	iD	Dartford RR	Belfast	4 May 09
+1127	2:56:44	 	 	2:56:37	2:56:44	Darren Spencer	V35	24.02.71	 	Mablethorpe	Frankfurt, GER	25 Oct 09
+1127	2:56:44	c	 	 	2:56:44c	David Rose	V45	02.03.61	 	Stourbridge	New York NY, USA	1 Nov 09
+1131	2:56:46	 	 	 	2:56:46	Richard Baker	 	 	iD	South Cheshire	Blackpool	5 Apr 09
+1131	2:56:46	 	 	 	2:56:46	Alexander MacMillan	V40	 	iD	Colchester H	Abingdon	18 Oct 09
+1133	2:56:47	 	 	2:56:47	2:56:47	Stephen Whitington	V35	 	iD	Unattached	Stratford-upon-Avon	26 Apr 09
+1134	2:56:48	 	 	2:55:49	2:56:48	Alastair J Moffatt	V40	 	iD	Unattached	London	26 Apr 09
+1135	2:56:49	 	 	2:56:27	2:56:49	Benjamin J Shrimpton	 	 	iD	Unattached	London	26 Apr 09
+1135	2:56:49	a	 	 	2:56:49a	Brian Clifford	V45	 	iD	Unattached	Edinburgh	31 May 09
+1135	2:56:49	a	 	 	2:56:49a	Simon Adamson	 	06.02.76	 	Edinburgh	Edinburgh	31 May 09
+1135	2:56:49	 	 	 	2:56:49	Peter Marquis-Jones	V35	02.09.72	 	South Cheshire	Wolverhampton	6 Sep 09
+1135	2:56:49	 	 	 	2:56:49	Andrew Patterson	 	11.09.81	 	Fairlands Valley Spartans	Abingdon	18 Oct 09
+1140	2:56:50	c	 	 	2:56:50	Jeremy Braines	 	 	iD	Winchester	Hamburg, GER	26 Apr 09
+1140	2:56:50	 	 	2:56:50	2:41:53	Steffan Kennett	V35	19.01.74	 	Colchester H	London	26 Apr 09
+1140	2:56:50	 	 	2:56:37	2:56:50	John O'Hara	 	 	iD	Unattached	Nottingham	13 Sep 09
+1143	2:56:51	a	 	 	2:56:51a	Alastair McLeod	 	05.07.79	 	Bellahouston RR	Edinburgh	31 May 09
+1143	2:56:51	 	 	 	2:56:51	Nick Hooper	V40	24.06.65	 	Black Pear Joggers	Abingdon	18 Oct 09
+1143	2:56:51	 	 	 	2:56:51	Christopher Plews	V35	22.08.72	 	Wetherby	Amsterdam, NED	18 Oct 09
+1146	2:56:53	 	 	2:56:38	2:56:53	Dave Hart	V40	14.11.65	 	Hart	London	26 Apr 09
+1147	2:56:54	 	 	2:56:29	2:56:54	Yiannis Fitsakis	V35	12.01.73	 	Headington	London	26 Apr 09
+1147	2:56:54	 	 	2:56:47	2:56:54	Andrew R Preston	 	 	iD	Unknown	London	26 Apr 09
+1149	2:56:56	a	 	2:56:51	2:56:56a	James Bringloe	 	24.11.74	 	Aldershot, Farnham & District	Sliema, MLT	1 Mar 09
+1150	2:56:57	 	 	2:54:31	2:56:57	Christian Varley	 	 	iD	Manx	London	26 Apr 09
+1151	2:56:58	 	 	2:56:58	2:56:58	Paul Rogan	V40	18.07.69	 	Forres	San Francisco CA, USA	26 Jul 09
+1152	2:56:59	 	 	2:56:50	2:47:42	Ian Rowland	V45	26.09.62	 	Dunbar RC	San Diego CA, USA	31 May 09
+1153	2:57:00	 	 	 	2:48:43	John Crockford	V50	26.01.55	 	DML	Taunton	5 Apr 09
+1153	2:57:00	 	 	2:56:38	2:57:00	Roy Wadey	V45	 	iD	Unattached	London	26 Apr 09
+1153	2:57:00	a	 	 	2:57:00a	Adam Stephens	V35	18.03.74	 	Worthing	Edinburgh	31 May 09
+1156	2:57:01	 	 	 	2:57:01	Ian Bishop	V40	14.02.67	 	East Cheshire	Fleetwood	13 Sep 09
+1157	2:57:02	c	 	 	2:57:02c	Lewis Chalk	 	20.08.83	 	Stubbington Green	New York NY, USA	1 Nov 09
+1157	2:57:02	 	 	2:56:52	2:57:02	Keith Dawson	 	 	iD	Unattached	Philadelphia PA, USA	22 Nov 09
+1159	2:57:04	 	 	2:56:51	2:57:04	Andy Hucker	V40	06.11.64	 	Alchester	Paris, FRA	5 Apr 09
+1159	2:57:04	 	 	2:56:35	2:57:04	Thomas J Denwood	 	 	iD	Harrogate	London	26 Apr 09
+1159	2:57:04	 	 	 	2:57:04	Brian Yates	 	 	iD	Blackpool & Fylde	Ambleside	17 May 09
+1162	2:57:05	 	 	2:56:33	2:57:05	Steven G Nimmo	 	 	iD	Unattached	London	26 Apr 09
+1163	2:57:06	 	 	2:56:28	2:54:35	Steven King	V35	24.05.71	 	Carnegie	London	26 Apr 09
+1163	2:57:06	 	 	2:56:51	2:57:06	Dan Sate	 	19.03.81	 	Manchester TC	Dublin, IRL	26 Oct 09
+1165	2:57:07	 	 	 	2:57:07	Jarome Dune	 	 	iD	Manchester TC	Blackpool	5 Apr 09
+1165	2:57:07	 	 	2:56:46	2:55:32	Stuart Still	V40	13.06.68	 	Luton	London	26 Apr 09
+1167	2:57:08	 	 	 	2:57:08	Hugh Marsden	V45	30.05.59	 	Exmouth	Stanley, FLK	15 Mar 09
+1167	2:57:08	 	 	2:57:03	2:54:33	Peter Kennedy	V35	 	iD	Stragglers	London	26 Apr 09
+1167	2:57:08	 	 	 	2:57:08	Chris Fulcher	V40	31.05.67	 	Port Talbot	Abingdon	18 Oct 09
+1170	2:57:10	 	 	2:56:54	2:57:10	Stephen Low	V50	15.01.58	 	Blackwater Valley Runners	Ljubljana, SLO	25 Oct 09
+1171	2:57:11	 	 	2:56:48	2:57:11	Sanjai Sharma	V45	12.04.61	 	New Forest Runners	London	26 Apr 09
+1171	2:57:11	 	 	2:56:55	2:57:11	Kieron Lewis	 	 	iD	Ampthill & Flitwick	London	26 Apr 09
+1171	2:57:11	 	 	2:57:07	2:57:11	David Reid	V35	06.05.72	 	Hayle	London	26 Apr 09
+1174	2:57:12	 	 	2:56:44	2:57:12	Paul Hood	 	 	iD	Owls Leicester	London	26 Apr 09
+1174	2:57:12	a	 	 	2:57:12a	Ross Clark	 	 	iD	Unknown	Edinburgh	31 May 09
+1174	2:57:12	 	 	2:57:00	2:57:12	Nick Fidler	 	01.10.80	 	Serpentine	Eindhoven, NED	11 Oct 09
+1174	2:57:12	 	 	2:57:07	2:57:12	Karl Free	 	15.04.77	 	Met Police	Leicester	11 Oct 09
+1178	2:57:14	 	 	2:56:52	2:57:14	Dave Beadle	V40	 	iD	Blackheath & Bromley	London	26 Apr 09
+1178	2:57:14	 	 	2:56:59	2:57:14	John Jones	V40	27.11.67	 	St. Albans AC	London	26 Apr 09
+1180	2:57:15	 	 	 	2:57:15	Jason Bowers	V35	31.01.74	 	Sale Harriers Manchester	Fort William	19 Apr 09
+1180	2:57:15	 	 	2:56:19	2:57:15	Justin Moore	 	 	iD	Oxford Uni	London	26 Apr 09
+1180	2:57:15	 	 	2:57:00	2:57:15	Graeme Buscke	 	 	iD	Clapham Chasers	London	26 Apr 09
+1180	2:57:15	a	 	 	2:57:15a	Robert Cole	V40	 	iD	Unattached	Edinburgh	31 May 09
+1184	2:57:16	 	 	2:57:07	2:57:16	James Reed	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1184	2:57:16	 	 	 	2:57:16	Mark Rogers	V40	17.05.67	 	Wigan Phoenix	Ambleside	17 May 09
+1184	2:57:16	 	 	 	2:57:16	Andrew Sinclair	 	 	iD	Serpentine	Abingdon	18 Oct 09
+1184	2:57:16	 	 	 	2:57:16	Mark Davis	 	17.05.80	 	Redhill RR	Amsterdam, NED	18 Oct 09
+1188	2:57:17	 	 	 	2:57:17	Luke Ham	 	 	iD	Lancaster & Morecambe	Blackpool	5 Apr 09
+1188	2:57:17	 	 	2:56:53	2:57:17	Martyn Brunt	V40	03.08.68	 	Northbrook	Nottingham	13 Sep 09
+1188	2:57:17	 	 	2:56:47	2:57:17	Alan Strachan	V40	 	iD	Unknown	Dublin, IRL	26 Oct 09
+1188	2:57:17	c	 	 	2:57:17c	John Crisp	V35	16.01.71	 	Ely	New York NY, USA	1 Nov 09
+1192	2:57:18	 	 	2:57:18	2:57:18	James Metcalfe	 	01.11.78	 	York Acorn	London	26 Apr 09
+1192	2:57:18	 	 	2:57:10	2:57:18	Jonathan O'Keeffe	 	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+1194	2:57:19	 	 	 	2:51:27	Andy Jones	V45	09.06.63	 	South West RR	Taunton	5 Apr 09
+1194	2:57:19	 	 	2:57:03	2:56:10	Peter Gallanagh	V35	02.10.69	 	Bellahouston RR	London	26 Apr 09
+1194	2:57:19	 	 	 	2:57:19	Neil Robbins	V45	06.10.63	 	Hamilton	Elgin	13 Sep 09
+1197	2:57:20	 	 	2:56:36	2:50:49	Mark Ford	 	 	iD	Unattached	London	26 Apr 09
+1197	2:57:20	 	 	2:57:05	2:57:20	Ian Chant	 	 	iD	Long Eaton	London	26 Apr 09
+1197	2:57:20	 	 	2:55:38	2:57:20	Edward Davies	 	 	iD	Unattached	Berlin, GER	20 Sep 09
+1197	2:57:20	 	 	2:56:54	2:57:20	Ishmail Badr	V40	23.06.67	 	Cambridge & Coleridge	Berlin, GER	20 Sep 09
+1201	2:57:21	 	 	2:55:58	2:57:21	Ian Corless	V40	 	iD	Tewkesbury	Paris, FRA	5 Apr 09
+1201	2:57:21	c	 	 	2:57:21	Ryan Smith	 	 	iD	Unattached	Boston MA, USA	20 Apr 09
+1201	2:57:21	a	 	 	2:57:21a	Adrian Land	 	 	iD	Unattached	Edinburgh	31 May 09
+1201	2:57:21	 	 	 	2:57:21	Brian Bonnyman	V35	20.02.71	 	Westerlands	Warsaw, POL	27 Sep 09
+1205	2:57:22	 	 	2:56:23	2:57:22	Jon Glyde	V40	 	iD	Unattached	Paris, FRA	5 Apr 09
+1205	2:57:22	 	 	2:57:12	2:57:22	Clive N Holleran	 	 	iD	Westbury	London	26 Apr 09
+1205	2:57:22	 	 	 	2:39:36	Godfrey Rhimes	V55	23.06.53	 	City of Portsmouth	Abingdon	18 Oct 09
+1208	2:57:23	 	 	2:57:18	2:57:23	Ian Longland	V35	11.07.73	 	Haverhill RC	Stratford-upon-Avon	26 Apr 09
+1209	2:57:24	 	 	2:57:17	2:47:27	Gary Dean	V35	29.08.70	 	Penistone	London	26 Apr 09
+1209	2:57:24	 	 	 	2:49:29	Luke Walsh	 	 	iD	Manchester TC	Llanberis	24 Oct 09
+1211	2:57:25	 	 	2:53:04	2:57:25	Andrew Keron	 	 	iD	Dubai Creek	Dubai, UAE	16 Jan 09
+1211	2:57:25	 	 	 	2:44:50	Rupert Warren	V40	21.09.67	 	Tavistock	Newton Abbot	18 Oct 09
+1211	2:57:25	 	 	 	2:39:20	Elvis Parsley	V45	06.12.63	 	Walsall	Luton	6 Dec 09
+1214	2:57:27	 	 	2:57:11	2:57:27	John Russell	V35	24.01.71	 	Thurrock	London	26 Apr 09
+1215	2:57:28	 	 	2:55:22	2:57:28	Mark Smith	 	 	iD	Aberystwyth	Barcelona, ESP	1 Mar 09
+1215	2:57:28	 	 	2:56:55	2:57:28	Simeon Bennett	 	07.05.76	 	Victoria Park & Tower Hamlets	London	26 Apr 09
+1215	2:57:28	 	 	2:57:23	2:54:11a	Michael Jones	V40	 	iD	Callington	London	26 Apr 09
+1215	2:57:28	 	 	2:57:25	2:40:41	Clyde Marwick	V40	27.04.67	 	Shettleston	Inverness	4 Oct 09
+1219	2:57:29	a	 	 	2:53:44	Kenneth Heney	 	23.09.76	 	London Heathside	Edinburgh	31 May 09
+1219	2:57:29	 	 	2:57:28	2:57:29	Chris Cotton	 	 	iD	Kimberworth	Nottingham	13 Sep 09
+1221	2:57:30	 	 	2:57:24	2:57:30	Robin Smoult	V35	 	iD	Lliswerry	Stratford-upon-Avon	26 Apr 09
+1222	2:57:31	 	 	2:56:45	2:53:06	Mark Ainsworth	 	 	iD	Unknown	Paris, FRA	5 Apr 09
+1222	2:57:31	 	 	 	2:57:31	Mark Gilmour	 	 	iD	Unattached	Belfast	4 May 09
+1222	2:57:31	a	 	 	2:57:31a	Alan Reade	V35	28.11.69	 	Witham	Edinburgh	31 May 09
+1222	2:57:31	 	 	2:57:08	2:57:31	Steven Cameron	 	 	iD	Lochaber	Inverness	4 Oct 09
+1222	2:57:31	 	 	2:57:30	2:46:38	Stephen Forbes	V40	04.08.66	 	Metro Aberdeen	Leicester	11 Oct 09
+1227	2:57:32	 	 	2:57:03	2:57:32	Richard M Thomas	V55	 	iD	Unattached	London	26 Apr 09
+1227	2:57:32	 	 	2:57:06	2:44:17	Dimitri Vorres	V45	31.05.62	 	Griffithstown	London	26 Apr 09
+1227	2:57:32	 	 	2:57:32	2:42:43	Andrew Robbins	V35	27.11.72	 	Serpentine	London	26 Apr 09
+1227	2:57:32	a	 	 	2:57:32a	Stephen Taylor	 	 	iD	Unattached	Edinburgh	31 May 09
+1231	2:57:33	 	 	 	2:51:55	Steve Edwards	V45	29.11.62	 	Bourton	Fort William	19 Apr 09
+1232	2:57:34	 	 	2:57:17	2:57:34	Steve Gordon	V40	19.07.65	 	Altrincham	London	26 Apr 09
+1232	2:57:34	 	 	2:56:34	2:57:34	Christopher Duke	V45	01.10.62	 	Runnymede	Berlin, GER	20 Sep 09
+1234	2:57:35	c	 	 	2:49:37	Peter Forester	 	 	iD	Unattached	Boston MA, USA	20 Apr 09
+1234	2:57:35	 	 	2:57:02	2:57:35	Martin Chorley	V45	23.06.61	 	Warminster	London	26 Apr 09
+1234	2:57:35	 	 	2:57:08	2:57:35	Nick Sale	V35	17.12.70	 	Crewkerne	London	26 Apr 09
+1234	2:57:35	 	 	2:57:22	2:57:35	Graham Moffatt	V40	16.03.68	 	Holme Pierrepont	London	26 Apr 09
+1234	2:57:35	 	 	 	2:57:35	Ian Lamb	V45	18.02.61	 	Marshall Milton Keynes	Abingdon	18 Oct 09
+1239	2:57:36	a	 	 	2:57:36a	Marc Gadsden	 	31.03.82	 	Telford H	Edinburgh	31 May 09
+1239	2:57:36	 	 	2:57:28	2:57:36	Stuart Meadows	 	31.10.76	 	Rugby & Northampton	Nottingham	13 Sep 09
+1239	2:57:36	 	 	2:57:28	2:53:28	Bruce Carmichael	 	 	iD	Unknown	Inverness	4 Oct 09
+1239	2:57:36	 	 	 	2:57:36	Nick Bryant	 	 	iD	Unattached	Newton Abbot	18 Oct 09
+1239	2:57:36	 	 	2:57:29	2:50:50	Kevin Vondy	V50	11.09.58	 	Northern (Isle of Man)	Dublin, IRL	26 Oct 09
+1244	2:57:37	 	 	2:56:16	2:57:37	Douglas J White	 	 	iD	Unattached	London	26 Apr 09
+1244	2:57:37	 	 	2:57:03	2:57:37	Carl Quinn	V35	20.10.69	 	Police	London	26 Apr 09
+1246	2:57:38	 	 	2:57:32	2:52:32	Gary L Hall	 	 	iD	Unattached	London	26 Apr 09
+1247	2:57:39	a	 	 	2:57:39a	Stephen Ford	V45	26.06.63	 	Killamarsh	Edinburgh	31 May 09
+1247	2:57:39	 	 	2:57:33	2:57:01	Peter Buchanan	V45	03.10.62	 	Portobello	Inverness	4 Oct 09
+1247	2:57:39	 	 	2:57:32	2:57:39	Matt Perry	 	 	iD	Unknown	Leicester	11 Oct 09
+1250	2:57:41	 	 	2:57:21	2:54:35	Paul Fittock	 	 	iD	Cheltenham	London	26 Apr 09
+1251	2:57:42	 	 	 	2:46:08	Dave Braunton	V40	13.10.67	 	Bideford	Vienna, AUT	19 Apr 09
+1252	2:57:43	c	 	 	2:55:44	Paul Fleming	V45	11.05.64	 	Haslemere Border	New York NY, USA	1 Nov 09
+1253	2:57:44	 	 	2:57:41	2:57:44	Douglas Munro	V45	 	iD	Ayrodynamic Runners	Stratford-upon-Avon	26 Apr 09
+1253	2:57:44	 	 	 	2:57:44	David Godfree	 	 	iD	Unattached	Elgin	13 Sep 09
+1255	2:57:45	 	 	2:56:49	2:57:45	James K Moon	V35	04.12.71	 	Serpentine	London	26 Apr 09
+1256	2:57:47	 	 	2:57:12	2:57:47	David Hughes	 	 	iD	Unattached	Inverness	4 Oct 09
+1257	2:57:48	 	 	2:57:42	2:42:44	Malcolm Packer	V50	16.03.59	 	Louth	London	26 Apr 09
+1257	2:57:48	 	 	2:57:18	2:51:25	Joe McCann	V40	 	iD	Newcastle & District	Dublin, IRL	26 Oct 09
+1259	2:57:49	 	 	2:57:31	2:57:49	Simon J Dakin	V40	 	iD	Unattached	London	26 Apr 09
+1260	2:57:50	c	 	 	2:54:41	Damian D Shirley	V35	20.04.72	 	Highgate	Boston MA, USA	20 Apr 09
+1260	2:57:50	 	 	2:56:52	2:57:50	Matthew Norman	V40	02.06.68	 	Aldershot, Farnham & District	London	26 Apr 09
+1260	2:57:50	 	 	2:57:11	2:57:43	John Lonergan	V40	03.04.66	 	Runnymede	London	26 Apr 09
+1260	2:57:50	 	 	 	2:57:50	Luke Anthony	 	 	iD	Unattached	Abingdon	18 Oct 09
+1260	2:57:50	 	 	 	2:57:50	Alan Hall	SEN-V35	 	iD	Serpentine	Luton	6 Dec 09
+1265	2:57:51	 	 	 	2:57:51	Peter Royle	V40	21.01.69	 	Great Western	Taunton	5 Apr 09
+1265	2:57:51	 	 	2:57:48	2:57:51	Peter Gray	V40	 	iD	Unknown	Dublin, IRL	26 Oct 09
+1267	2:57:52	 	 	 	2:52:35	Gavin Evans	V45	29.04.60	 	London Heathside	Fort William	19 Apr 09
+1267	2:57:52	 	 	2:57:48	2:32:52	Simon Lund	V40	22.12.65	 	Woodstock	London	26 Apr 09
+1269	2:57:53	 	 	 	2:57:53	Steve Coleman	V45	05.10.61	 	Astley & Tyldesley	Blackpool	5 Apr 09
+1269	2:57:53	 	 	2:57:33	2:54:30	Barnaby Barrass	V35	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+1271	2:57:54	c	 	 	2:57:54c	Philip Pearson	V40	11.06.65	 	Unknown	New York NY, USA	1 Nov 09
+1272	2:57:55	 	 	2:57:38	2:57:55	Christopher Adams	V45	14.03.61	 	Lancaster & Morecambe	London	26 Apr 09
+1273	2:57:57	 	 	2:57:51	2:57:57	Nathan Mills	V35	27.10.72	 	Ranelagh	London	26 Apr 09
+1273	2:57:57	 	 	 	2:57:57	Wayne Stock	V40	 	iD	Unattached	Elgin	13 Sep 09
+1275	2:57:59	 	 	2:57:10	2:57:59	John Ferguson	V45	13.01.64	 	Cambridge & Coleridge	London	26 Apr 09
+1275	2:57:59	 	 	2:57:11	2:56:05	Joad Raymond	V40	 	iD	Cambridge & Coleridge	London	26 Apr 09
+1275	2:57:59	 	 	2:57:58	2:57:59	Paul Sherwood	V35	 	iD	Unattached	New Milton	27 Sep 09
+1278	2:58:01	 	 	2:57:56	2:53:32	Simon Richardson	V55	25.05.52	 	Pocklington	London	26 Apr 09
+1278	2:58:01	 	 	2:57:56	2:58:01	Noel Houlihan	V40	 	iD	Fleckney & Kibworth	Leicester	11 Oct 09
+1280	2:58:02	 	 	2:57:35	2:58:02	Stephen R Hones	 	 	iD	Unattached	London	26 Apr 09
+1281	2:58:03	 	 	2:56:21	2:58:03	Daniel Middleton	 	 	iD	Unattached	Brussels, BEL	4 Oct 09
+1282	2:58:04	 	 	2:57:20	2:56:16	James Bowen	 	 	iD	Victory	Paris, FRA	5 Apr 09
+1283	2:58:05	 	 	2:57:54	2:58:05	Barry Graney	V40	14.12.67	 	St. Helens Sutton	London	26 Apr 09
+1283	2:58:05	 	 	2:57:40	2:58:05	Joseph Chang	 	28.10.78	 	26.2	Dublin, IRL	26 Oct 09
+1285	2:58:07	 	 	2:57:39	2:58:07	David Travers	 	 	iD	Unattached	Nottingham	13 Sep 09
+1285	2:58:07	 	 	2:58:02	2:58:07	Tom Barr	V35	20.12.72	 	Hunters Bog Trotters	Dublin, IRL	26 Oct 09
+1285	2:58:07	 	 	2:57:50	2:58:07	Peter Gulc	V35	05.05.73	 	Bridlington	Dublin, IRL	26 Oct 09
+1288	2:58:08	 	 	2:57:34	2:58:08	Jonathan D Hall	V40	12.11.67	 	London Heathside	London	26 Apr 09
+1289	2:58:09	 	 	2:57:31	2:58:09	Steven Newman	V40	 	iD	Unattached	London	26 Apr 09
+1290	2:58:10	 	 	2:57:54	2:58:10	Andrew Vagi	 	12.09.81	 	Kent	London	26 Apr 09
+1290	2:58:10	 	 	2:58:03	2:58:10	Simon Law	V45	 	iD	Police	London	26 Apr 09
+1290	2:58:10	 	 	2:58:07	2:58:10	Richard Jones	V45	05.03.63	 	Maldwyn	London	26 Apr 09
+1293	2:58:11	 	 	2:57:24	2:58:11	Ian Wickham	 	 	iD	Mornington Chasers	London	26 Apr 09
+1293	2:58:11	 	 	2:57:39	2:58:11	Jon Thraves	V40	 	iD	Great Western	London	26 Apr 09
+1293	2:58:11	 	 	2:58:05	2:57:09	Andy Drake-Norris	 	 	iD	Plymstock RR	London	26 Apr 09
+1293	2:58:11	 	 	 	2:58:11	Joe Elliott	U23	 	iD	Benfleet RC	Carpi, ITA	11 Oct 09
+1293	2:58:11	 	 	2:58:05	2:58:11	Gareth Fereday	 	26.06.82	 	Newport	Dublin, IRL	26 Oct 09
+1298	2:58:12	 	 	2:57:40	2:58:12	Keith Thornton	V40	28.07.64	 	Thrift Green	London	26 Apr 09
+1299	2:58:13	 	 	2:58:01	2:58:13	Paul Doxford	V50	10.10.54	 	South Shields	London	26 Apr 09
+1299	2:58:13	a	 	 	2:58:13a	Andrew Tremain	 	 	iD	Unattached	Edinburgh	31 May 09
+1299	2:58:13	 	 	 	2:58:13	David Wright	V50	17.04.58	 	Colchester H	Abingdon	18 Oct 09
+1299	2:58:13	 	 	 	2:58:13	Harry Johnston	 	08.05.86	 	Maidenhead	Luton	6 Dec 09
+1303	2:58:14	 	 	2:58:14	2:58:14	Ricky Sunman	V40	26.11.68	 	Penistone	Stratford-upon-Avon	26 Apr 09
+1304	2:58:15	a	 	 	2:58:15a	Todd Rowan	 	 	iD	Unattached	Edinburgh	31 May 09
+1304	2:58:15	 	 	2:58:00	2:58:15	Greg Stokes	 	 	iD	Unknown	Leicester	11 Oct 09
+1306	2:58:16	 	 	2:57:56	2:58:16	Paul Warren	 	 	iD	Unattached	Nottingham	13 Sep 09
+1306	2:58:16	c	 	 	2:58:16c	Ky Nichol	V35	 	iD	Unattached	New York NY, USA	1 Nov 09
+1308	2:58:17	 	 	2:57:36	2:56:39	Mark Summerville	V40	 	iD	Unattached	Nottingham	13 Sep 09
+1309	2:58:18	 	 	2:58:08	2:58:18	Gary Vernon	 	 	iD	Launceston RR	London	26 Apr 09
+1309	2:58:18	 	 	2:58:18	2:41:03	Heine Van Zyl	V45	22.07.60	 	Abingdon	London	26 Apr 09
+1311	2:58:20	 	 	2:57:41	2:58:20	Andrew Dancer	 	 	iD	Unattached	London	26 Apr 09
+1311	2:58:20	 	 	 	2:50:23	Joh Wadsworth	V45	 	iD	Unattached	Ambleside	17 May 09
+1311	2:58:20	 	 	2:57:46	2:58:20	Luke D'Arcy	V35	 	iD	Unknown	Dublin, IRL	26 Oct 09
+1311	2:58:20	c	 	 	2:57:29	Justin Thomas	V35	11.10.73	 	Carn Runners of Holman	New York NY, USA	1 Nov 09
+1315	2:58:21	 	 	 	2:58:21	Hugh Kerr	 	04.01.76	 	Ayr Seaforth	Fort William	19 Apr 09
+1315	2:58:21	 	 	2:58:15	2:47:37	Christopher Morrison	V50	13.01.56	 	Sinfin	London	26 Apr 09
+1315	2:58:21	a	 	 	2:58:21a	Steve Fell	 	22.12.76	 	Windsor, Slough, Eton & Hounslow	Edinburgh	31 May 09
+1318	2:58:22	 	 	 	2:58:22	Craig Palmer	SEN-V35	 	iD	Dunstable	Luton	6 Dec 09
+1319	2:58:23	 	 	2:58:05	2:52:50	Oliver Jones	 	 	iD	East Cornwall	London	26 Apr 09
+1319	2:58:23	 	 	2:58:12	2:58:23	Stuart Dunn	V40	30.10.64	 	Derby	Nottingham	13 Sep 09
+1319	2:58:23	 	 	 	2:58:23	Jim Robson	V55	07.10.50	 	Allithwaite	Abingdon	18 Oct 09
+1322	2:58:24	 	 	2:57:37	2:58:24	Anthony Clarke	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1322	2:58:24	 	 	2:58:01	2:54:53	Martin George	 	07.08.76	 	Sospan	London	26 Apr 09
+1322	2:58:24	 	 	2:58:18	2:39:04	Mark Farnell	V45	04.01.61	 	Tipton	London	26 Apr 09
+1325	2:58:25	c	 	 	2:58:25	Martin Stalley	V40	26.07.68	 	Bitton	Hamburg, GER	26 Apr 09
+1326	2:58:26	 	 	2:58:04	2:58:26	Chris Mason	V45	23.12.62	 	Reading RR	London	26 Apr 09
+1326	2:58:26	 	 	 	2:58:26	Chris Sabine	V40	21.08.69	 	Unattached	Newton Abbot	18 Oct 09
+1326	2:58:26	 	 	2:58:14	2:58:26	Keith Ewing	V45	29.12.60	 	Blackheath & Bromley	Venice, ITA	25 Oct 09
+1326	2:58:26	 	 	2:57:46	2:58:26	Bryan Lamb	V35	 	iD	Bellahouston Harriers	Dublin, IRL	26 Oct 09
+1330	2:58:27	a	 	 	2:58:27a	Simon Brace	 	 	iD	Unattached	Edinburgh	31 May 09
+1331	2:58:28	 	 	2:58:17	2:58:28	Rob J Wilby	 	 	iD	Unattached	London	26 Apr 09
+1331	2:58:28	c	 	 	2:58:28c	Steve Groom	 	16.01.80	 	Larkfield	New York NY, USA	1 Nov 09
+1333	2:58:29	 	 	2:57:30	2:58:29	Simon Black	 	28.11.74	 	Datchet	London	26 Apr 09
+1333	2:58:29	 	 	2:58:21	2:58:29	Nick Kane	V45	 	iD	Bitton	Berlin, GER	20 Sep 09
+1335	2:58:30	 	 	2:58:15	2:58:30	Paul Bennett	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1335	2:58:30	 	 	2:58:09	2:58:30	Paul Flitney	 	 	iD	Exeter	London	26 Apr 09
+1335	2:58:30	 	 	2:57:44	2:58:30	Aaron Turner	 	 	iD	Unknown	Dublin, IRL	26 Oct 09
+1338	2:58:31	 	 	2:53:43	2:58:31	David Edwards	 	 	iD	Unattached	Dubai, UAE	16 Jan 09
+1338	2:58:31	 	 	2:58:16	2:58:31	Mike Greener	V35	23.09.70	 	St. Edmunds Pacers	London	26 Apr 09
+1338	2:58:31	 	 	2:58:17	2:58:31	Jason Cherriman	 	18.10.80	 	Orpington	Nottingham	13 Sep 09
+1338	2:58:31	 	 	 	2:43:58	Keith Dowson	V45	21.02.63	 	North York Moors	Luton	6 Dec 09
+1342	2:58:32	 	 	2:57:48	2:58:32	Ian Mapperson	V50	09.02.58	 	Avon Valley	London	26 Apr 09
+1342	2:58:32	 	 	2:58:18	2:58:32	Stephen Gormley	 	 	iD	Unknown	Dublin, IRL	26 Oct 09
+1344	2:58:33	 	 	2:58:18	2:58:33	Lee Barlow	V35	29.11.71	 	Wesham	London	26 Apr 09
+1345	2:58:35	 	 	2:57:27	2:58:35	Stephen Hobbs	V40	31.08.67	 	Ripley	London	26 Apr 09
+1345	2:58:35	 	 	2:58:29	2:58:35	Gavin Jenkins	V35	 	iD	Edinburgh	Budapest, HUN	4 Oct 09
+1347	2:58:36	 	 	 	2:58:36	Conor McGrory	 	 	iD	Unattached	Belfast	4 May 09
+1347	2:58:36	 	 	2:58:23	2:58:36	Conrad Franks	 	10.05.83	 	Gateshead	Leicester	11 Oct 09
+1347	2:58:36	 	 	 	2:58:36	David Kershaw	V35	21.05.71	 	Royton	Abingdon	18 Oct 09
+1350	2:58:37	 	 	2:58:34	2:48:24	Stuart Hopkins	 	 	iD	Kenilworth Runners	London	26 Apr 09
+1350	2:58:37	a	 	 	2:58:37a	Bruce Carse	 	18.06.79	 	Bellahouston RR	Edinburgh	31 May 09
+1352	2:58:38	 	 	2:57:06	2:58:38	Jonathon Massingham	 	 	iD	Eye	London	26 Apr 09
+1352	2:58:38	 	 	2:58:29	2:58:38	Graham Fenton	V40	20.06.67	 	Whetstone	London	26 Apr 09
+1354	2:58:40	 	 	2:58:36	2:58:40	Michael Murphy	 	24.06.83	 	Phoenix AC	Rotterdam, NED	5 Apr 09
+1354	2:58:40	 	 	2:58:08	2:49:34	Eamonn O'Neill	V50	07.08.56	 	Midland Masters	London	26 Apr 09
+1354	2:58:40	 	 	2:58:39	2:58:40	Robin Biles	V35	15.02.74	 	Birmingham Rowheath	Stratford-upon-Avon	26 Apr 09
+1357	2:58:41	 	 	 	2:58:41	David Tamburini	V35	27.03.74	 	Bellahouston RR	Fort William	19 Apr 09
+1357	2:58:41	 	 	2:58:14	2:58:41	David Robinson	V50	18.12.56	 	Ryston	London	26 Apr 09
+1357	2:58:41	 	 	 	2:58:41	Chris Denton	V35	 	iD	Pegasus	Belfast	4 May 09
+1360	2:58:42	 	 	 	2:50:19	Mark Harris	V45	20.11.61	 	Rothwell	Blackpool	5 Apr 09
+1360	2:58:42	 	 	2:58:36	2:43:09	Mark Wright	V40	08.03.68	 	Annadale	London	26 Apr 09
+1360	2:58:42	a	 	 	2:58:42a	Paul Kilby	 	 	iD	Unattached	Edinburgh	31 May 09
+1363	2:58:43	 	 	2:58:36	2:58:43	James D Close	V40	 	iD	Unattached	London	26 Apr 09
+1363	2:58:43	 	 	2:57:57	2:55:46	Andrew Turner	V45	29.08.63	 	Bournemouth	Berlin, GER	20 Sep 09
+1363	2:58:43	c	 	 	2:58:43c	Matthew Wilson	V35	 	iD	Unattached	New York NY, USA	1 Nov 09
+1366	2:58:44	 	 	2:58:10	2:56:48	Andrew Carter	 	 	iD	Unattached	London	26 Apr 09
+1366	2:58:44	 	 	2:58:39	2:58:44	Craig Mann	V40	 	iD	Police	London	26 Apr 09
+1368	2:58:47	 	 	2:58:34	2:58:47	Richard Smith	V40	16.07.64	 	Clevedon	London	26 Apr 09
+1368	2:58:47	 	 	2:57:39	2:58:47	John Atkinson	V35	 	iD	Unattached	Berlin, GER	20 Sep 09
+1368	2:58:47	 	 	 	2:58:47	Steven James	 	23.02.76	 	Portishead	Abingdon	18 Oct 09
+1368	2:58:47	 	 	2:58:39	2:58:47	Nat Glenn	V40	 	iD	Larne	Dublin, IRL	26 Oct 09
+1372	2:58:48	 	 	2:58:17	2:58:48	David Long	 	22.07.84	 	West Bromwich	London	26 Apr 09
+1373	2:58:49	 	 	2:58:18	2:58:49	Chris Goodwin	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1373	2:58:49	 	 	2:58:22	2:58:49	Gavin Punchard	V40	07.01.67	 	Tavistock	London	26 Apr 09
+1373	2:58:49	 	 	2:58:14	2:52:40	Bryan Burnett	V40	10.06.65	 	Bellahouston RR	Berlin, GER	20 Sep 09
+1373	2:58:49	 	 	2:57:59	2:58:49	Steve Campbell	V40	29.06.69	 	Swinton	Inverness	4 Oct 09
+1377	2:58:50	 	 	2:58:00	2:58:50	Richard J Guiver	 	 	iD	Unattached	London	26 Apr 09
+1377	2:58:50	 	 	2:58:40	2:58:50	Paul Shiell	 	 	iD	Herne Hill	Inverness	4 Oct 09
+1379	2:58:51	 	 	2:58:39	2:58:51	Andrew J Kirby	 	 	iD	Unknown	London	26 Apr 09
+1380	2:58:52	a	 	 	2:58:52a	Martin Colwill	V40	30.09.66	 	Bideford	Edinburgh	31 May 09
+1381	2:58:53	a	 	 	2:58:53a	David Heffernan	 	 	iD	Unattached	Edinburgh	31 May 09
+1382	2:58:54	 	 	2:58:54	2:58:54	Sean Hogan	U23	17.07.87	 	Poole Runners	London	26 Apr 09
+1383	2:58:55	 	 	 	2:58:55	Peter Badcock	 	 	iD	Unattached	Taunton	5 Apr 09
+1383	2:58:55	 	 	2:58:30	2:53:03	John Green	V40	20.05.65	 	Thurrock	London	26 Apr 09
+1383	2:58:55	 	 	 	2:58:55	Ivan Hollingsworth	 	20.05.75	 	Wallsend	Tresco	26 Apr 09
+1386	2:58:56	 	 	2:58:39	2:58:56	Kevin Lally	V35	30.04.69	 	Easingwold	London	26 Apr 09
+1386	2:58:56	 	 	2:58:46	2:53:12	Pascal Evans	V35	11.11.69	 	Stragglers	London	26 Apr 09
+1386	2:58:56	a	 	 	2:58:56a	Tom Allen	 	 	iD	Unattached	Edinburgh	31 May 09
+1386	2:58:56	 	 	2:58:37	2:58:56	Guy Bowles	V35	 	iD	Unattached	Berlin, GER	20 Sep 09
+1386	2:58:56	 	 	2:58:37	2:57:40	Greg McClure	V50	24.10.56	 	North Belfast	Dublin, IRL	26 Oct 09
+1391	2:58:57	 	 	2:58:20	2:58:57	Thomas Elliott	V40	 	iD	Unattached	Paris, FRA	5 Apr 09
+1391	2:58:57	 	 	2:58:31	2:58:57	Martin Landells	V45	12.02.61	 	Pudsey & Bramley	London	26 Apr 09
+1391	2:58:57	 	 	2:58:49	2:44:55	Kevin Revell	V45	19.05.62	 	City of Norwich	London	26 Apr 09
+1391	2:58:57	 	 	2:56:37	2:58:57	Robin Jones	V35	 	iD	Unattached	Berlin, GER	20 Sep 09
+1391	2:58:57	 	 	 	2:57:31	Dave Roberts	V40	13.06.68	 	Unattached	Luton	6 Dec 09
+1396	2:58:58	 	 	2:58:28	2:55:32	Steve Bolton	V50	 	iD	Wreake	London	26 Apr 09
+1396	2:58:58	 	 	2:58:32	2:58:58	Scott Aiken	V35	10.06.70	 	Trent Park	London	26 Apr 09
+1396	2:58:58	a	 	 	2:58:58a	Alexander Rushton	 	 	iD	 	Edinburgh	31 May 09
+1396	2:58:58	 	 	2:58:36	2:58:58	Stephen Gildea	V40	02.03.69	 	Unknown	Chicago IL, USA	11 Oct 09
+1400	2:58:59	 	 	2:58:19	2:57:16	David Barker	V50	21.04.58	 	Preston	London	26 Apr 09
+1400	2:58:59	 	 	2:58:57	2:58:59	Gary Griffiths	V35	 	iD	Black Country Tri	Stratford-upon-Avon	26 Apr 09
+1402	2:59:01	 	 	2:58:06	2:59:01	James N Robinson	 	 	iD	Unattached	London	26 Apr 09
+1402	2:59:01	 	 	2:58:37	2:59:01	Alex Cran	V35	21.06.71	 	Clayton le Moors	London	26 Apr 09
+1402	2:59:01	a	 	 	2:59:01a	Tim Cooke	V55	26.10.51	 	BBC	Edinburgh	31 May 09
+1402	2:59:01	 	 	2:58:41	2:59:01	Stuart Blakeley	 	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+1406	2:59:02	 	 	2:58:59	2:59:02	Ed Mezzetti	 	05.12.79	 	Oxford City	Stratford-upon-Avon	26 Apr 09
+1406	2:59:02	 	 	2:58:39	2:59:02	Andrew Becker	V35	 	iD	Unattached	Chicago IL, USA	11 Oct 09
+1408	2:59:03	 	 	 	2:52:53	Gareth Jenkins	V35	06.03.70	 	Moray	Elgin	13 Sep 09
+1408	2:59:03	 	 	 	2:59:03	Marcelo Rodrigues	V40	 	iD	Unattached	St. Helier	27 Sep 09
+1410	2:59:04	 	 	2:58:54	2:59:04	Jim Waters	 	 	iD	Dumbarton	Inverness	4 Oct 09
+1410	2:59:04	 	 	2:58:54	2:38:19	Stuart Buchan	V45	20.03.60	 	City of Hull	Dublin, IRL	26 Oct 09
+1412	2:59:05	 	 	2:58:59	2:59:05	Andrew Symonds	 	17.03.82	 	Hillingdon	Leicester	11 Oct 09
+1413	2:59:06	 	 	2:56:29	2:59:06	Sam A Bruce	 	 	iD	Unattached	London	26 Apr 09
+1413	2:59:06	 	 	 	2:59:06	Alan McKeown	 	 	iD	Unattached	Belfast	4 May 09
+1413	2:59:06	 	 	2:58:37	2:59:06	Neil Dann	 	 	iD	Unattached	Berlin, GER	20 Sep 09
+1416	2:59:08	 	 	2:58:49	2:59:08	Andrew E Rye	 	 	iD	Unattached	London	26 Apr 09
+1416	2:59:08	 	 	2:59:00	2:59:08	Kevin Wotton	V40	26.12.67	 	Barking	London	26 Apr 09
+1416	2:59:08	 	 	 	2:59:08	Stuart Fallon	 	 	iD	Unattached	Luton	6 Dec 09
+1419	2:59:09	a	 	 	2:59:09a	Robin Carter	 	 	iD	Unattached	Edinburgh	31 May 09
+1419	2:59:09	 	 	2:58:32	2:59:09	Nick Wright	 	06.05.76	 	Ranelagh	Berlin, GER	20 Sep 09
+1421	2:59:10	 	 	2:58:16	2:59:10	Ian B Smails	 	 	iD	Unattached	London	26 Apr 09
+1421	2:59:10	 	 	2:58:53	2:59:10	Paul Reynolds	 	 	iD	Blackwater Valley Runners	London	26 Apr 09
+1423	2:59:11	 	 	2:58:46	2:59:11	Chris Pyle	V35	14.06.72	 	Cambridge & Coleridge	London	26 Apr 09
+1423	2:59:11	 	 	2:59:11	2:39:27	David Warner	V40	23.10.68	 	Coventry	London	26 Apr 09
+1423	2:59:11	 	 	 	2:45:11	Bob Wells	V60	07.10.46	 	Bedford H	Toulouse, FRA	24 Oct 09
+1426	2:59:12	 	 	2:58:55	2:59:04	Mark A Goldstein	 	 	iD	Trentham	London	26 Apr 09
+1426	2:59:12	c	 	 	2:59:12c	Iain Harrison	 	15.11.78	 	Striders of Croydon	New York NY, USA	1 Nov 09
+1428	2:59:13	 	 	2:58:55	2:53:24	Ian Hoare	V45	06.02.64	 	Bitton	London	26 Apr 09
+1428	2:59:13	 	 	2:58:58	2:42:26	Paul Street	V40	30.06.67	 	North Derbyshire	London	26 Apr 09
+1428	2:59:13	 	 	2:58:58	2:53:38	Alex Hussey	 	30.04.79	 	Ful-On TC	London	26 Apr 09
+1428	2:59:13	 	 	2:58:54	2:59:13	Mark Clayton	 	 	iD	Unattached	Berlin, GER	20 Sep 09
+1432	2:59:14	 	 	2:58:52	2:59:14	Stephen Gibbons	V45	 	iD	Unattached	London	26 Apr 09
+1432	2:59:14	 	 	2:58:57	2:59:14	Paul Bestwick	 	27.09.75	 	Unattached	London	26 Apr 09
+1432	2:59:14	 	 	2:59:02	2:59:14	Rupert Holden	V40	 	iD	Unknown	Florence, ITA	29 Nov 09
+1435	2:59:15	 	 	2:58:49	2:59:15	Donald Simpson	 	 	iD	Unattached	Rotterdam, NED	5 Apr 09
+1435	2:59:15	 	 	2:58:15	2:59:15	Alexander Wright	V40	14.03.68	 	Corby	Berlin, GER	20 Sep 09
+1435	2:59:15	 	 	2:59:11	2:59:15	Kenny O'Neill	 	09.01.79	 	Airdrie Harriers	Inverness	4 Oct 09
+1438	2:59:16	 	 	2:54:57	2:59:16	Chris McCann	V35	 	iD	Mirdif	Dubai, UAE	16 Jan 09
+1438	2:59:16	c	 	 	2:59:16	Anthony Davey	 	 	iD	Unattached	Boston MA, USA	20 Apr 09
+1438	2:59:16	 	 	2:58:50	2:59:16	Richard O'Connor	 	15.04.76	 	Unknown	London	26 Apr 09
+1438	2:59:16	 	 	2:58:55	2:48:13	Keith Joules	V45	24.11.62	 	East Hull	London	26 Apr 09
+1438	2:59:16	 	 	2:59:04	2:58:44	Kevin Doyle	V35	13.11.73	 	Kimberworth	London	26 Apr 09
+1438	2:59:16	 	 	2:59:10	2:59:16	Haydn Hartnell	V45	18.06.62	 	Islwyn	London	26 Apr 09
+1444	2:59:17	 	 	2:58:50	2:59:17	Euan Hosie	 	 	iD	Unattached	Barcelona, ESP	1 Mar 09
+1444	2:59:17	 	 	2:59:12	2:54:46	Mike White	V50	03.12.58	 	Stubbington Green	Paris, FRA	5 Apr 09
+1444	2:59:17	 	 	2:58:49	2:59:17	Nick Rankin	V45	28.10.60	 	Benfleet RC	London	26 Apr 09
+1444	2:59:17	 	 	2:58:50	2:59:17	Ian Cotter	V40	08.03.68	 	Yeovil Town	London	26 Apr 09
+1444	2:59:17	 	 	2:59:08	2:59:17	Richard Self	V40	04.08.65	 	Les Croupiers	London	26 Apr 09
+1449	2:59:18	 	 	2:58:45	2:59:18	Simon Jackson	V45	01.07.63	 	Congleton	London	26 Apr 09
+1449	2:59:18	 	 	2:59:04	2:53:03	Paul Schumann	V45	23.02.63	 	Roby Runners	London	26 Apr 09
+1449	2:59:18	 	 	 	2:50:50	Bill Graham	V55	12.09.53	 	Bitton	Belfast	4 May 09
+1449	2:59:18	 	 	 	2:59:18	Paul Blake	V35	23.12.69	 	South West RR	Abingdon	18 Oct 09
+1453	2:59:19	 	 	 	2:59:19	Gavin Fisher	V40	 	iD	Fell Runners Association	Abingdon	18 Oct 09
+1454	2:59:20	 	 	2:58:26	2:59:20	Danny Taylor	 	 	iD	Coventry	London	26 Apr 09
+1454	2:59:20	 	 	2:58:46	2:59:20	Steven Hooper	V40	10.03.66	 	Pontypridd (Roadents)	London	26 Apr 09
+1454	2:59:20	 	 	2:59:03	2:59:20	Chris Talbot	 	03.11.79	 	Telford AC	London	26 Apr 09
+1457	2:59:21	 	 	2:58:46	2:59:21	Michael Lancaster	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1457	2:59:21	 	 	2:58:49	2:59:21	Ben J Afforselles	V40	 	iD	Unattached	London	26 Apr 09
+1457	2:59:21	 	 	 	2:59:21	Dan Oliver	 	 	iD	Stockport	Gwalchmai	20 Sep 09
+1460	2:59:22	 	 	2:59:20	2:59:22	Brian Fraser	 	 	iD	Unattached	Inverness	4 Oct 09
+1461	2:59:23	 	 	2:59:21	2:59:23	Dan Beazley	 	 	iD	Unattached	Nottingham	13 Sep 09
+1461	2:59:23	 	 	 	2:59:23	Richard Nicholson	 	09.07.75	 	Elmbridge	Abingdon	18 Oct 09
+1463	2:59:24	 	 	2:59:16	2:51:47	David Cooper	V40	18.05.64	 	Penistone	London	26 Apr 09
+1463	2:59:24	 	 	2:59:21	2:59:24	Conor Murphy	V35	 	iD	Unattached	Stratford-upon-Avon	26 Apr 09
+1463	2:59:24	a	 	 	2:59:24a	Keith Hewitt	 	 	iD	Unattached	Edinburgh	31 May 09
+1463	2:59:24	a	 	 	2:59:24a	Peter Kadobinskyj	V50	16.11.57	 	Harmeny	Edinburgh	31 May 09
+1463	2:59:24	 	 	2:59:24	2:55:32	Brent Hoggan	V35	05.10.71	 	Accrington	Venice, ITA	25 Oct 09
+1463	2:59:24	c	 	 	2:59:24c	Gerard Pearlberg	V45	 	iD	Unknown	New York NY, USA	1 Nov 09
+1469	2:59:25	 	 	2:59:19	2:59:25	Gordon Adam	V45	20.11.60	 	Central	Inverness	4 Oct 09
+1470	2:59:26	 	 	2:58:57	2:59:26	Stuart Carroll	 	 	iD	Royton	London	26 Apr 09
+1470	2:59:26	a	 	 	2:59:26a	Connor Carson	V35	22.02.71	 	Kenilworth Runners	Edinburgh	31 May 09
+1470	2:59:26	 	 	2:58:39	2:56:55	Ken Hoye	 	01.07.76	 	Chelmsford	Berlin, GER	20 Sep 09
+1470	2:59:26	 	 	 	2:59:26	Richard Billington	V40-V45	 	iD	Desford	Luton	6 Dec 09
+1474	2:59:27	 	 	2:59:12	2:59:27	Theo Harper	V40	18.12.68	 	Alton	London	26 Apr 09
+1474	2:59:27	 	 	2:59:08	2:50:59	Neil A. Douglas	V45	 	iD	Unattached	Florence, ITA	29 Nov 09
+1476	2:59:28	 	 	2:58:55	2:50:43	Richard Quennell	V40	14.05.68	 	Rugby & Northampton	Paris, FRA	5 Apr 09
+1476	2:59:28	 	 	2:59:13	2:59:28	Patrick Robert	V45	 	iD	Unattached	London	26 Apr 09
+1476	2:59:28	a	 	 	2:59:28a	Graeme Croll	V40	01.02.66	 	Giffnock North	Edinburgh	31 May 09
+1476	2:59:28	 	 	2:58:46	2:59:28	Jamie Fisher	V35	 	iD	Unattached	Florence, ITA	29 Nov 09
+1480	2:59:30	 	 	2:59:20	2:56:03	Andrew Goodair	V35	12.04.70	 	Askern	Rotterdam, NED	5 Apr 09
+1480	2:59:30	 	 	2:58:36	2:59:30	Alastair R Heathcote	 	 	iD	Unattached	London	26 Apr 09
+1480	2:59:30	 	 	2:58:57	2:59:30	Steven Wort	V45	 	iD	Unattached	London	26 Apr 09
+1480	2:59:30	 	 	2:59:01	2:59:30	Adam Harborow	 	24.11.75	 	Cirencester	London	26 Apr 09
+1480	2:59:30	 	 	2:57:57	2:59:30	Mike Llewellyn	 	 	iD	Army	Berlin, GER	20 Sep 09
+1480	2:59:30	 	 	 	2:59:30	Stuart Boswell	V40	 	iD	Sandhurst	Abingdon	18 Oct 09
+1486	2:59:31	 	 	2:57:33	2:59:31	Jason P Harding	 	 	iD	Unattached	London	26 Apr 09
+1486	2:59:31	 	 	2:58:44	2:50:37	Mark Riches	V45	03.10.62	 	Belper	London	26 Apr 09
+1488	2:59:32	 	 	2:58:48	2:54:21	David M Macdonald	V35	 	iD	Unattached	London	26 Apr 09
+1488	2:59:32	 	 	2:59:19	2:59:32	Trevor Wilkinson	V45	30.12.61	 	Cumberland Fell Runners	London	26 Apr 09
+1488	2:59:32	a	 	 	2:59:32a	David Venables	V40	 	iD	 	Edinburgh	31 May 09
+1488	2:59:32	 	 	2:59:18	2:45:45	David Thomson	V50	18.09.59	 	City of Portsmouth	Berlin, GER	20 Sep 09
+1488	2:59:32	 	 	 	2:59:32	Neill Hughes	V40	 	iD	Garden City Runners	Abingdon	18 Oct 09
+1493	2:59:33	 	 	2:58:41	2:59:33	Richard Palmer	V35	08.03.72	 	Running Forever	London	26 Apr 09
+1493	2:59:33	 	 	2:59:13	2:52:09	Mark Crabtree	V50	18.07.58	 	Halifax	London	26 Apr 09
+1493	2:59:33	a	 	 	2:59:33a	David Hellard	 	 	iD	 	Edinburgh	31 May 09
+1496	2:59:34	 	 	2:58:50	2:56:47	Simon R Thornton	 	 	iD	Unattached	London	26 Apr 09
+1496	2:59:34	 	 	2:59:28	2:45:26	Stuart Douglas	V35	 	iD	Ivanhoe	London	26 Apr 09
+1496	2:59:34	 	 	2:59:29	2:50:44	Nigel Coates	V45	06.03.60	 	Saffron	London	26 Apr 09
+1499	2:59:35	 	 	2:59:16	2:55:06	Simon Ubsdell	V50	 	iD	Unattached	London	26 Apr 09
+1500	2:59:36	 	 	2:59:13	2:59:36	Mark Jones	V35	01.10.69	 	Warrington	London	26 Apr 09
+1500	2:59:36	 	 	2:59:26	2:46:37	Amadu Abraham Jalloh	V40	02.06.66	 	Clapham Chasers	London	26 Apr 09
+1502	2:59:37	 	 	2:59:37	2:42:56	Martin Hagger	V35	14.11.72	 	Colchester H	London	26 Apr 09
+1502	2:59:37	 	 	2:59:37	2:59:37	Chris Reeson	V50	 	iD	Royal Air Force	London	26 Apr 09
+1502	2:59:37	 	 	2:59:27	2:59:37	Donald Simpson	 	02.04.75	 	Metro Aberdeen	Inverness	4 Oct 09
+1505	2:59:38	 	 	2:59:21	2:49:10	Douglas Brisco	V50	19.09.54	 	Andover	London	26 Apr 09
+1506	2:59:39	 	 	2:59:20	2:59:39	Stephen Astin	 	07.10.80	 	Swindon Striders	London	26 Apr 09
+1506	2:59:39	 	 	2:59:34	2:59:39	Darryl Watton	 	 	iD	Sheffield TC	Leicester	11 Oct 09
+1506	2:59:39	 	 	 	2:52:53	Dan Afshar	V35	24.01.73	 	Unattached	Abingdon	18 Oct 09
+1509	2:59:40	 	 	2:59:27	2:59:40	Donald MacLaren	V50	20.11.58	 	St. Austell	London	26 Apr 09
+1509	2:59:40	c	 	 	2:59:40c	Alex Frost	V35	19.11.69	 	Grange Farm Trotters	New York NY, USA	1 Nov 09
+1511	2:59:41	 	 	 	2:59:41	David Griffin	 	 	iD	Newry	Newry	25 May 09
+1512	2:59:42	 	 	2:59:38	2:56:10	Jim Buick	V40	08.05.64	 	Edinburgh	London	26 Apr 09
+1513	2:59:43	 	 	 	2:59:43	Frank Martin	V45	25.07.60	 	Penny Lane	Annecy, FRA	19 Apr 09
+1513	2:59:43	c	 	 	2:59:43	Dan Vaughan	V35	 	iD	Unattached	Boston MA, USA	20 Apr 09
+1513	2:59:43	a	 	 	2:59:43a	Mike Mckean	V40	 	iD	Unattached	Edinburgh	31 May 09
+1516	2:59:44	 	 	 	2:59:44	Jim Brown	 	 	iD	Larne	Belfast	4 May 09
+1517	2:59:45	 	 	2:59:06	2:59:45	Lee Woods	V35	14.02.70	 	Sale Harriers Manchester	Berlin, GER	20 Sep 09
+1518	2:59:46	 	 	2:59:25	2:59:46	Mark Edmondson-Jones	V40	 	iD	Southwell	London	26 Apr 09
+1518	2:59:46	a	 	 	2:59:46a	Peter Dyer	 	 	iD	Unattached	Edinburgh	31 May 09
+1520	2:59:47	c	 	 	2:59:47	Paul Wells	V40	 	iD	Unattached	Hamburg, GER	26 Apr 09
+1520	2:59:47	 	 	2:59:24	2:59:47	Stewart Jones	V50	16.11.58	 	Lostock	London	26 Apr 09
+1520	2:59:47	 	 	 	2:59:47	Michael Appleton	V35	27.07.73	 	Ripon	Abingdon	18 Oct 09
+1523	2:59:48	 	 	 	2:43:00	Simon Link	V45	06.09.62	 	Stourbridge	Llanberis	24 Oct 09
+1524	2:59:49	 	 	2:58:37	2:59:49	Hugo P Talbot	 	 	iD	Unattached	London	26 Apr 09
+1524	2:59:49	 	 	2:58:49	2:59:49	Stephen Thompson	 	 	iD	Winchester	London	26 Apr 09
+1524	2:59:49	 	 	2:59:36	2:53:00	Steven Lidgate-Taylor	 	13.07.75	 	Solihull & Small Heath	London	26 Apr 09
+1524	2:59:49	 	 	2:59:49	2:37:40	David Reed	V45	01.01.62	 	St. Edmunds Pacers	London	26 Apr 09
+1528	2:59:50	 	 	2:58:00	2:59:50	Matthew Marshall	 	 	iD	Chippenham	Paris, FRA	5 Apr 09
+1528	2:59:50	 	 	2:57:40	2:59:50	Gareth Turner	U23	22.05.86	 	Hallamshire	Berlin, GER	20 Sep 09
+1530	2:59:51	 	 	2:56:40	2:59:51	Robert Harvey	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1530	2:59:51	c	 	 	2:55:36	Simon Merrick	V40	28.06.68	 	Unattached	Hamburg, GER	26 Apr 09
+1532	2:59:52	 	 	2:58:49	2:59:52	Samuel Solieman	 	03.05.77	 	Reading RR	Berlin, GER	20 Sep 09
+1532	2:59:52	c	 	 	2:59:52c	John Templeman	 	 	iD	Unattached	New York NY, USA	1 Nov 09
+1534	2:59:53	 	 	 	2:59:53	Ian Hobley	 	 	iD	VOTwo TC	Redruth	8 Mar 09
+1534	2:59:53	 	 	2:59:06	2:59:53	Daniel Marett	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1534	2:59:53	 	 	2:59:16	2:59:53	Mark Lander	 	 	iD	Unattached	Paris, FRA	5 Apr 09
+1534	2:59:53	 	 	 	2:59:53	John Abbey	V50	 	iD	Unattached	Vienna, AUT	19 Apr 09
+1534	2:59:53	 	 	2:58:57	2:59:53	Thomas Broadhurst	 	 	iD	Unattached	London	26 Apr 09
+1534	2:59:53	 	 	2:59:41	2:59:53	Justin M Young	 	 	iD	Witney	London	26 Apr 09
+1534	2:59:53	 	 	 	2:59:53	Scott Hepburn	V45	27.09.62	 	Datchet	Abingdon	18 Oct 09
+1541	2:59:55	 	 	2:59:40	2:59:55	Dan Doherty	 	25.02.76	 	Wellingborough	Dublin, IRL	26 Oct 09
+1542	2:59:56	c	 	 	2:59:56c	David Peel	 	 	iD	Unattached	New York NY, USA	1 Nov 09
+1543	2:59:57	 	 	2:58:47	2:59:57	Matthew Hales	 	06.10.79	 	Steyning	Barcelona, ESP	1 Mar 09
+1543	2:59:57	 	 	2:59:49	2:59:57	Martin Bailey	 	06.12.74	 	Newcastle (Staffs)	Berlin, GER	20 Sep 09
+1545	2:59:58	 	 	2:59:36	2:59:58	Miles Cudmore	V40	13.12.65	 	Windle Valley Runners	Paris, FRA	5 Apr 09
+1545	2:59:58	 	 	2:59:31	2:59:58	Leon Goodwin	 	 	iD	Dartford H	London	26 Apr 09
+1545	2:59:58	 	 	2:59:53	2:59:58	Ian Giles	V40	 	iD	Cheltenham	London	26 Apr 09
+1545	2:59:58	 	 	 	2:59:58	Ryan Hodgson	 	 	iD	Unattached	St. Helier	27 Sep 09
+1545	2:59:58	 	 	2:59:40	2:59:58	Kevin Harvey	 	 	iD	Unknown	Leicester	11 Oct 09
+1545	2:59:58	 	 	 	2:58:56	Kevin Game	V35	15.11.73	 	Woodstock	Abingdon	18 Oct 09
+1551	2:59:59	 	 	 	2:59:59	Gavin Jemison	 	 	iD	Unattached	St. Helier	27 Sep 09

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A1A48C1-2C26-42FC-9C34-1B5E86A271D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Visiblox.Charts.Examples.Wpf.Free</RootNamespace>
+    <AssemblyName>Visiblox.Charts.Examples.Wpf.Free</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Visiblox.Charts, Version=2.0.8.5757, Culture=neutral, PublicKeyToken=1543c03f04c4461b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Visiblox.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ColumnChart\ColumnChartExample.xaml.cs">
+      <DependentUpon>ColumnChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CombinationChart\CombinationChartExample.xaml.cs">
+      <DependentUpon>CombinationChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FastStreamingChart\FastStreamingChartExample.xaml.cs">
+      <DependentUpon>FastStreamingChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Internationalization\InternationalizationExample.xaml.cs">
+      <DependentUpon>InternationalizationExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LargeDataSets\LargeDataSetsExample.xaml.cs">
+      <DependentUpon>LargeDataSetsExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LineChart\LineChartExample.xaml.cs">
+      <DependentUpon>LineChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleYAxes\MultipleYAxesExample.xaml.cs">
+      <DependentUpon>MultipleYAxesExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PaletteChanging\PaletteChangingExample.xaml.cs">
+      <DependentUpon>PaletteChangingExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PieChart\PieChartExample.xaml.cs">
+      <DependentUpon>PieChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ScatterChart\ScatterChartExample.xaml.cs">
+      <DependentUpon>ScatterChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StackedAreaChart\StackedAreaChartExample.xaml.cs">
+      <DependentUpon>StackedAreaChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StackedBarChart\StackedBarChartExample.xaml.cs">
+      <DependentUpon>StackedBarChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StackedColumnChart\StackedColumnChartExample.xaml.cs">
+      <DependentUpon>StackedColumnChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StaircaseChart\StaircaseChartExample.xaml.cs">
+      <DependentUpon>StaircaseChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TermStructure\TermStructureExample.xaml.cs">
+      <DependentUpon>TermStructureExample.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AdditionalInformation\AdditionalInformationExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AreaChart\AreaChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BackgroundImage\BackgroundImageExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BandChart\BandChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BarChart\BarChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ChangingStyles\ChangingStylesExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ColumnChart\ColumnChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CombinationChart\CombinationChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FastStreamingChart\FastStreamingChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Internationalization\InternationalizationExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LargeDataSets\LargeDataSetsExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LineChart\LineChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="AdditionalInformation\AdditionalInformationExample.xaml.cs">
+      <DependentUpon>AdditionalInformationExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AreaChart\AreaChartExample.xaml.cs">
+      <DependentUpon>AreaChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BackgroundImage\BackgroundImageExample.xaml.cs">
+      <DependentUpon>BackgroundImageExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BandChart\BandChartExample.xaml.cs">
+      <DependentUpon>BandChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BarChart\BarChartExample.xaml.cs">
+      <DependentUpon>BarChartExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChangingStyles\ChangingStylesExample.xaml.cs">
+      <DependentUpon>ChangingStylesExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MultipleYAxes\MultipleYAxesExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PaletteChanging\PaletteChangingExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PieChart\PieChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ScatterChart\ScatterChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StackedAreaChart\StackedAreaChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StackedBarChart\StackedBarChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StackedColumnChart\StackedColumnChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StaircaseChart\StaircaseChartExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TermStructure\TermStructureExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="BandChart\Data\MSFT.csv" />
+    <Resource Include="Internationalization\Data\gbpjpy.csv" />
+    <Resource Include="LineChart\Data\EURtoUSD.cvs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="LineChart\Data\GBPtoEUR.cvs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="LineChart\Data\GBPtoUSD.cvs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BackgroundImage\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ScatterChart\Data\10KRankings2009.txt" />
+    <Resource Include="ScatterChart\Data\1500MRankings2009.txt" />
+    <Resource Include="ScatterChart\Data\MarathonRankings2009.txt" />
+    <Resource Include="TermStructure\Data\Yield.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\Client.exe
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\Client.pdb
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\RibbonControlsLibrary.pdb
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\RibbonControlsLibrary.xml
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\ou\SoMa\owl\Client\Client\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\MainWindow.baml
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\MainWindow.g.cs
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\App.g.cs
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\Client_MarkupCompile.cache
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\Client.g.resources
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\Client.exe
+C:\Users\ou\SoMa\owl\Client\Client\obj\Debug\Client.pdb

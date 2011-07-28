@@ -1,0 +1,20 @@
+﻿<Window x:Class="Visiblox.Charts.Examples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Visiblox Charts Example" Height="600" Width="800">
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <StackPanel Orientation="Vertical">
+            <Border x:Name="DropDownContainer" BorderThickness="1" Padding="7,10,0,0" >
+                <StackPanel Orientation="Horizontal" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left">
+                    <TextBlock Text="Select example chart:" FontWeight="Bold" Width="200"/>
+                    <ComboBox x:Name="TestSelect" Width="270" Height="30" SelectionChanged="TestSelect_SelectionChanged"/>
+                </StackPanel>
+            </Border>
+
+            <Border x:Name="PlotAreaContainer">
+                <Grid x:Name="PlotArea" HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch"></Grid>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

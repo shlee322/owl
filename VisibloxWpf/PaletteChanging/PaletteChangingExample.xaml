@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="Visiblox.Charts.Examples.PaletteChanging.PaletteChangingExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:charts="clr-namespace:Visiblox.Charts;assembly=Visiblox.Charts"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <UserControl.Resources>
+        
+        <!-- Define Palettes for the three line series -->
+        <charts:Palette x:Key="RedPalette">
+            <Style TargetType="charts:LineSeries">
+                <Setter Property="LineStroke" Value="#FFD77171" />
+                <Setter Property="LineStrokeThickness" Value="1.5" />
+                <Setter Property="PointFill" Value="#FFD77171" />
+            </Style>
+        </charts:Palette>
+
+        <charts:Palette x:Key="GreyPalette">
+            <Style TargetType="charts:LineSeries">
+                <Setter Property="LineStroke" Value="#FF939898" />
+                <Setter Property="LineStrokeThickness" Value="3" />
+                <Setter Property="PointFill" Value="#FF939898" />
+                <Setter Property="PointSize" Value="8" />
+            </Style>
+        </charts:Palette>
+
+        <charts:Palette x:Key="GreenPalette">
+            <Style TargetType="charts:LineSeries">
+                <Setter Property="LineStroke" Value="#FF91BF70" />
+                <Setter Property="LineStrokeThickness" Value="5" />
+                <Setter Property="PointFill" Value="#FF91BF70" />
+            </Style>
+        </charts:Palette>
+
+        <Style x:Key="NoBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <charts:Chart Name="PaletteChanging"  Title="Changing Palettes" Height="300" Width="575" Palette="{StaticResource RedPalette}" 
+                      FontFamily="Arial" LegendVisibility="Collapsed" PlotAreaBorderStyle="{StaticResource NoBorder}">
+            <charts:Chart.Behaviour>
+                <charts:ZoomBehaviour/>
+            </charts:Chart.Behaviour>
+            <charts:Chart.Series>
+                <charts:LineSeries ShowLine="True" ShowPoints="True" />
+            </charts:Chart.Series>
+            
+            <charts:Chart.XAxis>
+                <charts:LinearAxis ShowMinorTicks="False" ShowGridlines="False" >
+                    <charts:LinearAxis.Range>
+                        <charts:DoubleRange Minimum="0" Maximum="50"/>
+                    </charts:LinearAxis.Range>
+                </charts:LinearAxis>
+            </charts:Chart.XAxis>
+            
+            <charts:Chart.YAxis>
+                <charts:LinearAxis ShowMinorTicks="False" ShowGridlines="False">
+                    <charts:LinearAxis.Range>
+                        <charts:DoubleRange Minimum="0" Maximum="50"/>
+                    </charts:LinearAxis.Range>
+                </charts:LinearAxis>
+            </charts:Chart.YAxis>
+        </charts:Chart>
+    </Grid>
+</UserControl>

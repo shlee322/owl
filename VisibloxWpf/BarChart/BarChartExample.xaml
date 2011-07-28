@@ -1,0 +1,136 @@
+﻿<UserControl x:Class="Visiblox.Charts.Examples.BarChart.BarChartExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400"
+    xmlns:local="clr-namespace:Visiblox.Charts.Examples.BarChart"
+    xmlns:charts="clr-namespace:Visiblox.Charts;assembly=Visiblox.Charts">
+    
+    <!-- Defining data series and data points in the XAML -->
+    <!-- Note that these data points and data series could be created in the code behind as well -->
+    <UserControl.Resources>
+        
+        <!-- Define data to use on chart -->
+        <local:DebtLevelList x:Key="Y2007">
+            <local:DebtLevel Country="Italy" PercentGDP="101.21"/>
+            <local:DebtLevel Country="Japan" PercentGDP="81.51"/>
+            <local:DebtLevel Country="Germany" PercentGDP="58.45"/>
+            <local:DebtLevel Country="France" PercentGDP="54.10"/>
+            <local:DebtLevel Country="USA" PercentGDP="42.35"/>
+            <local:DebtLevel Country="UK" PercentGDP="38.32"/>
+            <local:DebtLevel Country="Canada" PercentGDP="22.80"/>
+        </local:DebtLevelList>
+        <local:DebtLevelList x:Key="Y2008">
+            <local:DebtLevel Country="Italy" PercentGDP="103.89"/>
+            <local:DebtLevel Country="Japan" PercentGDP="96.91"/>            
+            <local:DebtLevel Country="Germany" PercentGDP="59.29"/>
+            <local:DebtLevel Country="France" PercentGDP="57.78"/>
+            <local:DebtLevel Country="USA" PercentGDP="47.18"/>
+            <local:DebtLevel Country="UK" PercentGDP="45.54"/>
+            <local:DebtLevel Country="Canada" PercentGDP="22.62"/>
+        </local:DebtLevelList>
+        <local:DebtLevelList x:Key="Y2009">
+            <local:DebtLevel Country="Italy" PercentGDP="113.20"/>
+            <local:DebtLevel Country="Japan" PercentGDP="111.62"/>            
+            <local:DebtLevel Country="Germany" PercentGDP="64.30"/>
+            <local:DebtLevel Country="France" PercentGDP="67.74"/>
+            <local:DebtLevel Country="USA" PercentGDP="58.33"/>
+            <local:DebtLevel Country="UK" PercentGDP="61.52"/>
+            <local:DebtLevel Country="Canada" PercentGDP="28.25"/>
+        </local:DebtLevelList>
+        <local:DebtLevelList x:Key="Y2010">
+            <local:DebtLevel Country="Italy" PercentGDP="115.97"/>
+            <local:DebtLevel Country="Japan" PercentGDP="121.73"/>            
+            <local:DebtLevel Country="Germany" PercentGDP="68.62"/>
+            <local:DebtLevel Country="France" PercentGDP="74.54"/>
+            <local:DebtLevel Country="USA" PercentGDP="66.13"/>
+            <local:DebtLevel Country="UK" PercentGDP="71.57"/>
+            <local:DebtLevel Country="Canada" PercentGDP="31.82"/>
+        </local:DebtLevelList>
+        
+        <Style x:Key="LegendNoBorder" TargetType="charts:Legend">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="80"/>
+            <Setter Property="Width" Value="70" />
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        </Style>
+        
+        <Style x:Key="NoBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
+
+        <Style x:Key="CatAxisLine" TargetType="Line">
+            <Setter Property="StrokeThickness" Value="0" />
+        </Style>
+        
+        <!-- define Tooltip template to use on bars -->
+        <ControlTemplate x:Key="CustomTooltipTemplate">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="15,0,0,0">
+                <Grid Margin="0" Background="LightGray" >
+                    <StackPanel Orientation="Horizontal" >
+                        <TextBlock Text="{Binding PercentGDP, StringFormat='N2'}" />
+                        <TextBlock Margin="2,0"  Text="% of GDP" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </ControlTemplate>
+
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+
+        <charts:Chart x:Name="MainChart" Width="575" Title="G7 Government Debt Levels" FontFamily="Arial" PlotAreaBorderStyle="{StaticResource NoBorder}" LegendStyle="{StaticResource LegendNoBorder}">
+            <!--- Add zoom to the chart -->
+            <charts:Chart.Behaviour>
+                <charts:ZoomBehaviour />
+            </charts:Chart.Behaviour>
+            <!-- Define Y axis-->
+            <!-- Note that if no label were to set for the axis this declaration wouldn't be needed, the axis is auto created -->
+            <charts:Chart.YAxis>
+                <charts:CategoryAxis  
+                                 ShowLabels="True"
+                                 ShowGridStripes="False"
+                                 ShowGridlines="False"
+                                 ShowMajorTicks="False"
+                                 AxisLineStyle="{StaticResource CatAxisLine}"
+                                 Width="65" />
+                                 
+            </charts:Chart.YAxis>
+            <charts:Chart.XAxis>
+                <charts:LinearAxis Title="Net debt (% of GDP)" ShowMinorTicks="False" LabelFormatString="0'%" />
+            </charts:Chart.XAxis>
+
+            <!-- Defining the 4 Bar series on the chart-->
+            <charts:Chart.Series>
+                <charts:BarSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <!-- Defining the data source using data binding -->
+                    <charts:BarSeries.DataSeries>
+                        <charts:BindableDataSeries Title="2007" ItemsSource="{StaticResource Y2007}" XValueBinding="{Binding Path=PercentGDP}" YValueBinding="{Binding Path=Country}"/>
+                    </charts:BarSeries.DataSeries>
+                </charts:BarSeries>
+                <charts:BarSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <!-- Defining the data source using data binding -->
+                    <charts:BarSeries.DataSeries>
+                        <charts:BindableDataSeries Title="2008" ItemsSource="{StaticResource Y2008}" XValueBinding="{Binding Path=PercentGDP}" YValueBinding="{Binding Path=Country}"/>
+                    </charts:BarSeries.DataSeries>
+                </charts:BarSeries>
+                <charts:BarSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series"> 
+                    <!-- Defining the data source using data binding -->
+                    <charts:BarSeries.DataSeries >
+                        <charts:BindableDataSeries Title="2009" ItemsSource="{StaticResource Y2009}" XValueBinding="{Binding Path=PercentGDP}" YValueBinding="{Binding Path=Country}"/>
+                    </charts:BarSeries.DataSeries>
+                </charts:BarSeries>
+                <charts:BarSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <!-- Defining the data source using data binding -->
+                    <charts:BarSeries.DataSeries >
+                        <charts:BindableDataSeries Title="2010" ItemsSource="{StaticResource Y2010}" XValueBinding="{Binding Path=PercentGDP}" YValueBinding="{Binding Path=Country}"/>
+                    </charts:BarSeries.DataSeries>
+                </charts:BarSeries>
+            </charts:Chart.Series>
+        </charts:Chart>
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="Visiblox.Charts.Examples.BandChart.BandChartExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400"
+    xmlns:local="clr-namespace:Visiblox.Charts.Examples.BandChart"
+    xmlns:charts="clr-namespace:Visiblox.Charts;assembly=Visiblox.Charts">
+    
+    <UserControl.Resources>
+
+        <local:YValuesConverter x:Key="YValuesConverter" />
+
+        <Style x:Key="NoBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <charts:Chart x:Name="MainChart" Grid.Row="0" Width="575" Title="MSFT Share Price (29th Oct - 10th Dec 2009)" FontFamily="Arial" PlotAreaBorderStyle="{StaticResource NoBorder}" LegendVisibility="Collapsed">
+            
+            <!-- Add trackball and zoom behaviour to the chart -->
+            <charts:Chart.Behaviour>
+                <charts:BehaviourManager AllowMultipleEnabled="True">
+                    <charts:TrackballBehaviour/>
+                    <charts:ZoomBehaviour />
+                </charts:BehaviourManager>
+            </charts:Chart.Behaviour>
+            
+            <!-- Define axes -->
+            <charts:Chart.XAxis>
+                <charts:DateTimeAxis ShowMinorTicks="False" ShowGridlines="False" LabelFormatString="dd MMM" />
+            </charts:Chart.XAxis>
+            <charts:Chart.YAxis>
+                <charts:LinearAxis ShowMinorTicks="False" ShowGridlines="True" LabelFormatString="N2" />
+            </charts:Chart.YAxis>
+
+            <!-- Define the band series on the chart -->
+            <charts:Chart.Series>
+                <charts:BandSeries ShowArea="True" UpperLineStroke="Blue" LowerLineStroke="Red" AreaFill="LightBlue" InvertedAreaFill="LightPink" />
+            </charts:Chart.Series>
+
+        </charts:Chart>
+        
+        <!-- Display the current trackball data in a table -->
+        <StackPanel Width="575" Grid.Row="1" >
+            <Grid HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="75" />
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="75" />
+                    <ColumnDefinition Width="80" />
+                </Grid.ColumnDefinitions>
+                <TextBlock VerticalAlignment="Center" Grid.Column="0" Text="Date: "/>
+                <TextBlock VerticalAlignment="Center" Grid.Column="1" Text="{Binding ElementName=MainChart, Path=Behaviour.Behaviours[0].CurrentPoints[0].X, StringFormat='dd MMMM'}" />
+                <TextBlock VerticalAlignment="Center" Grid.Column="2" Text="Open price: " />
+                <TextBlock VerticalAlignment="Center" Grid.Column="3" Foreground="Red" Text="{Binding ElementName=MainChart, Path=Behaviour.Behaviours[0].CurrentPoints[0], Converter={StaticResource YValuesConverter}, ConverterParameter=Lower}" />
+                <TextBlock VerticalAlignment="Center" Grid.Column="4" Text="Close price: " />
+                <TextBlock VerticalAlignment="Center" Grid.Column="5" Foreground="Blue" Text="{Binding ElementName=MainChart, Path=Behaviour.Behaviours[0].CurrentPoints[0],  Converter={StaticResource YValuesConverter}, ConverterParameter=Upper}" />
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,173 @@
+﻿<UserControl x:Name="Root1" x:Class="Visiblox.Charts.Examples.ColumnChart.ColumnChartExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400"
+    xmlns:local="clr-namespace:Visiblox.Charts.Examples.ColumnChart"
+    xmlns:charts="clr-namespace:Visiblox.Charts;assembly=Visiblox.Charts">
+
+    <!-- Defining data series and data points in the XAML -->
+    <!-- Note that these data points and data series could be created in the code behind as well -->
+    <UserControl.Resources>
+        <local:GDPDataPointList x:Key="GDPGermany">
+            <local:GDPDataPoint Date="1990" GDP="1550"/>
+            <local:GDPDataPoint Date="1995" GDP="2520"/>
+            <local:GDPDataPoint Date="2000" GDP="1900"/>
+            <local:GDPDataPoint Date="2005" GDP="2790"/>
+        </local:GDPDataPointList>
+        <local:GDPDataPointList x:Key="GDPFrance">
+            <local:GDPDataPoint Date="1990" GDP="1250"/>
+            <local:GDPDataPoint Date="1995" GDP="1570"/>
+            <local:GDPDataPoint Date="2000" GDP="1330"/>
+            <local:GDPDataPoint Date="2005" GDP="2150"/>
+        </local:GDPDataPointList>
+        <local:GDPDataPointList x:Key="GDPUK">
+            <local:GDPDataPoint Date="1990" GDP="1020"/>
+            <local:GDPDataPoint Date="1995" GDP="1160"/>
+            <local:GDPDataPoint Date="2000" GDP="1480"/>
+            <local:GDPDataPoint Date="2005" GDP="2280"/>
+        </local:GDPDataPointList>
+        <local:GDPDataPointList x:Key="GDPCanada">
+            <local:GDPDataPoint Date="1990" GDP="580"/>
+            <local:GDPDataPoint Date="1995" GDP="590"/>
+            <local:GDPDataPoint Date="2000" GDP="720"/>
+            <local:GDPDataPoint Date="2005" GDP="1130"/>
+        </local:GDPDataPointList>
+        <local:GDPDataPointList x:Key="GDPItaly">
+            <local:GDPDataPoint Date="1990" GDP="1140"/>
+            <local:GDPDataPoint Date="1995" GDP="1130"/>
+            <local:GDPDataPoint Date="2000" GDP="1100"/>
+            <local:GDPDataPoint Date="2005" GDP="1780"/>
+        </local:GDPDataPointList>
+        <local:GDPDataPointList x:Key="GDPJapan">
+            <local:GDPDataPoint Date="1990" GDP="3030"/>
+            <local:GDPDataPoint Date="1995" GDP="5260"/>
+            <local:GDPDataPoint Date="2000" GDP="4670"/>
+            <local:GDPDataPoint Date="2005" GDP="4550"/>
+        </local:GDPDataPointList>
+        <local:GDPDataPointList x:Key="GDPUSA">
+            <local:GDPDataPoint Date="1990" GDP="5800"/>
+            <local:GDPDataPoint Date="1995" GDP="7400"/>
+            <local:GDPDataPoint Date="2000" GDP="9950"/>
+            <local:GDPDataPoint Date="2005" GDP="12640"/>
+        </local:GDPDataPointList>
+
+        <Style x:Key="NoBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
+
+        <Style x:Key="CatAxisLine" TargetType="Line">
+            <Setter Property="StrokeThickness" Value="0" />
+            <Setter Property="Stroke" Value="Black" />
+        </Style>
+
+        <!-- define tooltip template to show on mouseover of columns -->
+        <ControlTemplate x:Key="CustomTooltipTemplate">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="15,0,0,0"  >
+                <Grid Background="LightGray" >
+                    <StackPanel Orientation="Horizontal" >
+                        <TextBlock Text="$" />
+                        <TextBlock Text="{Binding GDP}" />
+                        <TextBlock Margin="2,0"  Text="billion" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </ControlTemplate>
+
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+
+        <charts:Chart x:Name="MainChart" Width="575" Title="G7 Gross Domestic Product" FontFamily="Arial" PlotAreaBorderStyle="{StaticResource NoBorder}" Grid.Row="0" LegendVisibility="Collapsed">
+            <!--- Add zoom to the chart -->
+            <charts:Chart.Behaviour>
+                <charts:ZoomBehaviour />
+            </charts:Chart.Behaviour>
+            <!-- Define Y axis-->
+            <!-- Note that if no label were to set for the axis this declaration wouldn't be needed, the axis is auto created -->
+            <charts:Chart.YAxis>
+                <charts:LinearAxis Title="USD in Billions" ShowMinorTicks="False" LabelFormatString="N0" Width="65" >
+                    <charts:LinearAxis.Range>
+                        <charts:DoubleRange Minimum="0" Maximum="13000" />
+                    </charts:LinearAxis.Range>
+                </charts:LinearAxis>
+            </charts:Chart.YAxis>
+            <charts:Chart.XAxis>
+                <charts:CategoryAxis  
+                                 ShowLabels="True"
+                                 ShowGridStripes="False"
+                                 ShowGridlines="False"
+                                 ShowMajorTicks="False"
+                                 AxisLineStyle="{StaticResource CatAxisLine}"/>
+                </charts:Chart.XAxis>
+
+            <!-- Defining the 7 column series on the chart-->
+            <charts:Chart.Series>
+                <!-- Enable tooltips and allow user to select entire series by clicking on one point -->
+                <charts:ColumnSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries Title="USA" ItemsSource="{StaticResource GDPUSA}" XValueBinding="{Binding Path=Date}" YValueBinding="{Binding Path=GDP}"/>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+                <charts:ColumnSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries Title="Japan" ItemsSource="{StaticResource GDPJapan}" XValueBinding="{Binding Path=Date}" YValueBinding="{Binding Path=GDP}"/>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+                <charts:ColumnSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries Title="Germany" ItemsSource="{StaticResource GDPGermany}" XValueBinding="{Binding Path=Date}" YValueBinding="{Binding Path=GDP}"/>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+                <charts:ColumnSeries  ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries Title="France" ItemsSource="{StaticResource GDPFrance}" XValueBinding="{Binding Path=Date}" YValueBinding="{Binding Path=GDP}"/>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+                <charts:ColumnSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries Title="UK" ItemsSource="{StaticResource GDPUK}" XValueBinding="{Binding Path=Date}" YValueBinding="{Binding Path=GDP}"/>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+                <charts:ColumnSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries Title="Italy" ItemsSource="{StaticResource GDPItaly}" XValueBinding="{Binding Path=Date}" YValueBinding="{Binding Path=GDP}"/>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+                <charts:ColumnSeries ToolTipEnabled="True" ToolTipTemplate="{StaticResource CustomTooltipTemplate}" SelectionMode="Series">
+                    <charts:ColumnSeries.DataSeries>
+                        <charts:BindableDataSeries Title="Canada" ItemsSource="{StaticResource GDPCanada}" XValueBinding="{Binding Path=Date}" YValueBinding="{Binding Path=GDP}"/>
+                    </charts:ColumnSeries.DataSeries>
+                </charts:ColumnSeries>
+            </charts:Chart.Series>
+        </charts:Chart>
+        
+        <!-- Define coloured labels under the chart -->
+        <StackPanel x:Name="CustomLegend" Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,-30,15">
+            <Rectangle Margin="0,0,2,0" Height="10" Width="10" Fill="{Binding ElementName=MainChart, Path=Series[0].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Margin="0,0,8,0" Text="{Binding ElementName=MainChart, Path=Series[0].DataSeries.Title}" VerticalAlignment="Center"/>
+            <Rectangle Margin="5,0,2,0" Height="10" Width="10" Fill="{Binding ElementName=MainChart, Path=Series[1].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Margin="0,0,8,0" Text="{Binding ElementName=MainChart, Path=Series[1].DataSeries.Title}" VerticalAlignment="Center"/>
+            <Rectangle Margin="5,0,2,0" Height="10" Width="10" Fill="{Binding ElementName=MainChart, Path=Series[2].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Margin="0,0,8,0" Text="{Binding ElementName=MainChart, Path=Series[2].DataSeries.Title}" VerticalAlignment="Center"/>
+            <Rectangle Margin="5,0,2,0" Height="10" Width="10" Fill="{Binding ElementName=MainChart, Path=Series[3].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Margin="0,0,8,0" Text="{Binding ElementName=MainChart, Path=Series[3].DataSeries.Title}" VerticalAlignment="Center"/>
+            <Rectangle Margin="5,0,2,0" Height="10" Width="10" Fill="{Binding ElementName=MainChart, Path=Series[4].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Margin="0,0,8,0" Text="{Binding ElementName=MainChart, Path=Series[4].DataSeries.Title}" VerticalAlignment="Center"/>
+            <Rectangle Margin="5,0,2,0" Height="10" Width="10" Fill="{Binding ElementName=MainChart, Path=Series[5].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Margin="0,0,8,0" Text="{Binding ElementName=MainChart, Path=Series[5].DataSeries.Title}" VerticalAlignment="Center"/>
+            <Rectangle Margin="5,0,2,0" Height="10" Width="10" Fill="{Binding ElementName=MainChart, Path=Series[6].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Margin="0,0,8,0" Text="{Binding ElementName=MainChart, Path=Series[6].DataSeries.Title}" VerticalAlignment="Center"/>
+        </StackPanel>
+
+    </Grid>
+
+</UserControl>

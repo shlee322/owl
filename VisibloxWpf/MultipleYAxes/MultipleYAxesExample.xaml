@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="Visiblox.Charts.Examples.MultipleYAxes.MultipleYAxesExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:charts="clr-namespace:Visiblox.Charts;assembly=Visiblox.Charts"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    
+    <UserControl.Resources>
+        <Style x:Key="NoBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
+    </UserControl.Resources>
+    
+    <Grid x:Name="LayoutRoot" Background="White">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+        
+        <charts:Chart x:Name="AxesChart" Title="Monthly Sales Data (December 2009)" PlotAreaBorderStyle="{StaticResource NoBorder}" Grid.Row="0" LegendVisibility="Collapsed">
+            
+            <charts:Chart.Behaviour>
+                <charts:ZoomBehaviour />
+            </charts:Chart.Behaviour>
+            
+            <charts:Chart.XAxis>
+                <charts:DateTimeAxis ShowGridlines="False" ShowMinorTicks="False" LabelFormatString="dd/MM">
+                    <charts:DateTimeAxis.Range>
+                        <charts:DateTimeRange Minimum="2009-12-01" Maximum="2010-01-01" />
+                    </charts:DateTimeAxis.Range>
+                </charts:DateTimeAxis>
+            </charts:Chart.XAxis>
+
+            <charts:Chart.YAxis>
+                <charts:LinearAxis Title="Daily Sales" ShowMinorTicks="False" ShowGridlines="False" MajorTickInterval="5" >
+                    <charts:LinearAxis.Range>
+                        <charts:DoubleRange Minimum="5" Maximum="40" />
+                    </charts:LinearAxis.Range>
+                </charts:LinearAxis>
+            </charts:Chart.YAxis>
+            
+            <charts:Chart.SecondaryYAxis>
+                <charts:LinearAxis Title="Cumulative Total" ShowMinorTicks="False" ShowGridlines="False" MajorTickInterval="10" LabelFormatString="0'%" >
+                    <charts:LinearAxis.Range>
+                        <charts:DoubleRange Minimum="0" Maximum="100" />
+                    </charts:LinearAxis.Range>
+                </charts:LinearAxis>
+            </charts:Chart.SecondaryYAxis>
+            
+            <charts:Chart.Series>
+                <charts:LineSeries LineStrokeThickness="1.5" />
+                <charts:LineSeries LineStrokeThickness="1.5" />
+            </charts:Chart.Series>
+        </charts:Chart>
+        
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,20,0">
+            <Rectangle x:Name="SalesBlock" Margin="0,0,5,0" Height="10" Width="10" Fill="{Binding ElementName=AxesChart, Path=Series[0].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Text="View Daily Sales" Margin="0,0,5,0" />
+            <CheckBox x:Name="dailyCheck" IsChecked="True" Margin="0,0,15,0" Checked="dailyCheck_Checked" Unchecked="dailyCheck_Checked" />
+            <Rectangle x:Name="PercentBlock" Margin="20,0,5,0" Height="10" Width="10" Fill="{Binding ElementName=AxesChart, Path=Series[1].PointFill}" VerticalAlignment="Center" />
+            <TextBlock Text="View Cumulative % Sales" Margin="0,0,5,0"/>
+            <CheckBox x:Name="cumulativeCheck" IsChecked="True" Checked="cumulativeCheck_Checked" Unchecked="cumulativeCheck_Checked" />
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

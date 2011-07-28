@@ -1,0 +1,1219 @@
+﻿1	3:33.98	 	 	 	3:33.98	Mohamed Farah	 	23.03.83	 	Newham & Essex Beagles	Monte Carlo, MON	28 Jul 09
+2	3:34.29	 	 	 	3:34.29	Tom Lancashire	 	02.07.85	 	Bolton	Berlin, GER	14 Jun 09
+3	3:35.07	 	 	 	3:34.36	Andy Baddeley	 	20.06.82	 	Harrow	Rieti, ITA	6 Sep 09
+4	3:37.17	 	 	 	3:37.17	James Brewer	U23	18.06.88	 	Cheltenham	Berlin, GER	15 Aug 09
+5	3:37.25	 	 	 	3:37.25	Lee Emanuel	 	24.01.85	 	City of Sheffield	Stanford CA, USA	2 May 09
+6	3:37.55	 	 	 	3:37.55	Colin McCourt	 	11.12.84	 	Dundee Hawkhill	Oslo, NOR	3 Jul 09
+7	3:39.17	i	 	 	3:38.33	Neil Speaight	 	09.09.78	 	Belgrave	Birmingham	21 Feb 09
+8	3:39.92	 	 	 	3:39.85	Jermaine Mays	 	23.12.82	 	Kent	Heusden, BEL	18 Jul 09
+9	3:40.2	+	 	 	3:40.2	Ricky Stevenson	U23	14.11.88	 	New Marske	Crystal Palace	25 Jul 09
+10	3:40.81	 	 	 	3:40.81	David Forrester	U23	11.12.89	 	St. Helens Sutton	Watford	13 Jun 09
+11	3:41.13	i	 	 	3:39.50	Chris Warburton	 	23.08.83	 	Notts	Birmingham	21 Feb 09
+12	3:41.24	 	 	 	3:41.24	Shaun Moralee	 	13.04.85	 	Belgrave	Stretford	27 Jun 09
+13	3:41.25	i	 	 	3:38.50	Stephen Davies	 	16.02.84	 	Belgrave	Cardiff	24 Jan 09
+14	3:41.47	 	 	 	3:33.9	Nick McCormick	 	11.09.81	 	Morpeth	Cardiff	15 Aug 09
+15	3:41.64	 	 	 	3:41.64	Niall Brooks	U20	08.07.91	 	Sale Harriers Manchester	Manchester (SC)	30 May 09
+16	3:41.77	 	 	 	3:41.77	Simon Horsfield	U20	11.05.90	 	East Cheshire	Cardiff	15 Aug 09
+17	3:41.85	 	 	 	3:41.85	Chris Gowell	 	26.09.85	 	Swansea	Stanford CA, USA	27 Mar 09
+18	3:41.91	 	 	 	3:41.91	Alastair Hay	 	07.09.85	 	Central	Oordegem, BEL	4 Jul 09
+19	3:41.95	 	 	 	3:41.95	Jonathan Mellor	 	27.12.86	 	Liverpool H	Stretford	23 Jun 09
+20	3:41.97	 	 	 	3:41.97	Jonathan Taylor	U23	10.10.87	 	Morpeth	Manchester (SC)	30 May 09
+21	3:42.13	 	 	 	3:42.13	Kris Gauson	U23	29.01.88	 	Edinburgh	Walnut CA, USA	17 Apr 09
+22	3:42.36	 	 	 	3:42.36	Gavin Massingham	 	04.10.82	 	Sunderland	Cardiff	15 Aug 09
+23	3:42.43	 	 	 	3:42.43	Chris Mackay	 	26.08.84	 	Newham & Essex Beagles	Oordegem, BEL	4 Jul 09
+24	3:42.53	 	 	 	3:42.53	Darren Gauson	 	22.03.82	 	Edinburgh	Brasschaat, BEL	26 Jul 09
+25	3:42.63	 	 	 	3:42.63	Joe MacDonald	 	30.12.85	 	Trafford	Atlanta GA, USA	15 May 09
+26	3:42.69	 	 	 	3:42.69	Frank Baddick	 	29.11.85	 	Newham & Essex Beagles	Cardiff	15 Aug 09
+27	3:43.15	 	 	 	3:43.15	Gary Bradbury	U23	03.02.89	 	Woking	Watford	13 Jun 09
+28	3:43.16	 	 	 	3:42.13	Chris Parr	 	13.11.84	 	Gateshead	Stretford	27 Jun 09
+29	3:43.37	 	 	 	3:41.04	Chris Thompson	 	17.04.81	 	Aldershot, Farnham & District	Birmingham	12 Jul 09
+30	3:43.41	 	 	 	3:43.41	Matthew Bowser	 	03.07.83	 	Lincoln Wellington	Stretford	27 Jun 09
+31	3:43.44	 	 	 	3:43.44	Harry Norton	 	24.07.85	 	Unattached	Boston MA, USA	13 Jun 09
+32	3:43.50	 	 	 	3:43.50	Ryan McLeod	 	07.06.85	 	Tipton	Stretford	23 Jun 09
+33	3:43.53	 	 	 	3:43.53	Daniel Clorley	U20	01.10.90	 	Luton	Cardiff	15 Aug 09
+34	3:43.54	 	 	 	3:42.98	Andy Vernon	 	07.01.86	 	Aldershot, Farnham & District	Watford	13 Jun 09
+35	3:43.66	 	 	 	3:42.89	Bruce Raeside	 	02.12.81	 	Notts	Cardiff	15 Aug 09
+36	3:43.93	 	 	 	3:43.93	Ross Murray	U20	08.10.90	 	Gateshead	Watford	13 Jun 09
+37	3:44.06	 	 	 	3:44.06	Rob Mullett	U23	31.07.87	 	Lewes	Indianapolis IN, USA	20 Jun 09
+38	3:44.23	 	 	 	3:43.11	Mark Draper	 	28.06.84	 	Bedford & County	Manchester (SC)	30 May 09
+39	3:44.25	 	 	 	3:44.25	Jorge Thomas	 	07.02.83	 	Cardiff	Stretford	27 Jun 09
+40	3:44.29	 	 	 	3:44.29	Steve Mitchell	U23	24.05.88	 	Bristol & West	Solihull	18 Jul 09
+41	3:44.38	 	 	 	3:37.06	James Thie	 	27.06.78	 	Cardiff	Brasschaat, BEL	26 Jul 09
+42	3:44.44	 	 	 	3:44.44	Mitch Goose	U23	16.03.89	 	City of Norwich	Solihull	18 Jul 09
+43	3:44.68	 	 	 	3:43.00	Ben Tickner	 	13.07.81	 	Wells City	Solihull	18 Jul 09
+44	3:44.82	 	 	 	3:41.40	Chris Moss	 	17.06.79	 	Cardiff	Stretford	27 Jun 09
+45	3:45.02	 	 	 	3:45.02	Lewis Moses	U23	09.01.87	 	Darlington	Watford	13 Jun 09
+46	3:45.04	 	 	 	3:45.04	Ross Millington	U23	19.09.89	 	Stockport	Walnut CA, USA	17 Apr 09
+47	3:45.17	 	 	 	3:45.17	Nick Samuels	 	13.06.81	 	Sale Harriers Manchester	Barcelona, ESP	25 Jul 09
+48	3:45.31	 	 	 	3:45.31	Justin Taylor	 	25.06.86	 	Florida Uni	Gainesville FL, USA	3 Apr 09
+49	3:45.36	 	 	 	3:42.35	Michael Skinner	 	21.11.79	 	Blackheath & Bromley	Sydney, AUS	28 Feb 09
+50	3:45.64	 	 	 	3:45.64	Ian Williamson	 	02.11.78	 	Cambridge & Coleridge	Watford	13 Jun 09
+51	3:45.68	 	 	 	3:45.68	Andrew Lemoncello	 	12.10.82	 	Fife	Tempe AZ, USA	10 Apr 09
+52	3:45.72	 	 	 	3:45.72	Drew Graham	 	14.11.84	 	Gosforth	Eugene OR, USA	9 May 09
+53	3:45.84	 	 	 	3:45.84	Garry Bristow	U23	03.05.87	 	Trafford	Stretford	27 Jun 09
+54	3:46.09	 	 	 	3:45.45	Rory Fraser	U23	25.04.87	 	Owls Leicester	Stanford CA, USA	2 May 09
+55	3:46.79	 	 	 	3:45.82	David Bishop	U23	09.05.87	 	Bristol & West	Tempe AZ, USA	10 Apr 09
+56	3:46.87	 	 	 	3:46.57	Kevin Kane	 	25.01.82	 	Cumbernauld	Stretford	23 Jun 09
+57	3:46.91	 	 	 	3:46.91	Paul Richardson	 	11.02.82	 	Charnwood	Watford	13 Jun 09
+58	3:47.24	 	 	 	3:43.45	Jonathan Blackledge	 	15.09.84	 	Belgrave	Princeton NJ, USA	17 Apr 09
+59	3:47.25	 	 	 	3:42.94	Rob Whittle	 	14.06.81	 	Basingstoke & Mid Hants	Stretford	27 Jun 09
+60	3:47.50	 	 	 	3:47.50	James Mills	U23	23.11.87	 	Wrexham	Stretford	18 Aug 09
+61	3:47.72	 	 	 	3:47.72	Ross Clarke	U23	20.09.88	 	Basildon	Watford	13 Jun 09
+62	3:47.74	 	 	 	3:47.74	Lee Carey	U23	05.09.88	 	Nuneaton	Boston MA, USA	13 Jun 09
+63	3:47.95	 	 	 	3:45.71	Michael Rimmer	 	03.02.86	 	Liverpool Pembroke Sefton	Stretford	28 Apr 09
+64	3:48.10	 	 	 	3:46.69	Neil Dougal	 	07.03.80	 	Thames Valley	Twickenham	3 Jun 09
+64	3:48.10	 	 	 	3:48.10	Stephen Lisgo	U23	29.03.87	 	Mansfield	Stretford	7 Jul 09
+66	3:48.20	 	 	 	3:48.20	Harry Ellis	U20	14.12.91	 	Warrington	Stretford	27 Jun 09
+67	3:48.35	 	 	 	3:43.88	Richard Weir	 	07.08.84	 	Derby	Stretford	27 Jun 09
+68	3:48.38	 	 	 	3:43.35	David Proctor	 	22.10.85	 	Rochdale	Princeton NJ, USA	16 May 09
+69	3:48.61	 	 	 	3:48.61	Keith Gerrard	 	24.03.86	 	Newham & Essex Beagles	Twickenham	3 Jun 09
+70	3:48.67	 	 	 	3:48.67	James Wilkinson	U20	13.07.90	 	Leeds City	Stretford	4 Aug 09
+71	3:48.78	 	 	 	3:48.78	Paul Hutton	 	20.12.84	 	Gosforth	Manchester (SC)	30 May 09
+72	3:48.99	i	 	 	3:47.36	Peter Bridger	 	06.09.81	 	Luton	Sheffield	15 Feb 09
+72	3:48.99	 	 	 	3:48.99	Damien Moss	 	02.09.82	 	Rugby & Northampton	Lee Valley	23 May 09
+72	3:48.99	 	 	 	3:48.99	Chris O'Hare	U20	23.11.90	 	Edinburgh	Dunfermline	21 Jun 09
+72	3:48.99	 	 	 	3:48.99	Andrew Osagie	U23	19.02.88	 	Harlow AC	Watford	29 Jul 09
+76	3:49.05	 	 	 	3:45.14	Luke Gunn	 	22.03.85	 	Derby	Cardiff	15 Aug 09
+77	3:49.08	 	 	 	3:45.0	Mark Pollard	 	25.02.82	 	Belgrave	Oordegem, BEL	4 Jul 09
+78	3:49.34	 	 	 	3:49.34	Jonathan Hay	U20	12.02.92	 	Aldershot, Farnham & District	Solihull	18 Jul 09
+79	3:49.49	 	 	 	3:49.49	Tim Egerton	 	19.01.84	 	Trafford	Stretford	27 Jun 09
+80	3:49.58	 	 	 	3:40.79	Lee Merrien	 	26.04.79	 	Newham & Essex Beagles	Aland, FIN	3 Jul 09
+81	3:49.7	 	 	 	3:49.7	Andy Wiles	U23	26.04.88	 	New Marske	Jarrow	15 Jun 09
+82	3:49.78	 	 	 	3:49.78	Stephen Broadhurst	U20	08.09.90	 	Warrington	Stretford	27 Jun 09
+82	3:49.78	 	 	 	3:49.78	Nick Goolab	U20	30.01.90	 	Belgrave	Watford	29 Jul 09
+84	3:49.80	 	 	 	3:47.41	Andy Baker	 	22.07.85	 	Yeovil	Oxford OH, USA	11 Apr 09
+85	3:49.8	 	 	 	3:49.8	Neilson Hall	 	05.10.82	 	Bedford & County	Watford	15 Jul 09
+86	3:49.87	 	 	 	3:49.87	Matthew Armstrong	 	13.12.85	 	 	Solihull	18 Jul 09
+86	3:49.87	 	 	 	3:49.18i	Ben Green	 	14.08.86	 	Newham & Essex Beagles	Watford	29 Jul 09
+88	3:50.03	 	 	 	3:50.03	Lewis Timmins	U23	17.06.87	 	Gosforth	Stretford	7 Jul 09
+89	3:50.09	 	 	 	3:50.09	Chris Discombe	 	24.01.80	 	Les Croupiers	Solihull	18 Jul 09
+90	3:50.14	i	 	 	3:49.97	Tim Dalton	U23	16.08.87	 	Severn	Birmingham	31 Jan 09
+91	3:50.34	 	 	 	3:50.34	Alex Tovey	U23	27.12.89	 	Windsor, Slough, Eton & Hounslow	Manchester (SC)	30 May 09
+92	3:50.55	i	 	 	3:50.27	Ieuan Thomas	U23	17.07.89	 	Cwmbran	Cardiff	24 Jan 09
+93	3:50.60	 	 	 	3:42.3	Phillip Tulba	V35	20.09.73	 	Basingstoke & Mid Hants	Watford	29 Jul 09
+94	3:50.64	 	 	 	3:50.64	John McDonnell	U20	22.11.91	 	Luton	Bedford	28 Jun 09
+95	3:50.66	 	 	 	3:50.66	Paul Erwood	 	26.03.86	 	Marshall Milton Keynes	Stretford	27 Jun 09
+96	3:50.79	 	 	 	3:50.79	Michael Salter	U20	12.01.90	 	Leeds City	Manchester (SC)	30 May 09
+97	3:50.86	 	 	 	3:50.86	Peter Street	U23	01.02.89	 	Preston	Stretford	4 Aug 09
+98	3:50.87	 	 	 	3:50.41	Laurence Cox	U23	15.03.88	 	Aldershot, Farnham & District	Stretford	4 Aug 09
+99	3:50.89	 	 	 	3:50.89	Geraint Davies	U23	22.09.88	 	Owls Leicester	Watford	29 Jul 09
+100	3:50.95	 	 	 	3:50.95	Alex Cornwell	U20	14.09.91	 	Woodford Green with Essex Ladies	Sheffield	11 Jul 09
+100	3:50.95	 	 	 	3:47.87	Ben Wiffen	 	30.10.84	 	Tonbridge	Derby	22 Aug 09
+102	3:51.11	 	 	 	3:51.11	Andrew Stanton	U23	14.03.89	 	Gateshead	Stretford	21 Jul 09
+102	3:51.11	 	 	 	3:43.42	Steve Sharp	 	31.12.75	 	Belgrave	Cardiff	15 Aug 09
+104	3:51.12	 	 	 	3:51.12	Scott Pilkington	 	27.08.86	 	Corstorphine	Stretford	27 Jun 09
+105	3:51.28	 	 	 	3:51.28	Philip Hurst	U20	03.10.90	 	Elswick	Stretford	27 Jun 09
+106	3:51.35	 	 	 	3:48.08	Steve Vernon	 	17.10.80	 	Stockport	Stretford	21 Jul 09
+107	3:51.41	 	 	 	3:45.29	James Shane	U23	18.12.89	 	Newham & Essex Beagles	Newham	22 Aug 09
+108	3:51.45	 	 	 	3:51.45	Jack Hallas	U20	07.02.91	 	Wakefield	Stretford	4 Aug 09
+108	3:51.45	 	 	 	3:51.45	Shaun Collins	U23	18.11.89	 	Enfield & Haringey	Eltham	19 Aug 09
+110	3:51.59	 	 	 	3:51.59	Tom Phillips	U23	24.10.88	 	Woodford Green with Essex Ladies	Oordegem, BEL	4 Jul 09
+111	3:51.60	 	 	 	3:51.60	James Trollope	U23	12.11.88	 	Birchfield H	Cardiff	15 Aug 09
+112	3:51.65	 	 	 	3:51.65	Robert Hodges	U23	05.12.87	 	Kingston upon Hull	Bedford	28 Jun 09
+113	3:51.77	 	 	 	3:49.04	Ian Munro	 	05.09.83	 	Cambuslang	Wishaw	10 May 09
+114	3:51.84	 	 	 	3:51.84	Dale Clutterbuck	U20	01.01.92	 	Basildon	Sheffield	11 Jul 09
+115	3:51.93	 	 	 	3:51.93	Mathew Almond	 	16.07.81	 	Coventry	Watford	13 Jun 09
+116	3:52.00	 	 	 	3:52.00	Jelle Verwer	U20	07.02.91	 	Tipton	Sheffield	11 Jul 09
+117	3:52.01	 	 	 	3:52.01	Danny Barkes	 	02.10.86	 	Mansfield	Stretford	21 Jul 09
+118	3:52.11	i	 	 	3:46.83	Tom Penfold	 	04.05.84	 	Birchfield H	Lee Valley	24 Jan 09
+118	3:52.11	 	 	 	3:51.63	Douglas Selman	U23	12.07.88	 	Corstorphine	Watford	13 Jun 09
+120	3:52.12	i	 	 	3:48.47i	Richard Hill	 	12.02.86	 	Notts	Cardiff	10 Jan 09
+121	3:52.14	 	 	 	3:52.14	Joe Durrant	U23	15.03.88	 	Cambridge H	Watford	29 Jul 09
+122	3:52.16	 	 	 	3:52.16	Ronnie Sparke	U20	19.06.91	 	Woodford Green with Essex Ladies	Sheffield	7 Jun 09
+123	3:52.17	 	 	 	3:46.49	Ricky Soos	 	28.06.83	 	Mansfield	Cardiff	15 Aug 09
+124	3:52.23	i	 	 	3:46.12	Ian Rawlinson	 	03.03.84	 	Border	Cardiff	22 Feb 09
+125	3:52.26	 	 	 	3:52.26	Thomas Farrell	U20	23.03.91	 	Border	Manchester (SC)	30 May 09
+126	3:52.28	 	 	 	3:52.28	Sean Reilly	U20	24.09.90	 	Central	Dunfermline	20 Jun 09
+127	3:52.30	 	 	 	3:52.30	Jonathan Thewlis	 	07.05.85	 	Rotherham	Watford	29 Jul 09
+128	3:52.37	 	 	 	3:49.70	James Bailey	 	01.06.83	 	Sale Harriers Manchester	Stretford	21 Jul 09
+129	3:52.39	 	 	 	3:50.22	Matthew Nicholson	 	26.05.82	 	Morpeth	Stretford	27 Jun 09
+130	3:52.41	 	 	 	3:52.41	Andrew Heyes	U20	22.06.90	 	Hallamshire	Watford	13 Jun 09
+131	3:52.43	 	 	 	3:52.43	Chris Powner	 	21.12.83	 	Winchester	Stretford	27 Jun 09
+132	3:52.48	 	 	 	3:52.48	Adam Clarke	U20	03.04.91	 	Hastings AC	Cardiff	15 Aug 09
+133	3:52.56	 	 	 	3:52.56	Nick Hooker	U23	19.08.88	 	Leeds City	Cardiff	15 Aug 09
+134	3:52.60	 	 	 	3:52.60	Harry Harper	U23	23.11.89	 	Liverpool H	Stretford	18 Aug 09
+135	3:52.61	 	 	 	3:52.61	Jeremy Gilmour	U20	26.09.90	 	Trafford	Stretford	27 Jun 09
+136	3:52.64	 	 	 	3:52.64	Oliver Blake	U23	14.03.88	 	Oswestry	Loughborough	17 May 09
+136	3:52.64	 	 	 	3:52.64	Harry Webb	U23	25.11.89	 	Bristol & West	Watford	13 Jun 09
+138	3:52.76	 	 	 	3:52.76	Sam Walsh	U23	11.11.87	 	Swansea	Loughborough	17 May 09
+138	3:52.76	 	 	 	3:52.76	James Ellis	 	06.09.85	 	Winchester	Solihull	18 Jul 09
+140	3:52.8	 	 	 	3:52.8	Ryan Stephenson	 	06.08.86	 	Gateshead	Jarrow	15 Jun 09
+141	3:53.0	 	 	 	3:53.0	Lee Reynolds	 	13.11.84	 	Herts Phoenix	Watford	15 Jul 09
+142	3:53.17	 	 	 	3:53.17	Ben Tyler	U23	14.03.88	 	Medway & Maidstone	Bedford	27 Jun 09
+143	3:53.22	 	 	 	3:50.36	John Millington	 	07.09.83	 	Tipton	Manchester (SC)	30 May 09
+144	3:53.23	 	 	 	3:53.23	David Gibbon	U20	30.01.90	 	Colchester & Tendring	Bedford	28 Jun 09
+145	3:53.37	 	 	 	3:53.37	Luke Minns	U23	20.03.89	 	Blackpool, Wyre & Fylde	Stretford	27 Jun 09
+146	3:53.42	 	 	 	3:53.42	Joe Wade	U23	14.01.89	 	Aldershot, Farnham & District	Aland, FIN	3 Jul 09
+147	3:53.47	 	 	 	3:50.64	John McCole	 	08.09.79	 	Liverpool H	Stretford	27 Jun 09
+148	3:53.48	 	 	 	3:53.48	Patrick Martin	 	15.05.85	 	Sunderland	Stretford	21 Jul 09
+149	3:53.52	 	 	 	3:53.52	Harry Jones	U23	21.08.89	 	Cardiff	Cardiff	13 Jun 09
+150	3:53.54	 	 	 	3:53.54	Stuart King	U23	17.05.88	 	Mansfield	Stretford	27 Jun 09
+150	3:53.54	 	 	 	3:53.54	Russell Best	U20	05.09.90	 	New Marske	Stretford	7 Jul 09
+152	3:53.63	 	 	 	3:53.63	Dominic Shaw	U23	26.12.88	 	New Marske	Watford	13 Jun 09
+153	3:53.66	 	 	 	3:53.66	Jordan Donnelly	U23	20.09.87	 	Wirral	Munich, GER	30 May 09
+153	3:53.66	 	 	 	3:48.01	Tom Holden	 	02.02.84	 	Tipton	Solihull	18 Jul 09
+155	3:53.67	 	 	 	3:50.02	Ben Jones	 	14.01.86	 	Coventry	Stretford	23 Jun 09
+155	3:53.67	 	 	 	3:53.67	Martin Reid	 	18.09.81	 	City of Sheffield	Watford	29 Jul 09
+157	3:53.73	 	 	 	3:53.73	Jonathan Wills	 	09.08.78	 	Bristol & West	Exeter	26 May 09
+158	3:53.76	 	 	 	3:53.76	Ethan Heywood	U20	08.12.92	 	Stirling Swans	Perth, AUS	13 Nov 09
+159	3:53.79	i	 	 	3:44.39	Neil Gamester	 	15.02.83	 	Shaftesbury Barnet	Birmingham	31 Jan 09
+160	3:53.80	 	 	 	3:53.80	Joe Brocklehurst	 	20.03.86	 	Stratford-upon-Avon	Stretford	28 Apr 09
+161	3:53.90	 	 	 	3:53.90	Tom Wade	U23	14.01.89	 	Aldershot, Farnham & District	Watford	13 Jun 09
+162	3:54.0	 	 	 	3:54.0	Gareth Allott	U23	16.12.88	 	Staffordshire Moorlands	Eton	4 Jul 09
+163	3:54.04	i	 	 	3:51.00	Tom Marley	U23	02.01.87	 	Bristol & West	Cardiff	24 Jan 09
+164	3:54.06	 	 	 	3:54.06	Craig Ruddy	U23	10.04.88	 	Inverclyde	Dunfermline	20 Jun 09
+165	3:54.09	 	 	 	3:52.4	Russell Bentley	 	28.04.81	 	Blackheath & Bromley	Cardiff	15 Aug 09
+166	3:54.24	 	 	 	3:52.37i	Gareth Hill	 	24.05.79	 	Ballymena & Antrim	Stretford	27 Jun 09
+167	3:54.33	 	 	 	3:54.33	Dan Garbutt	U23	10.10.88	 	Durham	Stretford	23 Jun 09
+167	3:54.33	 	 	 	3:54.33	Josh Lilly	 	30.11.85	 	Severn	Watford	29 Jul 09
+169	3:54.40	 	 	 	3:54.40	Luke Carroll	U17	20.10.93	 	Cheltenham	Stretford	27 Jun 09
+170	3:54.4	 	 	 	3:54.4	Robert Heaney	U23	10.02.89	 	Bedford & County	Watford	15 Jul 09
+171	3:54.44	 	 	 	3:54.44	Richard Morrell	U23	02.08.87	 	Middlesbrough (Mandale)	Manchester (SC)	30 May 09
+172	3:54.46	 	 	 	3:52.42	Paul Whitelam	 	26.03.82	 	Hallamshire	Stretford	27 Jun 09
+173	3:54.47	 	 	 	3:54.47	Tom Marshall	U23	12.06.89	 	Cardiff	Cardiff	13 Jun 09
+174	3:54.48	 	 	 	3:48.32	Andrew Rayner	 	16.01.82	 	Blackheath & Bromley	Eltham	19 Aug 09
+175	3:54.49	 	 	 	3:54.49	John Beattie	 	20.01.86	 	Winchester	Tulsa OK, USA	21 Mar 09
+176	3:54.52	 	 	 	3:54.52	James Mee	U23	01.08.89	 	Mansfield	Solihull	18 Jul 09
+177	3:54.54	 	 	 	3:42.41	Matthew Barnes	 	22.07.77	 	Altrincham	Stretford	1 Sep 09
+178	3:54.67	 	 	 	3:54.67	Chris Carter	U20	05.10.90	 	Telford AC	Stretford	21 Jul 09
+179	3:54.71	 	 	 	3:54.71	Richard Goodman	U17	04.04.93	 	Shaftesbury Barnet	Watford	13 Jun 09
+180	3:54.74	 	 	 	3:54.74	Nathan Riding	U23	23.03.89	 	Newham & Essex Beagles	Stretford	9 Jun 09
+181	3:54.80	 	 	 	3:54.80	Adam Bitchell	U20	23.06.91	 	Carmarthen	Cardiff	13 Jun 09
+182	3:54.81	 	 	 	3:46.01	Mark Sanford	 	19.04.78	 	Basildon	Watford	13 Jun 09
+183	3:54.86	 	 	 	3:54.86	Nathaniel Quigley	U23	19.04.89	 	Luton	Bedford	27 Jun 09
+184	3:54.9	 	 	 	3:54.58	Ian May	U23	29.12.88	 	Windsor, Slough, Eton & Hounslow	Milton Keynes	20 May 09
+185	3:54.95	 	 	 	3:54.95	Carl Smith	U20	03.01.90	 	Chester-le-Street	Solihull	18 Jul 09
+185	3:54.95	 	 	 	3:54.95	Steven Morrow	U23	16.01.87	 	Ballymena & Antrim	Watford	29 Jul 09
+187	3:54.96	 	 	 	3:54.96	Oliver Heeks	U23	27.10.89	 	Orion	Watford	26 Aug 09
+188	3:54.97	 	 	 	3:54.97	Jamie Crompton	U17	10.02.93	 	Horwich	Stretford	9 Jun 09
+189	3:54.98	 	 	 	3:54.98	Dan Cliffe	U20	23.12.90	 	Warrington	Stretford	6 Jun 09
+190	3:55.0	 	 	 	3:51.56	Ben Moreau	 	15.12.81	 	Aldershot, Farnham & District	Eton	4 Jul 09
+191	3:55.01	 	 	 	3:46.72	Thomas Minshull	U23	17.04.87	 	Trafford	Manchester	4 Jul 09
+192	3:55.09	 	 	 	3:55.09	Ben Coldray	U20	09.11.91	 	Stroud	Sheffield	11 Jul 09
+193	3:55.12	 	 	 	3:55.12	Chris Bryant	 	27.07.84	 	Sale Harriers Manchester	Manchester	4 Jul 09
+194	3:55.19	 	 	 	3:55.19	Gordon Phillips	U23	01.03.87	 	Shettleston	Wishaw	10 May 09
+195	3:55.2	 	 	 	3:46.29i	Andrew Hennessy	 	24.08.77	 	Wells City	Watford	15 Jul 09
+196	3:55.21	 	 	 	3:55.21	Stuart Huntington	U23	02.12.88	 	City of Norwich	Watford	29 Jul 09
+197	3:55.22	 	 	 	3:55.22	Thomas Boardman	U23	15.03.87	 	Leigh	Oxford OH, USA	11 Apr 09
+198	3:55.24	 	 	 	3:55.24	Sam Evans	U20	15.01.90	 	Cannock & Stafford	Stretford	4 Aug 09
+199	3:55.31	 	 	 	3:55.31	David Horniman	U20	10.08.91	 	Trafford	Sheffield	11 Jul 09
+200	3:55.33	 	 	 	3:49.78	Jack Tyler	U23	18.04.89	 	Medway & Maidstone	Bedford	3 May 09
+201	3:55.36	 	 	 	3:49.59	Dean Lacy	 	29.12.84	 	Cambridge H	Ashford	9 May 09
+202	3:55.40	 	 	 	3:55.40	Tom Bowerman	U20	27.10.90	 	Aldershot, Farnham & District	Watford	29 Jul 09
+203	3:55.41	 	 	 	3:50.21	Tom Payn	 	18.10.79	 	Winchester	Watford	21 Jun 09
+204	3:55.47	 	 	 	3:55.47	Tom Madden	U23	29.10.89	 	Coventry	Solihull	18 Jul 09
+205	3:55.51	 	 	 	3:55.51	Tom Comerford	U23	23.11.87	 	Marshall Milton Keynes	Watford	29 Jul 09
+206	3:55.55	 	 	 	3:55.55	Andrew Mariani	U23	29.06.89	 	Woodford Green with Essex Ladies	Watford	13 Jun 09
+207	3:55.56	 	 	 	3:55.56	Tom Frith	U20	09.06.92	 	Southend	Twickenham	3 Jun 09
+207	3:55.56	 	 	 	3:55.56	Michael Wilsmore	 	08.06.85	 	Tamar	Watford	21 Jun 09
+209	3:55.59	 	 	 	3:47.66	Ben Lindsay	U23	06.03.88	 	Aldershot, Farnham & District	Birmingham	11 Jul 09
+210	3:55.68	 	 	 	3:49.78	James Poole	U23	16.10.87	 	Blackheath & Bromley	Watford	13 Jun 09
+211	3:55.73	 	 	 	3:55.73	Tom Curr	U17	06.09.92	 	Stroud	Bedford	9 Aug 09
+212	3:55.74	i	 	 	3:55.74i	Hussain Jama	U23	02.07.87	 	Ealing, Southall & Middx	Lee Valley	1 Mar 09
+213	3:55.82	 	 	 	3:41.12	Ross Toole	 	08.10.86	 	Kilbarchan	Linwood	27 May 09
+214	3:55.87	 	 	 	3:55.87	Jonathan Hopkins	U20	03.06.92	 	Bridgend	Cardiff	13 Jun 09
+215	3:55.94	 	 	 	3:54.70	Paddy Hamilton	 	17.03.81	 	Annadale	Manchester (SC)	30 May 09
+216	3:55.98	 	 	 	3:55.98	Matthew Sullivan	U23	06.10.89	 	Shaftesbury Barnet	Watford	9 Sep 09
+217	3:56.00	 	 	 	3:48.15	Tom Gayle	 	16.06.83	 	City of Stoke	Birmingham	21 Jun 09
+218	3:56.07	 	 	 	3:56.07	Mickey Reed	U20	05.06.91	 	Aldershot, Farnham & District	Watford	21 Jun 09
+219	3:56.13	 	 	 	3:56.13	Gavin Lewis	U20	26.10.90	 	Woodford Green with Essex Ladies	Watford	29 Jul 09
+220	3:56.14	 	 	 	3:56.14	Luke Caldwell	U20	02.08.91	 	Dorking & Mole Valley	Watford	21 Jun 09
+221	3:56.16	 	 	 	3:56.16	Omar Mansour	U20	16.07.91	 	Woodford Green with Essex Ladies	Chelmsford	10 May 09
+221	3:56.16	 	 	 	3:56.16	Ashley Harrell	U23	19.01.89	 	City of Norwich	Sheffield	7 Jun 09
+221	3:56.16	 	 	 	3:56.16	Craig Gundersen	U23	28.05.89	 	Liverpool H	Stretford	4 Aug 09
+224	3:56.17	 	 	 	3:56.17	Derek Hawkins	U23	29.04.89	 	Kilbarchan	Dunfermline	20 Jun 09
+225	3:56.21	 	 	 	3:52.6	Ben Warren	 	07.12.83	 	Hailsham	Watford	13 Jun 09
+226	3:56.24	 	 	 	3:56.24	Andrew Combs	U20	06.11.91	 	Tonbridge	Watford	21 Jun 09
+227	3:56.28	 	 	 	3:56.28	Mark Haskett	U23	14.09.88	 	Aberdeen	Dunfermline	20 Jun 09
+228	3:56.3	 	 	 	3:55.45	Conor McNulty	U23	08.08.88	 	Kilbarchan	Linwood	24 May 09
+229	3:56.35	 	 	 	3:56.35	Dewi Griffiths	U20	09.08.91	 	Carmarthen	Street	4 May 09
+230	3:56.38	 	 	 	3:56.38	Matthew Clowes	U23	29.09.89	 	Staffordshire Moorlands	Stretford	4 Aug 09
+231	3:56.4	 	 	 	3:43.30	Joel Kidger	 	16.03.80	 	Crawley	Bournemouth	4 Jul 09
+231	3:56.4	 	 	 	3:49.90	Kojo Kyereme	 	23.12.74	 	Shaftesbury Barnet	Watford	15 Jul 09
+233	3:56.42	 	 	 	3:56.42	Sam Stabler	U20	17.05.92	 	Owls Leicester	Bedford	27 Jun 09
+234	3:56.43	 	 	 	3:53.38	James Tydeman	 	04.10.83	 	Basildon	Watford	17 Jun 09
+235	3:56.44	 	 	 	3:56.44	Thomas Crowley	U20	25.05.91	 	Bingley	Manchester (SC)	30 May 09
+236	3:56.48	 	 	 	3:56.48	Stephen Bennett	U20	23.01.90	 	Preston	Stretford	1 Sep 09
+237	3:56.51	 	 	 	3:56.51	Tom Smith	U20	27.09.91	 	Kingston upon Hull	Stretford	1 Sep 09
+238	3:56.52	 	 	 	3:56.52	Tim Burt	U23	22.11.89	 	Ashford AC	Manchester (SC)	30 May 09
+239	3:56.54	 	 	 	3:56.54	James Griffiths	U23	03.05.89	 	Vale Royal	Stretford	18 Aug 09
+240	3:56.56	 	 	 	3:56.56	Matt Willmott	U20	22.07.90	 	Marshall Milton Keynes	Watford	29 Jul 09
+241	3:56.66	 	 	 	3:56.66	Sam Deathe	U20	07.09.91	 	Marshall Milton Keynes	Sheffield	11 Jul 09
+242	3:56.7	 	 	 	3:56.7	Luke Cragg	 	28.08.86	 	Mansfield	Irvine CA, USA	18 Apr 09
+242	3:56.7	 	 	 	3:56.7	Damian Nevins	 	12.09.80	 	Harrow	Watford	15 Jul 09
+244	3:56.75	 	 	 	3:56.75	Daniel Cotterill	U20	18.01.90	 	Tipton	Watford	13 Jun 09
+245	3:56.78	 	 	 	3:56.78	James Senior	U20	04.01.92	 	City of Norwich	Twickenham	3 Jun 09
+246	3:56.80	 	 	 	3:56.80	Chad Lambert	U20	07.11.91	 	Marshall Milton Keynes	Sheffield	11 Jul 09
+246	3:56.80	 	 	 	3:56.80	Graham Hogg	U23	05.11.88	 	Trafford	Stretford	18 Aug 09
+248	3:56.86	i	 	 	3:56.86i	Daniel Stevens	U23	27.11.87	 	Cardiff	Cardiff	1 Mar 09
+249	3:56.87	 	 	 	3:56.87	Steven Phillips	 	22.09.84	 	Winchester	Lee Valley	23 May 09
+250	3:56.94	 	 	 	3:56.94	Adam Peers	U23	01.03.88	 	Liverpool H	Stretford	18 Aug 09
+251	3:56.97	 	 	 	3:56.97	Paul Leck	U20	22.06.90	 	Kilbarchan	Bedford	27 Jun 09
+252	3:56.98	 	 	 	3:56.98	Conor Robinson	U17	03.01.94	 	Cornwall	Ashford	24 May 09
+253	3:56.99	 	 	 	3:56.99	Matthew Dumigan	 	16.09.86	 	Worthing	Watford	29 Jul 09
+254	3:57.0	i	 	 	3:44.14	Tom Humphries	 	24.09.84	 	Cannock & Stafford	Birmingham	31 Jan 09
+255	3:57.05	 	 	 	3:57.05	Ben Craddock	U23	13.05.87	 	Leeds City	Watford	13 Jun 09
+256	3:57.10	 	 	 	3:57.10	Matthew Proctor	U23	31.12.88	 	Rochdale	Stretford	18 Aug 09
+257	3:57.1	 	 	 	3:57.1	Mathew Jackson	U20	28.04.91	 	Warrington	Wigan	2 May 09
+258	3:57.11	 	 	 	3:57.00	Stephen Emery	U23	06.06.87	 	Coventry	Stretford	4 Aug 09
+259	3:57.12	 	 	 	3:57.12	Marc Elliott	 	30.04.85	 	Gateshead	Gateshead	9 May 09
+260	3:57.15	 	 	 	3:57.15	Josh Guilmant	 	30.08.83	 	Phoenix AC	Watford	13 Jun 09
+261	3:57.2	 	 	 	3:57.2	Ryan Kenny	U23	10.06.88	 	Coventry	Milton Keynes	20 May 09
+262	3:57.29	 	 	 	3:55.84	Tom Cunningham	U23	01.07.88	 	Blackpool, Wyre & Fylde	Wishaw	10 May 09
+262	3:57.29	 	 	 	3:41.90	Scott Overall	 	09.02.83	 	Blackheath & Bromley	Leeds	1 Aug 09
+264	3:57.37	 	 	 	3:57.37	Alex Pilcher	 	22.01.85	 	Derby	Solihull	18 Jul 09
+265	3:57.39	i	 	 	3:57.39i	Johnathan Morgan	U20	17.11.90	 	Newport	Birmingham	15 Feb 09
+266	3:57.40	 	 	 	3:57.40	Ryan Saunders	U20	29.07.91	 	Bournemouth	Watford	9 Sep 09
+267	3:57.44	 	 	 	3:57.44	Alex Bruce-Littlewood	U20	24.04.90	 	Blackheath & Bromley	Watford	13 Jun 09
+268	3:57.47	 	 	 	3:57.47	Jake Shelley	U20	16.03.91	 	Shaftesbury Barnet	Watford	21 Jun 09
+269	3:57.51	 	 	 	3:57.51	Sam Bradley	U20	18.02.90	 	Tonbridge	Watford	26 Aug 09
+270	3:57.65	 	 	 	3:57.65	Christopher McGurk	U23	19.12.88	 	Notts	Solihull	18 Jul 09
+271	3:57.7	 	 	 	3:57.7	Neil Phillips	 	06.01.79	 	Aldershot, Farnham & District	Watford	15 Jul 09
+272	3:57.75	 	 	 	3:57.75	Tom Anderson	U20	12.01.90	 	Winchester	Lee Valley	23 May 09
+273	3:57.77	 	 	 	3:57.77	Paul Whittaker	U23	14.07.89	 	Southend	Watford	26 Aug 09
+274	3:57.80	 	 	 	3:56.53	Stephen Mears	 	08.09.85	 	Charnwood	Watford	13 Jun 09
+275	3:57.83	 	 	 	3:57.83	Harvey Dixon	U17	02.11.93	 	Aldershot, Farnham & District	Twickenham	3 Jun 09
+276	3:57.87	 	 	 	3:57.47	Ryan Faulkner	U23	04.12.89	 	St. Malachy's	Antrim	13 Jun 09
+277	3:57.89	 	 	 	3:57.89	Tom Bryant	U20	25.12.90	 	Shaftesbury Barnet	Manchester	4 Jul 09
+277	3:57.89	 	 	 	3:57.89	Mark Burchett	U23	29.10.88	 	Worthing	Solihull	18 Jul 09
+279	3:57.96	 	 	 	3:55.75	Ian Salisbury	V35	22.11.70	 	Trafford	Hendon	1 Aug 09
+280	3:57.98	 	 	 	3:57.98	Liam White	U17	11.10.92	 	Hercules Wimbledon	Watford	21 Jun 09
+280	3:57.98	 	 	 	3:51.66	Matt Barnes-Smith	 	05.10.85	 	Woodford Green with Essex Ladies	Manchester	4 Jul 09
+282	3:58.00	 	 	 	3:58.00	Craig Walker	U23	13.12.88	 	Wolverhampton & Bilston	Watford	26 Aug 09
+283	3:58.0	 	 	 	3:54.45	James Robinson	U20	24.12.90	 	West Norfolk	Norwich	11 May 09
+283	3:58.0	 	 	 	3:58.0	Chris Johnson	U23	03.03.88	 	Crawley	Crawley	1 Aug 09
+285	3:58.02	 	 	 	3:58.02	Ben Nagy	U20	14.03.90	 	Enfield & Haringey	Watford	15 Jul 09
+286	3:58.05	 	 	 	3:54.55	John Hutchins	 	22.11.81	 	Basingstoke & Mid Hants	Abingdon	6 Jun 09
+286	3:58.05	 	 	 	3:58.05	Glen Watts	 	09.12.86	 	Shaftesbury Barnet	St. Ives	10 Jun 09
+288	3:58.06	 	 	 	3:58.06	Harry Carter	U20	23.09.91	 	City of Portsmouth	Eltham	19 Aug 09
+289	3:58.12	 	 	 	3:58.12	Matthew Carey	 	14.11.86	 	Harrow	Watford	13 Jun 09
+290	3:58.13	 	 	 	3:54.24	Jonathan Cook	U23	31.07.87	 	Cambridge Uni	Stretford	4 Aug 09
+291	3:58.14	 	 	 	3:58.14	Chris Dobson	U23	28.12.89	 	Cornwall	Street	4 May 09
+292	3:58.18	 	 	 	3:58.18	Josh Gorecki	U20	20.04.91	 	Aldershot, Farnham & District	Watford	17 Jun 09
+292	3:58.18	 	 	 	3:56.08	Chris Brown	U23	04.09.87	 	Mansfield	Newham	22 Aug 09
+294	3:58.19	 	 	 	3:58.19	Joe Townsend	U23	25.11.89	 	Leeds City	Watford	13 Jun 09
+294	3:58.19	 	 	 	3:48.85	Dave Ragan	 	26.03.83	 	Basingstoke & Mid Hants	Derby	22 Aug 09
+296	3:58.20	 	 	 	3:58.20	Matt Furber	 	28.10.84	 	Crawley	Exeter	28 Jul 09
+297	3:58.2	 	 	 	3:51.06	Ian Boneham	 	30.09.82	 	Notts	Grantham	9 May 09
+297	3:58.2	 	 	 	3:44.96	Richard Ward	 	05.05.82	 	Belgrave	Eton	4 Jul 09
+299	3:58.3	 	 	 	3:52.58	Christopher Harvey	U20	12.01.90	 	Cannock & Stafford	Solihull	2 May 09
+299	3:58.3	 	 	 	3:51.76	Antony Ford	 	26.05.83	 	Blackpool, Wyre & Fylde	Ellesmere Port	5 Jul 09
+301	3:58.33	 	 	 	3:58.33	Karl Billington	U20	03.06.92	 	Blackburn	Manchester (SC)	30 May 09
+302	3:58.35	 	 	 	3:58.35	Charlie Grice	U17	07.11.93	 	Phoenix AC	Ashford	24 May 09
+303	3:58.36	 	 	 	3:57.46	Michael Goodwin	U20	29.08.91	 	Bedford & County	Watford	12 Aug 09
+304	3:58.39	 	 	 	3:58.39	Matthew Bond	 	17.07.82	 	Sale Harriers Manchester	Stretford	23 Jun 09
+305	3:58.40	 	 	 	3:58.40	Allan Ramsay	U20	05.04.90	 	Victoria Park City of Glasgow	Wishaw	10 May 09
+305	3:58.40	 	 	 	3:58.40	Andrew Butchart	U20	14.10.91	 	Central	Grangemouth	12 Jun 09
+307	3:58.42	 	 	 	3:49.21	Jordan Neil	U23	06.02.89	 	North Down	Lafayette LA, USA	21 Mar 09
+308	3:58.52	 	 	 	3:58.52	Fabian Downs	 	12.03.86	 	Chiltern	Watford	29 Jul 09
+309	3:58.54	 	 	 	3:58.54	Paul Laslett	 	12.05.80	 	Shaftesbury Barnet	Eltham	19 Aug 09
+310	3:58.56	 	 	 	3:58.56	Richard Warburton	 	30.03.86	 	Notts	Sydney, AUS	21 Feb 09
+311	3:58.57	 	 	 	3:58.57	Simon Taylor	 	27.01.82	 	Abbey AC	Dublin (I), IRL	25 Jul 09
+312	3:58.58	 	 	 	3:58.58	James Jackson	U20	05.02.92	 	City of Norwich	Watford	15 Jul 09
+313	3:58.59	 	 	 	3:55.89	Samater Farah	 	25.12.85	 	Newham & Essex Beagles	Sheffield	7 Jun 09
+314	3:58.6	 	 	 	3:51.94	Andrew Norman	 	19.08.80	 	Altrincham	Halifax	5 Jul 09
+315	3:58.68	 	 	 	3:58.68	Adam Cotton	U20	26.01.92	 	Birchfield H	Hendon	8 Aug 09
+316	3:58.7	 	 	 	3:58.7	Scott Evans	U20	04.02.91	 	Bury	Wigan	25 Jul 09
+317	3:58.73	 	 	 	3:58.73	Tom Straw	U20	28.02.91	 	Lincoln Wellington	Stretford	7 Jul 09
+318	3:58.74	 	 	 	3:58.74	James Joy	U20	15.12.90	 	Aberdeen	Grangemouth	12 Jun 09
+319	3:58.75	 	 	 	3:58.48	Gary Smith	U23	26.10.87	 	Falkirk	Linwood	29 Jul 09
+320	3:58.76	 	 	 	3:58.76	Thomas Meakin	 	02.09.84	 	Owls Leicester	Watford	13 Jun 09
+321	3:58.77	 	 	 	3:58.77	Elliott Woolmer	U17	25.09.92	 	Windsor, Slough, Eton & Hounslow	Twickenham	3 Jun 09
+322	3:58.86	 	 	 	3:55.33	Matthew Addison	 	15.10.86	 	Bromsgrove & Redditch	Watford	12 Aug 09
+323	3:58.88	 	 	 	3:58.88	Peter Huck	U20	10.07.90	 	Barrow & Furness	Stretford	7 Jul 09
+324	3:59.00	 	 	 	3:59.00	Craig Robertson	U23	19.01.87	 	Pitreavie	Wishaw	10 May 09
+325	3:59.07	 	 	 	3:59.07	James Kraft	U23	03.09.89	 	Scarborough	Stretford	26 May 09
+326	3:59.09	 	 	 	3:59.09	Mark Tillotson	 	25.02.78	 	Notts	Stretford	23 Jun 09
+327	3:59.1	 	 	 	3:59.1	Ross Franks	U17	17.01.93	 	St. Mary's Richmond	Watford	15 Jul 09
+327	3:59.1	 	 	 	3:59.1	Ed Messer	 	08.11.83	 	Chelmsford	Tonbridge	1 Aug 09
+329	3:59.13	 	 	 	3:59.13	Ryan Parker	U20	24.03.91	 	Bedford & County	Watford	12 Aug 09
+330	3:59.15	 	 	 	3:59.15	James Bleakley	 	17.08.76	 	Trafford	Stretford	4 Aug 09
+331	3:59.20	 	 	 	3:58.33	Steve Evison	 	29.01.83	 	City of Sheffield	Sheffield	7 Jun 09
+332	3:59.2	 	 	 	3:59.2	Adam Watt	 	29.10.84	 	Birchfield H	Coventry	2 May 09
+332	3:59.2	 	 	 	3:59.2	Craig Hopkins	U23	12.08.88	 	Swansea	Cardiff	6 Jun 09
+334	3:59.29	 	 	 	3:59.29	David Forrester	U20	25.02.92	 	Liverpool Pembroke Sefton	Stretford	21 Jul 09
+335	3:59.30	 	 	 	3:59.30	Ben Wallis	U20	02.04.90	 	Guildford & Godalming	Chelmsford	9 Aug 09
+336	3:59.32	 	 	 	3:58.20	Nathan Bibby	U23	14.09.89	 	Preston	Stretford	21 Jul 09
+337	3:59.35	 	 	 	3:56.9	Adrian Holliday	U23	17.01.87	 	Trafford	Birmingham (Un)	24 Jun 09
+338	3:59.38	 	 	 	3:44.55	Simon Deakin	 	05.10.77	 	Leeds City	Manchester (SC)	20 Jun 09
+339	3:59.39	 	 	 	3:59.39	Michael Kershaw	U20	03.11.90	 	Cwmbran	Street	4 May 09
+340	3:59.49	 	 	 	3:59.49	Joe Thomas	U23	29.01.88	 	Cardiff	Cardiff	15 Aug 09
+341	3:59.5	 	 	 	3:59.5	Paul Thompson	U20	28.07.92	 	Birmingham Rowheath	Birmingham (Un)	2 Aug 09
+342	3:59.53	 	 	 	3:59.1	Eddie McGinley	 	29.01.83	 	Annadale	Antrim	13 Jun 09
+343	3:59.55	 	 	 	3:59.55	Steve Gallienne	U23	16.07.89	 	Bideford	Exeter	28 Jul 09
+344	3:59.62	 	 	 	3:59.62	Andrew Campbell	U20	07.01.92	 	Inverclyde	Grangemouth	12 Jun 09
+345	3:59.67	 	 	 	3:56.85	Scott Harris	U23	10.11.87	 	Eastbourne	Chelmsford	9 Aug 09
+346	3:59.70	 	 	 	3:59.70	Elliot Palmer	U20	19.04.91	 	Ipswich	Watford	13 Jun 09
+347	3:59.78	 	 	 	3:59.78	Zak Seddon	U17	28.06.94	 	Bracknell AC	Watford	15 Jul 09
+348	3:59.8	 	 	 	3:59.8	Andrew Sheridan	U20	20.04.91	 	Cambridge H	Eltham	24 Jun 09
+348	3:59.8	 	 	 	3:52.4	Andy Prophett	V35	10.06.74	 	Cheltenham	Cheltenham	8 Jul 09
+350	3:59.82	 	 	 	3:59.82	Lee Coogan	U23	05.12.89	 	Cambridge H	Solihull	18 Jul 09
+351	3:59.83	 	 	 	3:59.83	Sam Perkins	U23	14.01.88	 	Ranelagh	Birmingham (Un)	3 Jun 09
+352	3:59.85	 	 	 	3:59.85	Jack Gray	U17	10.04.93	 	Birmingham Rowheath	Birmingham (Un)	24 Jun 09
+353	3:59.91	 	 	 	3:59.91	Andrew Monaghan	U17	25.10.93	 	Lagan Valley	Antrim	13 Jun 09
+354	3:59.94	 	 	 	3:59.94	Steven Connor	U23	01.06.88	 	Aldershot, Farnham & District	Watford	20 Jun 09
+355	3:59.98	 	 	 	3:59.98	Shaun Webb	U17	04.09.92	 	Ipswich	Watford	13 Jun 09
+356	3:59.99	 	 	 	3:59.99	Jamie Smith	U20	02.02.91	 	Edinburgh	Indianapolis IN, USA	25 Apr 09
+357	4:00.01	 	 	 	4:00.01	Ross Matheson	U17	24.09.92	 	Lasswade	Antrim	18 Jul 09
+358	4:00.03	 	 	 	4:00.03	Marc Hartley	 	08.11.86	 	Staffordshire Moorlands	Stretford	18 Aug 09
+359	4:00.08	 	 	 	3:57.2	Michael Cooke	U20	03.02.91	 	Stockport	Stretford	1 Sep 09
+360	4:00.1	 	 	 	4:00.1	Sebastian Duffy	 	23.02.85	 	Stroud	Cheltenham	8 Jul 09
+361	4:00.13	 	 	 	4:00.13	Nathan Young	U20	05.12.91	 	Bristol & West	Exeter	26 May 09
+362	4:00.18	 	 	 	4:00.18	Kristian Bibby	U17	15.10.92	 	Preston	Cardiff	15 Aug 09
+363	4:00.2	 	 	 	3:55.92	Rhys Glastonbury	U20	20.03.91	 	Windsor, Slough, Eton & Hounslow	Milton Keynes	20 May 09
+364	4:00.21	 	 	 	3:54.39	Alexander Smith	 	30.09.86	 	Hallamshire	Stretford	27 Jun 09
+365	4:00.24	 	 	 	4:00.24	Phillip Berntsen	U20	18.01.90	 	Winchester	Lee Valley	23 May 09
+366	4:00.26	 	 	 	3:56.29	Iain Donnan	 	21.06.85	 	Lothian	Long Beach CA, USA	18 Apr 09
+366	4:00.26	 	 	 	3:54.9	Andy Hilton	 	27.09.79	 	City of York	Manchester (SC)	2 May 09
+366	4:00.26	 	 	 	3:41.0	David Heath	V40	22.05.65	 	Blackheath & Bromley	Carcassonne, FRA	20 Jun 09
+369	4:00.29	 	 	 	4:00.29	Ian Lowthian	 	10.10.80	 	Sale Harriers Manchester	Stretford	28 Apr 09
+370	4:00.30	 	 	 	4:00.30	Stephen Rooney	U20	05.10.90	 	St. Malachy's	Dublin (I), IRL	22 May 09
+371	4:00.40	i	 	 	3:54.54	Rick Ward	U23	14.06.89	 	City of Norwich	Lee Valley	18 Jan 09
+372	4:00.41	 	 	 	4:00.41	Patrick Monaghan	U17	25.10.93	 	Lagan Valley	Antrim	13 Jun 09
+373	4:00.44	 	 	 	3:54.77	Adam Grice	 	30.04.86	 	Leeds City	Stretford	21 Jul 09
+374	4:00.49	 	 	 	4:00.49	Niall Robinson	U20	19.10.90	 	North Down	Antrim	13 Jun 09
+374	4:00.49	 	 	 	4:00.49	Dermot Cummins	 	29.03.84	 	Corstorphine	Grangemouth	30 Aug 09
+376	4:00.51	 	 	 	3:55.38	Nathan Elliott	U23	04.03.88	 	Wakefield	Stretford	27 Jun 09
+377	4:00.53	 	 	 	4:00.53	Kris Lecher	U23	16.08.89	 	Kingston upon Hull	Stretford	9 Jun 09
+378	4:00.6	 	 	 	4:00.57	Tom Collins	 	05.12.85	 	Medway & Maidstone	Eltham	24 Jun 09
+378	4:00.6	 	 	 	4:00.6	Steve Millward	 	29.06.79	 	Gloucester	Cheltenham	8 Jul 09
+380	4:00.65	 	 	 	4:00.65	Martin Johnson	 	11.01.85	 	Team Southampton	Watford	15 Jul 09
+381	4:00.69	 	 	 	4:00.69	Chris Kays	U20	02.09.91	 	East Cheshire	Stretford	12 May 09
+382	4:00.7	 	 	 	3:53.79	Kevin Quinn	 	24.07.79	 	Aldershot, Farnham & District	Tooting 	8 Jul 09
+383	4:00.71	 	 	 	4:00.71	Thomas Heslop	U23	13.06.89	 	Chelmsford	Parliament Hill	25 Jul 09
+384	4:00.75	 	 	 	4:00.75	Michael Hunt	V35	08.06.71	 	Trafford	Cardiff	15 Aug 09
+385	4:00.78	 	 	 	4:00.78	Andrew Agnew	 	05.12.86	 	Abbey AC	Dublin (I), IRL	25 Jul 09
+386	4:00.79	 	 	 	4:00.79	Matt Davison	U20	15.02.91	 	Preston	Stretford	1 Sep 09
+387	4:00.81	 	 	 	4:00.81	Adam Stainsby	U23	14.04.89	 	Worthing	Solihull	18 Jul 09
+388	4:00.88	 	 	 	4:00.88	Alasdair Russell	U23	18.07.87	 	Kendal	Solihull	18 Jul 09
+389	4:00.96	 	 	 	3:54.15	Gareth Klepacz	 	31.08.80	 	Team Southampton	Chelmsford	9 Aug 09
+390	4:01.05	 	 	 	4:01.05	Greg Divall	U23	24.11.89	 	Birchfield H	Birmingham (Un)	3 Jun 09
+390	4:01.05	 	 	 	3:54.51	Darrell Bellinger	 	20.07.85	 	Oxford City	Solihull	18 Jul 09
+392	4:01.09	 	 	 	3:47.73	Andy Whetstone	 	13.06.86	 	Marshall Milton Keynes	Watford	13 Jun 09
+393	4:01.1	 	 	 	4:01.1	Adam Searle	 	30.09.83	 	Stevenage & North Herts	Watford	15 Jul 09
+394	4:01.19	 	 	 	3:40.83	Adam Bowden	 	05.08.82	 	Harrow	Bromley	4 Jul 09
+395	4:01.20	 	 	 	3:47.77	Martin Mashford	U23	03.05.87	 	Aldershot, Farnham & District	Portsmouth	10 May 09
+396	4:01.2	 	 	 	4:01.2	Michael Hobson	U23	29.03.89	 	Bexley	Eltham	24 Jun 09
+397	4:01.22	 	 	 	4:01.22	Harun Abdi	U20	28.09.91	 	Newham & Essex Beagles	Watford	12 Aug 09
+398	4:01.26	 	 	 	4:01.26	Callum Hawkins	U20	22.06.92	 	Kilbarchan	Edinburgh	12 Jul 09
+399	4:01.28	 	 	 	3:57.7	James Adie	 	02.08.79	 	Bromsgrove & Redditch	Stretford	27 Jun 09
+400	4:01.29	 	 	 	4:01.29	Luke Nicholas	U20	26.10.90	 	Ealing, Southall & Middx	Eltham	19 Aug 09
+401	4:01.30	 	 	 	3:49.1	James Trapmore	 	31.07.75	 	Shaftesbury Barnet	Hendon	1 Aug 09
+402	4:01.38	 	 	 	4:01.38	Jamie Knapp	U20	12.01.91	 	Winchester	Lee Valley	23 May 09
+403	4:01.40	 	 	 	3:54.75	Nick Lyster	U23	23.12.89	 	Solihull & Small Heath	Birmingham (Un)	4 May 09
+404	4:01.41	 	 	 	4:01.41	Tom Mahon	U20	22.02.90	 	Owls Leicester	Watford	12 Aug 09
+405	4:01.43	 	 	 	3:56.6	Huw Evans	V35	23.03.72	 	Tonbridge	Eltham	19 Aug 09
+406	4:01.50	 	 	 	4:01.50	Stuart Ross	U20	15.08.92	 	Victoria Park City of Glasgow	Grangemouth	9 Aug 09
+407	4:01.5	 	 	 	4:01.5	Andrew de-Camps	U23	13.09.87	 	Gloucester	Cheltenham	8 Jul 09
+407	4:01.5	 	 	 	3:57.80	Ben Fish	 	21.05.82	 	Blackburn	Wigan	25 Jul 09
+409	4:01.51	 	 	 	4:01.51	Philip Almond	U23	06.08.89	 	Exeter	Exeter	28 Jul 09
+410	4:01.62	 	 	 	4:01.62	David Rigby	U23	30.09.88	 	Preston	Stretford	18 Aug 09
+410	4:01.62	 	 	 	4:01.62	Daniel Moses	 	18.03.86	 	Orion	Eltham	19 Aug 09
+412	4:01.65	 	 	 	3:59.76	Richard Franzese	 	22.09.86	 	Harrow	Philadephia PA, USA	18 Apr 09
+412	4:01.65	 	 	 	4:01.65	Tom Phillips	U23	08.05.88	 	Derby	Stretford	21 Jul 09
+414	4:01.68	 	 	 	3:57.28	Matthew Turner	U23	19.04.89	 	Shettleston	Edinburgh	12 Jul 09
+415	4:01.76	 	 	 	4:00.89	Dale Worton	U20	06.12.91	 	Wakefield	Manchester (SC)	30 May 09
+416	4:01.77	 	 	 	4:01.77	Tadhg Grant	U17	17.08.93	 	Shaftesbury Barnet	Watford	23 Sep 09
+417	4:01.78	 	 	 	4:01.78	Jamie Roden	U20	24.02.92	 	Sale Harriers Manchester	Stretford	12 May 09
+418	4:01.79	 	 	 	4:01.79	Will Wright	U23	02.06.87	 	Chelmsford	Chelmsford	10 May 09
+418	4:01.79	 	 	 	4:01.79	Sean Fontana	U20	06.12.90	 	Victoria Park City of Glasgow	Grangemouth	30 Aug 09
+420	4:01.8	 	 	 	4:01.8	David Hook	U23	05.11.87	 	Barrow & Furness	Carlisle	5 Jul 09
+421	4:01.81	 	 	 	3:59.0	Lee Garland	 	18.12.74	 	Channel Islands	Chelmsford	9 Aug 09
+422	4:01.82	 	 	 	4:01.82	Guy Smith	U20	11.01.90	 	Swansea	Kingston	22 Aug 09
+423	4:01.84	 	 	 	4:01.84	Matthew Missen	 	06.11.86	 	Team Southampton	Watford	12 Aug 09
+424	4:01.9	 	 	 	4:01.9	David Bruce	 	10.12.84	 	Highgate	Oxford	9 May 09
+424	4:01.9	 	 	 	4:01.9	James Williams	 	07.05.83	 	Chelmsford	Lee Valley	27 Jun 09
+426	4:01.99	 	 	 	4:01.99	Kieran Clements	U17	20.11.93	 	Ipswich	Watford	17 Jun 09
+427	4:02.02	 	 	 	4:02.02	Luke Allen	U23	18.02.89	 	City of Norwich	Manchester (SC)	30 May 09
+427	4:02.02	 	 	 	4:02.02	Tommy Carroll	U20	 	iD	City of Norwich	Abingdon	19 Sep 09
+429	4:02.03	 	 	 	3:58.81	Jonathan Henderson	 	10.09.84	 	Herne Hill	Bromley	4 Jul 09
+430	4:02.04	 	 	 	4:02.04	Matthew White	U20	10.08.91	 	Dundee Hawkhill	Grangemouth	12 Jun 09
+431	4:02.05	 	 	 	4:02.05	Gregg Halliwell	U20	12.09.91	 	Yate	Yate	13 Jun 09
+431	4:02.05	 	 	 	4:02.05	James Hogg	U23	27.12.89	 	Medway & Maidstone	Eltham	19 Aug 09
+433	4:02.17	 	 	 	4:02.17	Jack Bancroft	U23	25.02.88	 	Wells City	Exeter	28 Jul 09
+434	4:02.20	 	 	 	4:02.20	Daniel Bradley	 	24.12.86	 	Tonbridge	Eltham	19 Aug 09
+435	4:02.2	 	 	 	4:02.2	Robbie Schofield	U20	14.12.90	 	Newham & Essex Beagles	Blackpool	9 May 09
+436	4:02.21	 	 	 	4:01.4	Max Prien	 	05.08.85	 	Reading AC	Bedford	2 May 09
+437	4:02.27	 	 	 	4:02.27	Josh Moss	U20	28.07.91	 	Stevenage & North Herts	Watford	9 Sep 09
+438	4:02.29	 	 	 	4:02.29	Sam Dobin	U23	26.03.88	 	Invicta East Kent	Cambridge	16 May 09
+439	4:02.34	 	 	 	4:00.16	Peter Matthews	U23	01.09.89	 	Blackburn	Stretford	27 Jun 09
+440	4:02.36	 	 	 	3:57.94	Richard Larsen	U23	23.12.87	 	Bracknell AC	Watford	15 Jul 09
+441	4:02.47	 	 	 	3:59.90	Andrew Livingstone	U23	03.05.88	 	Basildon	Watford	12 Aug 09
+442	4:02.5	 	 	 	4:01.75	Hywel Care	 	15.08.83	 	Woodford Green with Essex Ladies	Eltham	22 Jul 09
+443	4:02.52	 	 	 	4:02.52	Matthew Crehan	U20	10.10.91	 	St. Helens Sutton	Manchester (SC)	30 May 09
+444	4:02.56	 	 	 	4:02.56	Ian Kimpton	 	08.11.86	 	Lincoln Wellington	Stretford	21 Jul 09
+445	4:02.69	 	 	 	4:02.69	Sean Bowden	U20	13.01.92	 	Bromsgrove & Redditch	Twickenham	3 Jun 09
+445	4:02.69	 	 	 	4:02.69	Ben Akin	U17	11.02.93	 	Preston	Stretford	21 Jul 09
+447	4:02.74	 	 	 	4:02.74	Sebastian Foy	U23	24.10.88	 	Cheltenham	Watford	13 Jun 09
+448	4:02.8	 	 	 	3:58.82	Chris Lamb	 	11.09.84	 	Rugby & Northampton	Coventry	2 May 09
+449	4:02.81	 	 	 	4:02.81	Sam Bucknall	U20	06.05.92	 	Wakefield	Stretford	27 Jun 09
+450	4:02.9	 	 	 	4:02.9	William Strangeway	 	06.04.86	 	Lincoln Wellington	Grantham	9 May 09
+450	4:02.9	 	 	 	4:02.9	Alex Jones	U20	23.04.92	 	Enfield & Haringey	Lee Valley	27 Jun 09
+450	4:02.9	 	 	 	4:02.9	Nico Constanti	U20	11.01.90	 	Gloucester	Cheltenham	8 Jul 09
+453	4:02.97	 	 	 	4:02.97	Charlie Hulson	U17	07.03.93	 	Sale Harriers Manchester	Bedford	8 Aug 09
+454	4:02.99	 	 	 	4:02.99	Tom Purnell	U17	02.10.93	 	Stroud	Twickenham	3 Jun 09
+455	4:03.02	 	 	 	3:59.19	James Russell	U23	25.11.88	 	Liverpool H	Stretford	18 Aug 09
+456	4:03.09	 	 	 	4:02.2	Kevin Heywood	 	30.09.78	 	Bristol & West	Exeter	26 May 09
+457	4:03.10	 	 	 	4:03.10	Sam Dalgleish	U23	29.09.88	 	Westbury	Birmingham (Un)	22 Aug 09
+458	4:03.1	 	 	 	4:03.1	Ryan McKinlay	 	10.09.86	 	Highgate	Parliament Hill	2 May 09
+459	4:03.17	 	 	 	4:03.17	Tom Carson	U20	07.06.92	 	Bolton	Watford	13 Jun 09
+460	4:03.25	 	 	 	4:03.25	Cameron Strachan	U20	02.08.91	 	Aberdeen	Grangemouth	9 Aug 09
+461	4:03.30	 	 	 	4:03.30	Chris Prothero	U23	10.09.89	 	Cwmbran	Birmingham (Un)	24 Jun 09
+461	4:03.30	 	 	 	4:03.30	Tony Macdowall	 	30.09.81	 	Victoria Park & Tower Hamlets	Abingdon	19 Sep 09
+463	4:03.3	 	 	 	4:03.3	Anthony Valentine	 	09.08.75	 	Bolton	Stretford	9 Jun 09
+464	4:03.36	 	 	 	4:03.36	Alex Bellew	U20	03.09.90	 	Bedford & County	Watford	12 Aug 09
+465	4:03.37	 	 	 	4:03.37	Gary Grieve	U23	11.03.89	 	Law	Wishaw	10 May 09
+466	4:03.4	 	 	 	4:03.4	Mark Ryall	 	14.02.81	 	Victoria Park & Tower Hamlets	Lee Valley	27 Jun 09
+466	4:03.4	 	 	 	4:03.4	Lee Carley	 	 	iD	Owls Leicester	Tamworth	2 Aug 09
+466	4:03.4	 	 	 	4:03.0	John Carlisle	U23	16.08.89	 	North Down	Belfast	12 Aug 09
+469	4:03.41	 	 	 	4:03.41	Chris Wright	U20	29.06.92	 	Nene Valley	Twickenham	3 Jun 09
+470	4:03.46	 	 	 	3:42.3	Pat Davoren	V35	13.03.72	 	Phoenix AC	Solihull	18 Jul 09
+470	4:03.46	 	 	 	4:03.46	Jimmy Goulis	V35	12.05.74	 	Stragglers	Cardiff	15 Aug 09
+472	4:03.5	 	 	 	3:59.4	James Connor	 	21.03.83	 	Kent	Parliament Hill	27 Jun 09
+473	4:03.52	 	 	 	4:02.64	Ben Sharman	U23	29.06.89	 	Birchfield H	Loughborough	27 May 09
+474	4:03.60	 	 	 	3:58.16	David Thornton	V35	27.07.73	 	Blackburn	Manchester (SC)	2 May 09
+475	4:03.6	 	 	 	3:56.05	Owain Jones	 	13.05.81	 	Windsor, Slough, Eton & Hounslow	Eton	11 Jul 09
+476	4:03.69	 	 	 	3:58.81	Rich Airey	 	20.06.79	 	Brighton & Hove	Eltham	19 Aug 09
+477	4:03.7	 	 	 	4:03.7	Sam Murphy	U20	20.11.90	 	Cambridge H	Eltham	24 Jun 09
+478	4:03.80	 	 	 	4:03.80	Carl Yates	U17	21.11.92	 	Hillingdon	Watford	9 Sep 09
+479	4:03.8	 	 	 	4:03.8	Niall Maguire	U17	30.12.92	 	Derby	Bournemouth	4 Jul 09
+480	4:03.82	 	 	 	4:00.48	Dominic Easter	U23	31.12.89	 	Shaftesbury Barnet	Watford	13 Jun 09
+481	4:03.83	 	 	 	4:03.83	Samuel Millar	 	08.07.77	 	Ballymena & Antrim	Belfast	2 Jul 09
+482	4:03.84	 	 	 	4:03.84	Geoff Belcher	U20	01.02.91	 	Leeds City	Manchester (SC)	30 May 09
+482	4:03.84	 	 	 	4:03.84	Andrew Rooke	U20	15.07.90	 	Ipswich	Watford	17 Jun 09
+484	4:03.93	 	 	 	4:03.93	John Ashcroft	U17	13.11.92	 	St. Helens Sutton	Bedford	9 Aug 09
+485	4:03.96	 	 	 	4:03.96	Toby Loveridge	U17	16.09.92	 	Liverpool Pembroke Sefton	Bedford	8 Aug 09
+486	4:03.98	 	 	 	3:59.1	Matt Collins	 	24.07.82	 	TSG Bergedorf	Hamburg, GER	7 Jun 09
+487	4:03.99	 	 	 	4:03.99	James Strawbridge	 	30.10.84	 	Annadale	Belfast	2 Jul 09
+488	4:04.04	 	 	 	4:04.04	Mike Cummings	 	31.08.84	 	Herne Hill	Watford	9 Sep 09
+489	4:04.1	 	 	 	4:02.00	James Miller	 	13.03.85	 	Cheltenham	Yate	2 May 09
+490	4:04.12	 	 	 	4:04.12	Andrew Penney	U20	13.08.91	 	Hercules Wimbledon	Abingdon	19 Sep 09
+491	4:04.13	 	 	 	4:01.18	Kurt Wolfe	U20	27.07.91	 	Tonbridge	Watford	20 Jun 09
+492	4:04.2	 	 	 	4:04.2	Nick Earl	 	22.09.84	 	Reading AC	Chelmsford	11 Jul 09
+493	4:04.32	 	 	 	3:59.05	Christopher Dodd	U23	07.11.89	 	Eastbourne	Bedford	2 May 09
+494	4:04.33	 	 	 	4:02.07	Joe Gratton	U20	06.02.91	 	Hallamshire	Manchester (SC)	20 Jun 09
+495	4:04.38	 	 	 	3:55.49	Marc Hobbs	 	28.06.82	 	Swansea	Bromley	4 Jul 09
+496	4:04.40	 	 	 	4:04.40	Derek Gibb	U23	 	iD	Victoria Park City of Glasgow	Dunfermline	20 Jun 09
+497	4:04.41	 	 	 	4:04.41	Jack Scarr	U17	10.08.93	 	Blackpool, Wyre & Fylde	Stretford	21 Jul 09
+498	4:04.42	i	 	 	3:59.25	Carl Goose	 	30.12.85	 	City of Norwich	Sheffield	14 Mar 09
+499	4:04.43	 	 	 	4:04.43	Daniel Diamond	U20	13.06.90	 	Beechmount	Belfast	2 Jul 09
+500	4:04.5	 	 	 	3:53.75	Alex Budd	 	06.12.84	 	City of Portsmouth	Ilford	2 May 09
+501	4:04.6	 	 	 	4:04.6	Martin Matthews	 	28.07.76	 	Birmingham Rowheath	Cardiff	6 Jun 09
+501	4:04.6	 	 	 	4:04.6	Fergus O'Reilly	U17	07.09.93	 	Bournemouth	Crawley	1 Aug 09
+503	4:04.62	 	 	 	3:59.07	Nathan White	U23	01.11.89	 	Windsor, Slough, Eton & Hounslow	Watford	15 Jul 09
+504	4:04.65	 	 	 	4:04.65	Lewis Lloyd	U17	29.04.94	 	Herne Hill	Sheffield	11 Jul 09
+505	4:04.74	 	 	 	4:04.74	Mehretab Solomon	U20	06.04.90	 	London Heathside	Watford	30 Aug 09
+506	4:04.8	 	 	 	3:51.25	Ben Scarlett	 	22.01.86	 	Swindon	Hendon	8 Aug 09
+507	4:04.84	 	 	 	4:04.84	Elliott Hardee	U17	01.12.93	 	Newport	Antrim	18 Jul 09
+508	4:04.92	 	 	 	4:04.92	Matt Grant	U23	21.01.87	 	Shaftesbury Barnet	Hendon	25 Apr 09
+509	4:04.98	 	 	 	4:04.98	Tommy Henders	U23	11.10.88	 	Leigh	Manchester (SC)	20 Jun 09
+510	4:05.1	 	 	 	4:05.1	Daniel Grant	 	20.10.86	 	Ealing, Southall & Middx	Leeds (B)	22 Apr 09
+511	4:05.11	 	 	 	4:05.11	Thomas Atkinson	U20	22.03.92	 	Wakefield	Stretford	28 Apr 09
+512	4:05.13	 	 	 	4:05.13	James McCarthy	U20	02.04.92	 	Brighton & Hove	Watford	20 Jun 09
+513	4:05.16	i	 	 	4:05.16i	James Bowness	U20	26.11.91	 	Trafford	Glasgow	15 Feb 09
+513	4:05.16	 	 	 	4:05.16	Andrew Dearie	U17	28.07.93	 	Shettleston	Gothenburg, SWE	27 Jun 09
+515	4:05.20	 	 	 	3:55.51	Nicholas Browne	 	25.10.80	 	Wycombe	Watford	12 Aug 09
+516	4:05.2	 	 	 	4:00.0	Edward Womersley	U23	27.07.89	 	Stroud	Cheltenham	10 May 09
+516	4:05.2	 	 	 	4:05.2	Robert Galt	U20	27.01.92	 	Westbury	Cheltenham	8 Jul 09
+518	4:05.22	i	 	 	4:05.22i	Dane Austin	V35	 	iD	Oxford Uni	Birmingham	22 Feb 09
+519	4:05.23	 	 	 	4:05.23	Andrew Friend	U23	02.08.87	 	Cardiff	Watford	12 Aug 09
+520	4:05.27	 	 	 	4:05.27	Michael Mannings	U23	27.09.88	 	Oldham & Royton	Stretford	4 Aug 09
+521	4:05.28	 	 	 	4:05.28	David Wilson	U17	29.09.92	 	Herts Phoenix	Watford	23 Sep 09
+522	4:05.3	 	 	 	4:05.3	Joe Mercer	U23	24.05.87	 	Skipton	Oxford	3 Jun 09
+523	4:05.33	 	 	 	4:04.4	Tim Elsey	 	08.02.83	 	Herne Hill	Bromley	4 Jul 09
+524	4:05.34	i	 	 	3:58.18	Peter Grist	 	13.03.84	 	Cardiff	Cardiff	15 Feb 09
+525	4:05.37	 	 	 	4:05.37	Matthew Grieve	U17	18.04.93	 	Border	Stretford	26 May 09
+526	4:05.40	 	 	 	4:05.40	Michael Wood	U17	21.12.92	 	Leeds City	Gateshead	24 May 09
+527	4:05.4	 	 	 	3:58.47	Matt Bristow	 	06.10.76	 	Brighton & Hove	Ipswich	27 Jun 09
+528	4:05.43	 	 	 	3:51.23	David Cowlishaw	V40	17.09.67	 	London Irish	Lahti, FIN	6 Aug 09
+528	4:05.43	 	 	 	4:05.43	Matthew Fayers	U17	05.08.94	 	Hillingdon	Eltham	19 Aug 09
+530	4:05.44	 	 	 	4:05.2	Sean Hall	U23	05.09.87	 	Gateshead	Gateshead	9 May 09
+531	4:05.47	 	 	 	4:05.47	Edward Gunby	U20	07.12.91	 	Peterborough	Watford	12 Aug 09
+532	4:05.48	 	 	 	4:05.48	Colin Welsh	 	18.10.82	 	Border	Abingdon	6 Jun 09
+533	4:05.5	 	 	 	3:50.87	David Peters	V35	30.07.71	 	Herne Hill	Ashford	6 Sep 09
+534	4:05.52	 	 	 	4:05.52	Chris Davison	U23	21.03.88	 	Derby	Derby	10 May 09
+535	4:05.54	 	 	 	4:05.54	Gordon Benson	U17	12.05.94	 	Leeds City	Stretford	21 Jul 09
+536	4:05.55	 	 	 	4:05.30	Richard Mann	U20	14.12.90	 	Hillingdon	Watford	23 Sep 09
+537	4:05.6	 	 	 	4:04.59	Matthew Parker	U20	13.08.91	 	Yate	Tipton	2 May 09
+537	4:05.6	 	 	 	4:03.3	Simon Anderson	V45	11.12.63	 	City of Plymouth	Plymouth	9 May 09
+537	4:05.6	 	 	 	4:05.6	Michael Grimes	U20	10.05.92	 	Durham	Jarrow	15 Jun 09
+537	4:05.6	 	 	 	4:05.6	Grant Muir	U17	04.10.93	 	Giffnock North	Glasgow	1 Sep 09
+541	4:05.64	 	 	 	3:59.13	Jonathan Long	 	04.10.86	 	Woodford Green with Essex Ladies	Chelmsford	10 May 09
+542	4:05.67	 	 	 	3:56.98	Phil Williams	 	28.09.84	 	Rochdale	Stretford	27 Jun 09
+543	4:05.7	 	 	 	3:58.9	Matt Bloy	U20	18.11.90	 	Basildon	Crawley 	12 Apr 09
+544	4:05.72	 	 	 	4:05.72	Graham Powell	 	07.03.85	 	Liverpool H	Bedford	2 May 09
+545	4:05.77	 	 	 	4:04.53	Ryan O'Hare	U23	27.02.88	 	Edinburgh	Edinburgh	19 Apr 09
+546	4:05.79	 	 	 	3:57.95	Chris Hearn	 	02.11.81	 	Marshall Milton Keynes	Watford	12 Aug 09
+547	4:05.80	 	 	 	4:05.52	Sam Petty	U20	07.11.91	 	North Devon	Exeter	26 May 09
+548	4:05.8	 	 	 	4:05.8	Andrew Constable	U20	16.06.92	 	Ipswich	Ipswich	10 May 09
+548	4:05.8	 	 	 	4:05.8	Matthew Withey	U20	29.09.90	 	Stroud	Cheltenham	8 Jul 09
+550	4:05.81	 	 	 	4:05.81	Ricky Challinor	U20	04.02.90	 	Liverpool H	Stretford	23 Jun 09
+551	4:05.82	 	 	 	4:05.82	David Vernon	U17	17.02.93	 	Nithsdale	Manchester (SC)	30 May 09
+552	4:05.83	 	 	 	4:05.83	Josh Norman	U20	20.04.91	 	Owls Leicester	Watford	12 Aug 09
+553	4:05.88	 	 	 	4:05.85	Joe Kelly	U20	09.03.91	 	Rossendale	Stretford	28 Apr 09
+553	4:05.88	 	 	 	4:03.65	Frank Kilama	U20	09.10.90	 	Blackheath & Bromley	Watford	13 Jun 09
+555	4:05.9	 	 	 	3:50.0	Mark Wiscombe	V35	25.01.74	 	Wells City	Yeovil	19 Apr 09
+556	4:06.07	 	 	 	3:51.42	Robert Nixon	 	20.09.79	 	Notts	Abingdon	6 Jun 09
+556	4:06.07	 	 	 	4:06.07	Will Newnham	U20	16.06.92	 	Aldershot, Farnham & District	Watford	20 Jun 09
+558	4:06.08	 	 	 	4:02.31	Simon O'Meara	U23	13.12.88	 	Birchfield H	Birmingham	21 Jun 09
+558	4:06.08	 	 	 	3:59.40	Joshua Moody	U20	01.11.91	 	Matlock	Stretford	7 Jul 09
+560	4:06.16	 	 	 	4:01.57	Callum Cullen	U23	24.12.88	 	Owls Leicester	Stretford	12 May 09
+561	4:06.18	 	 	 	4:03.80	Dominik Morton	 	13.12.86	 	Halesowen	Birmingham (Un)	22 Aug 09
+562	4:06.2	 	 	 	4:06.2	Aaron Scott	U23	11.04.87	 	 	Grantham	26 Apr 09
+563	4:06.22	 	 	 	4:05.25	Nathan Hardee	U20	20.01.90	 	Newport	Newport	3 Jun 09
+564	4:06.3	i	 	 	4:06.3i	Tom Guy	U17	03.11.93	 	City of Stoke	Birmingham	11 Feb 09
+565	4:06.40	 	 	 	4:06.40	Bradley Goater	U17	13.04.94	 	St. Mary's Richmond	Eltham	19 Aug 09
+566	4:06.4	 	 	 	4:06.4	Adam Smith	U20	04.10.91	 	Brighton & Hove	Crawley 	12 Apr 09
+567	4:06.41	 	 	 	4:06.41	Jack Goodwin	U17	07.06.93	 	Bedford & County	Watford	12 Aug 09
+568	4:06.43	 	 	 	4:06.43	William Mycroft	U20	08.01.91	 	Cambridge & Coleridge	Watford	20 Jun 09
+569	4:06.46	 	 	 	4:06.46	Callum Sutton	U20	21.03.92	 	Havering Mayesbrook	Watford	12 Aug 09
+570	4:06.51	 	 	 	4:06.51	Chris Bounds	U20	01.08.90	 	Aldershot, Farnham & District	Portsmouth	10 May 09
+571	4:06.55	 	 	 	3:57.41	Michael Dyer	 	28.09.84	 	North Down	Antrim	2 Jun 09
+572	4:06.59	 	 	 	4:06.59	Stephen Ratcliffe	 	29.10.82	 	Newcastle (Staffs)	Birmingham (Un)	22 Aug 09
+573	4:06.60	 	 	 	4:06.60	Matthew Bennett	U23	11.10.88	 	Chiltern	Watford	12 Aug 09
+574	4:06.6	 	 	 	4:06.6	Adam Drummond	U17	15.06.93	 	Shettleston	Glasgow	1 Sep 09
+575	4:06.63	 	 	 	4:00.9	Stuart Campbell	V40	27.05.67	 	Arbroath & District	Edinburgh	19 Apr 09
+576	4:06.73	 	 	 	4:06.73	Frankie Conway	U20	29.09.91	 	Orion	Watford	20 Jun 09
+576	4:06.73	 	 	 	4:06.53	Martin Bateman	 	07.08.76	 	Hillingdon	Chelmsford	9 Aug 09
+578	4:06.75	 	 	 	4:02.29	Lee Slater	 	23.08.83	 	Dudley & Stourbridge	Birmingham (Un)	24 Jun 09
+579	4:06.77	 	 	 	4:06.77	Michael McKeown	U15	16.12.94	 	Coventry	Watford	12 Aug 09
+580	4:06.8	 	 	 	4:06.8	Martin Hayes	U23	16.05.89	 	Victoria Park City of Glasgow	Linwood	24 May 09
+580	4:06.8	 	 	 	4:04.8	Matthew Allott	U20	10.08.91	 	City of Stoke	Birmingham	21 Jun 09
+580	4:06.8	 	 	 	4:06.8	David Branfoot	 	08.08.76	 	Harrow	Eton	11 Jul 09
+580	4:06.8	 	 	 	3:53.09	Mike Buntin	 	24.02.78	 	Tipton	Birmingham (Un)	2 Aug 09
+584	4:06.83	 	 	 	4:06.83	Grant Bridgman	U20	25.10.91	 	St. Mary's Richmond	Watford	20 Jun 09
+585	4:06.84	 	 	 	3:56.89	David Fewell	 	08.10.82	 	Chelmsford	Chelmsford	10 May 09
+585	4:06.84	 	 	 	4:06.84	Samuel Wallbank	U20	08.02.90	 	Bedford & County	Watford	12 Aug 09
+587	4:06.85	 	 	 	4:06.85	Elliot Todd	U17	15.08.94	 	Leeds City	Wakefield	13 Jun 09
+588	4:06.9	 	 	 	4:03.8	Josh Mutch	U20	17.07.91	 	Brighton & Hove	Lewes	16 May 09
+589	4:06.93	 	 	 	4:06.93	Lachlan Oates	U20	30.01.92	 	Shettleston	Edinburgh	12 Jul 09
+590	4:06.96	 	 	 	4:06.96	Stuart Ferguson	U17	10.10.92	 	Radley	Ashford	24 May 09
+590	4:06.96	 	 	 	4:06.49	Tim Traynor	U20	02.02.90	 	White Horse	Watford	15 Jul 09
+592	4:06.97	 	 	 	4:06.97	Alex Dunbar	U20	24.04.92	 	West Suffolk	St. Ives	10 Jun 09
+593	4:07.0	 	 	 	4:07.0	Joel Clewett	 	04.01.85	 	Met Police	Eltham	22 Jul 09
+594	4:07.10	 	 	 	4:07.10	Charlie MacLean	U20	03.12.91	 	Taunton	Exeter	28 Jul 09
+595	4:07.1	 	 	 	3:49.34	Scott Sterling	 	06.12.78	 	Newham & Essex Beagles	Parliament Hill	2 May 09
+595	4:07.1	 	 	 	4:07.1	Tom Samuel	U23	01.05.89	 	Kent	Oxford	9 May 09
+595	4:07.1	 	 	 	4:04.77	Alex Wall-Clarke	U23	17.03.87	 	Team Southampton	Southampton	11 Jul 09
+595	4:07.1	 	 	 	4:06.99	Mukhtar Mohammed	U20	01.12.90	 	Sheffield RC	Sheffield	2 Aug 09
+595	4:07.1	 	 	 	4:00.01	Matthew Pierson	 	15.05.85	 	Holmfirth	Cleckheaton	16 Aug 09
+600	4:07.11	 	 	 	4:07.11	Jordan Maurice	U17	17.10.93	 	Croydon	Ashford	24 May 09
+600	4:07.11	 	 	 	4:07.11	Robin Brown	U23	03.11.89	 	North Down	Watford	20 Jun 09
+602	4:07.19	 	 	 	4:07.19	Andrew Crichton	U20	10.11.91	 	Dunbar RC	Manchester (SC)	14 Jun 09
+603	4:07.2	 	 	 	4:07.2	Owen Walpole	U20	17.07.90	 	Exeter	Exeter	19 Apr 09
+604	4:07.22	i	 	 	4:07.22i	Darrell Hastie	 	 	iD	Teviotdale	Glasgow	17 Jan 09
+605	4:07.23	 	 	 	4:07.23	Scott Green	U17	27.12.92	 	Central	Edinburgh	19 Apr 09
+605	4:07.23	 	 	 	4:07.23	Daniel Chesworth	U17	13.11.93	 	Newport	Street	4 May 09
+605	4:07.23	 	 	 	4:03.73	James Fairbourn	U23	26.06.87	 	Belgrave	Loughborough	17 May 09
+608	4:07.29	 	 	 	4:07.29	David Mountford	U20	30.03.91	 	Deeside AAC	Wrexham	8 Aug 09
+609	4:07.33	 	 	 	4:07.33	Scott MacAulay	U20	25.01.92	 	Kilbarchan	Grangemouth	12 Jun 09
+610	4:07.35	i	 	 	4:07.35i	Neil Burnside	 	07.08.84	 	Shaftesbury Barnet	Sheffield	8 Feb 09
+611	4:07.5	 	 	 	4:07.5	Iain Yates	 	15.08.83	 	Herne Hill	Cardiff	6 Jun 09
+612	4:07.52	 	 	 	4:07.52	Charles Brown	U23	17.10.89	 	Edinburgh	Exeter	4 Jul 09
+613	4:07.53	 	 	 	4:07.53	Christopher Woodger	U20	22.03.92	 	Lincoln Wellington	Stretford	21 Jul 09
+614	4:07.56	 	 	 	4:07.56	Michael Overend	U17	21.01.94	 	Dundee Hawkhill	Antrim	18 Jul 09
+615	4:07.6	 	 	 	4:07.6	Kevin Loundes	 	03.07.80	 	Manx	Blackpool	2 Aug 09
+616	4:07.61	 	 	 	4:07.61	Alexander Wills	 	 	iD	Florida Uni	Dunfermline	20 Jun 09
+617	4:07.64	 	 	 	4:07.64	Andrew Duncan	 	17.10.86	 	Manx	Aland, FIN	3 Jul 09
+618	4:07.69	 	 	 	4:07.69	Kyle Fowler	U20	25.07.92	 	Staffordshire Moorlands	Stretford	28 Apr 09
+618	4:07.69	 	 	 	4:07.69	Nasir Hussain	U23	15.06.89	 	Hallamshire	Stretford	23 Jun 09
+620	4:07.7	 	 	 	4:07.7	Richard Burman	 	29.01.76	 	Coventry	Coventry	2 May 09
+620	4:07.7	 	 	 	4:06.82	Matt Barrie	U23	05.09.89	 	Phoenix AC	Crawley	10 May 09
+622	4:07.71	 	 	 	4:07.71	Joe Maskell	 	21.11.76	 	Southampton RC	Portsmouth	10 May 09
+623	4:07.74	 	 	 	4:05.04	John Howe	 	09.10.77	 	Trafford	Stretford	21 Jul 09
+624	4:07.77	 	 	 	4:07.77	Chris Smith	U23	01.02.89	 	Wirral	Cosford	25 Apr 09
+625	4:07.81	 	 	 	4:06.15	Paige Haines	U20	28.06.90	 	Newham & Essex Beagles	Chelmsford	10 May 09
+625	4:07.81	 	 	 	4:07.81	Pajo Hamilton	 	12.10.84	 	City of Derry	Antrim	28 Jun 09
+625	4:07.81	 	 	 	4:06.47	Jack Swallow	U23	29.11.89	 	Crawley	Woking	5 Aug 09
+628	4:07.9	 	 	 	4:03.40	Jon Norris	U23	11.04.87	 	Cheltenham	Cheltenham 	25 May 09
+628	4:07.9	 	 	 	3:59.69	Paul Green	 	19.06.82	 	City of Sheffield	Sheffield	2 Aug 09
+630	4:07.91	 	 	 	4:07.91	Sam Winters	U20	05.08.92	 	Marshall Milton Keynes	Watford	12 Aug 09
+631	4:07.93	 	 	 	3:56.60	Russell Osborn	 	07.01.81	 	Team Southampton	Abingdon	6 Jun 09
+631	4:07.93	 	 	 	4:07.93	David Morwood	V35	09.10.70	 	North Belfast	Antrim	28 Jun 09
+633	4:07.99	 	 	 	4:07.99	Jacob Clark	U20	24.07.92	 	Doncaster	Manchester (SC)	20 Jun 09
+634	4:08.0	 	 	 	4:08.0	Cameron Boyek	U17	09.10.93	 	Shildon	Jarrow	13 Jun 09
+635	4:08.02	 	 	 	4:08.02	James Lamswood	U15	24.09.94	 	Kingston upon Hull	Sheffield	11 Jul 09
+636	4:08.05	 	 	 	3:59.36	Daniel Ryan	 	14.09.84	 	Blackheath & Bromley	Manchester (SC)	30 May 09
+636	4:08.05	 	 	 	4:08.05	Harry Fisher	U20	26.10.91	 	Team Southampton	Watford	12 Aug 09
+638	4:08.06	 	 	 	3:49.65	Martin Williams	 	27.09.77	 	Tipton	Yate	7 Jun 09
+639	4:08.08	 	 	 	3:59.84	Dave McKinlay	 	30.08.84	 	Blackheath & Bromley	Ashford	9 May 09
+640	4:08.1	 	 	 	4:08.1	Matt Suter	U20	22.09.91	 	Lewes	Milton Keynes	16 May 09
+641	4:08.13	 	 	 	4:03.35	Gary McBride	U20	01.12.91	 	Shettleston	Gothenburg, SWE	27 Jun 09
+642	4:08.17	 	 	 	4:08.17	Peter Smale	U23	11.07.88	 	Southend	Watford	15 Jul 09
+643	4:08.19	 	 	 	4:08.19	Stephen Parkes	U17	21.10.92	 	Tamworth	Cardiff	5 Sep 09
+644	4:08.23	 	 	 	4:08.23	Matt McLaughlin	U15	07.12.94	 	Shaftesbury Barnet	Watford	12 Aug 09
+645	4:08.30	 	 	 	4:08.30	Matthew Gillespie	U20	04.11.90	 	Shettleston	Grangemouth	31 May 09
+646	4:08.3	 	 	 	4:01.4	James Griggs	 	23.04.85	 	Coventry	Leicester	9 May 09
+646	4:08.3	 	 	 	4:02.52	James Hood	U23	19.12.89	 	Bromsgrove & Redditch	Loughborough	10 Jun 09
+646	4:08.3	 	 	 	4:08.3	Marcus Cram	U17	25.09.92	 	Morpeth	Jarrow	15 Jun 09
+649	4:08.34	 	 	 	4:08.34	Dan Thompson	U23	08.03.88	 	Hillingdon	Hendon	9 May 09
+650	4:08.40	 	 	 	4:08.40	Matthew Peters	U20	04.03.92	 	Bristol & West	Newport	3 Jun 09
+651	4:08.4	 	 	 	4:08.4	Sam Wade	U20	 	iD	Sussex Schs	Crawley	13 Jun 09
+652	4:08.41	 	 	 	4:08.41	Karnvir Hayer	U17	24.02.94	 	Ealing, Southall & Middx	Stretford	6 Jun 09
+653	4:08.48	 	 	 	4:08.48	Tom Collins	U17	05.06.93	 	Notts	Birmingham	23 May 09
+654	4:08.50	 	 	 	3:53.0	Julian Emery	V40	18.10.68	 	Clevedon	Exeter	26 May 09
+654	4:08.50	 	 	 	4:08.50	Craig Wellcoat	U17	02.10.93	 	Law	Wishaw	5 Jul 09
+656	4:08.51	 	 	 	4:08.51	Ben Connor	U17	17.10.92	 	Derby	Derby	10 May 09
+657	4:08.52	 	 	 	4:08.52	Matt Rose	U17	23.03.94	 	Coventry	Birmingham (Un)	22 Aug 09
+658	4:08.53	 	 	 	4:08.53	Brett Halliwell	U17	06.08.93	 	Yate	Exeter	23 Aug 09
+659	4:08.58	 	 	 	4:00.37	James Kelly	 	29.08.83	 	Belgrave	Hendon	25 Apr 09
+659	4:08.58	 	 	 	4:06.67	James Lavin	U23	18.01.89	 	Leeds City	Stretford	4 Aug 09
+661	4:08.6	 	 	 	3:57.3	Edward Highton	U23	22.01.89	 	Owls Leicester	Tamworth	2 May 09
+661	4:08.6	 	 	 	4:03.3	Davey Platt	U20	29.10.90	 	North Devon	Plymouth	9 May 09
+661	4:08.6	 	 	 	4:08.6	Marcus Bridger-Wilkinson	U20	31.03.92	 	Newbury	Oxford	1 Aug 09
+664	4:08.64	 	 	 	3:50.1	John Scott	V40	28.06.66	 	Newquay & Par	Parliament Hill	25 Jul 09
+665	4:08.67	 	 	 	4:08.67	Ashley Kay	U20	20.08.92	 	Rossendale	Stretford	12 May 09
+665	4:08.67	 	 	 	4:08.67	Joe Dalgleish	U20	30.10.90	 	Westbury	Birmingham (Un)	3 Jun 09
+667	4:08.7	 	 	 	4:02.0	Andrew Coles	 	27.04.78	 	Unattached	Glenhuntly, AUS	21 Nov 09
+668	4:08.71	 	 	 	4:08.71	Dave Alcock	 	20.08.80	 	Victoria Park & Tower Hamlets	Watford	12 Aug 09
+669	4:08.74	 	 	 	4:08.74	James Palmer	U23	09.12.89	 	City of York	Manchester (SC)	20 Jun 09
+670	4:08.78	 	 	 	4:05.02	Phil Clamp	V35	09.05.73	 	Tipton	Birmingham (Un)	3 Jun 09
+670	4:08.78	 	 	 	3:50.0	Matthew Bland	V40	09.02.67	 	Havering Mayesbrook	Dunfermline	6 Jun 09
+672	4:08.79	 	 	 	3:53.62	Robert Quinn	V40	10.12.65	 	Kilbarchan	Grangemouth	31 May 09
+673	4:08.80	 	 	 	3:46.7	Thomas Brannon	V40	30.08.67	 	North Shields Poly	Stretford	21 Jul 09
+674	4:08.8	 	 	 	3:48.0	Martin Airey	V35	28.10.70	 	Blackheath & Bromley	Bromley	2 May 09
+674	4:08.8	 	 	 	4:08.8	Craig Price	U23	23.03.87	 	Kingston & Poly	Cardiff	6 Jun 09
+674	4:08.8	 	 	 	4:07.8	Glenn Saqui	 	09.02.80	 	Highgate	Southampton	6 Jun 09
+677	4:08.81	 	 	 	3:58.68	Andy Nixon	U23	28.07.88	 	Stockport	Stretford	26 May 09
+678	4:08.84	 	 	 	3:58.51	Shane Kerr	U23	01.04.88	 	Armagh	Manchester (SC)	30 May 09
+679	4:08.9	 	 	 	4:08.9	Elliott Jackson	U20	12.03.91	 	New Marske	Jarrow	15 Jun 09
+679	4:08.9	 	 	 	3:55.72	Steven Marriott	 	17.02.83	 	Tipton	Telford	4 Jul 09
+681	4:08.91	 	 	 	4:00.66	Adam Elliott	 	23.12.85	 	Sale Harriers Manchester	Loughborough	17 May 09
+681	4:08.91	 	 	 	4:07.2	Leigh Crispin	 	25.04.81	 	Newham & Essex Beagles	Watford	12 Aug 09
+683	4:08.94	 	 	 	4:08.94	Chris Perrin	U17	05.07.93	 	Cannock & Stafford	Birmingham	23 May 09
+684	4:08.96	 	 	 	4:08.96	James McMurray	U15	18.01.95	 	St. Albans AC	Sheffield	11 Jul 09
+685	4:09.0	 	 	 	4:06.2	Phil Egerton	V35	20.06.73	 	Abingdon	Oxford	3 Jun 09
+686	4:09.02	 	 	 	4:09.02	Max Kaye	U17	26.10.93	 	Holmfirth	Stretford	1 Sep 09
+687	4:09.08	 	 	 	4:09.08	Toby Spencer	U20	09.06.90	 	Solihull & Small Heath	Birmingham (Un)	3 Jun 09
+688	4:09.1	 	 	 	4:09.1	Joshua Grace	U17	11.05.93	 	Aldershot, Farnham & District	Ashford	23 May 09
+688	4:09.1	 	 	 	4:09.1	Robbie Farnham-Rose	U17	05.01.94	 	Tonbridge	Tonbridge	1 Aug 09
+690	4:09.13	 	 	 	4:07.80	Robert Jowett	U23	27.02.89	 	Sale Harriers Manchester	Stretford	12 May 09
+690	4:09.13	 	 	 	4:02.24	Nathan Shrubb	 	11.10.86	 	Morpeth	Exeter	26 May 09
+690	4:09.13	 	 	 	4:09.13	Harry Boyd	U20	03.10.90	 	Liverpool Pembroke Sefton	Stretford	26 May 09
+693	4:09.15	 	 	 	4:09.15	Chris Perry	U20	01.03.90	 	Vale Royal	Manchester (SC)	20 Jun 09
+693	4:09.15	 	 	 	4:09.15	Philip Edge	U20	22.10.90	 	Deeside AAC	Wrexham	8 Aug 09
+695	4:09.18	 	 	 	4:06.80	Fraser Scott	U20	18.12.91	 	Corstorphine	Edinburgh	12 Jul 09
+696	4:09.2	 	 	 	4:09.2	Tom Carter	 	 	iD	London	Parliament Hill	2 May 09
+696	4:09.2	 	 	 	3:50.51	Jonathan Prowse	 	15.11.75	 	Blackpool, Wyre & Fylde	Litherland	6 Jun 09
+696	4:09.2	 	 	 	4:04.53	Andrew Ridley	U20	14.05.91	 	West Suffolk	Norwich	20 Jun 09
+696	4:09.2	 	 	 	4:03.4	Simon King	U20	26.02.90	 	Tamworth	Tamworth	2 Aug 09
+696	4:09.2	 	 	 	4:09.2	Jack Walker	U17	05.09.93	 	Giffnock North	Glasgow	1 Sep 09
+701	4:09.29	 	 	 	4:09.29	Steven Lyall	U20	23.11.91	 	Dundee Hawkhill	Grangemouth	12 Jun 09
+702	4:09.30	 	 	 	4:07.64	Lee Pickering	 	16.09.83	 	Chelmsford	Chelmsford	10 May 09
+703	4:09.3	 	 	 	4:09.3	Liam Baister	U20	12.10.91	 	Gateshead	Jarrow	3 Aug 09
+704	4:09.32	 	 	 	4:09.32	Howard Clarke	U20	04.04.91	 	Southend	Chelmsford	10 May 09
+705	4:09.33	 	 	 	4:09.33	Matt Bergin	U17	02.03.93	 	Bedford & County	Watford	17 Jun 09
+705	4:09.33	 	 	 	4:09.33	Joshua Skinner	U20	24.10.90	 	Preston	Stretford	7 Jul 09
+707	4:09.34	 	 	 	4:02.79	Peter Whitehouse	U23	22.09.89	 	Birchfield H	Birmingham (Un)	3 Jun 09
+707	4:09.34	 	 	 	4:09.34	Jack Hamilton	U17	11.04.93	 	Cambuslang	Stretford	6 Jun 09
+709	4:09.37	 	 	 	4:09.37	Henry Loughlin	U17	22.04.94	 	West Norfolk	Watford	15 Jul 09
+710	4:09.4	 	 	 	4:09.4	Edward Takata	 	22.04.85	 	Cardiff	Yate	18 Jul 09
+711	4:09.43	 	 	 	4:09.43	Ryan Worland	U20	05.02.92	 	Sale Harriers Manchester	Stretford	4 Aug 09
+712	4:09.49	 	 	 	4:09.49	Daniel Agustus	 	20.10.81	 	Woodford Green with Essex Ladies	Parliament Hill	25 Jul 09
+713	4:09.5	 	 	 	4:09.5	Niall Fleming	U20	27.07.92	 	Shaftesbury Barnet	Milton Keynes	16 May 09
+713	4:09.5	 	 	 	4:09.5	Albie Von Gordon	 	 	iD	City of Norwich	King's Lynn	1 Aug 09
+715	4:09.58	 	 	 	4:05.50	Tom Graves	U17	28.08.93	 	Solihull & Small Heath	Street	4 May 09
+715	4:09.58	 	 	 	4:03.58	Rob Dewhurst	 	13.04.75	 	Liverpool H	Stretford	4 Aug 09
+717	4:09.6	 	 	 	4:09.6	Latfi Seblis	 	 	iD	Newham & Essex Beagles	Parliament Hill	2 May 09
+718	4:09.63	 	 	 	4:09.63	Oliver Davey	U17	28.04.93	 	Thurrock	Ashford	24 May 09
+719	4:09.64	 	 	 	4:09.64	Chris Goodwin	U17	12.02.94	 	West Cheshire	Stretford	18 Aug 09
+720	4:09.68	 	 	 	4:06.24	Francis Marsh	V40	12.12.65	 	North Down	Parliament Hill	25 Jul 09
+721	4:09.7	 	 	 	4:02.7	Carl Bradbury	U23	20.04.89	 	Reading AC	Newham	16 May 09
+721	4:09.7	 	 	 	4:09.7	Ronny Wilson	U17	18.05.93	 	Lincoln Wellington	Stretford	9 Jun 09
+721	4:09.7	 	 	 	4:09.7	Matt Rethy	U20	04.07.92	 	Lewes	Crawley	13 Jun 09
+724	4:09.71	 	 	 	4:09.71	Sean Hazell	U20	10.08.91	 	Bristol & West	Exeter	28 Jul 09
+725	4:09.73	 	 	 	4:09.73	Jarleth Falls	 	13.01.83	 	Ballymena & Antrim	Antrim	14 Jun 09
+726	4:09.75	 	 	 	4:09.75	Fergus Roberts	U15	03.11.94	 	Richmond & Zetland	Stretford	23 Jun 09
+727	4:09.8	 	 	 	4:09.8	Peter Benedickter	U20	21.10.91	 	Luton	Kingston	2 May 09
+727	4:09.8	 	 	 	4:09.8	Will Clark	 	10.02.81	 	Epsom & Ewell	Hendon	8 Aug 09
+729	4:09.89	 	 	 	4:09.89	Anupam Das	U23	17.11.87	 	Hillingdon	Watford	15 Jul 09
+730	4:09.9	 	 	 	4:09.9	Zac Randall	U20	16.08.92	 	Wycombe	Hillingdon	1 Aug 09
+731	4:10.1	 	 	 	3:55.21	Edward Lumley	 	20.05.84	 	Kent	Eltham	2 May 09
+731	4:10.1	 	 	 	3:54.4	Alan Rowe	V40	20.09.65	 	Guernsey	St. Peter Port	16 Jun 09
+731	4:10.1	 	 	 	4:10.1	Richard Phillips	 	11.11.75	 	Serpentine	Battersea	1 Aug 09
+731	4:10.1	 	 	 	4:07.5	Philip Hoole	 	28.10.79	 	Rotherham	Sheffield	2 Aug 09
+735	4:10.21	 	 	 	3:59.1	Matt Blunden	 	25.02.80	 	Notts	Cosford	24 Jun 09
+736	4:10.25	 	 	 	4:10.25	Lewis Millar	 	20.02.84	 	Central	Grangemouth	30 Aug 09
+737	4:10.26	 	 	 	4:10.26	Mark Shaw	U17	25.01.94	 	New Marske	Stretford	21 Jul 09
+738	4:10.27	 	 	 	4:10.27	Dominic Coyle	U17	04.07.93	 	Trafford	Stretford	26 May 09
+739	4:10.30	 	 	 	4:10.30	Calum McKenzie	U23	03.05.89	 	Corstorphine	Grangemouth	9 Aug 09
+740	4:10.33	 	 	 	3:47.9	Dave Taylor	V45	09.01.64	 	Blackheath & Bromley	Lahti, FIN	6 Aug 09
+741	4:10.38	 	 	 	4:07.34	James Teuten	U23	25.07.89	 	City of Portsmouth	Street	4 May 09
+741	4:10.38	 	 	 	4:10.38	Jack Stroud	U23	07.08.89	 	Orion	Chelmsford	10 May 09
+741	4:10.38	 	 	 	4:10.38	William Nicholson	U23	25.09.89	 	Border	Abingdon	6 Jun 09
+744	4:10.39	 	 	 	4:08.68	Michael Tarpey	 	02.09.85	 	Herts Phoenix	Watford	12 Aug 09
+744	4:10.39	 	 	 	4:10.39	Andrew Kaar	 	26.05.86	 	Solihull & Small Heath	Cardiff	15 Aug 09
+746	4:10.45	 	 	 	4:10.45	Kevin Cornes	U20	 	iD	Kirkintilloch	Edinburgh	19 Apr 09
+747	4:10.5	 	 	 	4:10.5	Alex Newson	U17	09.10.93	 	Invicta East Kent	Ashford	23 May 09
+747	4:10.5	 	 	 	4:10.5	Damien Weston	 	08.12.82	 	Sunderland	Jarrow	15 Jun 09
+747	4:10.5	 	 	 	4:10.5	Nicholas Lingley	U20	15.04.92	 	Windsor, Slough, Eton & Hounslow	Basingstoke	1 Aug 09
+750	4:10.54	 	 	 	4:04.7	David Boyce	 	08.02.80	 	Brighton & Hove	Tonbridge 	4 Aug 09
+751	4:10.6	 	 	 	4:07.5	Kieran White	 	20.04.76	 	Hercules Wimbledon	Kingston	2 May 09
+751	4:10.6	 	 	 	3:49.69	Simon Plummer	 	25.06.79	 	Woodford Green with Essex Ladies	Tidworth	10 May 09
+751	4:10.6	 	 	 	4:01.47	Tom Best	U23	29.04.89	 	Luton	Luton	11 Jul 09
+751	4:10.6	 	 	 	3:54.95	Daniel Beier	 	09.08.83	 	Tipton	Birmingham (Un)	2 Aug 09
+755	4:10.7	 	 	 	4:10.7	Greg Ritchie	U20	17.10.91	 	Jarrow & Hebburn	York	2 May 09
+755	4:10.7	 	 	 	4:10.7	Aaron Stone	U20	03.08.92	 	Crawley	Crawley	10 May 09
+755	4:10.7	 	 	 	4:01.5	Nick Swinburn	U23	11.05.88	 	Morpeth	York	5 Jul 09
+758	4:10.71	 	 	 	4:10.71	Peter Chambers	U15	08.05.95	 	Croydon	Sheffield	11 Jul 09
+758	4:10.71	 	 	 	4:08.26	Eoin Hamilton	U23	05.06.89	 	St. Malachy's	Dublin (S), IRL	1 Aug 09
+760	4:10.75	 	 	 	4:10.75	Mark Hopkinson	U23	02.01.87	 	Taunton	Exeter	23 Aug 09
+761	4:10.78	 	 	 	4:10.78	Edward Dudgeon	U17	22.05.93	 	Edinburgh	Edinburgh	12 Jul 09
+762	4:10.8	 	 	 	4:10.8	William Gurton	U17	16.02.94	 	Vale of Aylesbury	Peterborough	6 Jun 09
+762	4:10.8	 	 	 	4:10.8	Josh Bentham	U17	05.09.92	 	Tonbridge	Ashford	13 Jun 09
+762	4:10.8	 	 	 	4:10.8	Grant Hawkins	U20	16.12.91	 	Middlesbrough (Mandale)	Jarrow	15 Jun 09
+762	4:10.8	 	 	 	4:10.8	Ronan Shally	 	24.09.76	 	Guernsey	St. Peter Port	16 Jun 09
+762	4:10.8	 	 	 	4:10.8	Robert Edwards	U20	30.08.90	 	Salford Met	Stretford	2 Aug 09
+767	4:10.82	 	 	 	4:10.82	Luke Lambourne	U23	17.05.88	 	Brighton & Hove	Birmingham (Un)	3 Jun 09
+768	4:10.83	 	 	 	4:10.83	Adam Gilbert	U17	31.05.94	 	Medway & Maidstone	Watford	12 Aug 09
+769	4:10.86	 	 	 	4:10.1	Matt Craythorne	U20	19.12.91	 	Yate	Exeter	26 May 09
+770	4:10.87	 	 	 	4:10.87	James Selvey	U17	10.10.93	 	Chesterfield	Stretford	6 Jun 09
+771	4:10.90	 	 	 	3:53.58	David Reader	V35	16.10.72	 	Cambridge H	Watford	17 Jun 09
+772	4:10.9	 	 	 	4:10.9	James Maskell	 	 	iD	Southampton RC	Southampton 	27 May 09
+772	4:10.9	 	 	 	4:10.9	Jack Lee	U20	10.10.91	 	Aldershot, Farnham & District	Parliament Hill	1 Aug 09
+774	4:10.95	 	 	 	4:03.29	Tom Beedell	 	12.07.86	 	Chiltern	Watford	17 Jun 09
+774	4:10.95	 	 	 	4:10.95	Beau Smith	U17	25.12.93	 	Lancaster & Morecambe	Stretford	18 Aug 09
+776	4:11.0	 	 	 	4:11.0	Mitch White	U17	02.06.93	 	Bracknell AC	Twickenham	31 May 09
+777	4:11.02	i	 	 	4:01.44	Peter Barker	V40	05.11.67	 	St. Edmunds Pacers	Lee Valley	7 Mar 09
+778	4:11.04	 	 	 	4:11.04	Jack Perry-Williams	U17	06.11.92	 	Shaftesbury Barnet	Watford	9 Sep 09
+779	4:11.10	 	 	 	4:00.3	James Budde	 	17.08.81	 	North Down	Antrim	28 Jun 09
+780	4:11.1	 	 	 	4:11.1	Max Kiralyfi	U20	12.04.91	 	Winchester	Colchester	2 May 09
+780	4:11.1	 	 	 	4:11.1	Danny Schofield	U20	02.10.91	 	Scarborough	York	13 Jun 09
+780	4:11.1	 	 	 	4:10.56	Les Ball	V40	22.12.66	 	Lincoln Wellington	Grantham	5 Jul 09
+783	4:11.18	 	 	 	4:11.18	James Stringer	U20	14.09.90	 	Vale Royal	Stretford	18 Aug 09
+784	4:11.2	 	 	 	4:11.2	James Gray	U17	29.12.92	 	City of Sheffield	Rotherham	26 Apr 09
+784	4:11.2	 	 	 	3:50.64	Guy Amos	V45	15.06.63	 	City of Norwich	Norwich	11 May 09
+784	4:11.2	 	 	 	4:06.23	Steve Kimber	 	04.05.79	 	Windsor, Slough, Eton & Hounslow	Harrow	27 Jun 09
+787	4:11.21	i	 	 	4:01.9	Simon McCluney	U20	22.04.90	 	Lagan Valley	Glasgow	28 Oct 09
+788	4:11.23	 	 	 	4:04.1	Chris McQuillen-Wright	V35	27.03.71	 	Newquay & Par	Exeter	28 Jul 09
+789	4:11.24	 	 	 	4:11.24	Chris Matthews	U17	24.09.92	 	Blackburn	Stretford	21 Jul 09
+790	4:11.34	 	 	 	4:11.34	Martin Booth	 	06.05.82	 	Derby	Manchester (SC)	20 Jun 09
+791	4:11.37	 	 	 	4:11.37	Lee Whiteley	U23	12.07.89	 	Sale Harriers Manchester	Stretford	23 Jun 09
+792	4:11.40	 	 	 	3:48.87	Andrew Ingle	 	19.02.80	 	Bideford	Exeter	28 Jul 09
+793	4:11.4	 	 	 	4:01.4	Andy Teate	 	06.09.84	 	Gateshead	Middlesbrough	2 May 09
+793	4:11.4	 	 	 	4:11.4	Howard Wood	U20	24.05.90	 	City of Sheffield	Grantham	5 Jul 09
+793	4:11.4	 	 	 	4:09.09	Stephen Allen	V40	18.01.68	 	Law	Glasgow	1 Sep 09
+796	4:11.41	 	 	 	4:11.11i	Christopher Price	U23	05.05.88	 	Wakefield	Stretford	18 Aug 09
+797	4:11.48	 	 	 	4:11.48	Sam Redding	U15	10.10.94	 	Marshall Milton Keynes	Sheffield	11 Jul 09
+798	4:11.49	 	 	 	4:10.0	George Buttery	U20	24.01.92	 	Charnwood	Birmingham (Un)	22 Aug 09
+799	4:11.50	 	 	 	3:51.32	Adam Dyson	 	28.04.82	 	Hallamshire	Stretford	23 Jun 09
+800	4:11.5	 	 	 	4:02.4	Stuart Cameron	U20	10.04.90	 	Stockport	Loughborough	10 Jun 09
+801	4:11.6	 	 	 	4:11.6	Charlie Eastaugh	U20	09.07.91	 	Leamington	Coventry	24 May 09
+801	4:11.6	 	 	 	4:11.6	Stuart Nelson	 	21.05.76	 	Rugby & Northampton	Tamworth	18 Jul 09
+801	4:11.6	 	 	 	3:49.38	Corin Hughes	 	24.12.81	 	Cheltenham	Kettering	2 Aug 09
+804	4:11.63	 	 	 	4:11.63	Luke Scott	 	01.07.84	 	Taunton	Yeovil	9 May 09
+805	4:11.66	 	 	 	4:03.64i	Stephen Matthews	 	02.07.85	 	East Kilbride	Edinburgh	19 Apr 09
+806	4:11.67	 	 	 	4:11.67	Mark Vardy	U23	19.03.88	 	Newbury	Birmingham (Un)	22 Aug 09
+807	4:11.7	 	 	 	4:11.7	Bryn Reynolds	U23	02.12.87	 	Herts Phoenix	Oxford	29 Apr 09
+807	4:11.7	 	 	 	4:11.7	Ben Placidi	U17	03.12.92	 	City of Portsmouth	Eltham	27 May 09
+807	4:11.7	 	 	 	4:07.4	Fraser Jardine	U20	24.10.90	 	Bolton	Cleckheaton	16 Aug 09
+810	4:11.77	 	 	 	4:08.18	Andrew Conway	U23	19.11.87	 	Blackheath & Bromley	Hendon	18 Jul 09
+811	4:11.8	 	 	 	4:11.8	Peter Freedman	 	12.07.84	 	Tavistock	Plymouth	26 Apr 09
+811	4:11.8	 	 	 	4:11.8	James Taylor	 	15.05.76	 	Barnet	Stevenage	4 May 09
+811	4:11.8	 	 	 	4:11.8	Tom Nutt	U20	29.11.90	 	Leicester	Leicester 	9 May 09
+811	4:11.8	 	 	 	4:11.8	Samuel Cheverton	U20	27.02.92	 	City of Norwich	Norwich	20 Jun 09
+815	4:11.88	 	 	 	4:11.88	Blayne Pick	U20	31.03.92	 	Notts	Birmingham (Un)	24 Jun 09
+816	4:11.90	 	 	 	4:11.90	Chris Paton	 	10.07.83	 	Gateshead	Gateshead	22 Aug 09
+817	4:11.9	 	 	 	4:06.1	Chris Thomson	 	18.04.84	 	Brighton & Hove	Southampton	6 Jun 09
+818	4:11.91	 	 	 	3:56.8	Darren Shinnie	U23	16.04.87	 	Aberdeen	Grangemouth	30 Aug 09
+819	4:11.96	 	 	 	4:11.96	Christopher Fullerton	U23	27.09.88	 	Lincoln Wellington	Watford	17 Jun 09
+820	4:12.0	 	 	 	4:12.0	Ryan Fairclough	U23	15.12.89	 	Northern (Isle of Man)	Blackpool	9 May 09
+820	4:12.0	 	 	 	4:05.65	Richard Harper	U23	26.11.87	 	Leamington	Leamington	2 Aug 09
+822	4:12.08	 	 	 	4:12.08	Jack Nixon	U17	01.02.94	 	Stockport	Stretford	4 Aug 09
+823	4:12.1	 	 	 	4:09.0	Iain Lynn	U20	15.02.91	 	City of York	Leeds (B)	1 Jul 09
+824	4:12.12	 	 	 	4:12.12	Jamie Darling	 	19.03.84	 	Taunton	Watford	15 Jul 09
+825	4:12.15	 	 	 	4:08.02	Phillip Seseman	U17	03.10.92	 	Blackheath & Bromley	Birmingham	6 Sep 09
+826	4:12.19	 	 	 	4:12.19	Alex Jackson	U23	07.12.89	 	Epsom & Ewell	Watford	15 Jul 09
+827	4:12.2	 	 	 	4:12.2	Ryan Greaves	U20	10.04.92	 	Pudsey & Bramley	Cleckheaton	20 May 09
+827	4:12.2	 	 	 	4:03.63	Billy Collins Pallett	U20	18.04.91	 	Shaftesbury Barnet	Bromley	26 Jul 09
+829	4:12.23	 	 	 	4:12.23	Jamie Taylor-Caldwell	U20	23.09.91	 	Ealing, Southall & Middx	Parliament Hill	25 Jul 09
+830	4:12.28	 	 	 	4:12.28	Joshua Morrison	U20	17.01.91	 	Shetland	Aland, FIN	3 Jul 09
+831	4:12.3	 	 	 	4:12.1	Matthew Jones	U20	 	iD	Middlesbrough & Cleveland	Jarrow	3 Aug 09
+832	4:12.36	 	 	 	4:12.36	Patrick Vicary	U17	29.09.92	 	Kendal	Stretford	4 Aug 09
+833	4:12.40	 	 	 	4:11.58	Leif Chandler	U20	21.01.92	 	Poole Runners	Street	4 May 09
+834	4:12.4	 	 	 	4:12.4	Paul Clifford	U17	24.08.93	 	Darlington	Catterick	2 Jun 09
+834	4:12.4	 	 	 	4:12.4	Jerone Bromilow	U20	 	iD	Sussex Schs	Crawley	13 Jun 09
+836	4:12.5	 	 	 	4:12.5	Tom Bennett	U17	05.03.94	 	Andover	Portsmouth (RN)	6 Jun 09
+836	4:12.5	 	 	 	4:01.67	Alistair Smith	U23	10.08.88	 	Coventry	Rugby	7 Jun 09
+836	4:12.5	 	 	 	4:12.5	Jason Prickett	U20	15.06.92	 	Invicta East Kent	Canterbury	27 Sep 09
+839	4:12.54	 	 	 	4:12.54	Jacob Simmons	U20	16.05.92	 	Banbury	Birmingham (Un)	24 Jun 09
+839	4:12.54	 	 	 	4:12.54	Stewart Orr	U17	13.12.92	 	Cambuslang	Grangemouth	8 Jul 09
+839	4:12.54	 	 	 	4:12.54	Shaun Egan	U20	15.02.92	 	Wirral	Stretford	1 Sep 09
+842	4:12.55	 	 	 	4:12.55	Luca Russo	U17	07.11.93	 	Tonbridge	Ashford	24 May 09
+842	4:12.55	 	 	 	4:12.55	Grant Webb	U20	11.12.91	 	Basildon	Eltham	19 Aug 09
+844	4:12.57	 	 	 	4:12.57	Liam McNabola	U23	03.07.87	 	Luton	Watford	12 Aug 09
+845	4:12.59	 	 	 	4:12.59	Billy Sheppard	 	03.04.80	 	Clevedon	Exeter	26 May 09
+846	4:12.6	 	 	 	4:12.6	Tom Mead	U17	24.09.92	 	Luton	Ashford	23 May 09
+846	4:12.6	 	 	 	4:12.6	John Charles	 	24.05.83	 	Belgrave	Southampton 	27 May 09
+846	4:12.6	 	 	 	4:12.6	Danny Crates T46	V35	09.02.73	 	Thurrock	Basingstoke	1 Aug 09
+849	4:12.65	 	 	 	4:12.65	James Perrin	U17	05.07.93	 	Cannock & Stafford	Birmingham	23 May 09
+850	4:12.69	 	 	 	4:10.70	Christopher Hesketh	U20	03.03.92	 	Liverpool Pembroke Sefton	Stretford	26 May 09
+851	4:12.7	 	 	 	4:12.7	Nicholas Torry	 	19.02.77	 	Serpentine	Battersea	1 Aug 09
+852	4:12.72	 	 	 	4:09.91	Grant Twist	U20	15.10.90	 	Havering Mayesbrook	Watford	12 Aug 09
+853	4:12.74	 	 	 	4:06.1	Afan Humphries	U23	23.09.87	 	Cwmbran	Birmingham (Un)	22 Aug 09
+854	4:12.8	 	 	 	3:48.73	Andrew Toward	 	29.07.83	 	St. Mary's Richmond	Erith	2 May 09
+854	4:12.8	 	 	 	4:03.79	Adam Clansey	 	23.01.82	 	Liverpool Pembroke Sefton	Ellesmere Port	5 Jul 09
+854	4:12.8	 	 	 	4:12.8	Matthew Salt	U20	19.04.92	 	Dacorum & Tring	Eton	11 Jul 09
+857	4:12.81	 	 	 	4:04.9	Simon Coombes	V35	30.06.72	 	Herne Hill	Kingston	22 Aug 09
+858	4:12.84	 	 	 	4:07.2	Ben Lacey	U23	08.09.89	 	Charnwood	Loughborough	27 May 09
+859	4:12.85	 	 	 	4:12.85	Alexander Teuten	U20	03.01.92	 	City of Portsmouth	Portsmouth	10 May 09
+860	4:12.9	 	 	 	4:12.9	Stuart Campbell	U20	25.03.92	 	Lincoln Wellington	Loughborough	1 Jul 09
+860	4:12.9	 	 	 	3:52.7	Andrew Dunwoody	 	06.02.76	 	Annadale	Woking	11 Jul 09
+862	4:12.98	 	 	 	4:12.98	Daniel Woodgate	U20	28.10.91	 	Luton	Watford	12 Aug 09
+863	4:13.01	 	 	 	4:13.01	Paul Hayman	 	02.11.79	 	Serpentine	Cambridge	9 May 09
+864	4:13.04	 	 	 	4:13.04	Simon Millett	U23	19.04.87	 	Norwich RR	Bedford	2 May 09
+865	4:13.06	 	 	 	4:07.3	Alistair Campbell	 	25.06.86	 	Cambuslang	Edinburgh	19 Apr 09
+865	4:13.06	 	 	 	3:53.76	Luke Northall	 	30.11.84	 	Tipton	Stretford	21 Jul 09
+867	4:13.10	 	 	 	4:10.7	Daniel Woolford	U23	18.12.88	 	Bristol & West	Exeter	26 May 09
+867	4:13.10	 	 	 	4:13.10	Ben Cole	 	18.06.85	 	Tonbridge	Grangemouth	8 Jul 09
+869	4:13.1	 	 	 	4:06.6	Nick Hazelwood	 	26.04.78	 	Halesowen	Telford	4 Jul 09
+870	4:13.15	 	 	 	4:13.15	Ross Thomas	U17	26.06.93	 	City of Portsmouth	Crawley	2 Aug 09
+871	4:13.16	 	 	 	4:13.16	John Bird	U20	17.05.92	 	Ipswich	Watford	12 Aug 09
+872	4:13.18	 	 	 	4:13.18	Jeffrey Cunningham	 	20.02.82	 	Herne Hill	Watford	15 Jul 09
+873	4:13.2	 	 	 	4:03.12	Graeme Mason	V35	16.03.74	 	Border	Leeds (B)	1 Jul 09
+873	4:13.2	 	 	 	4:13.2	Ryan McDermott	U20	10.08.92	 	Dromore	Belfast	2 Jul 09
+875	4:13.23	 	 	 	4:13.23	Stuart Gibson	 	15.09.83	 	Cambuslang	Linwood	29 Jul 09
+876	4:13.3	 	 	 	4:13.3	Phil Moore	U23	19.11.88	 	Darlington	Jarrow	15 Jun 09
+876	4:13.3	 	 	 	4:11.42	Luke Harreld	 	18.08.86	 	Bury	Ashton-under-Lyne	5 Jul 09
+876	4:13.3	 	 	 	4:13.3	Oliver Maskell	U20	30.09.91	 	City of Norwich	Bromley	26 Jul 09
+879	4:13.31	 	 	 	4:13.31	James Moorcroft	U23	06.10.89	 	Team Kennet	Watford	9 Sep 09
+880	4:13.38	 	 	 	4:03.09	David Smale	U20	16.10.91	 	Southend	Chelmsford	10 May 09
+881	4:13.39	 	 	 	4:13.39	Thomas Marper	U20	09.11.91	 	Gateshead	Liverpool	26 Apr 09
+882	4:13.46	 	 	 	4:13.46	Alec Beaney	U20	12.09.90	 	West Cheshire	Stretford	12 May 09
+883	4:13.47	 	 	 	4:13.47	Khalid Al-Abaidy	U17	05.05.93	 	St. Albans AC	Watford	12 Aug 09
+884	4:13.50	 	 	 	3:55.69	Martyn Gibbons	U23	07.09.87	 	Notts	Birmingham	21 Jun 09
+885	4:13.5	 	 	 	4:07.06	Kieran Smith	U20	17.04.92	 	City of York	York	13 Jun 09
+885	4:13.5	 	 	 	4:13.5	Kyle Craib	U20	26.01.92	 	Rotherham	Sheffield	2 Aug 09
+887	4:13.51	 	 	 	4:13.51	Max Jeffers	U17	01.10.93	 	Wirral	Stretford	1 Sep 09
+888	4:13.53	 	 	 	4:05.40	Max Roberts	U23	01.05.88	 	Basingstoke & Mid Hants	Portsmouth	10 May 09
+889	4:13.55	 	 	 	4:13.55	Connor Vine	U17	27.07.93	 	Windsor, Slough, Eton & Hounslow	Kingston	10 May 09
+890	4:13.6	 	 	 	4:13.6	Peter Swaine	 	04.09.78	 	Charnwood	Leicester 	9 May 09
+890	4:13.6	 	 	 	4:06.13	Thomas Cornthwaite	 	13.04.85	 	Blackburn	Blackburn	6 Jun 09
+890	4:13.6	 	 	 	4:13.6	Michael Bride	U17	25.09.92	 	Liverpool Pembroke Sefton	Bebington	13 Jun 09
+893	4:13.63	 	 	 	3:57.18	James Houghton	 	01.11.86	 	Cannock & Stafford	Loughborough	27 May 09
+894	4:13.67	 	 	 	4:13.67	Toby Brimcombe	U17	28.06.93	 	City of Portsmouth	Woking	6 Sep 09
+895	4:13.75	 	 	 	4:13.75	Jack Gleave	U15	02.12.94	 	Warrington	Bedford	9 Aug 09
+896	4:13.79	 	 	 	4:12.2	Paul Bradshaw	U23	22.01.88	 	Blackburn	Bath	25 Apr 09
+897	4:13.8	 	 	 	4:13.8	Daniel Hallam	U20	18.08.92	 	Owls Leicester	Loughborough	1 Jul 09
+897	4:13.8	 	 	 	3:57.74	Ben Paviour	V35	09.11.72	 	Herne Hill	Kingston	12 Aug 09
+899	4:13.81	 	 	 	4:10.77	Paul Green	U20	24.02.92	 	Poole Runners	Exeter	26 May 09
+900	4:13.82	 	 	 	4:13.82	Graham Evans	U17	01.11.92	 	Kilbarchan	Stretford	1 Sep 09
+901	4:13.84	 	 	 	4:13.84	Jamie Ashton	U23	17.03.88	 	Bracknell AC	Woking	5 Aug 09
+902	4:13.87	 	 	 	4:13.87	Craig McDowall	U20	23.05.92	 	Lothian	Grangemouth	2 Sep 09
+903	4:13.88	 	 	 	3:57.2	Ian Hough	 	14.09.77	 	City of Sheffield	Ashford	9 May 09
+903	4:13.88	 	 	 	3:59.11	Peter Norris	 	19.08.83	 	Harrow	Watford	13 Jun 09
+905	4:13.89	 	 	 	4:13.89	Martin Haynes	 	 	iD	Glasgow Uni	Grangemouth	12 Apr 09
+905	4:13.89	 	 	 	4:13.3	Tom Brown	U23	27.12.89	 	Jersey	Aland, FIN	3 Jul 09
+907	4:13.90	 	 	 	4:13.90	Alex Young	U20	18.10.90	 	Trafford	Stretford	18 Aug 09
+908	4:13.9	 	 	 	4:13.9	Nakole Iddirisu	U17	21.12.92	 	Newham & Essex Beagles	Woodford	7 Jul 09
+908	4:13.9	 	 	 	4:13.9	Darryl Worbey	U17	28.05.94	 	Thurrock	Eton	11 Jul 09
+908	4:13.9	 	 	 	4:13.9	Jack Partridge	U17	12.06.93	 	Poole Runners	Bournemouth	1 Aug 09
+911	4:13.94	 	 	 	4:13.94	Joe Toomey	U17	04.09.92	 	Hercules Wimbledon	Kingston	13 Jun 09
+912	4:13.96	 	 	 	3:59.1	Mark Woodley	U23	07.03.88	 	Chelmsford	Chelmsford	10 May 09
+913	4:14.00	 	 	 	4:14.00	Robert Inglis	U20	28.08.91	 	Lothian	Grangemouth	24 May 09
+913	4:14.00	 	 	 	3:58.92	Paul Bristow	V35	13.05.71	 	Cardiff	Gröbenzell, GER	16 Jun 09
+915	4:14.0	 	 	 	4:14.0	Jonathan Simpkins	U20	23.10.91	 	Solihull & Small Heath	Coventry	24 May 09
+915	4:14.0	 	 	 	4:14.0	Elliott Dorey	U17	19.04.94	 	Jersey	St. Helier	13 Sep 09
+917	4:14.02	 	 	 	4:14.02	Josh Rowe	U20	04.11.91	 	Kingston upon Hull	Tipton	25 Jul 09
+918	4:14.10	 	 	 	4:14.10	Andrew Moraghan	V35	18.12.72	 	Riverside	St. Ives	10 Jun 09
+919	4:14.1	 	 	 	4:02.2	James Johnson	U23	01.08.88	 	Kingston upon Hull	Loughborough	10 Jun 09
+920	4:14.15	 	 	 	4:14.15	Andrew Clews	U20	02.03.92	 	Vale Royal	Manchester (SC)	20 Jun 09
+921	4:14.2	 	 	 	4:11.09	Tim Wright	 	29.10.83	 	Banbury	Brierley Hill	2 May 09
+921	4:14.2	 	 	 	3:50.44i	Gavin Keight	 	30.05.82	 	Hallamshire	Doncaster	2 May 09
+921	4:14.2	 	 	 	4:13.85	Daniel Sellman	U20	04.12.90	 	South London	Eltham	27 May 09
+921	4:14.2	 	 	 	4:14.2	Jim Norris	U17	27.09.92	 	Ipswich	Braintree	14 Jun 09
+921	4:14.2	 	 	 	4:14.2	Sam Hunt	U17	29.04.93	 	Nene Valley	Ipswich	27 Jun 09
+926	4:14.21	 	 	 	4:14.21	Rhys Spence	U17	01.10.93	 	Hillingdon	Watford	23 Sep 09
+927	4:14.24	 	 	 	4:14.24	Finlay Rae	U15	10.04.95	 	Ayr Seaforth	Bedford	9 Aug 09
+928	4:14.27	 	 	 	4:14.27	Josh Rees	U17	 	iD	Southend	Chelmsford	13 Jun 09
+929	4:14.28	 	 	 	4:14.28	Gavin Barclay	U17	18.11.92	 	Hillingdon	Watford	23 Sep 09
+930	4:14.31	 	 	 	4:14.31	Tom Jervis	U17	11.07.93	 	Warrington	Stretford	21 Jul 09
+931	4:14.4	 	 	 	4:12.7	Dan Pidgeon	U20	30.03.90	 	Swindon	Ilford	2 May 09
+931	4:14.4	 	 	 	4:12.3	Mark Fenwick	 	05.02.85	 	Wallsend	Jarrow	2 May 09
+931	4:14.4	 	 	 	4:14.4	Scott Baxter	U20	11.11.90	 	Charnwood	Leicester 	9 May 09
+931	4:14.4	 	 	 	4:14.4	Yasin Mohammed	U20	15.04.92	 	Sheffield RC	Hull	24 May 09
+931	4:14.4	 	 	 	4:10.59	Jake Rowlands	U23	20.10.88	 	Holmfirth	Wakefield	28 Jun 09
+936	4:14.43	 	 	 	3:55.40	Daniel Russell	U23	02.04.87	 	Shaftesbury Barnet	Newham	22 Aug 09
+937	4:14.47	 	 	 	4:14.47	Benedict Westhenry	U15	26.09.94	 	Weymouth St. Paul's	Exeter	28 Jul 09
+938	4:14.50	 	 	 	4:14.50	Simon Cooper	U17	05.04.94	 	Taunton	Exeter	26 May 09
+939	4:14.5	 	 	 	4:09.6	Peter Downie	 	07.01.76	 	Highgate	Parliament Hill	27 Jun 09
+939	4:14.5	 	 	 	4:11.23	Joe Blackmore	U20	11.11.91	 	Bournemouth	Bournemouth	4 Jul 09
+939	4:14.5	 	 	 	4:00.13	Tim Haughian	 	29.11.86	 	St. Mary's Richmond	Erith	11 Jul 09
+942	4:14.51	 	 	 	4:06.80	Stephen Smith	V50	26.03.59	 	Preston	Lahti, FIN	6 Aug 09
+943	4:14.58	 	 	 	4:14.58	Steven Baldock	V35	05.11.69	 	Hastings AC	Tonbridge 	4 Aug 09
+944	4:14.6	 	 	 	4:13.48	Jamie Clements	U23	18.09.89	 	East Kilbride	Glasgow	1 Sep 09
+945	4:14.63	 	 	 	4:12.49	Sam Bradley	U23	02.12.87	 	Marshall Milton Keynes	Watford	12 Aug 09
+946	4:14.66	 	 	 	4:14.66	Daniel Hiscox	U20	10.09.91	 	Aberdare Valley	Wrexham	8 Aug 09
+947	4:14.7	 	 	 	4:14.7	Peter Benedickter	V40	19.02.69	 	Luton	Newham	16 May 09
+947	4:14.7	 	 	 	4:14.7	Alex Muir	U20	06.11.91	 	Newbury	Abingdon	14 Jun 09
+949	4:14.72	 	 	 	4:13.90	Andrew Fisher	U20	 	iD	Omagh	Antrim	2 Jun 09
+949	4:14.72	 	 	 	4:14.72	Joe Sherry	U17	02.11.93	 	Enfield & Haringey	Eton	14 Jun 09
+951	4:14.73	 	 	 	4:09.02	Richard O'Donnell	U20	08.09.90	 	Birchfield H	Derby	13 Sep 09
+952	4:14.79	 	 	 	4:14.79	Gregory Roberts	 	26.02.83	 	City of Derry	Antrim	14 Jun 09
+953	4:14.8	 	 	 	4:14.36	Ed Glaister	U20	07.02.90	 	Leicester	Leeds (B)	22 Apr 09
+953	4:14.8	 	 	 	4:09.37	Stephen Green	 	23.10.79	 	Marshall Milton Keynes	Milton Keynes	20 May 09
+953	4:14.8	 	 	 	4:03.97	Jonathan Turnock	U20	13.03.92	 	Staffordshire Moorlands	Birmingham	21 Jun 09
+956	4:14.85	 	 	 	4:14.85	Michael Downie	U17	16.11.92	 	Arbroath & District	Grangemouth	6 Jun 09
+957	4:14.87	 	 	 	4:14.87	Dan Francis	U20	05.04.91	 	Basingstoke & Mid Hants	Portsmouth	10 May 09
+957	4:14.87	 	 	 	4:14.87	Steve McGuigan	 	27.05.77	 	Bristol & West	Exeter	26 May 09
+957	4:14.87	 	 	 	4:13.3	George Miller	 	12.06.80	 	Poole Runners	Exeter	26 May 09
+960	4:14.9	 	 	 	4:14.9	Frank Bailey	U17	12.01.93	 	Shaftesbury Barnet	Bournemouth	9 May 09
+960	4:14.9	 	 	 	4:14.9	Matt Granger	 	28.10.85	 	Kidderminster & Stourport	Telford	2 Aug 09
+962	4:14.93	 	 	 	4:14.93	David Sheldon	U15	19.06.95	 	City of Stoke	Bedford	9 Aug 09
+963	4:14.95	 	 	 	4:09.5	Callum Chambers	U20	09.09.91	 	Derby	Derby	9 May 09
+964	4:15.0	 	 	 	4:14.2	Philip Waite	U23	23.08.87	 	Barrow & Furness	Wigan	2 May 09
+964	4:15.0	 	 	 	4:15.0	Harvey Brown	U15	05.10.94	 	Halesowen	Halesowen	15 Aug 09
+966	4:15.04	 	 	 	4:15.04	Jamie Buckley-Stanton	U17	24.01.93	 	Havering Mayesbrook	Chelmsford	13 Jun 09
+967	4:15.1	 	 	 	4:15.1	Conrad Franks	 	10.05.83	 	Gateshead	Jarrow	29 Apr 09
+967	4:15.1	 	 	 	4:15.1	Mark Shakeshaft	U23	14.07.88	 	Bury	Wakefield	2 May 09
+967	4:15.1	 	 	 	4:15.1	Chris James	U20	05.12.91	 	Basildon	Eltham	24 Jun 09
+970	4:15.13	 	 	 	4:07.6	Josh Painter	V35	12.07.74	 	Brighton & Hove	Lahti, FIN	6 Aug 09
+971	4:15.15	 	 	 	4:15.15	Dean Matkin	U23	25.04.89	 	Stockport	Stretford	21 Jul 09
+972	4:15.16	 	 	 	4:10.4	Rob McTaggart	 	14.10.85	 	Bournemouth	Exeter	28 Jul 09
+973	4:15.20	 	 	 	3:58.62	Armand Bush	 	16.12.81	 	Hallamshire	Sheffield	9 May 09
+974	4:15.2	 	 	 	4:15.2	Lewis Rodgers	U20	30.06.90	 	Loftus	Catterick	2 Jun 09
+974	4:15.2	 	 	 	4:15.2	Tom Offord	 	27.07.84	 	Derby	Loughborough	1 Jul 09
+974	4:15.2	 	 	 	4:15.2	Charlie Pass	 	10.10.75	 	Wesham	Litherland	8 Aug 09
+977	4:15.30	 	 	 	3:55.9	Andrew Rolt	V40	06.01.67	 	Vale of Aylesbury	Watford	12 Aug 09
+978	4:15.36	 	 	 	4:15.36	James Taylor	U20	08.07.91	 	Tonbridge	Ashford	10 May 09
+978	4:15.36	 	 	 	4:15.2	Steve O'Neill	 	19.11.78	 	Leeds City	Wakefield	9 Aug 09
+980	4:15.39	 	 	 	4:15.39	Paul Thompson	U20	14.04.92	 	Notts	Birmingham (Un)	24 Jun 09
+981	4:15.4	 	 	 	4:03.59	Danny Parkinson	 	25.12.84	 	Kendal	Bolton	25 Jul 09
+982	4:15.46	 	 	 	4:15.12	Eliot Buckner	U20	09.12.91	 	Erme Valley	Exeter	26 May 09
+983	4:15.49	 	 	 	4:11.40	Steven Tuttle	U23	19.08.89	 	Bedford & County	Watford	12 Aug 09
+984	4:15.50	 	 	 	4:15.50	Jon Barlow	U17	11.12.93	 	Yate	Yate	13 Jun 09
+985	4:15.5	 	 	 	4:13.77	Jake Archer	U17	06.12.92	 	Sunderland	Jarrow	29 Apr 09
+985	4:15.5	 	 	 	4:15.5	Jonathan Goringe	U20	22.07.91	 	Kettering	Leicester	9 May 09
+985	4:15.5	 	 	 	4:09.4	Andrew Donno	U23	31.05.87	 	Brighton & Hove	Southampton	6 Jun 09
+988	4:15.51	 	 	 	4:15.51	Nick Jones	U15	24.09.94	 	Wirral	Bedford	9 Aug 09
+989	4:15.55	 	 	 	4:15.55	Samuel Kerfoot-Roberts	U17	01.02.94	 	Halifax	Sheffield	9 May 09
+990	4:15.6	 	 	 	4:09.9	Edward Hill	U20	11.06.90	 	Rugby & Northampton	Coventry	24 May 09
+990	4:15.6	 	 	 	4:15.6	David Dickinson	 	12.09.77	 	Havering '90 Joggers	Parliament Hill	27 Jun 09
+992	4:15.63	 	 	 	4:15.63	Andrew Robinson	V40	21.03.66	 	Thames Hare & Hounds	Kingston	22 Aug 09
+993	4:15.7	 	 	 	4:15.7	David Barratt	U20	06.04.91	 	East Cheshire	Ashton-under-Lyne	12 Jul 09
+993	4:15.7	 	 	 	4:15.7	Jarratt Perkins	U23	19.12.87	 	Kingston upon Hull	Sheffield	2 Aug 09
+995	4:15.73	 	 	 	4:15.73	Chris Thornton	 	28.08.86	 	Skyrac	Wakefield	9 Aug 09
+996	4:15.78	 	 	 	4:15.78	Ben Greenhalgh	U20	16.04.92	 	Blackheath & Bromley	Hendon	24 May 09
+997	4:15.8	 	 	 	4:15.8	Luke Adams	 	 	iD	Jarrow & Hebburn	Jarrow	29 Apr 09
+997	4:15.8	 	 	 	4:01.9	Stuart Boon	 	02.10.85	 	Sphinx	Leicester	9 May 09
+997	4:15.8	 	 	 	4:08.45	Peter Tucker	 	17.04.81	 	Blackheath & Bromley	Doncaster	8 Jul 09
+997	4:15.8	 	 	 	4:15.8	Zak Curran	U17	17.12.93	 	Windsor, Slough, Eton & Hounslow	Bromley	26 Jul 09
+997	4:15.8	 	 	 	4:15.8	Steven Garrett	U23	21.08.88	 	City of Sheffield	Doncaster	27 Sep 09
+1002	4:15.82	 	 	 	4:15.82	Ian Robertson	 	 	iD	Clydesdale	Edinburgh	19 Apr 09
+1003	4:15.87	 	 	 	4:15.87	Aaron Bennett	U20	29.01.92	 	Team Southampton	Watford	12 Aug 09
+1004	4:15.90	 	 	 	4:15.90	Eoghan Totten	U17	29.01.93	 	Newcastle & District	Dublin (I), IRL	25 Jul 09
+1005	4:15.9	 	 	 	4:15.9	William Bodkin	U20	18.03.92	 	Guernsey	St. Peter Port	16 Jun 09
+1006	4:15.91	 	 	 	4:15.91	Tpr Vernon	 	 	iD	Army	Tidworth	17 Jun 09
+1007	4:15.97	 	 	 	4:13.10	Torsten Chandler	U23	17.09.89	 	Poole Runners	Exeter	26 May 09
+1008	4:16.08	 	 	 	4:16.08	John Telford	V50	23.12.57	 	Cornwall	Exeter	26 May 09
+1008	4:16.08	 	 	 	4:16.08	Jack Thompson	U20	10.08.90	 	Pendle	Stretford	7 Jul 09
+1010	4:16.09	 	 	 	4:13.16	Tom Lawrence	U23	28.12.89	 	Derby	Derby	9 May 09
+1010	4:16.09	 	 	 	4:12.18	Doug Kelley	 	06.08.84	 	Newark	Exeter	26 May 09
+1012	4:16.1	 	 	 	4:16.1	Adam Madge	 	22.09.83	 	Grantham	Grantham	26 Apr 09
+1012	4:16.1	 	 	 	4:16.1	Josh Phillips	U17	20.11.92	 	Darlington	Jarrow	29 Apr 09
+1012	4:16.1	 	 	 	4:16.1	Kay Ashley	U20	 	iD	Rossendale	Stretford	9 Jun 09
+1012	4:16.1	 	 	 	4:16.1	Sam Ashcroft	U20	21.11.90	 	Ealing, Southall & Middx	Perivale	27 Jun 09
+1012	4:16.1	 	 	 	3:54.3	Colin Palmer	V40	24.07.67	 	Notts	Solihull	16 Aug 09
+1017	4:16.20	 	 	 	4:16.20	Blair Brown	U17	11.10.93	 	Taunton	Exeter	26 May 09
+1017	4:16.20	 	 	 	4:16.20	Declan Evans	U20	21.02.92	 	Cardiff	Newport	12 Jul 09
+1019	4:16.2	 	 	 	4:05.70	Chris Busaileh	 	21.12.83	 	Herne Hill	Kingston	11 Jul 09
+1020	4:16.23	 	 	 	4:16.23	Harry Allen	U17	10.11.93	 	Cornwall	Exeter	26 May 09
+1021	4:16.25	 	 	 	4:16.25	Sam Dykes	U17	03.12.93	 	Warrington	Manchester (SC)	3 May 09
+1021	4:16.25	 	 	 	4:16.25	Mark Thompson	U17	13.01.94	 	Notts	Derby	9 May 09
+1023	4:16.29	 	 	 	4:16.29	Toby Edwards	U20	15.04.90	 	Jersey	Aland, FIN	2 Jul 09
+1024	4:16.3	 	 	 	4:16.3	Stuart Price	U20	22.10.91	 	Macclesfield	Bebington	2 May 09
+1024	4:16.3	 	 	 	4:16.3	Tom Coney	U20	15.03.92	 	Wakefield	Middlesbrough	2 May 09
+1024	4:16.3	 	 	 	4:16.3	Louis Walshe	U20	28.05.91	 	Herts Phoenix	Stevenage	4 May 09
+1024	4:16.3	 	 	 	4:16.3	Richard de-Camps	U23	17.11.89	 	Gloucester	Yate	28 Jun 09
+1028	4:16.33	 	 	 	4:16.33	Liam Phelan	U20	07.02.92	 	Leicester	Stretford	6 Jun 09
+1029	4:16.38	 	 	 	4:16.38	Robbie Idle	U20	11.05.92	 	St. Malachy's	Dublin (I), IRL	22 May 09
+1030	4:16.4	 	 	 	4:16.4	Graeme Hunt	 	07.04.81	 	Durham	Jarrow	29 Apr 09
+1030	4:16.4	 	 	 	4:09.6	Declan Murray	U20	13.07.90	 	Macclesfield	Warrington	9 May 09
+1032	4:16.42	 	 	 	4:16.42	Francis Okumu	 	19.09.74	 	Army	Tidworth	3 Jun 09
+1033	4:16.45	i	 	 	4:16.45i	Niall Cullen	U20	08.10.91	 	Mid Ulster	Nenagh, IRL 	29 Mar 09
+1034	4:16.5	 	 	 	4:01.58	Andrew Woods	U20	30.05.91	 	Hastings AC	Crawley	10 May 09
+1034	4:16.5	 	 	 	4:16.5	Paul Mealling	 	11.06.82	 	Unattached	Crawley	10 May 09
+1034	4:16.5	 	 	 	4:14.0	Andrew Gawne	U20	20.10.91	 	Wirral	Bebington	13 Jun 09
+1034	4:16.5	 	 	 	3:49.1	Dave Buzza	V45	06.12.62	 	Cornwall	Exeter	5 Jul 09
+1034	4:16.5	 	 	 	4:16.5	James Vernau	U20	29.12.90	 	Nene Valley	Bracknell	1 Aug 09
+1039	4:16.54	 	 	 	4:16.54	George Moxon	U17	03.05.93	 	Basildon	Chelmsford	13 Jun 09
+1040	4:16.6	 	 	 	4:12.4	Alfred Grimsey	U20	16.01.92	 	Kent	Mile End	6 Jun 09
+1040	4:16.6	 	 	 	4:16.6	Finn McNally	U20	22.09.91	 	Phoenix AC	Eltham	22 Jul 09
+1040	4:16.6	 	 	 	4:06.58	Eliot Winter	U20	17.02.91	 	Marshall Milton Keynes	Ipswich	1 Aug 09
+1043	4:16.67	 	 	 	4:16.67	Matthew Nicholson	U17	29.03.94	 	Bedford & County	Watford	9 Sep 09
+1044	4:16.69	 	 	 	4:16.69	Jon Kerridge	U15	14.11.94	 	Southend	Watford	12 Aug 09
+1045	4:16.70	 	 	 	4:07.38	Tim Doran	 	30.03.79	 	Aldershot, Farnham & District	Watford	17 Jun 09
+1046	4:16.7	 	 	 	4:16.7	Christian Johnson	U17	 	iD	Oldham & Royton	Halifax	6 Jun 09
+1046	4:16.7	 	 	 	4:16.7	Jacob Wisbey	U17	21.02.93	 	Peterborough	Bromley	26 Jul 09
+1048	4:16.72	 	 	 	4:09.6	Shane Robinson	U20	19.02.91	 	Lincoln Wellington	Stretford	26 May 09
+1049	4:16.76	 	 	 	4:16.76	Rory Grant	U17	15.06.93	 	Rugby & Northampton	Birmingham	6 Sep 09
+1050	4:16.77	 	 	 	4:16.77	Andrew Young	 	 	iD	Northumbria Uni	Bedford	2 May 09
+1051	4:16.79	 	 	 	4:16.79	Nathan Bolton	U20	26.05.92	 	Wakefield	Stretford	26 May 09
+1052	4:16.8	 	 	 	4:16.8	Jamie Pearson	U20	 	iD	Exmouth	Exeter	13 Jun 09
+1052	4:16.8	 	 	 	4:01.09	Robert Flannery	 	28.09.85	 	Sale Harriers Manchester	Stretford	5 Jul 09
+1054	4:16.9	 	 	 	4:16.9	Jason Waite	U20	27.04.92	 	Sunderland	Jarrow	29 Apr 09
+1054	4:16.9	 	 	 	4:16.9	Daniel Cheeseman	U17	26.07.93	 	Harrogate	Leeds (B)	1 Jul 09
+1054	4:16.9	 	 	 	4:10.38	Jonathan Bradford	U20	20.10.91	 	Basingstoke & Mid Hants	Basingstoke	11 Jul 09
+1054	4:16.9	 	 	 	4:16.9	Joseph Vis	U20	08.10.91	 	Southport Waterloo	Bolton	25 Jul 09
+1054	4:16.9	 	 	 	4:16.9	Paul Harmer	 	09.01.76	 	Charnwood	Loughborough	27 Sep 09
+1059	4:17.0	 	 	 	4:01.16	Matthew Revier	U23	05.05.89	 	Hillingdon	Erith	11 Jul 09
+1059	4:17.0	 	 	 	4:12.8	Chris Dennis	U20	17.03.91	 	Team Southampton	Portsmouth	26 Jul 09
+1059	4:17.0	 	 	 	4:17.0	Chris Adams	U17	18.04.93	 	Andover	Bournemouth	1 Aug 09
+1059	4:17.0	 	 	 	4:17.0	James Askew	U20	28.01.91	 	Newton Aycliffe	Jarrow	3 Aug 09
+1063	4:17.01	 	 	 	4:17.01	Ian Bailey	U17	04.03.93	 	Aldershot, Farnham & District	Watford	12 Aug 09
+1064	4:17.03	 	 	 	4:17.03	Harry Lloyd-Gardner	U20	 	iD	Reigate Priory	Watford	20 Jun 09
+1065	4:17.1	 	 	 	4:17.1	Shaun Dimelow	V35	16.06.70	 	Dark Peak	Scunthorpe	2 Aug 09
+1066	4:17.14	 	 	 	4:17.14	Alex Edwards	U17	20.01.93	 	Cwmbran	Swansea	28 Jun 09
+1066	4:17.14	 	 	 	4:17.14	James Wignall	U20	24.11.91	 	Sale Harriers Manchester	Stretford	1 Sep 09
+1068	4:17.15	 	 	 	4:17.15	Kieran Reilly	U17	18.10.93	 	Invicta East Kent	Tonbridge 	4 Aug 09
+1069	4:17.17	 	 	 	4:17.17	Rob Warner	 	30.05.81	 	Havering Mayesbrook	Woodford	1 Sep 09
+1070	4:17.18	 	 	 	4:11.1	Julian Rendall	 	31.08.77	 	Tonbridge	Tonbridge 	4 Aug 09
+1071	4:17.2	 	 	 	4:17.2	Daniel Clarke	U23	12.03.87	 	Coventry	Leicester	9 May 09
+1071	4:17.2	 	 	 	4:17.2	Josh Schofield	U17	29.09.93	 	Scarborough	York	13 Jun 09
+1071	4:17.2	 	 	 	4:17.2	Will Nyerere Plastow	U20	28.11.90	 	Leeds City	Stretford	5 Jul 09
+1074	4:17.21	 	 	 	4:17.21	Neill Collins	 	03.12.81	 	Havering Mayesbrook	Chelmsford	10 May 09
+1075	4:17.24	 	 	 	4:17.24	Matthew Richards	U17	11.12.92	 	Pembrokeshire	Street	4 May 09
+1076	4:17.27	 	 	 	4:16.2	Robbie Hawkins	 	11.11.85	 	Wells City	Exeter	28 Jul 09
+1076	4:17.27	 	 	 	4:17.27	Shaun Wyllie	U15	27.02.95	 	Camberley	Watford	9 Sep 09
+1078	4:17.28	 	 	 	4:17.28	Adam Guthrie	U17	23.04.93	 	Dundee Hawkhill	Grangemouth	12 Jun 09
+1079	4:17.29	 	 	 	4:01.75	Tom Bailey	 	05.10.81	 	Notts	Tidworth	22 Jul 09
+1080	4:17.3	 	 	 	4:17.3	Greg Turner	U20	02.06.92	 	Giffnock North	Linwood	24 May 09
+1080	4:17.3	 	 	 	4:17.3	Jordan Ali	U17	25.09.92	 	Ipswich	Braintree	14 Jun 09
+1080	4:17.3	 	 	 	3:58.27	Gavin Wilcox	 	06.09.86	 	Marshall Milton Keynes	Chelmsford	11 Jul 09
+1083	4:17.31	 	 	 	4:17.31	Michael Callegari	U15	01.09.94	 	Shaftesbury Barnet	Watford	9 Sep 09
+1084	4:17.33	 	 	 	4:17.33	Tom Watson	U17	11.10.93	 	Central	Grangemouth	24 May 09
+1084	4:17.33	 	 	 	4:17.33	Thomas Walker	U20	16.03.92	 	Gosforth	Gateshead	22 Aug 09
+1086	4:17.36	 	 	 	4:17.36	Matthew O'Leary	U17	11.09.93	 	Neath	Street	4 May 09
+1087	4:17.38	 	 	 	4:17.38	Sgt Hargreaves	 	 	iD	Army	Tidworth	17 Jun 09
+1088	4:17.39	 	 	 	4:17.39	Andrew Cope	U20	25.01.91	 	Invicta East Kent	Ashford	10 May 09
+1089	4:17.4	 	 	 	4:17.4	Jack Derham	U17	19.10.93	 	Goole Youth	Doncaster	5 Jul 09
+1089	4:17.4	 	 	 	4:17.4	Jordan Stokes	U20	13.04.92	 	North Down	Belfast	12 Aug 09
+1091	4:17.43	 	 	 	4:17.43	Malcolm Muir	V35	02.05.74	 	Ilford	Chelmsford	10 May 09
+1092	4:17.50	 	 	 	4:17.50	Dale Colley	U15	11.10.94	 	Falkirk	Grangemouth	2 Sep 09
+1093	4:17.52	 	 	 	4:14.71	Ashley Humphreys	 	02.01.86	 	Torbay	Exeter	28 Jul 09
+1094	4:17.53	 	 	 	4:15.30	Joshua Lyman	U20	20.11.90	 	Marshall Milton Keynes	Watford	15 Jul 09
+1095	4:17.6	 	 	 	4:17.6	George Lowry	U17	23.08.94	 	Jarrow & Hebburn	Jarrow	29 Apr 09
+1095	4:17.6	 	 	 	3:53.09	David Watson	V35	23.09.70	 	Holmfirth	Wakefield	2 May 09
+1095	4:17.6	 	 	 	4:06.06	Andy Johnson	 	 	iD	Luton	Luton	11 Jul 09
+1095	4:17.6	 	 	 	4:17.6	Ryan Cox	 	14.12.81	 	Birchfield H	Mansfield	2 Aug 09
+1099	4:17.63	 	 	 	4:17.63	James Foley	U23	17.06.88	 	Victoria Park & Tower Hamlets	Abingdon	19 Sep 09
+1100	4:17.64	 	 	 	4:15.75	Max Lott	U17	12.02.94	 	Giffnock North	Grangemouth	12 Jun 09
+1101	4:17.67	 	 	 	4:09.96	Alex Shelley	U20	21.11.91	 	Chiltern	Watford	15 Jul 09
+1102	4:17.70	 	 	 	4:02.88	David Westbury	U23	17.05.89	 	Derby	Derby	10 May 09
+1103	4:17.7	 	 	 	4:17.7	Luke Scarr	U17	06.01.94	 	Solihull & Small Heath	Solihull	16 May 09
+1103	4:17.7	 	 	 	4:17.7	Matt Hipkin	U17	18.10.93	 	Harrogate	York	13 Jun 09
+1103	4:17.7	 	 	 	4:17.7	Liam Johnston	U20	24.09.91	 	Jarrow & Hebburn	York	5 Jul 09
+1103	4:17.7	 	 	 	4:17.7	Martin Fishwick	U17	26.01.93	 	Giffnock North	Glasgow	1 Sep 09
+1107	4:17.71	 	 	 	4:17.71	Luke Humphreys	 	11.12.77	 	Bedford & County	Watford	12 Aug 09
+1108	4:17.75	 	 	 	4:17.75	B Smith	U17	 	iD	Surrey Schs	Kingston	13 Jun 09
+1109	4:17.76	 	 	 	4:17.76	Jonathan Ketley	U17	14.05.94	 	Eastbourne	Bedford	20 Sep 09
+1110	4:17.8	 	 	 	4:17.8	Rhys Park	U17	18.03.94	 	Bristol & West	Milton Keynes	16 May 09
+1110	4:17.8	 	 	 	4:17.8	Jordan White	U20	16.02.92	 	Grimsby	Mansfield	2 Aug 09
+1112	4:17.81	 	 	 	4:17.81	James Share	U20	19.09.91	 	Poole Runners	Exeter	28 Jul 09
+1113	4:17.87	 	 	 	4:16.08	Stephen Fleming	U20	11.11.91	 	Kilbarchan	Manchester (SC)	14 Jun 09
+1114	4:17.89	 	 	 	4:17.89	Conor Mugan	U20	28.10.91	 	Bournemouth	Exeter	28 Jul 09
+1115	4:17.9	 	 	 	4:15.8	Charles Gunning	U20	24.12.91	 	Shaftesbury Barnet	Milton Keynes	16 May 09
+1115	4:17.9	 	 	 	4:17.9	Ryan Burling	U17	22.03.94	 	Marshall Milton Keynes	Ashford	23 May 09
+1117	4:17.93	 	 	 	4:03.79	Ben Harrison	 	15.12.79	 	Morpeth	Stretford	26 May 09
+1118	4:17.96	 	 	 	4:17.96	Jack Morris	U17	09.04.93	 	Stockport	Stretford	12 May 09
+1118	4:17.96	 	 	 	4:17.96	Josh Bagnall	U20	06.03.92	 	Bristol & West	Exeter	26 May 09
+1120	4:18.0	 	 	 	4:18.0	Stefan Emary	U20	13.07.90	 	Hastings AC	Portsmouth	26 Apr 09
+1120	4:18.0	 	 	 	4:18.0	Joe Parish	U17	28.12.92	 	North Devon	Plymouth	9 May 09
+1120	4:18.0	 	 	 	4:03.58	Russell Betts	 	08.12.85	 	Mansfield	Rugby	7 Jun 09
+1123	4:18.1	 	 	 	4:18.1	Joshua Dixon	U23	20.12.89	 	Abergele	Loughborough	1 Jul 09
+1123	4:18.1	 	 	 	4:11.70	Rob Nichol	U20	21.01.91	 	Altrincham	Halifax	5 Jul 09
+1125	4:18.16	 	 	 	4:16.6	George Miller	U17	21.12.92	 	Radley	Watford	17 Jun 09
+1126	4:18.2	 	 	 	4:17.69	Kieran Alderson	U23	12.09.88	 	Kendal	Wigan	2 May 09
+1127	4:18.30	 	 	 	4:18.30	Kevin Carlin	U23	 	iD	City of Derry	Dublin (S), IRL	5 Jul 09
+1128	4:18.3	 	 	 	4:18.3	Kieran Silsby	U17	17.10.92	 	Brighton & Hove	Crawley	10 May 09
+1129	4:18.34	 	 	 	3:58.93	Max Colligan	V40	30.12.68	 	Blackburn	Grangemouth	31 May 09
+1129	4:18.34	 	 	 	4:18.34	Simon Findlay	U23	04.12.88	 	Gosforth	Gateshead	22 Aug 09
+1131	4:18.37	 	 	 	4:18.37	Alex Milne	U20	11.03.90	 	Enfield & Haringey	Watford	23 Sep 09
+1132	4:18.39	 	 	 	4:18.39	Nathan Ditton	U17	06.12.92	 	Windsor, Slough, Eton & Hounslow	Watford	17 Jun 09
+1133	4:18.43	 	 	 	4:18.43	Kegan Lymn	U17	29.03.94	 	Windsor, Slough, Eton & Hounslow	Crystal Palace	19 Apr 09
+1133	4:18.43	 	 	 	4:18.43	Jamie Crowe	U15	09.06.95	 	Dundee Hawkhill	Grangemouth	16 Aug 09
+1135	4:18.44	 	 	 	4:18.44	Luke Ingham	U17	03.03.94	 	Kendal	Stretford	21 Jul 09
+1136	4:18.45	 	 	 	4:18.45	Hywell Jones	U20	10.04.91	 	Aberdare Valley	Brecon 	18 Apr 09
+1137	4:18.5	 	 	 	4:04.5	Steven Gascoyne	 	25.07.77	 	Chesterfield	Derby	2 May 09
+1137	4:18.5	 	 	 	4:18.5	Daniel Palmer	U23	18.11.88	 	Ipswich	Ipswich	10 May 09
+1137	4:18.5	 	 	 	4:04.9	Stephen Long	 	16.03.77	 	Notts	Loughborough	1 Jul 09
+1137	4:18.5	 	 	 	4:18.5	Liam Blaikie	U17	20.11.93	 	Woodford Green with Essex Ladies	Eltham	22 Jul 09
+1137	4:18.5	 	 	 	4:18.5	Lawrence McCourt	U17	 	iD	Jarrow & Hebburn	Jarrow	29 Jul 09
+1142	4:18.59	 	 	 	4:18.59	Jai Vernon McGuigan	U17	26.07.93	 	Liverpool Pembroke Sefton	Stretford	18 Aug 09
+1143	4:18.6	 	 	 	4:18.6	William Ferguson	 	14.12.86	 	CLC Striders	Cheltenham	10 May 09
+1143	4:18.6	 	 	 	4:11.8	Andre Duque	U23	30.01.88	 	Newham & Essex Beagles	Ipswich	27 Jun 09
+1143	4:18.6	 	 	 	4:18.6	Beren Cross	U23	18.11.89	 	Lincoln Wellington	Loughborough	1 Jul 09
+1143	4:18.6	 	 	 	4:18.6	Lewis Hogg	U17	25.11.93	 	Gateshead	Jarrow	29 Jul 09
+1147	4:18.70	 	 	 	4:18.70	Harry Paton	U23	22.08.89	 	Tonbridge	Tonbridge	13 Apr 09
+1148	4:18.7	 	 	 	4:01.50	Lloyd Heard	U20	07.09.90	 	Colchester & Tendring	Twickenham	16 May 09
+1148	4:18.7	 	 	 	4:11.8	Dale Wilkinson	V35	 	iD	Telford AC	Telford	4 Jul 09
+1150	4:18.71	 	 	 	4:18.71	Andrew Holliman	U17	23.12.93	 	Harrow	Watford	9 Sep 09
+1151	4:18.77	 	 	 	4:18.77	Harvey Maguire	U23	25.04.89	 	Tipton	Birmingham (Un)	3 Jun 09
+1152	4:18.8	 	 	 	4:18.8	Nick Tauwhare	U17	17.03.94	 	Poole Runners	Exeter	20 Jun 09
+1152	4:18.8	 	 	 	4:18.8	Robert Jackaman	 	28.03.85	 	Cambridge H	Hillingdon	1 Aug 09
+1154	4:18.81	 	 	 	4:00.1	Adam Binns	U20	18.07.90	 	Nene Valley	Cambridge	9 May 09
+1154	4:18.81	 	 	 	4:07.0	Jake Hughes	U23	14.11.88	 	Bracknell AC	Woking	5 Aug 09
+1156	4:18.83	 	 	 	4:18.83	Max Pickard	U17	04.06.93	 	Phoenix AC	Watford	15 Jul 09
+1157	4:18.84	 	 	 	4:18.84	Daniel Tuttle	U17	12.07.93	 	Newbury	Watford	12 Aug 09
+1158	4:18.85	 	 	 	4:18.85	Robbie Rankin	U17	06.12.93	 	Lagan Valley	Street	4 May 09
+1159	4:18.89	 	 	 	4:18.89	Aaron Phelps	U17	06.10.93	 	Stroud	Street	4 May 09
+1160	4:18.9	 	 	 	4:18.9	Shon Evans	U20	21.11.90	 	Deeside AAC	Warrington	26 Apr 09
+1160	4:18.9	 	 	 	4:14.91	Alan Chetwynd	 	11.03.85	 	Harrow	Oxford	3 Jun 09
+1160	4:18.9	 	 	 	4:18.9	Callum Greenwood	U17	20.01.93	 	Sale Harriers Manchester	Stretford	13 Jun 09
+1163	4:18.98	 	 	 	4:18.98	Kurtis Gibson	U17	10.03.93	 	Mendip	Exeter	28 Jul 09
+1164	4:19.0	 	 	 	4:19.0	Max Thomas	U17	05.09.92	 	Hastings AC	Crawley	10 May 09
+1164	4:19.0	 	 	 	4:19.0	Anthony Hauserman	U17	16.12.92	 	Blackburn	Macclesfield	21 Jun 09
+1164	4:19.0	 	 	 	4:19.0	Gary Chandler	V40	29.10.68	 	Springfield	Chelmsford	11 Jul 09
+1164	4:19.0	 	 	 	4:19.0	Martainn Ramsey	U17	23.09.93	 	City of Norwich	Bury St Edmunds	20 Sep 09
+1168	4:19.1	 	 	 	4:19.1	Adam Sloan	U17	13.02.93	 	Poole AC	Andover	7 Jun 09
+1168	4:19.1	 	 	 	4:19.1	Tom Mendum	 	 	iD	Haslemere Border	Woking	11 Jul 09
+1170	4:19.16	 	 	 	4:19.16	Matthew Emery	U23	29.04.89	 	Rugby & Northampton	Watford	12 Aug 09
+1171	4:19.17	 	 	 	4:19.17	Luke Betts	U17	14.11.93	 	Chorley AC	Stretford	1 Sep 09
+1172	4:19.20	 	 	 	4:19.20	Robert Torch	U17	19.06.93	 	Leeds City	Stretford	4 Aug 09
+1173	4:19.2	 	 	 	4:19.2	George Corcoran	U17	21.01.93	 	Kingston & Poly	Eton 	1 Jul 09
+1173	4:19.2	 	 	 	4:19.2	Wade Le Marquand	U17	18.07.93	 	Jersey	St. Helier	13 Sep 09
+1175	4:19.23	 	 	 	4:01.96	Steve Hallas	V35	08.02.73	 	Preston	Stretford	7 Jul 09
+1175	4:19.23	 	 	 	4:16.55	John Thomson	V50	28.04.58	 	Fife	Lahti, FIN	6 Aug 09
+1177	4:19.3	 	 	 	4:19.3	Josh Burgess	U20	04.05.91	 	Lewes	Bracknell	1 Aug 09
+1177	4:19.3	 	 	 	4:19.3	Max Collett	U15	28.09.94	 	Cambridge H	Eltham	19 Aug 09
+1179	4:19.35	 	 	 	4:19.35	Edward Shepherd	U17	08.12.93	 	Herts Phoenix	Watford	15 Jul 09
+1180	4:19.38	 	 	 	4:19.38	Nick Wood	U20	10.04.91	 	Dartford H	Ashford	10 May 09
+1181	4:19.39	 	 	 	4:19.39	Jonnie Tweedie	U15	17.11.94	 	Giffnock North	Bedford	9 Aug 09
+1182	4:19.4	 	 	 	4:19.4	Neil Barnett	 	04.11.75	 	Wellingborough	Leicester	9 May 09
+1182	4:19.4	 	 	 	4:19.4	Thomas Francis	U17	05.03.93	 	City of Norwich	Norwich	11 May 09
+1182	4:19.4	 	 	 	4:00.7	Tom Causebrook	 	23.07.84	 	Rugby & Northampton	Rugby	7 Jun 09
+1182	4:19.4	 	 	 	4:19.4	Ben Hall	U20	11.07.90	 	Orion	Woodford	7 Jul 09
+1182	4:19.4	 	 	 	4:19.4	Alex Brecker	U17	15.12.93	 	City of Stoke	Blackpool	13 Sep 09
+1187	4:19.46	 	 	 	4:19.46	Ash Chambers	U17	27.04.93	 	Owls Leicester	Watford	12 Aug 09
+1188	4:19.48	 	 	 	4:19.48	Ben Brown	U20	15.09.91	 	Liverpool H	Liverpool	26 Apr 09
+1188	4:19.48	 	 	 	4:19.48	Josh Trigwell	U17	28.05.93	 	Torbay	Exeter	28 Jul 09
+1190	4:19.49	 	 	 	4:19.49	Callum Smith	U17	06.05.94	 	Shaftesbury Barnet	Hendon	9 Jun 09
+1191	4:19.5	 	 	 	4:19.5	Ross Skelton	U17	11.05.93	 	Hastings AC	Harrow	27 Jun 09
+1192	4:19.51	 	 	 	4:19.51	Chris Moran	 	13.12.77	 	Doncaster	Wakefield	11 Apr 09
+1193	4:19.56	 	 	 	4:19.56	Jake Healy	U20	29.09.91	 	St. Helens Sutton	Stretford	23 Jun 09
+1193	4:19.56	 	 	 	4:19.56	James Hanrahan	U17	23.10.93	 	Cwmbran	Newport	12 Jul 09
+1193	4:19.56	 	 	 	3:57.7	Alan Wray	V35	06.01.71	 	Harrow	Tooting Bec	29 Aug 09
+1196	4:19.59	 	 	 	4:19.59	Daniel Studley	U20	01.01.92	 	Yate	Exeter	28 Jul 09
+1196	4:19.59	 	 	 	4:19.59	Alex Burchill	U15	15.03.95	 	Sale Harriers Manchester	Stretford	18 Aug 09
+1198	4:19.60	 	 	 	4:19.60	Jake Rogers	U15	20.07.95	 	Invicta East Kent	Watford	12 Aug 09
+1199	4:19.63	 	 	 	4:19.63	Adam Jack	U17	26.06.93	 	Edinburgh	Birmingham	6 Sep 09
+1200	4:19.7	 	 	 	4:03.7	Jon Quint	 	22.11.76	 	City of Norwich	Perivale	27 Jun 09
+1201	4:19.8	i	 	 	4:19.8i	Guy Allen	U17	 	iD	Leamington	Birmingham	11 Feb 09
+1201	4:19.8	 	 	 	4:19.8	Henry Jarvis	U17	14.01.93	 	Bodyworks	Crawley	10 May 09
+1201	4:19.8	 	 	 	4:19.8	Joshua Rees	U17	 	iD	Essex Schs	Hendon	4 Jul 09
+1201	4:19.8	 	 	 	4:04.8	Robert Vaughan	 	18.06.81	 	Birmingham Rowheath	Telford	4 Jul 09
+1201	4:19.8	 	 	 	4:19.8	Jack Killip	U17	08.07.94	 	St. Mary's Richmond	Eltham	19 Aug 09
+1206	4:19.82	 	 	 	4:19.82	Michael Ferguson	U15	18.03.95	 	Banchory Stonehaven	Grangemouth	13 Jun 09
+1206	4:19.82	 	 	 	4:19.82	Sean Kirkbride	U17	07.09.93	 	Liverpool Pembroke Sefton	Stretford	7 Jul 09
+1208	4:19.9	 	 	 	4:19.9	Tom Watts	U20	03.02.91	 	Worcester	Brierley Hill	2 May 09
+1208	4:19.9	 	 	 	4:12.9	Robert Standley	V40	28.08.66	 	Littledown	Bournemouth	9 May 09
+1208	4:19.9	 	 	 	4:05.9	James Baker	 	21.12.76	 	Chichester	Croydon	16 May 09
+1208	4:19.9	 	 	 	4:19.9	Alex Rudge	U17	03.11.93	 	Andover	Ashford	23 May 09
+1212	4:19.91	 	 	 	4:19.91	Bobby Bristow	U17	19.10.92	 	Cambuslang	Grangemouth	15 Aug 09
+1213	4:19.92	 	 	 	4:19.92	Scott Anderson	U20	12.04.90	 	Lasswade	Grangemouth	2 Sep 09
+1214	4:19.95	i	 	 	4:19.95i	Christopher Daniels	V40	05.03.69	 	Thames Hare & Hounds	Lee Valley	7 Mar 09
+1215	4:20.00	 	 	 	4:20.00	Owen Miller	U20	01.11.91	 	Dunfermline & West Fife	Edinburgh	12 Jul 09
+1216	4:20.0	 	 	 	4:20.0	Ryan Ganose	U17	03.11.93	 	Altrincham	Stretford	13 Jun 09
+1216	4:20.0	 	 	 	4:20.0	David Jubb	U17	 	iD	Worcester	Birmingham	20 Jun 09
+1216	4:20.0	 	 	 	4:20.0	Will Fielding	U17	12.04.93	 	Preston	Leeds	21 Jun 09
+1216	4:20.0	 	 	 	4:20.0	Jon Armstrong	V40	09.08.65	 	Bexley	Harrow	27 Jun 09

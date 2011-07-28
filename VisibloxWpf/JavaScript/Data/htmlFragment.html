@@ -1,0 +1,181 @@
+﻿<script type="text/javascript">
+/* <![CDATA[ */
+	// ******************************************************************************************************
+	// ** WARNING When this file changes update the code in comments in the C# file that the user can see. **
+    // ** NOTE when you do so you MUST remove the cdata markup at the top and bottom of the script tag as  **
+    // ** that will break the syntax highlighter.                                                          **
+	// ******************************************************************************************************
+
+	// NOTE this uses and requires jQuery >= 1.4.2. See http://jquery.com/ for more info.
+    
+	/**
+	 * Returns the column index for the given column title.
+	 * @param colTitle the title of the column to find.
+	 * @return the column index or -1.
+	 */
+    function getColIndex(colTitle) {
+        var titleRow, result;
+        
+        titleRow = $("#chartTable").find("tr").first();
+        result = -1;
+		// Loop through each th in the first row in the table.
+        titleRow.children("th").each(function (idx, th) {
+            if (colTitle === $(th).html()) {
+                result = idx;
+                return false; // exit each loop
+            }
+        });
+        return result;
+    }
+
+	/**
+	 * Returns the row index for the given row title.
+	 * @param rowTitle the title of the row to find.
+	 * @return the row index or -1.
+	 */
+    function getRowIndex(rowTitle) {
+        var rows, result;
+        
+        rows = $("#chartTable").find("tr");
+        result = -1;
+		// for each row check the value of the first th cell.
+        rows.each(function (idx, tr) {
+            if (rowTitle === $(tr).children("th").first().html()) {
+                result = idx; 
+                return false; // exit each loop
+            }
+        });
+        return result;
+    }
+
+	/**
+	 * Called by the chart when the selection changes.
+	 * @param seriesName the name of the series that is selected or null.
+	 * @param gdpPoint the point object that is selected in the chart.
+	 */
+    function chartSelectionCallback(seriesName, gdpPoint) {
+        var colIdx, rowIdx, tr, td;
+        
+        // deselect any existing selections first
+        $("#chartTable").find("td").removeClass("exampleTableHighlight");
+
+        if (gdpPoint) {            
+            colIdx = getColIndex(gdpPoint.Date);
+            rowIdx = getRowIndex(seriesName);
+            tr = $("#chartTable").find("tr")[rowIdx];
+            // -1 as we want to ignore the title th column that will be filtered for us.
+            td = $(tr).children("td")[colIdx - 1]; 
+            $(td).addClass("exampleTableHighlight");
+        } 
+		// else was a deselection
+    }
+
+	/**
+	 * Find the row title for a given td object.
+	 * @param td the object to get the row title for.
+	 * @return the row title.
+	 */
+    function getRowTitle(td) {
+        return $(td).parent("tr").children("th").first().html();
+    }
+
+	/**
+	 * Find the column title for a given td object.
+	 * @param td the object to get the column title for.
+	 * @return the column title.
+	 */
+    function getColTitle(td) {
+        var colIndex, titleRow, colHeading;
+        
+        colIndex = $(td).index(); // the index in the parent tr.
+        titleRow = $("#chartTable").find("tr").first();
+        colHeading = titleRow.children("th").get(colIndex);
+        return $(colHeading).html();
+    }
+
+	/**
+	 * Called when a user clicks on a cell in the table.
+	 */
+    function chartCellClicked() {
+        var chartControl;
+        chartControl = $("#control").children("object")[0];
+        
+        if ($(this).hasClass("exampleTableHighlight")) {
+            // if we are selected undo selection
+            chartControl.Content.chart.ChangeSelection(null, null);
+        } else {    
+            // Make the selection.
+            // No need to set the selected css class.
+            // This will be done when the chart calls back in with a selection change.                    
+            chartControl.Content.chart.ChangeSelection(getRowTitle(this), getColTitle(this));
+        }
+		return false;
+    }
+
+	/**
+	 * Called by the chart control when the data updates.
+	 * This rebuilds the whole table.
+	 * @param series The series that the table should contain.
+	 */
+    function chartUpdateDataCallback(series) {
+        var tr, th, td, seriesI, pointI, currSeries, currPoint, a;              
+        
+		//clear out any existing data.
+		$("#chartTable").children("tbody").empty();
+
+        // catch empty case
+        if (!series || series.length === 0) {
+            return;
+        }
+        
+        // Date heading row. For now we will assume all series will be the same length and contain the same dates.
+        // so just use the first one to get the dates from.
+        tr = $("<tr></tr>");
+        th = $("<th></th>");
+        tr.append(th);
+        for (pointI = 0; pointI < series[0].Points.length; pointI++) {
+            currPoint = series[0].Points[pointI];
+            th = $("<th></th>");
+            th.html(currPoint.Date);
+            tr.append(th);  
+        }
+        $("#chartTable").children("tbody").append(tr);
+
+		// now append all data
+        for (seriesI = 0; seriesI < series.length; seriesI++) {   
+            currSeries = series[seriesI];
+			
+            // Row title.
+			tr = $("<tr></tr>");
+            th = $("<th></th>").html(currSeries.Title);
+            tr.append(th);
+			
+			// Columns
+            for (pointI = 0; pointI < currSeries.Points.length; pointI++) {                   
+                currPoint = currSeries.Points[pointI];
+                td = $("<td></td>");
+                a = $("<a></a>").attr("href", "#");
+                a.html(currPoint.GDP);
+                td.append(a);
+                td.click(chartCellClicked);
+                tr.append(td);
+            }
+            $("#chartTable").children("tbody").append(tr);
+        }
+    }
+
+	/**
+	 * Called when the silverlight control loads.
+	 * This registers the callbacks with the chart.
+	 */
+    function chartOnLoad() {
+        var chartControl = $("#control").children("object")[0];
+        chartControl.Content.chart.RegisterDataChangedCb("chartUpdateDataCallback");
+        chartControl.Content.chart.RegisterSelectionCb("chartSelectionCallback");
+    }
+
+/* ]]> */
+</script>
+<div class="exampleControlHTML">
+	<table id="chartTable" class="exampleTable"><tbody></tbody></table>
+</div>

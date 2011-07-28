@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="Visiblox.Charts.Examples.ScatterChart.ScatterChartExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:charts="clr-namespace:Visiblox.Charts;assembly=Visiblox.Charts"
+    mc:Ignorable="d"
+    Height="400" Width="600">
+
+    <UserControl.Resources>
+        <Style x:Key="NoBorder" TargetType="Border">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
+
+        <SolidColorBrush x:Key="RedColour" Color="#FFD77171" />
+        <SolidColorBrush x:Key="BlueColour" Color="#FF82A2CD" />
+        <SolidColorBrush x:Key="GreenColour" Color="#FF91BF70" />
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80*" />
+            <ColumnDefinition Width="20*" />
+        </Grid.ColumnDefinitions>
+        
+        <charts:Chart Name="ScatterChart" Grid.Column="0"  Title="Age vs Rank of the UK's Elite Runners" Width="475" 
+                      FontFamily="Arial" PlotAreaBorderStyle="{StaticResource NoBorder}" LegendVisibility="Collapsed"
+                      HorizontalAlignment="Center">
+            <charts:Chart.Behaviour>
+                <charts:BehaviourManager AllowMultipleEnabled="True">
+                    <charts:ZoomBehaviour />
+                </charts:BehaviourManager>
+            </charts:Chart.Behaviour>
+            <charts:Chart.XAxis>
+                <charts:LinearAxis Title="Rank" ShowGridlines="False" ShowMinorTicks="False" LabelFormatString="0">
+                    <!-- Set the range of the charts manually to avoid margins being added -->
+                    <charts:LinearAxis.Range>
+                         <charts:DoubleRange Minimum="0" Maximum="200" />
+                    </charts:LinearAxis.Range>
+                </charts:LinearAxis>
+            </charts:Chart.XAxis>
+            <charts:Chart.YAxis>
+                <charts:LinearAxis ShowMinorTicks="False" Title="Age" ShowGridlines="False" LabelFormatString="0">
+                    <charts:LinearAxis.Range>
+                        <charts:DoubleRange Minimum="15" Maximum="55"/>
+                    </charts:LinearAxis.Range>
+                </charts:LinearAxis>
+            </charts:Chart.YAxis>
+            <charts:Chart.Series>
+                    <charts:LineSeries x:Name="FifteenHundredSeries" ShowLine="False" ShowPoints="True" PointSize="6" PointFill="{StaticResource RedColour}" />
+                    <charts:LineSeries x:Name="TenThousandSeries" ShowLine="False" ShowPoints="True" PointSize="6" PointFill="{StaticResource BlueColour}" />
+                    <charts:LineSeries x:Name="MarathonSeries" ShowLine="False" ShowPoints="True" PointSize="6" PointFill="{StaticResource GreenColour}" />
+            </charts:Chart.Series>
+        </charts:Chart>
+        
+        <!-- define toggle buttons to switch series on/off -->
+        <StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,30,0,0">
+
+            <StackPanel Orientation="Horizontal" >
+                <Ellipse Margin="0,0,5,2" Height="10" Width="10" Fill="{Binding ElementName=ScatterChart, Path=Series[2].PointFill}" VerticalAlignment="Bottom" />
+                <TextBlock Text="Marathon" Margin="0,0,4,0" />
+                <CheckBox x:Name="Marathon" IsChecked="True" Click="Button_Checked" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" >
+                <Ellipse Margin="0,0,5,2" Height="10" Width="10" Fill="{Binding ElementName=ScatterChart, Path=Series[1].PointFill}" VerticalAlignment="Bottom" />
+                <TextBlock Text="10k" Margin="0,0,36,0" />
+                <CheckBox x:Name="TenThousand" IsChecked="True" Click="Button_Checked" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" >
+                <Ellipse Margin="0,0,5,2" Height="10" Width="10" Fill="{Binding ElementName=ScatterChart, Path=Series[0].PointFill}" VerticalAlignment="Bottom" />
+                <TextBlock Text="1500m" Margin="0,0,18,0"/>
+                <CheckBox x:Name="FifteenHundred" IsChecked="True" Click="Button_Checked" />
+            </StackPanel>
+
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
