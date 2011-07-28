@@ -2,8 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="var" path="Netty/netty-3.2.4.Final.jar"/>
 	<classpathentry kind="lib" path="netty-3.2.4.Final.jar"/>
-	<classpathentry kind="lib" path="netty-3.2.4.Final-sources.jar"/>
+	<classpathentry kind="lib" path="netty-protobuf-rpc-1.0.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/control_client_api"/>
+	<classpathentry kind="lib" path="libthrift.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
