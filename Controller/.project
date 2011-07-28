@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>protobuf</name>
+			<type>2</type>
+			<location>C:/Users/이상혁/Projects/owl/sender-controller_api/protobuf/com/google/protobuf</location>
+		</link>
+	</linkedResources>
 </projectDescription>

@@ -9,8 +9,6 @@ import java.io.IOException;
 
 import org.apache.thrift.TException;
 
-import apiServer.apiServer;
-
 import common.ServiceStatus;
 
 import controlApi.controlApi;
