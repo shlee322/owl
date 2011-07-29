@@ -1,5 +1,5 @@
-option java_package = "protocol";
-option java_outer_classname = "Sender-Controller";
+option java_package = "Protocol";
+option java_outer_classname = "SenderController";
 
 message CertifyRequest {
     required string key1 = 1;
