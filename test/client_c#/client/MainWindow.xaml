@@ -1,0 +1,12 @@
+﻿<Window x:Class="client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d3="clr-namespace:Microsoft.Research.DynamicDataDisplay;assembly=DynamicDataDisplay"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Canvas>
+        <Grid x:Name="leftTop" HorizontalAlignment="Left" Height="136" Margin="8,8,0,0" VerticalAlignment="Top" Width="400">
+            <d3:ChartPlotter Name="plotter"/>
+        </Grid>
+        <TextBox Canvas.Left="26" Canvas.Top="207" Height="34" Name="textBox" Width="263" />
+    </Canvas>
+</Window>
