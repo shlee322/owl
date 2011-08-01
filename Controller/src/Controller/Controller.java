@@ -13,12 +13,14 @@ import org.apache.thrift.transport.TTransportException;
 import org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory;
 
 import com.googlecode.protobuf.netty.*;
+import com.googlecode.protobuf.netty.example.CalculatorServiceImpl;
 public class Controller {
 	static NettyRpcServer Sender_Server;
 	static TServer Client_Server;
 	public static void main(String ar[]) throws TTransportException
 	{
 		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
+		
 		Controller.Sender_Server.registerService(Protocol.SenderController.SenderHandler.newReflectiveService(new CalculatorServiceImpl()));
 		Controller.Sender_Server.serve(new InetSocketAddress(7004));
 
