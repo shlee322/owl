@@ -11,15 +11,24 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
+import java.util.concurrent.Executors;
 import java.util.concurrent.SynchronousQueue;
 import java.net.*;
+
+import org.jboss.netty.channel.ChannelFactory;
+import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
+
+import Protocol.SenderController.SenderHandler.Interface;
+import Protocol.SenderController.SenderHandler.Stub;
+
+import com.googlecode.protobuf.netty.*;
 //�붾젆�좊━ �섏젙���섎뒗媛�
 public class Sender {
 	public static HashMap <String, DNS> DNS_Cache;
 	//public static HashMap<long, Task> TaskList;
 	public static SynchronousQueue<Connect> Connect;
-	public static Socket Socket;
-	static OutputStream out;
+	
+	private static NettyRpcClient client;
 	
 	public static void main(String ar[])
 	{
@@ -47,6 +56,12 @@ public class Sender {
 		    	}
 		    }
 		}
+		
+		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
+		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("localhost", 7004));
+		
+		Stub calcService = Protocol.SenderController.SenderHandler.newStub(channel);
+		Protocol.SenderController.SenderHandler.Interface blockingService = (Interface) Protocol.SenderController.SenderHandler.newBlockingStub(channel);
 		
 		for(int i=0; i<50; i++) //占쏙옙占쏙옙 IP占쏙옙 占쏙옙占쏙옙占쏙옙 50(IP占쏙옙)*16占쏙옙 = 800, 占쏙옙占쏙옙 처占쏙옙占쏙옙占쏙옙占쏙옙 占썅간占쌕꿔서
 			new TaskThread().start();
