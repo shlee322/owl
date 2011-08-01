@@ -16,3 +16,5 @@ c:\users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\D
 c:\users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll
 C:\Users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\Thrift.dll
 C:\Users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\Thrift.pdb
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.exe
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.pdb

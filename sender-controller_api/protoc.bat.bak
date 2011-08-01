@@ -1,0 +1,2 @@
+@echo on
+protoc --java_out=. Protocol.proto

@@ -8,23 +8,11 @@ public final class SenderController {
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
   }
-  public interface CertifyRequestOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-    
-    // required string key1 = 1;
-    boolean hasKey1();
-    String getKey1();
-    
-    // required string key2 = 2;
-    boolean hasKey2();
-    String getKey2();
-  }
   public static final class CertifyRequest extends
-      com.google.protobuf.GeneratedMessage
-      implements CertifyRequestOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use CertifyRequest.newBuilder() to construct.
-    private CertifyRequest(Builder builder) {
-      super(builder);
+    private CertifyRequest() {
+      initFields();
     }
     private CertifyRequest(boolean noInit) {}
     
@@ -47,100 +35,36 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_CertifyRequest_fieldAccessorTable;
     }
     
-    private int bitField0_;
     // required string key1 = 1;
     public static final int KEY1_FIELD_NUMBER = 1;
-    private java.lang.Object key1_;
-    public boolean hasKey1() {
-      return ((bitField0_ & 0x00000001) == 0x00000001);
-    }
-    public String getKey1() {
-      java.lang.Object ref = key1_;
-      if (ref instanceof String) {
-        return (String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        String s = bs.toStringUtf8();
-        if (com.google.protobuf.Internal.isValidUtf8(bs)) {
-          key1_ = s;
-        }
-        return s;
-      }
-    }
-    private com.google.protobuf.ByteString getKey1Bytes() {
-      java.lang.Object ref = key1_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8((String) ref);
-        key1_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
+    private boolean hasKey1;
+    private java.lang.String key1_ = "";
+    public boolean hasKey1() { return hasKey1; }
+    public java.lang.String getKey1() { return key1_; }
     
     // required string key2 = 2;
     public static final int KEY2_FIELD_NUMBER = 2;
-    private java.lang.Object key2_;
-    public boolean hasKey2() {
-      return ((bitField0_ & 0x00000002) == 0x00000002);
-    }
-    public String getKey2() {
-      java.lang.Object ref = key2_;
-      if (ref instanceof String) {
-        return (String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        String s = bs.toStringUtf8();
-        if (com.google.protobuf.Internal.isValidUtf8(bs)) {
-          key2_ = s;
-        }
-        return s;
-      }
-    }
-    private com.google.protobuf.ByteString getKey2Bytes() {
-      java.lang.Object ref = key2_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8((String) ref);
-        key2_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
+    private boolean hasKey2;
+    private java.lang.String key2_ = "";
+    public boolean hasKey2() { return hasKey2; }
+    public java.lang.String getKey2() { return key2_; }
     
     private void initFields() {
-      key1_ = "";
-      key2_ = "";
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      if (!hasKey1()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      if (!hasKey2()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      memoizedIsInitialized = 1;
+      if (!hasKey1) return false;
+      if (!hasKey2) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeBytes(1, getKey1Bytes());
+      if (hasKey1()) {
+        output.writeString(1, getKey1());
       }
-      if (((bitField0_ & 0x00000002) == 0x00000002)) {
-        output.writeBytes(2, getKey2Bytes());
+      if (hasKey2()) {
+        output.writeString(2, getKey2());
       }
       getUnknownFields().writeTo(output);
     }
@@ -151,24 +75,17 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+      if (hasKey1()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, getKey1Bytes());
+          .computeStringSize(1, getKey1());
       }
-      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+      if (hasKey2()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(2, getKey2Bytes());
+          .computeStringSize(2, getKey2());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.CertifyRequest parseFrom(
@@ -245,53 +162,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.CertifyRequestOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_CertifyRequest_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_CertifyRequest_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.CertifyRequest result;
       
       // Construct using Protocol.SenderController.CertifyRequest.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.CertifyRequest();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.CertifyRequest internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
-        key1_ = "";
-        bitField0_ = (bitField0_ & ~0x00000001);
-        key2_ = "";
-        bitField0_ = (bitField0_ & ~0x00000002);
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.CertifyRequest();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -303,39 +201,33 @@ public final class SenderController {
         return Protocol.SenderController.CertifyRequest.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.CertifyRequest build() {
-        Protocol.SenderController.CertifyRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.CertifyRequest buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.CertifyRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.CertifyRequest buildPartial() {
-        Protocol.SenderController.CertifyRequest result = new Protocol.SenderController.CertifyRequest(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
-          to_bitField0_ |= 0x00000001;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
         }
-        result.key1_ = key1_;
-        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
-          to_bitField0_ |= 0x00000002;
-        }
-        result.key2_ = key2_;
-        result.bitField0_ = to_bitField0_;
-        onBuilt();
-        return result;
+        Protocol.SenderController.CertifyRequest returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -359,18 +251,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        if (!hasKey1()) {
-          
-          return false;
-        }
-        if (!hasKey2()) {
-          
-          return false;
-        }
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -383,103 +263,68 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
             }
             case 10: {
-              bitField0_ |= 0x00000001;
-              key1_ = input.readBytes();
+              setKey1(input.readString());
               break;
             }
             case 18: {
-              bitField0_ |= 0x00000002;
-              key2_ = input.readBytes();
+              setKey2(input.readString());
               break;
             }
           }
         }
       }
       
-      private int bitField0_;
       
       // required string key1 = 1;
-      private java.lang.Object key1_ = "";
       public boolean hasKey1() {
-        return ((bitField0_ & 0x00000001) == 0x00000001);
+        return result.hasKey1();
       }
-      public String getKey1() {
-        java.lang.Object ref = key1_;
-        if (!(ref instanceof String)) {
-          String s = ((com.google.protobuf.ByteString) ref).toStringUtf8();
-          key1_ = s;
-          return s;
-        } else {
-          return (String) ref;
-        }
+      public java.lang.String getKey1() {
+        return result.getKey1();
       }
-      public Builder setKey1(String value) {
+      public Builder setKey1(java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField0_ |= 0x00000001;
-        key1_ = value;
-        onChanged();
+  result.hasKey1 = true;
+        result.key1_ = value;
         return this;
       }
       public Builder clearKey1() {
-        bitField0_ = (bitField0_ & ~0x00000001);
-        key1_ = getDefaultInstance().getKey1();
-        onChanged();
+        result.hasKey1 = false;
+        result.key1_ = getDefaultInstance().getKey1();
         return this;
-      }
-      void setKey1(com.google.protobuf.ByteString value) {
-        bitField0_ |= 0x00000001;
-        key1_ = value;
-        onChanged();
       }
       
       // required string key2 = 2;
-      private java.lang.Object key2_ = "";
       public boolean hasKey2() {
-        return ((bitField0_ & 0x00000002) == 0x00000002);
+        return result.hasKey2();
       }
-      public String getKey2() {
-        java.lang.Object ref = key2_;
-        if (!(ref instanceof String)) {
-          String s = ((com.google.protobuf.ByteString) ref).toStringUtf8();
-          key2_ = s;
-          return s;
-        } else {
-          return (String) ref;
-        }
+      public java.lang.String getKey2() {
+        return result.getKey2();
       }
-      public Builder setKey2(String value) {
+      public Builder setKey2(java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField0_ |= 0x00000002;
-        key2_ = value;
-        onChanged();
+  result.hasKey2 = true;
+        result.key2_ = value;
         return this;
       }
       public Builder clearKey2() {
-        bitField0_ = (bitField0_ & ~0x00000002);
-        key2_ = getDefaultInstance().getKey2();
-        onChanged();
+        result.hasKey2 = false;
+        result.key2_ = getDefaultInstance().getKey2();
         return this;
-      }
-      void setKey2(com.google.protobuf.ByteString value) {
-        bitField0_ |= 0x00000002;
-        key2_ = value;
-        onChanged();
       }
       
       // @@protoc_insertion_point(builder_scope:CertifyRequest)
@@ -487,25 +332,18 @@ public final class SenderController {
     
     static {
       defaultInstance = new CertifyRequest(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:CertifyRequest)
   }
   
-  public interface CertifyResponseOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-    
-    // required bool result = 1;
-    boolean hasResult();
-    boolean getResult();
-  }
   public static final class CertifyResponse extends
-      com.google.protobuf.GeneratedMessage
-      implements CertifyResponseOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use CertifyResponse.newBuilder() to construct.
-    private CertifyResponse(Builder builder) {
-      super(builder);
+    private CertifyResponse() {
+      initFields();
     }
     private CertifyResponse(boolean noInit) {}
     
@@ -528,38 +366,25 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_CertifyResponse_fieldAccessorTable;
     }
     
-    private int bitField0_;
     // required bool result = 1;
     public static final int RESULT_FIELD_NUMBER = 1;
-    private boolean result_;
-    public boolean hasResult() {
-      return ((bitField0_ & 0x00000001) == 0x00000001);
-    }
-    public boolean getResult() {
-      return result_;
-    }
+    private boolean hasResult;
+    private boolean result_ = false;
+    public boolean hasResult() { return hasResult; }
+    public boolean getResult() { return result_; }
     
     private void initFields() {
-      result_ = false;
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      if (!hasResult()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      memoizedIsInitialized = 1;
+      if (!hasResult) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeBool(1, result_);
+      if (hasResult()) {
+        output.writeBool(1, getResult());
       }
       getUnknownFields().writeTo(output);
     }
@@ -570,20 +395,13 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+      if (hasResult()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, result_);
+          .computeBoolSize(1, getResult());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.CertifyResponse parseFrom(
@@ -660,51 +478,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.CertifyResponseOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_CertifyResponse_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_CertifyResponse_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.CertifyResponse result;
       
       // Construct using Protocol.SenderController.CertifyResponse.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.CertifyResponse();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.CertifyResponse internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
-        result_ = false;
-        bitField0_ = (bitField0_ & ~0x00000001);
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.CertifyResponse();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -716,35 +517,33 @@ public final class SenderController {
         return Protocol.SenderController.CertifyResponse.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.CertifyResponse build() {
-        Protocol.SenderController.CertifyResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.CertifyResponse buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.CertifyResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.CertifyResponse buildPartial() {
-        Protocol.SenderController.CertifyResponse result = new Protocol.SenderController.CertifyResponse(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
-          to_bitField0_ |= 0x00000001;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
         }
-        result.result_ = result_;
-        result.bitField0_ = to_bitField0_;
-        onBuilt();
-        return result;
+        Protocol.SenderController.CertifyResponse returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -765,14 +564,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        if (!hasResult()) {
-          
-          return false;
-        }
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -785,46 +576,39 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
             }
             case 8: {
-              bitField0_ |= 0x00000001;
-              result_ = input.readBool();
+              setResult(input.readBool());
               break;
             }
           }
         }
       }
       
-      private int bitField0_;
       
       // required bool result = 1;
-      private boolean result_ ;
       public boolean hasResult() {
-        return ((bitField0_ & 0x00000001) == 0x00000001);
+        return result.hasResult();
       }
       public boolean getResult() {
-        return result_;
+        return result.getResult();
       }
       public Builder setResult(boolean value) {
-        bitField0_ |= 0x00000001;
-        result_ = value;
-        onChanged();
+        result.hasResult = true;
+        result.result_ = value;
         return this;
       }
       public Builder clearResult() {
-        bitField0_ = (bitField0_ & ~0x00000001);
-        result_ = false;
-        onChanged();
+        result.hasResult = false;
+        result.result_ = false;
         return this;
       }
       
@@ -833,25 +617,18 @@ public final class SenderController {
     
     static {
       defaultInstance = new CertifyResponse(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:CertifyResponse)
   }
   
-  public interface NewTaskRequestOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-    
-    // required int64 TaskId = 1;
-    boolean hasTaskId();
-    long getTaskId();
-  }
   public static final class NewTaskRequest extends
-      com.google.protobuf.GeneratedMessage
-      implements NewTaskRequestOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use NewTaskRequest.newBuilder() to construct.
-    private NewTaskRequest(Builder builder) {
-      super(builder);
+    private NewTaskRequest() {
+      initFields();
     }
     private NewTaskRequest(boolean noInit) {}
     
@@ -874,38 +651,25 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_NewTaskRequest_fieldAccessorTable;
     }
     
-    private int bitField0_;
     // required int64 TaskId = 1;
     public static final int TASKID_FIELD_NUMBER = 1;
-    private long taskId_;
-    public boolean hasTaskId() {
-      return ((bitField0_ & 0x00000001) == 0x00000001);
-    }
-    public long getTaskId() {
-      return taskId_;
-    }
+    private boolean hasTaskId;
+    private long taskId_ = 0L;
+    public boolean hasTaskId() { return hasTaskId; }
+    public long getTaskId() { return taskId_; }
     
     private void initFields() {
-      taskId_ = 0L;
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      if (!hasTaskId()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      memoizedIsInitialized = 1;
+      if (!hasTaskId) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeInt64(1, taskId_);
+      if (hasTaskId()) {
+        output.writeInt64(1, getTaskId());
       }
       getUnknownFields().writeTo(output);
     }
@@ -916,20 +680,13 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+      if (hasTaskId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, taskId_);
+          .computeInt64Size(1, getTaskId());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.NewTaskRequest parseFrom(
@@ -1006,51 +763,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.NewTaskRequestOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_NewTaskRequest_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_NewTaskRequest_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.NewTaskRequest result;
       
       // Construct using Protocol.SenderController.NewTaskRequest.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.NewTaskRequest();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.NewTaskRequest internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
-        taskId_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000001);
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.NewTaskRequest();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -1062,35 +802,33 @@ public final class SenderController {
         return Protocol.SenderController.NewTaskRequest.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.NewTaskRequest build() {
-        Protocol.SenderController.NewTaskRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.NewTaskRequest buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.NewTaskRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.NewTaskRequest buildPartial() {
-        Protocol.SenderController.NewTaskRequest result = new Protocol.SenderController.NewTaskRequest(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
-          to_bitField0_ |= 0x00000001;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
         }
-        result.taskId_ = taskId_;
-        result.bitField0_ = to_bitField0_;
-        onBuilt();
-        return result;
+        Protocol.SenderController.NewTaskRequest returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -1111,14 +849,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        if (!hasTaskId()) {
-          
-          return false;
-        }
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1131,46 +861,39 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
             }
             case 8: {
-              bitField0_ |= 0x00000001;
-              taskId_ = input.readInt64();
+              setTaskId(input.readInt64());
               break;
             }
           }
         }
       }
       
-      private int bitField0_;
       
       // required int64 TaskId = 1;
-      private long taskId_ ;
       public boolean hasTaskId() {
-        return ((bitField0_ & 0x00000001) == 0x00000001);
+        return result.hasTaskId();
       }
       public long getTaskId() {
-        return taskId_;
+        return result.getTaskId();
       }
       public Builder setTaskId(long value) {
-        bitField0_ |= 0x00000001;
-        taskId_ = value;
-        onChanged();
+        result.hasTaskId = true;
+        result.taskId_ = value;
         return this;
       }
       public Builder clearTaskId() {
-        bitField0_ = (bitField0_ & ~0x00000001);
-        taskId_ = 0L;
-        onChanged();
+        result.hasTaskId = false;
+        result.taskId_ = 0L;
         return this;
       }
       
@@ -1179,21 +902,18 @@ public final class SenderController {
     
     static {
       defaultInstance = new NewTaskRequest(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:NewTaskRequest)
   }
   
-  public interface NewTaskResponseOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-  }
   public static final class NewTaskResponse extends
-      com.google.protobuf.GeneratedMessage
-      implements NewTaskResponseOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use NewTaskResponse.newBuilder() to construct.
-    private NewTaskResponse(Builder builder) {
-      super(builder);
+    private NewTaskResponse() {
+      initFields();
     }
     private NewTaskResponse(boolean noInit) {}
     
@@ -1218,12 +938,7 @@ public final class SenderController {
     
     private void initFields() {
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      memoizedIsInitialized = 1;
       return true;
     }
     
@@ -1242,13 +957,6 @@ public final class SenderController {
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.NewTaskResponse parseFrom(
@@ -1325,49 +1033,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.NewTaskResponseOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_NewTaskResponse_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_NewTaskResponse_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.NewTaskResponse result;
       
       // Construct using Protocol.SenderController.NewTaskResponse.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.NewTaskResponse();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.NewTaskResponse internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.NewTaskResponse();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -1379,28 +1072,33 @@ public final class SenderController {
         return Protocol.SenderController.NewTaskResponse.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.NewTaskResponse build() {
-        Protocol.SenderController.NewTaskResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.NewTaskResponse buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.NewTaskResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.NewTaskResponse buildPartial() {
-        Protocol.SenderController.NewTaskResponse result = new Protocol.SenderController.NewTaskResponse(this);
-        onBuilt();
-        return result;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
+        }
+        Protocol.SenderController.NewTaskResponse returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -1418,10 +1116,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1434,13 +1128,11 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
@@ -1455,25 +1147,18 @@ public final class SenderController {
     
     static {
       defaultInstance = new NewTaskResponse(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:NewTaskResponse)
   }
   
-  public interface GetMailListRequestOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-    
-    // required int64 TaskId = 1;
-    boolean hasTaskId();
-    long getTaskId();
-  }
   public static final class GetMailListRequest extends
-      com.google.protobuf.GeneratedMessage
-      implements GetMailListRequestOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use GetMailListRequest.newBuilder() to construct.
-    private GetMailListRequest(Builder builder) {
-      super(builder);
+    private GetMailListRequest() {
+      initFields();
     }
     private GetMailListRequest(boolean noInit) {}
     
@@ -1496,38 +1181,25 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailListRequest_fieldAccessorTable;
     }
     
-    private int bitField0_;
     // required int64 TaskId = 1;
     public static final int TASKID_FIELD_NUMBER = 1;
-    private long taskId_;
-    public boolean hasTaskId() {
-      return ((bitField0_ & 0x00000001) == 0x00000001);
-    }
-    public long getTaskId() {
-      return taskId_;
-    }
+    private boolean hasTaskId;
+    private long taskId_ = 0L;
+    public boolean hasTaskId() { return hasTaskId; }
+    public long getTaskId() { return taskId_; }
     
     private void initFields() {
-      taskId_ = 0L;
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      if (!hasTaskId()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      memoizedIsInitialized = 1;
+      if (!hasTaskId) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeInt64(1, taskId_);
+      if (hasTaskId()) {
+        output.writeInt64(1, getTaskId());
       }
       getUnknownFields().writeTo(output);
     }
@@ -1538,20 +1210,13 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+      if (hasTaskId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, taskId_);
+          .computeInt64Size(1, getTaskId());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.GetMailListRequest parseFrom(
@@ -1628,51 +1293,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.GetMailListRequestOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_GetMailListRequest_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_GetMailListRequest_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.GetMailListRequest result;
       
       // Construct using Protocol.SenderController.GetMailListRequest.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.GetMailListRequest();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.GetMailListRequest internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
-        taskId_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000001);
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.GetMailListRequest();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -1684,35 +1332,33 @@ public final class SenderController {
         return Protocol.SenderController.GetMailListRequest.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.GetMailListRequest build() {
-        Protocol.SenderController.GetMailListRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.GetMailListRequest buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.GetMailListRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.GetMailListRequest buildPartial() {
-        Protocol.SenderController.GetMailListRequest result = new Protocol.SenderController.GetMailListRequest(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
-          to_bitField0_ |= 0x00000001;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
         }
-        result.taskId_ = taskId_;
-        result.bitField0_ = to_bitField0_;
-        onBuilt();
-        return result;
+        Protocol.SenderController.GetMailListRequest returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -1733,14 +1379,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        if (!hasTaskId()) {
-          
-          return false;
-        }
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1753,46 +1391,39 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
             }
             case 8: {
-              bitField0_ |= 0x00000001;
-              taskId_ = input.readInt64();
+              setTaskId(input.readInt64());
               break;
             }
           }
         }
       }
       
-      private int bitField0_;
       
       // required int64 TaskId = 1;
-      private long taskId_ ;
       public boolean hasTaskId() {
-        return ((bitField0_ & 0x00000001) == 0x00000001);
+        return result.hasTaskId();
       }
       public long getTaskId() {
-        return taskId_;
+        return result.getTaskId();
       }
       public Builder setTaskId(long value) {
-        bitField0_ |= 0x00000001;
-        taskId_ = value;
-        onChanged();
+        result.hasTaskId = true;
+        result.taskId_ = value;
         return this;
       }
       public Builder clearTaskId() {
-        bitField0_ = (bitField0_ & ~0x00000001);
-        taskId_ = 0L;
-        onChanged();
+        result.hasTaskId = false;
+        result.taskId_ = 0L;
         return this;
       }
       
@@ -1801,33 +1432,18 @@ public final class SenderController {
     
     static {
       defaultInstance = new GetMailListRequest(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:GetMailListRequest)
   }
   
-  public interface GetMailListResponseOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-    
-    // required int64 TaskId = 1;
-    boolean hasTaskId();
-    long getTaskId();
-    
-    // required int64 AddressId = 2;
-    boolean hasAddressId();
-    long getAddressId();
-    
-    // required string Address = 3;
-    boolean hasAddress();
-    String getAddress();
-  }
   public static final class GetMailListResponse extends
-      com.google.protobuf.GeneratedMessage
-      implements GetMailListResponseOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use GetMailListResponse.newBuilder() to construct.
-    private GetMailListResponse(Builder builder) {
-      super(builder);
+    private GetMailListResponse() {
+      initFields();
     }
     private GetMailListResponse(boolean noInit) {}
     
@@ -1850,96 +1466,47 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailListResponse_fieldAccessorTable;
     }
     
-    private int bitField0_;
     // required int64 TaskId = 1;
     public static final int TASKID_FIELD_NUMBER = 1;
-    private long taskId_;
-    public boolean hasTaskId() {
-      return ((bitField0_ & 0x00000001) == 0x00000001);
-    }
-    public long getTaskId() {
-      return taskId_;
-    }
+    private boolean hasTaskId;
+    private long taskId_ = 0L;
+    public boolean hasTaskId() { return hasTaskId; }
+    public long getTaskId() { return taskId_; }
     
     // required int64 AddressId = 2;
     public static final int ADDRESSID_FIELD_NUMBER = 2;
-    private long addressId_;
-    public boolean hasAddressId() {
-      return ((bitField0_ & 0x00000002) == 0x00000002);
-    }
-    public long getAddressId() {
-      return addressId_;
-    }
+    private boolean hasAddressId;
+    private long addressId_ = 0L;
+    public boolean hasAddressId() { return hasAddressId; }
+    public long getAddressId() { return addressId_; }
     
     // required string Address = 3;
     public static final int ADDRESS_FIELD_NUMBER = 3;
-    private java.lang.Object address_;
-    public boolean hasAddress() {
-      return ((bitField0_ & 0x00000004) == 0x00000004);
-    }
-    public String getAddress() {
-      java.lang.Object ref = address_;
-      if (ref instanceof String) {
-        return (String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        String s = bs.toStringUtf8();
-        if (com.google.protobuf.Internal.isValidUtf8(bs)) {
-          address_ = s;
-        }
-        return s;
-      }
-    }
-    private com.google.protobuf.ByteString getAddressBytes() {
-      java.lang.Object ref = address_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8((String) ref);
-        address_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
+    private boolean hasAddress;
+    private java.lang.String address_ = "";
+    public boolean hasAddress() { return hasAddress; }
+    public java.lang.String getAddress() { return address_; }
     
     private void initFields() {
-      taskId_ = 0L;
-      addressId_ = 0L;
-      address_ = "";
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      if (!hasTaskId()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      if (!hasAddressId()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      if (!hasAddress()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      memoizedIsInitialized = 1;
+      if (!hasTaskId) return false;
+      if (!hasAddressId) return false;
+      if (!hasAddress) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeInt64(1, taskId_);
+      if (hasTaskId()) {
+        output.writeInt64(1, getTaskId());
       }
-      if (((bitField0_ & 0x00000002) == 0x00000002)) {
-        output.writeInt64(2, addressId_);
+      if (hasAddressId()) {
+        output.writeInt64(2, getAddressId());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
-        output.writeBytes(3, getAddressBytes());
+      if (hasAddress()) {
+        output.writeString(3, getAddress());
       }
       getUnknownFields().writeTo(output);
     }
@@ -1950,28 +1517,21 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+      if (hasTaskId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, taskId_);
+          .computeInt64Size(1, getTaskId());
       }
-      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+      if (hasAddressId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(2, addressId_);
+          .computeInt64Size(2, getAddressId());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+      if (hasAddress()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(3, getAddressBytes());
+          .computeStringSize(3, getAddress());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.GetMailListResponse parseFrom(
@@ -2048,55 +1608,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.GetMailListResponseOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_GetMailListResponse_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_GetMailListResponse_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.GetMailListResponse result;
       
       // Construct using Protocol.SenderController.GetMailListResponse.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.GetMailListResponse();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.GetMailListResponse internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
-        taskId_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000001);
-        addressId_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000002);
-        address_ = "";
-        bitField0_ = (bitField0_ & ~0x00000004);
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.GetMailListResponse();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -2108,43 +1647,33 @@ public final class SenderController {
         return Protocol.SenderController.GetMailListResponse.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.GetMailListResponse build() {
-        Protocol.SenderController.GetMailListResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.GetMailListResponse buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.GetMailListResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.GetMailListResponse buildPartial() {
-        Protocol.SenderController.GetMailListResponse result = new Protocol.SenderController.GetMailListResponse(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
-          to_bitField0_ |= 0x00000001;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
         }
-        result.taskId_ = taskId_;
-        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
-          to_bitField0_ |= 0x00000002;
-        }
-        result.addressId_ = addressId_;
-        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
-          to_bitField0_ |= 0x00000004;
-        }
-        result.address_ = address_;
-        result.bitField0_ = to_bitField0_;
-        onBuilt();
-        return result;
+        Protocol.SenderController.GetMailListResponse returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -2171,22 +1700,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        if (!hasTaskId()) {
-          
-          return false;
-        }
-        if (!hasAddressId()) {
-          
-          return false;
-        }
-        if (!hasAddress()) {
-          
-          return false;
-        }
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2199,114 +1712,87 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
             }
             case 8: {
-              bitField0_ |= 0x00000001;
-              taskId_ = input.readInt64();
+              setTaskId(input.readInt64());
               break;
             }
             case 16: {
-              bitField0_ |= 0x00000002;
-              addressId_ = input.readInt64();
+              setAddressId(input.readInt64());
               break;
             }
             case 26: {
-              bitField0_ |= 0x00000004;
-              address_ = input.readBytes();
+              setAddress(input.readString());
               break;
             }
           }
         }
       }
       
-      private int bitField0_;
       
       // required int64 TaskId = 1;
-      private long taskId_ ;
       public boolean hasTaskId() {
-        return ((bitField0_ & 0x00000001) == 0x00000001);
+        return result.hasTaskId();
       }
       public long getTaskId() {
-        return taskId_;
+        return result.getTaskId();
       }
       public Builder setTaskId(long value) {
-        bitField0_ |= 0x00000001;
-        taskId_ = value;
-        onChanged();
+        result.hasTaskId = true;
+        result.taskId_ = value;
         return this;
       }
       public Builder clearTaskId() {
-        bitField0_ = (bitField0_ & ~0x00000001);
-        taskId_ = 0L;
-        onChanged();
+        result.hasTaskId = false;
+        result.taskId_ = 0L;
         return this;
       }
       
       // required int64 AddressId = 2;
-      private long addressId_ ;
       public boolean hasAddressId() {
-        return ((bitField0_ & 0x00000002) == 0x00000002);
+        return result.hasAddressId();
       }
       public long getAddressId() {
-        return addressId_;
+        return result.getAddressId();
       }
       public Builder setAddressId(long value) {
-        bitField0_ |= 0x00000002;
-        addressId_ = value;
-        onChanged();
+        result.hasAddressId = true;
+        result.addressId_ = value;
         return this;
       }
       public Builder clearAddressId() {
-        bitField0_ = (bitField0_ & ~0x00000002);
-        addressId_ = 0L;
-        onChanged();
+        result.hasAddressId = false;
+        result.addressId_ = 0L;
         return this;
       }
       
       // required string Address = 3;
-      private java.lang.Object address_ = "";
       public boolean hasAddress() {
-        return ((bitField0_ & 0x00000004) == 0x00000004);
+        return result.hasAddress();
       }
-      public String getAddress() {
-        java.lang.Object ref = address_;
-        if (!(ref instanceof String)) {
-          String s = ((com.google.protobuf.ByteString) ref).toStringUtf8();
-          address_ = s;
-          return s;
-        } else {
-          return (String) ref;
-        }
+      public java.lang.String getAddress() {
+        return result.getAddress();
       }
-      public Builder setAddress(String value) {
+      public Builder setAddress(java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField0_ |= 0x00000004;
-        address_ = value;
-        onChanged();
+  result.hasAddress = true;
+        result.address_ = value;
         return this;
       }
       public Builder clearAddress() {
-        bitField0_ = (bitField0_ & ~0x00000004);
-        address_ = getDefaultInstance().getAddress();
-        onChanged();
+        result.hasAddress = false;
+        result.address_ = getDefaultInstance().getAddress();
         return this;
-      }
-      void setAddress(com.google.protobuf.ByteString value) {
-        bitField0_ |= 0x00000004;
-        address_ = value;
-        onChanged();
       }
       
       // @@protoc_insertion_point(builder_scope:GetMailListResponse)
@@ -2314,33 +1800,18 @@ public final class SenderController {
     
     static {
       defaultInstance = new GetMailListResponse(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:GetMailListResponse)
   }
   
-  public interface GetMailStatusRequestOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-    
-    // required int64 TaskId = 1;
-    boolean hasTaskId();
-    long getTaskId();
-    
-    // required int64 AddressId = 2;
-    boolean hasAddressId();
-    long getAddressId();
-    
-    // required int32 code = 3;
-    boolean hasCode();
-    int getCode();
-  }
   public static final class GetMailStatusRequest extends
-      com.google.protobuf.GeneratedMessage
-      implements GetMailStatusRequestOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use GetMailStatusRequest.newBuilder() to construct.
-    private GetMailStatusRequest(Builder builder) {
-      super(builder);
+    private GetMailStatusRequest() {
+      initFields();
     }
     private GetMailStatusRequest(boolean noInit) {}
     
@@ -2363,74 +1834,47 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailStatusRequest_fieldAccessorTable;
     }
     
-    private int bitField0_;
     // required int64 TaskId = 1;
     public static final int TASKID_FIELD_NUMBER = 1;
-    private long taskId_;
-    public boolean hasTaskId() {
-      return ((bitField0_ & 0x00000001) == 0x00000001);
-    }
-    public long getTaskId() {
-      return taskId_;
-    }
+    private boolean hasTaskId;
+    private long taskId_ = 0L;
+    public boolean hasTaskId() { return hasTaskId; }
+    public long getTaskId() { return taskId_; }
     
     // required int64 AddressId = 2;
     public static final int ADDRESSID_FIELD_NUMBER = 2;
-    private long addressId_;
-    public boolean hasAddressId() {
-      return ((bitField0_ & 0x00000002) == 0x00000002);
-    }
-    public long getAddressId() {
-      return addressId_;
-    }
+    private boolean hasAddressId;
+    private long addressId_ = 0L;
+    public boolean hasAddressId() { return hasAddressId; }
+    public long getAddressId() { return addressId_; }
     
     // required int32 code = 3;
     public static final int CODE_FIELD_NUMBER = 3;
-    private int code_;
-    public boolean hasCode() {
-      return ((bitField0_ & 0x00000004) == 0x00000004);
-    }
-    public int getCode() {
-      return code_;
-    }
+    private boolean hasCode;
+    private int code_ = 0;
+    public boolean hasCode() { return hasCode; }
+    public int getCode() { return code_; }
     
     private void initFields() {
-      taskId_ = 0L;
-      addressId_ = 0L;
-      code_ = 0;
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      if (!hasTaskId()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      if (!hasAddressId()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      if (!hasCode()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
-      memoizedIsInitialized = 1;
+      if (!hasTaskId) return false;
+      if (!hasAddressId) return false;
+      if (!hasCode) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        output.writeInt64(1, taskId_);
+      if (hasTaskId()) {
+        output.writeInt64(1, getTaskId());
       }
-      if (((bitField0_ & 0x00000002) == 0x00000002)) {
-        output.writeInt64(2, addressId_);
+      if (hasAddressId()) {
+        output.writeInt64(2, getAddressId());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
-        output.writeInt32(3, code_);
+      if (hasCode()) {
+        output.writeInt32(3, getCode());
       }
       getUnknownFields().writeTo(output);
     }
@@ -2441,28 +1885,21 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+      if (hasTaskId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, taskId_);
+          .computeInt64Size(1, getTaskId());
       }
-      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+      if (hasAddressId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(2, addressId_);
+          .computeInt64Size(2, getAddressId());
       }
-      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+      if (hasCode()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, code_);
+          .computeInt32Size(3, getCode());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.GetMailStatusRequest parseFrom(
@@ -2539,55 +1976,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.GetMailStatusRequestOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_GetMailStatusRequest_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_GetMailStatusRequest_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.GetMailStatusRequest result;
       
       // Construct using Protocol.SenderController.GetMailStatusRequest.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.GetMailStatusRequest();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.GetMailStatusRequest internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
-        taskId_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000001);
-        addressId_ = 0L;
-        bitField0_ = (bitField0_ & ~0x00000002);
-        code_ = 0;
-        bitField0_ = (bitField0_ & ~0x00000004);
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.GetMailStatusRequest();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -2599,43 +2015,33 @@ public final class SenderController {
         return Protocol.SenderController.GetMailStatusRequest.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.GetMailStatusRequest build() {
-        Protocol.SenderController.GetMailStatusRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.GetMailStatusRequest buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.GetMailStatusRequest result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.GetMailStatusRequest buildPartial() {
-        Protocol.SenderController.GetMailStatusRequest result = new Protocol.SenderController.GetMailStatusRequest(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
-          to_bitField0_ |= 0x00000001;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
         }
-        result.taskId_ = taskId_;
-        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
-          to_bitField0_ |= 0x00000002;
-        }
-        result.addressId_ = addressId_;
-        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
-          to_bitField0_ |= 0x00000004;
-        }
-        result.code_ = code_;
-        result.bitField0_ = to_bitField0_;
-        onBuilt();
-        return result;
+        Protocol.SenderController.GetMailStatusRequest returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -2662,22 +2068,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        if (!hasTaskId()) {
-          
-          return false;
-        }
-        if (!hasAddressId()) {
-          
-          return false;
-        }
-        if (!hasCode()) {
-          
-          return false;
-        }
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2690,98 +2080,83 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
             }
             case 8: {
-              bitField0_ |= 0x00000001;
-              taskId_ = input.readInt64();
+              setTaskId(input.readInt64());
               break;
             }
             case 16: {
-              bitField0_ |= 0x00000002;
-              addressId_ = input.readInt64();
+              setAddressId(input.readInt64());
               break;
             }
             case 24: {
-              bitField0_ |= 0x00000004;
-              code_ = input.readInt32();
+              setCode(input.readInt32());
               break;
             }
           }
         }
       }
       
-      private int bitField0_;
       
       // required int64 TaskId = 1;
-      private long taskId_ ;
       public boolean hasTaskId() {
-        return ((bitField0_ & 0x00000001) == 0x00000001);
+        return result.hasTaskId();
       }
       public long getTaskId() {
-        return taskId_;
+        return result.getTaskId();
       }
       public Builder setTaskId(long value) {
-        bitField0_ |= 0x00000001;
-        taskId_ = value;
-        onChanged();
+        result.hasTaskId = true;
+        result.taskId_ = value;
         return this;
       }
       public Builder clearTaskId() {
-        bitField0_ = (bitField0_ & ~0x00000001);
-        taskId_ = 0L;
-        onChanged();
+        result.hasTaskId = false;
+        result.taskId_ = 0L;
         return this;
       }
       
       // required int64 AddressId = 2;
-      private long addressId_ ;
       public boolean hasAddressId() {
-        return ((bitField0_ & 0x00000002) == 0x00000002);
+        return result.hasAddressId();
       }
       public long getAddressId() {
-        return addressId_;
+        return result.getAddressId();
       }
       public Builder setAddressId(long value) {
-        bitField0_ |= 0x00000002;
-        addressId_ = value;
-        onChanged();
+        result.hasAddressId = true;
+        result.addressId_ = value;
         return this;
       }
       public Builder clearAddressId() {
-        bitField0_ = (bitField0_ & ~0x00000002);
-        addressId_ = 0L;
-        onChanged();
+        result.hasAddressId = false;
+        result.addressId_ = 0L;
         return this;
       }
       
       // required int32 code = 3;
-      private int code_ ;
       public boolean hasCode() {
-        return ((bitField0_ & 0x00000004) == 0x00000004);
+        return result.hasCode();
       }
       public int getCode() {
-        return code_;
+        return result.getCode();
       }
       public Builder setCode(int value) {
-        bitField0_ |= 0x00000004;
-        code_ = value;
-        onChanged();
+        result.hasCode = true;
+        result.code_ = value;
         return this;
       }
       public Builder clearCode() {
-        bitField0_ = (bitField0_ & ~0x00000004);
-        code_ = 0;
-        onChanged();
+        result.hasCode = false;
+        result.code_ = 0;
         return this;
       }
       
@@ -2790,21 +2165,18 @@ public final class SenderController {
     
     static {
       defaultInstance = new GetMailStatusRequest(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:GetMailStatusRequest)
   }
   
-  public interface GetMailStatusResponseOrBuilder
-      extends com.google.protobuf.MessageOrBuilder {
-  }
   public static final class GetMailStatusResponse extends
-      com.google.protobuf.GeneratedMessage
-      implements GetMailStatusResponseOrBuilder {
+      com.google.protobuf.GeneratedMessage {
     // Use GetMailStatusResponse.newBuilder() to construct.
-    private GetMailStatusResponse(Builder builder) {
-      super(builder);
+    private GetMailStatusResponse() {
+      initFields();
     }
     private GetMailStatusResponse(boolean noInit) {}
     
@@ -2829,12 +2201,7 @@ public final class SenderController {
     
     private void initFields() {
     }
-    private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized != -1) return isInitialized == 1;
-      
-      memoizedIsInitialized = 1;
       return true;
     }
     
@@ -2853,13 +2220,6 @@ public final class SenderController {
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
-    }
-    
-    private static final long serialVersionUID = 0L;
-    @java.lang.Override
-    protected java.lang.Object writeReplace()
-        throws java.io.ObjectStreamException {
-      return super.writeReplace();
     }
     
     public static Protocol.SenderController.GetMailStatusResponse parseFrom(
@@ -2936,49 +2296,34 @@ public final class SenderController {
     }
     public Builder toBuilder() { return newBuilder(this); }
     
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements Protocol.SenderController.GetMailStatusResponseOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return Protocol.SenderController.internal_static_GetMailStatusResponse_descriptor;
-      }
-      
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return Protocol.SenderController.internal_static_GetMailStatusResponse_fieldAccessorTable;
-      }
+        com.google.protobuf.GeneratedMessage.Builder<Builder> {
+      private Protocol.SenderController.GetMailStatusResponse result;
       
       // Construct using Protocol.SenderController.GetMailStatusResponse.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
+      private Builder() {}
+      
+      private static Builder create() {
+        Builder builder = new Builder();
+        builder.result = new Protocol.SenderController.GetMailStatusResponse();
+        return builder;
       }
       
-      private Builder(BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-        }
-      }
-      private static Builder create() {
-        return new Builder();
+      protected Protocol.SenderController.GetMailStatusResponse internalGetResult() {
+        return result;
       }
       
       public Builder clear() {
-        super.clear();
+        if (result == null) {
+          throw new IllegalStateException(
+            "Cannot call clear() after build().");
+        }
+        result = new Protocol.SenderController.GetMailStatusResponse();
         return this;
       }
       
       public Builder clone() {
-        return create().mergeFrom(buildPartial());
+        return create().mergeFrom(result);
       }
       
       public com.google.protobuf.Descriptors.Descriptor
@@ -2990,28 +2335,33 @@ public final class SenderController {
         return Protocol.SenderController.GetMailStatusResponse.getDefaultInstance();
       }
       
+      public boolean isInitialized() {
+        return result.isInitialized();
+      }
       public Protocol.SenderController.GetMailStatusResponse build() {
-        Protocol.SenderController.GetMailStatusResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
-        return result;
+        return buildPartial();
       }
       
       private Protocol.SenderController.GetMailStatusResponse buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        Protocol.SenderController.GetMailStatusResponse result = buildPartial();
-        if (!result.isInitialized()) {
+        if (!isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
         }
-        return result;
+        return buildPartial();
       }
       
       public Protocol.SenderController.GetMailStatusResponse buildPartial() {
-        Protocol.SenderController.GetMailStatusResponse result = new Protocol.SenderController.GetMailStatusResponse(this);
-        onBuilt();
-        return result;
+        if (result == null) {
+          throw new IllegalStateException(
+            "build() has already been called on this Builder.");
+        }
+        Protocol.SenderController.GetMailStatusResponse returnMe = result;
+        result = null;
+        return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
@@ -3029,10 +2379,6 @@ public final class SenderController {
         return this;
       }
       
-      public final boolean isInitialized() {
-        return true;
-      }
-      
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3045,13 +2391,11 @@ public final class SenderController {
           switch (tag) {
             case 0:
               this.setUnknownFields(unknownFields.build());
-              onChanged();
               return this;
             default: {
               if (!parseUnknownField(input, unknownFields,
                                      extensionRegistry, tag)) {
                 this.setUnknownFields(unknownFields.build());
-                onChanged();
                 return this;
               }
               break;
@@ -3066,10 +2410,427 @@ public final class SenderController {
     
     static {
       defaultInstance = new GetMailStatusResponse(true);
+      Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
     // @@protoc_insertion_point(class_scope:GetMailStatusResponse)
+  }
+  
+  public static abstract class SenderHandler
+      implements com.google.protobuf.Service {
+    protected SenderHandler() {}
+    
+    public interface Interface {
+      public abstract void certify(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.CertifyRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.CertifyResponse> done);
+      
+      public abstract void newTask(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.NewTaskRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.NewTaskResponse> done);
+      
+      public abstract void getMailList(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailListRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailListResponse> done);
+      
+      public abstract void getMailStatus(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailStatusRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done);
+      
+    }
+    
+    public static com.google.protobuf.Service newReflectiveService(
+        final Interface impl) {
+      return new SenderHandler() {
+        @Override
+        public  void certify(
+            com.google.protobuf.RpcController controller,
+            Protocol.SenderController.CertifyRequest request,
+            com.google.protobuf.RpcCallback<Protocol.SenderController.CertifyResponse> done) {
+          impl.certify(controller, request, done);
+        }
+        
+        @Override
+        public  void newTask(
+            com.google.protobuf.RpcController controller,
+            Protocol.SenderController.NewTaskRequest request,
+            com.google.protobuf.RpcCallback<Protocol.SenderController.NewTaskResponse> done) {
+          impl.newTask(controller, request, done);
+        }
+        
+        @Override
+        public  void getMailList(
+            com.google.protobuf.RpcController controller,
+            Protocol.SenderController.GetMailListRequest request,
+            com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailListResponse> done) {
+          impl.getMailList(controller, request, done);
+        }
+        
+        @Override
+        public  void getMailStatus(
+            com.google.protobuf.RpcController controller,
+            Protocol.SenderController.GetMailStatusRequest request,
+            com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done) {
+          impl.getMailStatus(controller, request, done);
+        }
+        
+      };
+    }
+    
+    public static com.google.protobuf.BlockingService
+        newReflectiveBlockingService(final BlockingInterface impl) {
+      return new com.google.protobuf.BlockingService() {
+        public final com.google.protobuf.Descriptors.ServiceDescriptor
+            getDescriptorForType() {
+          return getDescriptor();
+        }
+        
+        public final com.google.protobuf.Message callBlockingMethod(
+            com.google.protobuf.Descriptors.MethodDescriptor method,
+            com.google.protobuf.RpcController controller,
+            com.google.protobuf.Message request)
+            throws com.google.protobuf.ServiceException {
+          if (method.getService() != getDescriptor()) {
+            throw new java.lang.IllegalArgumentException(
+              "Service.callBlockingMethod() given method descriptor for " +
+              "wrong service type.");
+          }
+          switch(method.getIndex()) {
+            case 0:
+              return impl.certify(controller, (Protocol.SenderController.CertifyRequest)request);
+            case 1:
+              return impl.newTask(controller, (Protocol.SenderController.NewTaskRequest)request);
+            case 2:
+              return impl.getMailList(controller, (Protocol.SenderController.GetMailListRequest)request);
+            case 3:
+              return impl.getMailStatus(controller, (Protocol.SenderController.GetMailStatusRequest)request);
+            default:
+              throw new java.lang.AssertionError("Can't get here.");
+          }
+        }
+        
+        public final com.google.protobuf.Message
+            getRequestPrototype(
+            com.google.protobuf.Descriptors.MethodDescriptor method) {
+          if (method.getService() != getDescriptor()) {
+            throw new java.lang.IllegalArgumentException(
+              "Service.getRequestPrototype() given method " +
+              "descriptor for wrong service type.");
+          }
+          switch(method.getIndex()) {
+            case 0:
+              return Protocol.SenderController.CertifyRequest.getDefaultInstance();
+            case 1:
+              return Protocol.SenderController.NewTaskRequest.getDefaultInstance();
+            case 2:
+              return Protocol.SenderController.GetMailListRequest.getDefaultInstance();
+            case 3:
+              return Protocol.SenderController.GetMailStatusRequest.getDefaultInstance();
+            default:
+              throw new java.lang.AssertionError("Can't get here.");
+          }
+        }
+        
+        public final com.google.protobuf.Message
+            getResponsePrototype(
+            com.google.protobuf.Descriptors.MethodDescriptor method) {
+          if (method.getService() != getDescriptor()) {
+            throw new java.lang.IllegalArgumentException(
+              "Service.getResponsePrototype() given method " +
+              "descriptor for wrong service type.");
+          }
+          switch(method.getIndex()) {
+            case 0:
+              return Protocol.SenderController.CertifyResponse.getDefaultInstance();
+            case 1:
+              return Protocol.SenderController.NewTaskResponse.getDefaultInstance();
+            case 2:
+              return Protocol.SenderController.GetMailListResponse.getDefaultInstance();
+            case 3:
+              return Protocol.SenderController.GetMailStatusResponse.getDefaultInstance();
+            default:
+              throw new java.lang.AssertionError("Can't get here.");
+          }
+        }
+        
+      };
+    }
+    
+    public abstract void certify(
+        com.google.protobuf.RpcController controller,
+        Protocol.SenderController.CertifyRequest request,
+        com.google.protobuf.RpcCallback<Protocol.SenderController.CertifyResponse> done);
+    
+    public abstract void newTask(
+        com.google.protobuf.RpcController controller,
+        Protocol.SenderController.NewTaskRequest request,
+        com.google.protobuf.RpcCallback<Protocol.SenderController.NewTaskResponse> done);
+    
+    public abstract void getMailList(
+        com.google.protobuf.RpcController controller,
+        Protocol.SenderController.GetMailListRequest request,
+        com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailListResponse> done);
+    
+    public abstract void getMailStatus(
+        com.google.protobuf.RpcController controller,
+        Protocol.SenderController.GetMailStatusRequest request,
+        com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done);
+    
+    public static final
+        com.google.protobuf.Descriptors.ServiceDescriptor
+        getDescriptor() {
+      return Protocol.SenderController.getDescriptor().getServices().get(0);
+    }
+    public final com.google.protobuf.Descriptors.ServiceDescriptor
+        getDescriptorForType() {
+      return getDescriptor();
+    }
+    
+    public final void callMethod(
+        com.google.protobuf.Descriptors.MethodDescriptor method,
+        com.google.protobuf.RpcController controller,
+        com.google.protobuf.Message request,
+        com.google.protobuf.RpcCallback<
+          com.google.protobuf.Message> done) {
+      if (method.getService() != getDescriptor()) {
+        throw new java.lang.IllegalArgumentException(
+          "Service.callMethod() given method descriptor for wrong " +
+          "service type.");
+      }
+      switch(method.getIndex()) {
+        case 0:
+          this.certify(controller, (Protocol.SenderController.CertifyRequest)request,
+            com.google.protobuf.RpcUtil.<Protocol.SenderController.CertifyResponse>specializeCallback(
+              done));
+          return;
+        case 1:
+          this.newTask(controller, (Protocol.SenderController.NewTaskRequest)request,
+            com.google.protobuf.RpcUtil.<Protocol.SenderController.NewTaskResponse>specializeCallback(
+              done));
+          return;
+        case 2:
+          this.getMailList(controller, (Protocol.SenderController.GetMailListRequest)request,
+            com.google.protobuf.RpcUtil.<Protocol.SenderController.GetMailListResponse>specializeCallback(
+              done));
+          return;
+        case 3:
+          this.getMailStatus(controller, (Protocol.SenderController.GetMailStatusRequest)request,
+            com.google.protobuf.RpcUtil.<Protocol.SenderController.GetMailStatusResponse>specializeCallback(
+              done));
+          return;
+        default:
+          throw new java.lang.AssertionError("Can't get here.");
+      }
+    }
+    
+    public final com.google.protobuf.Message
+        getRequestPrototype(
+        com.google.protobuf.Descriptors.MethodDescriptor method) {
+      if (method.getService() != getDescriptor()) {
+        throw new java.lang.IllegalArgumentException(
+          "Service.getRequestPrototype() given method " +
+          "descriptor for wrong service type.");
+      }
+      switch(method.getIndex()) {
+        case 0:
+          return Protocol.SenderController.CertifyRequest.getDefaultInstance();
+        case 1:
+          return Protocol.SenderController.NewTaskRequest.getDefaultInstance();
+        case 2:
+          return Protocol.SenderController.GetMailListRequest.getDefaultInstance();
+        case 3:
+          return Protocol.SenderController.GetMailStatusRequest.getDefaultInstance();
+        default:
+          throw new java.lang.AssertionError("Can't get here.");
+      }
+    }
+    
+    public final com.google.protobuf.Message
+        getResponsePrototype(
+        com.google.protobuf.Descriptors.MethodDescriptor method) {
+      if (method.getService() != getDescriptor()) {
+        throw new java.lang.IllegalArgumentException(
+          "Service.getResponsePrototype() given method " +
+          "descriptor for wrong service type.");
+      }
+      switch(method.getIndex()) {
+        case 0:
+          return Protocol.SenderController.CertifyResponse.getDefaultInstance();
+        case 1:
+          return Protocol.SenderController.NewTaskResponse.getDefaultInstance();
+        case 2:
+          return Protocol.SenderController.GetMailListResponse.getDefaultInstance();
+        case 3:
+          return Protocol.SenderController.GetMailStatusResponse.getDefaultInstance();
+        default:
+          throw new java.lang.AssertionError("Can't get here.");
+      }
+    }
+    
+    public static Stub newStub(
+        com.google.protobuf.RpcChannel channel) {
+      return new Stub(channel);
+    }
+    
+    public static final class Stub extends Protocol.SenderController.SenderHandler implements Interface {
+      private Stub(com.google.protobuf.RpcChannel channel) {
+        this.channel = channel;
+      }
+      
+      private final com.google.protobuf.RpcChannel channel;
+      
+      public com.google.protobuf.RpcChannel getChannel() {
+        return channel;
+      }
+      
+      public  void certify(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.CertifyRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.CertifyResponse> done) {
+        channel.callMethod(
+          getDescriptor().getMethods().get(0),
+          controller,
+          request,
+          Protocol.SenderController.CertifyResponse.getDefaultInstance(),
+          com.google.protobuf.RpcUtil.generalizeCallback(
+            done,
+            Protocol.SenderController.CertifyResponse.class,
+            Protocol.SenderController.CertifyResponse.getDefaultInstance()));
+      }
+      
+      public  void newTask(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.NewTaskRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.NewTaskResponse> done) {
+        channel.callMethod(
+          getDescriptor().getMethods().get(1),
+          controller,
+          request,
+          Protocol.SenderController.NewTaskResponse.getDefaultInstance(),
+          com.google.protobuf.RpcUtil.generalizeCallback(
+            done,
+            Protocol.SenderController.NewTaskResponse.class,
+            Protocol.SenderController.NewTaskResponse.getDefaultInstance()));
+      }
+      
+      public  void getMailList(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailListRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailListResponse> done) {
+        channel.callMethod(
+          getDescriptor().getMethods().get(2),
+          controller,
+          request,
+          Protocol.SenderController.GetMailListResponse.getDefaultInstance(),
+          com.google.protobuf.RpcUtil.generalizeCallback(
+            done,
+            Protocol.SenderController.GetMailListResponse.class,
+            Protocol.SenderController.GetMailListResponse.getDefaultInstance()));
+      }
+      
+      public  void getMailStatus(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailStatusRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done) {
+        channel.callMethod(
+          getDescriptor().getMethods().get(3),
+          controller,
+          request,
+          Protocol.SenderController.GetMailStatusResponse.getDefaultInstance(),
+          com.google.protobuf.RpcUtil.generalizeCallback(
+            done,
+            Protocol.SenderController.GetMailStatusResponse.class,
+            Protocol.SenderController.GetMailStatusResponse.getDefaultInstance()));
+      }
+    }
+    
+    public static BlockingInterface newBlockingStub(
+        com.google.protobuf.BlockingRpcChannel channel) {
+      return new BlockingStub(channel);
+    }
+    
+    public interface BlockingInterface {
+      public Protocol.SenderController.CertifyResponse certify(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.CertifyRequest request)
+          throws com.google.protobuf.ServiceException;
+      
+      public Protocol.SenderController.NewTaskResponse newTask(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.NewTaskRequest request)
+          throws com.google.protobuf.ServiceException;
+      
+      public Protocol.SenderController.GetMailListResponse getMailList(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailListRequest request)
+          throws com.google.protobuf.ServiceException;
+      
+      public Protocol.SenderController.GetMailStatusResponse getMailStatus(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailStatusRequest request)
+          throws com.google.protobuf.ServiceException;
+    }
+    
+    private static final class BlockingStub implements BlockingInterface {
+      private BlockingStub(com.google.protobuf.BlockingRpcChannel channel) {
+        this.channel = channel;
+      }
+      
+      private final com.google.protobuf.BlockingRpcChannel channel;
+      
+      public Protocol.SenderController.CertifyResponse certify(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.CertifyRequest request)
+          throws com.google.protobuf.ServiceException {
+        return (Protocol.SenderController.CertifyResponse) channel.callBlockingMethod(
+          getDescriptor().getMethods().get(0),
+          controller,
+          request,
+          Protocol.SenderController.CertifyResponse.getDefaultInstance());
+      }
+      
+      
+      public Protocol.SenderController.NewTaskResponse newTask(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.NewTaskRequest request)
+          throws com.google.protobuf.ServiceException {
+        return (Protocol.SenderController.NewTaskResponse) channel.callBlockingMethod(
+          getDescriptor().getMethods().get(1),
+          controller,
+          request,
+          Protocol.SenderController.NewTaskResponse.getDefaultInstance());
+      }
+      
+      
+      public Protocol.SenderController.GetMailListResponse getMailList(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailListRequest request)
+          throws com.google.protobuf.ServiceException {
+        return (Protocol.SenderController.GetMailListResponse) channel.callBlockingMethod(
+          getDescriptor().getMethods().get(2),
+          controller,
+          request,
+          Protocol.SenderController.GetMailListResponse.getDefaultInstance());
+      }
+      
+      
+      public Protocol.SenderController.GetMailStatusResponse getMailStatus(
+          com.google.protobuf.RpcController controller,
+          Protocol.SenderController.GetMailStatusRequest request)
+          throws com.google.protobuf.ServiceException {
+        return (Protocol.SenderController.GetMailStatusResponse) channel.callBlockingMethod(
+          getDescriptor().getMethods().get(3),
+          controller,
+          request,
+          Protocol.SenderController.GetMailStatusResponse.getDefaultInstance());
+      }
+      
+    }
   }
   
   private static com.google.protobuf.Descriptors.Descriptor
@@ -3215,6 +2976,8 @@ public final class SenderController {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         }, assigner);
   }
+  
+  public static void internalForceInit() {}
   
   // @@protoc_insertion_point(outer_class_scope)
 }
