@@ -19,7 +19,7 @@ public class Controller {
 	public static void main(String ar[]) throws TTransportException
 	{
 		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
-		//Controller.Sender_Server.registerService(CalcService.newReflectiveService(new CalculatorServiceImpl()));
+		Controller.Sender_Server.registerService(Protocol.SenderController.SenderHandler.newReflectiveService(new CalculatorServiceImpl()));
 		Controller.Sender_Server.serve(new InetSocketAddress(7004));
 
 		final TNonblockingServerSocket socket = new TNonblockingServerSocket(9099);
