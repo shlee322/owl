@@ -11,10 +11,10 @@ message CertifyResponse {
 }
 
 message NewTaskRequest {
+    required int64 TaskId = 1;
 }
 
 message NewTaskResponse {
-    required int64 TaskId = 1;
 }
 
 message GetMailListRequest {

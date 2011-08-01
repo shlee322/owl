@@ -651,26 +651,15 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_NewTaskRequest_fieldAccessorTable;
     }
     
-    // required int64 TaskId = 1;
-    public static final int TASKID_FIELD_NUMBER = 1;
-    private boolean hasTaskId;
-    private long taskId_ = 0L;
-    public boolean hasTaskId() { return hasTaskId; }
-    public long getTaskId() { return taskId_; }
-    
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasTaskId) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasTaskId()) {
-        output.writeInt64(1, getTaskId());
-      }
       getUnknownFields().writeTo(output);
     }
     
@@ -680,10 +669,6 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasTaskId()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, getTaskId());
-      }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
@@ -842,9 +827,6 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.NewTaskRequest other) {
         if (other == Protocol.SenderController.NewTaskRequest.getDefaultInstance()) return this;
-        if (other.hasTaskId()) {
-          setTaskId(other.getTaskId());
-        }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
       }
@@ -870,32 +852,10 @@ public final class SenderController {
               }
               break;
             }
-            case 8: {
-              setTaskId(input.readInt64());
-              break;
-            }
           }
         }
       }
       
-      
-      // required int64 TaskId = 1;
-      public boolean hasTaskId() {
-        return result.hasTaskId();
-      }
-      public long getTaskId() {
-        return result.getTaskId();
-      }
-      public Builder setTaskId(long value) {
-        result.hasTaskId = true;
-        result.taskId_ = value;
-        return this;
-      }
-      public Builder clearTaskId() {
-        result.hasTaskId = false;
-        result.taskId_ = 0L;
-        return this;
-      }
       
       // @@protoc_insertion_point(builder_scope:NewTaskRequest)
     }
@@ -936,15 +896,26 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_NewTaskResponse_fieldAccessorTable;
     }
     
+    // required int64 TaskId = 1;
+    public static final int TASKID_FIELD_NUMBER = 1;
+    private boolean hasTaskId;
+    private long taskId_ = 0L;
+    public boolean hasTaskId() { return hasTaskId; }
+    public long getTaskId() { return taskId_; }
+    
     private void initFields() {
     }
     public final boolean isInitialized() {
+      if (!hasTaskId) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (hasTaskId()) {
+        output.writeInt64(1, getTaskId());
+      }
       getUnknownFields().writeTo(output);
     }
     
@@ -954,6 +925,10 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
+      if (hasTaskId()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, getTaskId());
+      }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
       return size;
@@ -1112,6 +1087,9 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.NewTaskResponse other) {
         if (other == Protocol.SenderController.NewTaskResponse.getDefaultInstance()) return this;
+        if (other.hasTaskId()) {
+          setTaskId(other.getTaskId());
+        }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
       }
@@ -1137,10 +1115,32 @@ public final class SenderController {
               }
               break;
             }
+            case 8: {
+              setTaskId(input.readInt64());
+              break;
+            }
           }
         }
       }
       
+      
+      // required int64 TaskId = 1;
+      public boolean hasTaskId() {
+        return result.hasTaskId();
+      }
+      public long getTaskId() {
+        return result.getTaskId();
+      }
+      public Builder setTaskId(long value) {
+        result.hasTaskId = true;
+        result.taskId_ = value;
+        return this;
+      }
+      public Builder clearTaskId() {
+        result.hasTaskId = false;
+        result.taskId_ = 0L;
+        return this;
+      }
       
       // @@protoc_insertion_point(builder_scope:NewTaskResponse)
     }
@@ -2884,8 +2884,8 @@ public final class SenderController {
     java.lang.String[] descriptorData = {
       "\n\016Protocol.proto\",\n\016CertifyRequest\022\014\n\004ke" +
       "y1\030\001 \002(\t\022\014\n\004key2\030\002 \002(\t\"!\n\017CertifyRespons" +
-      "e\022\016\n\006result\030\001 \002(\010\" \n\016NewTaskRequest\022\016\n\006T" +
-      "askId\030\001 \002(\003\"\021\n\017NewTaskResponse\"$\n\022GetMai" +
+      "e\022\016\n\006result\030\001 \002(\010\"\020\n\016NewTaskRequest\"!\n\017N" +
+      "ewTaskResponse\022\016\n\006TaskId\030\001 \002(\003\"$\n\022GetMai" +
       "lListRequest\022\016\n\006TaskId\030\001 \002(\003\"I\n\023GetMailL" +
       "istResponse\022\016\n\006TaskId\030\001 \002(\003\022\021\n\tAddressId" +
       "\030\002 \002(\003\022\017\n\007Address\030\003 \002(\t\"G\n\024GetMailStatus" +
@@ -2925,7 +2925,7 @@ public final class SenderController {
           internal_static_NewTaskRequest_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_NewTaskRequest_descriptor,
-              new java.lang.String[] { "TaskId", },
+              new java.lang.String[] { },
               Protocol.SenderController.NewTaskRequest.class,
               Protocol.SenderController.NewTaskRequest.Builder.class);
           internal_static_NewTaskResponse_descriptor =
@@ -2933,7 +2933,7 @@ public final class SenderController {
           internal_static_NewTaskResponse_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_NewTaskResponse_descriptor,
-              new java.lang.String[] { },
+              new java.lang.String[] { "TaskId", },
               Protocol.SenderController.NewTaskResponse.class,
               Protocol.SenderController.NewTaskResponse.Builder.class);
           internal_static_GetMailListRequest_descriptor =
