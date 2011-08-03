@@ -19,6 +19,7 @@ using Thrift.Protocol;
 using Thrift.Server;
 using Thrift.Transport;
 using contorlApi;
+using PerfCounterChart;
 
 namespace client
 {
@@ -39,10 +40,17 @@ namespace client
             return encoding.GetBytes(str);
         }
 
-        public LineGraph create()
+        private LineGraph CreatePerformanceGraph(string categoryName, string counterName)
         {
-            
-           // LineGraph chart = plotter.AddLineGraph();
+            PerformanceData data = new PerformanceData(categoryName, counterName);
+
+            var filteredData = new FilteringDataSource<PerformanceInfo>(data, new MaxSizeFilter());
+
+            var ds = new EnumerableDataSource<PerformanceInfo>(filteredData);
+            ds.SetXMapping(pi => pi.Time.TimeOfDay.TotalSeconds);
+            ds.SetYMapping(pi => pi.Value);
+
+            LineGraph chart = plotter.AddLineGraph(ds, 2.0, String.Format("{0} - {1}", categoryName, counterName));
             return chart;
         }
 
@@ -75,7 +83,18 @@ namespace client
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            
+
+            LineGraph chart = CreatePerformanceGraph("Memory", "Available MBytes");
+            chart.DataChanged += new EventHandler(chart_DataChanged);
+        }
+
+        void chart_DataChanged(object sender, EventArgs e)
+        {
+            LineGraph graph = (LineGraph)sender;
+
+            double mbytes = graph.DataSource.GetPoints().LastOrDefault().Y;
+
+            graph.Description = new PenDescription(String.Format("Memory - available {0} MBytes", mbytes));
         }
     }
 }

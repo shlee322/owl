@@ -16,3 +16,21 @@ c:\users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\D
 c:\users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll
 C:\Users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\Thrift.dll
 C:\Users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\Thrift.pdb
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\client.exe
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\client.pdb
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\MainWindow.baml
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\MainWindow.g.cs
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\App.g.cs
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\client_MarkupCompile.cache
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\client.g.resources
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\client.Properties.Resources.resources
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\bin\Debug\client.exe
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\bin\Debug\client.pdb
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\bin\Debug\DynamicDataDisplay.dll
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\bin\Debug\Thrift.dll
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\bin\Debug\DynamicDataDisplay.xml
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\bin\Debug\Thrift.pdb
+C:\Users\stephan\Desktop\owl\test\temporary_client\client\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll

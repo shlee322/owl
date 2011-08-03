@@ -64,7 +64,11 @@
     </ApplicationDefinition>
     <Compile Include="contolExeption.cs" />
     <Compile Include="controlApi.cs" />
+    <Compile Include="FilteringDataSource.cs" />
+    <Compile Include="Filters.cs" />
+    <Compile Include="IFilter.cs" />
     <Compile Include="mailSet.cs" />
+    <Compile Include="PerformanceDataSource.cs" />
     <Compile Include="ServiceStatus.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
