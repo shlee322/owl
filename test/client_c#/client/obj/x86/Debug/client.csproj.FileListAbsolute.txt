@@ -18,3 +18,17 @@ C:\Users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\T
 C:\Users\stephan\documents\visual studio 2010\Projects\client\client\bin\Debug\Thrift.pdb
 C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.exe
 C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.pdb
+C:\Users\이상혁\Projects\owl\test\client_c#\client\bin\Debug\client.exe
+C:\Users\이상혁\Projects\owl\test\client_c#\client\bin\Debug\client.pdb
+C:\Users\이상혁\Projects\owl\test\client_c#\client\bin\Debug\DynamicDataDisplay.xml
+C:\Users\이상혁\Projects\owl\test\client_c#\client\bin\Debug\Thrift.pdb
+C:\Users\이상혁\Projects\owl\test\client_c#\client\bin\Debug\ru-ru\DynamicDataDisplay.resources.dll
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\MainWindow.baml
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\MainWindow.g.cs
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\App.g.cs
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client_MarkupCompile.cache
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.g.resources
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.Properties.Resources.resources
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\GenerateResource.write.1.tlog

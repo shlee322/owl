@@ -67,121 +67,26 @@ public class Sender {
 			new TaskThread().start();
 		
 		Monitoring.Run();
+
+		/*
 		
-		
-		
-		System.out.println("처占쏙옙 占쏙옙占쏙옙占쏙옙 占쌔븝옙 占싹뤄옙");
-		
-		System.out.print("占쏙옙占쏙옙:");
-		System.out.println(System.currentTimeMillis());
-		
-		Task task = new Task(1, "test@laeradr.com", "占쌓쏙옙트","占쌓쏙옙트占쌉니댐옙.");
+		Task task = new Task(1, "test@laeradr.com", "대용량 메일 전송 테스트입니다.","본 이메일의 수신을 원지 않으시면 돈좀...");
 		try {
-			for(int i=0; i<100; i++)
-				Sender.Connect.put(new Connect(task, 1, "shlee322@gmail.com"));
+			for(int i=0; i<10000; i++)
+			{
+				Sender.Connect.put(new Connect(task, 1, "poweroyh@naver.com"));
+				Sender.Connect.put(new Connect(task, 2, "jaugr@jagur.kr"));
+				Sender.Connect.put(new Connect(task, 3, "xoul@joyfl.kr"));
+				Sender.Connect.put(new Connect(task, 4, "pd@viewide.kr"));
+				Sender.Connect.put(new Connect(task, 5, "jhoney510@gmail.com"));
+				Sender.Connect.put(new Connect(task, 6, "toori67@gmail.com"));
+				Sender.Connect.put(new Connect(task, 7, "junzang01@naver.com"));
+			}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-		/*
-		while(true)
-		{//
-			try {
-				Sender.Socket = new Socket("127.0.0.1", 7004);
-				InputStream in = Sender.Socket.getInputStream();
-				Sender.out = Sender.Socket.getOutputStream();
-				
-				byte []buffer = new byte[1024];
-				String string_buffer="";
-				int len;
-				
-				out.write("Prove\1abcdefg\1test\0".getBytes());
-				
-				while(true)
-				{
-					len = in.read(buffer);
-					String string = new String(buffer, 0, len);//占쏙옙占쏙옙 占쌓놂옙 占쏙옙占쌜몌옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙.
-					string = string_buffer + string;
-					String[] Packet = string.split("\0");
-					
-					int count = Packet.length;
-					if(buffer[len-1]!=0)
-					{
-						count -= 1;
-						string_buffer += Packet[count];
-					}
-					
-					for(int i=0; i<count; i++)
-						Processing(Packet[i]);
-				}
-				in.close();
-				Sender.Socket.close();
-			} catch (UnknownHostException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
 		*/
-		
-		
-		
-		
-		
-		
-		
-		
-		/*
-		class BThread extends Thread
-		{
-		    public void run()
-		    {
-				//占쌓쏙옙트
-				Task task = new Task(1, "test@laeradr.com", "占쌓쏙옙트","占쌓쏙옙트占쌉니댐옙.");
-
-		    	for(int i=0; i<20; i++)
-		    	{
-		    		//try {
-			    		try {
-							//Sender.Connect.put(new Connect(task, 1, "poweroyh@naver.com"));
-							//Sender.Connect.put(new Connect(task, 1, "sungeun1990@naver.com"));
-							Sender.Connect.put(new Connect(task, 1, "shlee940322@naver.com"));
-							//Sender.Connect.put(new Connect(task, 1, "joseph4u@naver.com"));
-						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
-			    		
-		    			//Thread.sleep(0);
-		    		//} catch (InterruptedException e) {
-		    			// TODO Auto-generated catch block
-		    		//	e.printStackTrace();
-		    		//}
-		    	}
-		    }
-		}
-		
-		new BThread().start();
-		
-    	Connect c = null;
-    	while(true)
-    	{
-    		c = Sender.Connect.poll();
-    		if(c!=null)
-    			c.Send();
-    		try {
-    			Thread.sleep(0);
-    		} catch (InterruptedException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		}
-    	}
-    	
-    	
-    	
-//*/
 	}
 	
 	public static DNS GetDNS(String Host)
