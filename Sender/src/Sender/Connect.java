@@ -1,4 +1,4 @@
-//½ÃÀÛ : 2011-07-15 15:00
+//ï¿½ï¿½ï¿½ï¿½ : 2011-07-15 15:00
 package Sender;
 
 import java.io.*;
@@ -20,22 +20,14 @@ public class Connect {
 		this.Mail = Mail;
 	}
 	
-	public boolean Send()
+	public boolean Send(String ip, int port)
 	{
-		System.out.print(Thread.currentThread().getName() + " ÁØºñ:");
-		System.out.println(System.currentTimeMillis());
-		
 		int hoststart = this.Mail.indexOf("@");
 		String User = this.Mail.substring(0, hoststart);
 		String Host = this.Mail.substring(hoststart+1);
-		
-		System.out.print(Thread.currentThread().getName() + " DNS ±¸ÇÏ±â:");
-		System.out.println(System.currentTimeMillis());
+
 		DNS dns = Sender.GetDNS(Host);
-		
-		System.out.print(Thread.currentThread().getName() + " DNS ±¸ÇÏ±â ¿Ï·á:");
-		System.out.println(System.currentTimeMillis());
-		
+
 		Socket socket;
 		
 		boolean send = false;
@@ -43,7 +35,6 @@ public class Connect {
 		for (Server server : dns.Server) {
 			try {
 					socket = new Socket(server.Host, 25);
-					//server.Address = socket.getInetAddress();
 			} catch (Exception e) {
 				e.printStackTrace();
 				continue;
@@ -60,8 +51,7 @@ public class Connect {
 	            
 	            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
 	            	continue;
-	            
-	            //¿¹¿Ü ÀÏ¶§ Ã³¸® Â÷ÈÄ ¼öÁ¤
+
 	            if(!this.SendCmd("HELO", "250"))
 	            	continue;
 	            
@@ -76,8 +66,7 @@ public class Connect {
 	            }
 
 	            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message));
-	            
-	            //out.println(this.Task.Message);
+
 	            if(!this.SendCmd(".", "250"))
 	            {
 	            
@@ -86,21 +75,18 @@ public class Connect {
 	            
 	            socket.close();
 	            send = true;
-	    		System.out.print(Thread.currentThread().getName() + " Àü¼Û:");
-	    		System.out.println(System.currentTimeMillis());
 	    		break;
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
 		
-		try {
-			if(!send)
-				Sender.Connect.put(this);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//try {
+			//if(!send)
+			//	Sender.Connect.put(this);
+		//} catch (InterruptedException e) {
+			//e.printStackTrace();
+		//}
 		
 		return true;
 	}
@@ -115,6 +101,11 @@ public class Connect {
 			e.printStackTrace();
 			return false;
 		}
-		return Msg.substring(0, Msg.indexOf(" ")).equals(S);
+		boolean r = Msg.substring(0, Msg.indexOf(" ")).equals(S);
+		if(!r)
+		{
+			System.out.println(Msg);
+		}
+		return r;
 	}
 }
