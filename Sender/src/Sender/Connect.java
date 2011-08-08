@@ -22,63 +22,68 @@ public class Connect {
 	
 	public boolean Send(String ip, int port)
 	{
-		int hoststart = this.Mail.indexOf("@");
-		String User = this.Mail.substring(0, hoststart);
-		String Host = this.Mail.substring(hoststart+1);
-
-		DNS dns = Sender.GetDNS(Host);
-
-		Socket socket;
-		
-		boolean send = false;
-
-		for (Server server : dns.Server) {
-			try {
-					socket = new Socket(server.Host, 25);
-			} catch (Exception e) {
-				e.printStackTrace();
-				continue;
-			}
+		try{
+			int hoststart = this.Mail.indexOf("@");
+			String User = this.Mail.substring(0, hoststart);
+			String Host = this.Mail.substring(hoststart+1);
+	
+			DNS dns = Sender.GetDNS(Host);
+	
+			Socket socket;
 			
-			try {
-				out = new PrintWriter(socket.getOutputStream(), true);
-	            in = new BufferedReader(
-	                                    new InputStreamReader(socket.getInputStream())
-	            );
-
-	            String Msg = in.readLine();
-	  
-	            
-	            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
-	            	continue;
-
-	            if(!this.SendCmd("HELO", "250"))
-	            	continue;
-	            
-	            if(!this.SendCmd(String.format("MAIL FROM:<%s>", this.Task.From), "250"))
-	            	continue;
-	            
-	            if(!this.SendCmd(String.format("RCPT TO:<%s>", this.Mail), "250"))
-	            	continue;
-
-	            if(!this.SendCmd("DATA", "354"))
-	            {
-	            }
-
-	            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message));
-
-	            if(!this.SendCmd(".", "250"))
-	            {
-	            
-	            }
-	            
-	            
-	            socket.close();
-	            send = true;
-	    		break;
-			} catch (IOException e) {
-				e.printStackTrace();
+			boolean send = false;
+	
+			for (Server server : dns.Server) {
+				try {
+						socket = new Socket(server.Host, 25);
+				} catch (Exception e) {
+					e.printStackTrace();
+					continue;
+				}
+				
+				try {
+					out = new PrintWriter(socket.getOutputStream(), true);
+		            in = new BufferedReader(
+		                                    new InputStreamReader(socket.getInputStream())
+		            );
+	
+		            String Msg = in.readLine();
+		  
+		            
+		            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
+		            	continue;
+	
+		            if(!this.SendCmd("HELO", "250"))
+		            	continue;
+		            
+		            if(!this.SendCmd(String.format("MAIL FROM:<%s>", this.Task.From), "250"))
+		            	continue;
+		            
+		            if(!this.SendCmd(String.format("RCPT TO:<%s>", this.Mail), "250"))
+		            	continue;
+	
+		            if(!this.SendCmd("DATA", "354"))
+		            {
+		            }
+	
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message));
+	
+		            if(!this.SendCmd(".", "250"))
+		            {
+		            
+		            }
+		            
+		            
+		            socket.close();
+		            send = true;
+		    		break;
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}
+		}catch (Exception e)
+		{
+			
 		}
 		
 		//try {

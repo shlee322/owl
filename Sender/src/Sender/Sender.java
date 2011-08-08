@@ -75,7 +75,7 @@ public class Sender {
 		int p = 7000;
 		for(int i=67; i<=126; i++)
 		{
-			for(int ii=0; ii<50; ii++)
+			for(int ii=0; ii<2; ii++)
 			{
 				new TaskThread(String.format("183.111.9.%d", i), p).start();
 				p++;
@@ -86,12 +86,14 @@ public class Sender {
 		
 		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
 		try {
-			for(int i=0; i<10; i++)
+			for(int i=0; i<100; i++)
 			{
 				Sender.Connect.put(new Connect(task, 1, "shlee940322@naver.com"));
-				
+				Sender.Connect.put(new Connect(task, 2, "poweroyh@naver.com"));
+				Sender.Connect.put(new Connect(task, 3, "poweroyh@gmail.com"));
+
 				/*
-				Sender.Connect.put(new Connect(task, 1, "poweroyh@naver.com"));
+				
 				Sender.Connect.put(new Connect(task, 2, "jaugr@jagur.kr"));
 				Sender.Connect.put(new Connect(task, 3, "xoul@joyfl.kr"));
 				Sender.Connect.put(new Connect(task, 4, "pd@viewide.kr"));
@@ -136,9 +138,9 @@ public class Sender {
 				 
 				 Data = line.split(" "); //Data[3] : 占쎌선占쏙옙占쏙옙, Data[7] : 占쏙옙占싹쇽옙占쏙옙
 				 Server server = new Server();
-				 System.out.println(Data[3]);
 				 server.ranking = Integer.parseInt(Data[3].substring(0, Data[3].length()-1));
-				 server.Host = Data[7];
+				 server.Host = Data[4].substring(0, Data[4].length() - 1);
+				 //System.out.println(server.ranking + " " + server.Host);
 				 MailServer.add(server);
 				 
 			 }
