@@ -85,9 +85,10 @@ public class Sender {
 		Monitoring.Run();
 		
 		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
+		
 		try {
-			for(int i=0; i<100; i++)
-			{
+			//for(int i=0; i<100; i++)
+			//{
 				Sender.Connect.put(new Connect(task, 1, "shlee940322@naver.com"));
 				Sender.Connect.put(new Connect(task, 2, "poweroyh@naver.com"));
 				Sender.Connect.put(new Connect(task, 3, "poweroyh@gmail.com"));
@@ -100,7 +101,7 @@ public class Sender {
 				Sender.Connect.put(new Connect(task, 5, "jhoney510@gmail.com"));
 				Sender.Connect.put(new Connect(task, 6, "toori67@gmail.com"));
 				Sender.Connect.put(new Connect(task, 7, "junzang01@naver.com"));*/
-			}
+			//}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

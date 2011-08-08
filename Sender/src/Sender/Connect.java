@@ -66,7 +66,7 @@ public class Connect {
 		            if(!this.SendCmd("DATA", "354"))
 		            	continue;
 	
-		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message));
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s<img src=\"http://www.owl.or.kr/read.php?key=%d\" width=\"0\" height=\"0\">\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, 123));
 	
 		            if(!this.SendCmd(".", "250"))
 		            	continue;
