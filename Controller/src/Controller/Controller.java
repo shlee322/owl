@@ -40,18 +40,22 @@ public class Controller {
 	public static void MonggoDB()
 	{
 		try{
-			Mongo m = new Mongo();
+			Mongo m = new Mongo("controller.owl.or.kr");
+			
+//			m.dropDatabase("test");
 
-			DB db = m.getDB( "mydb" );
+			DB db = m.getDB( "test" );
+
+			boolean auth = db.authenticate("owl","70210".toCharArray());
 
 			Set<String> colls = db.getCollectionNames();
 
 			for (String s : colls) {
 			    System.out.println(s);
 			}
+
 			
 			DBCollection coll = db.getCollection("testCollection");
-
 
 			BasicDBObject doc = new BasicDBObject();
 
@@ -67,6 +71,31 @@ public class Controller {
 	        doc.put("info", info);
 
 	        coll.insert(doc);
+	        
+	        DBObject myDoc = coll.findOne();
+	        System.out.println(myDoc);
+
+	        for (int i=0; i < 100; i++) {
+	            coll.insert(new BasicDBObject().append("i", i));
+	        }
+
+	        System.out.println(coll.getCount());
+
+	        DBCursor cur = coll.find();
+
+	        while(cur.hasNext()) {
+	            System.out.println(cur.next());
+	        }
+	        
+	        BasicDBObject query = new BasicDBObject();
+
+	        query.put("i", 71);
+
+	        cur = coll.find(query);
+
+	        while(cur.hasNext()) {
+	            System.out.println(cur.next());
+	        }
 
 		}
 		catch (Exception e) {
