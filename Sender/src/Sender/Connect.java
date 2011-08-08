@@ -48,10 +48,11 @@ public class Connect {
 		            );
 	
 		            String Msg = in.readLine();
-		  
 		            
+		            //IO에러는 다음 서버에 접속시도를 하고 SMTP서버쪽에서 에러를 던져주면 예외를 발생시킨다.
+
 		            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
-		            	continue;
+		            	throw new Exception(Msg);
 	
 		            if(!this.SendCmd("HELO", "250"))
 		            	continue;
@@ -63,16 +64,12 @@ public class Connect {
 		            	continue;
 	
 		            if(!this.SendCmd("DATA", "354"))
-		            {
-		            }
+		            	continue;
 	
 		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message));
 	
 		            if(!this.SendCmd(".", "250"))
-		            {
-		            
-		            }
-		            
+		            	continue;
 		            
 		            socket.close();
 		            send = true;
@@ -81,9 +78,11 @@ public class Connect {
 					e.printStackTrace();
 				}
 			}
+			if(!send)
+				throw new Exception("서버 접근 실패");
 		}catch (Exception e)
 		{
-			
+			//이제 이걸 컨트롤러쪽으로 던져주던지....
 		}
 		
 		//try {
@@ -96,7 +95,7 @@ public class Connect {
 		return true;
 	}
 	
-	boolean SendCmd(String Cmd, String S)
+	boolean SendCmd(String Cmd, String S) throws Exception
 	{
 		out.println(Cmd);
         String Msg;
@@ -108,9 +107,7 @@ public class Connect {
 		}
 		boolean r = Msg.substring(0, Msg.indexOf(" ")).equals(S);
 		if(!r)
-		{
-			System.out.println(Msg);
-		}
+			throw new Exception(Msg);
 		return r;
 	}
 }
