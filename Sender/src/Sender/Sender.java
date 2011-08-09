@@ -2,23 +2,16 @@ package Sender;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.SynchronousQueue;
-import java.net.*;
 /*
 import org.jboss.netty.channel.ChannelFactory;
 import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
@@ -48,8 +41,7 @@ public class Sender {
 		class TaskThread extends Thread
 		{
 			String ip;
-			int port;
-			
+
 			public TaskThread(String ip)
 			{
 				this.ip = ip;
@@ -62,7 +54,11 @@ public class Sender {
 		    	
 		    	while(true)
 		    	{
-		    		c = Sender.Connect.poll();
+		    		synchronized(Sender.Connect)
+		    		{
+		    			c = Sender.Connect.poll();
+		    		}
+		    		
 		    		if(c!=null)
 		    		{
 		    			c.Send(ip);
@@ -118,10 +114,12 @@ public class Sender {
 		
 		long time=System.currentTimeMillis()+5000;
 		
-		for(int i=0; i<100; i++)
+		//원래는 synchronized(Sender.Connect) 해줘야함
+
+		for(int i=0; i<1000; i++)
 		{
-			Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
-			Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
+    			Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
+    			Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
 			//Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
 		}
 		

@@ -75,6 +75,8 @@ public class Connect {
 		            
 		            socket.close();
 		            send = true;
+		            //System.out.println(String.format("전송성공 %d %s", System.currentTimeMillis(), this.Mail));
+		            Monitoring.test++;
 		    		break;
 				} catch (IOException e) {
 					e.printStackTrace();
