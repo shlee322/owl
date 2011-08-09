@@ -35,7 +35,7 @@ public class Connect {
 	
 			for (Server server : dns.Server) {
 				try {
-						socket = new Socket(server.Host, 25, InetAddress.getByName(ip), -1);
+					socket = new Socket(server.Host, 25, InetAddress.getByName(ip), 0);
 				} catch (Exception e) {
 					e.printStackTrace();
 					continue;
@@ -68,7 +68,7 @@ public class Connect {
 	
 		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
 		            //
-		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s<img src=\"http://www.owl.or.kr/read.php?key=%d\" width=\"0\" height=\"0\">\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, 123));
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s<img src=\"http://www.owl.or.kr/read.php?key=%s\" width=\"0\" height=\"0\">", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, "4.7.123"));
 	
 		            if(!this.SendCmd(".", "250"))
 		            	continue;
@@ -84,6 +84,7 @@ public class Connect {
 				throw new Exception("서버 접근 실패");
 		}catch (Exception e)
 		{
+			e.printStackTrace();
 			//이제 이걸 컨트롤러쪽으로 던져주던지....
 		}
 		

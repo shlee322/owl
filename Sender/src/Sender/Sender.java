@@ -73,12 +73,14 @@ public class Sender {
 		    			if(System.currentTimeMillis()>time+5000)
 		    			{
 		    				//스래드가 5초이상 놀고있구먼.
+		    				/*
 		    				try {
 								this.wait();
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
-							}
+							}*/
+		    				return;
 		    			}
 		    		}
 		    		
@@ -116,9 +118,12 @@ public class Sender {
 		
 		long time=System.currentTimeMillis()+5000;
 		
-		Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
-		Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
-		Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
+		for(int i=0; i<100; i++)
+		{
+			Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
+			Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
+			//Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
+		}
 		
 		
 		while(true)
