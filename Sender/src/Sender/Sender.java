@@ -111,18 +111,27 @@ public class Sender {
 		
 		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
 		
+		for(int i=0; i<10000000; i++)
+		{
+			Sender.Connect.offer(new Connect(task, 1, "jagur@jagur.kr"));
+    		//Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
+    		//Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
+			//Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
+		}
+		
 		
 		long time=System.currentTimeMillis()+5000;
 		
+		
 		//원래는 synchronized(Sender.Connect) 해줘야함
-
+/*
 		for(int i=0; i<1000; i++)
 		{
     			Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
     			Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
 			//Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
 		}
-		
+	*/	
 		
 		while(true)
 		{
@@ -184,6 +193,13 @@ public class Sender {
 			return null;
 		}
 		
+		try {
+			p.waitFor();
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
 		BufferedReader reader=new BufferedReader(new InputStreamReader(p.getInputStream()));
 		String line = null;
 		String []Data;
@@ -202,11 +218,12 @@ public class Sender {
 				 server.Host = Data[4].substring(0, Data[4].length() - 1);
 				 //System.out.println(server.ranking + " " + server.Host);
 				 MailServer.add(server);
-				 
 			 }
+			reader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 		 
 		 Comparator<Server> comparator = new Comparator<Server>() {
 			 @Override

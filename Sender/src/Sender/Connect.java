@@ -68,15 +68,15 @@ public class Connect {
 	
 		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
 		            //
-		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s<img src=\"http://www.owl.or.kr/read.php?key=%s\" width=\"0\" height=\"0\">", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, "4.7.123"));
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n%s<img src=\"http://www.owl.or.kr/read.php?key=%s\" width=\"0\" height=\"0\">\n", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, "4.7.123"));
 	
 		            if(!this.SendCmd(".", "250"))
 		            	continue;
-		            
+		            out.println("quit");
 		            socket.close();
 		            send = true;
 		            //System.out.println(String.format("전송성공 %d %s", System.currentTimeMillis(), this.Mail));
-		            Monitoring.test++;
+		            Monitoring.sendcount++;
 		    		break;
 				} catch (IOException e) {
 					e.printStackTrace();
@@ -113,6 +113,6 @@ public class Connect {
 		boolean r = Msg.substring(0, Msg.indexOf(" ")).equals(S);
 		if(!r)
 			throw new Exception(Msg);
-		return r;
+		return true;
 	}
 }
