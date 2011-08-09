@@ -10,7 +10,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.SynchronousQueue;
@@ -27,7 +31,7 @@ import Protocol.SenderController.SenderHandler.Stub;
 public class Sender {
 	public static HashMap <String, DNS> DNS_Cache;
 	//public static HashMap<long, Task> TaskList;
-	public static SynchronousQueue<Connect> Connect;
+	public static Queue<Connect> Connect;
 	
 	//private static NettyRpcClient client;
 	
@@ -37,7 +41,7 @@ public class Sender {
 	{
 		Sender.DNS_Cache = new HashMap<String, DNS>();
 		//Sender.DNS_Cache.
-		Sender.Connect = new SynchronousQueue<Connect>();
+		Sender.Connect = new LinkedList<Connect>();
 		
 		ExecutorService executorService = Executors.newFixedThreadPool(2950);
 
@@ -112,14 +116,9 @@ public class Sender {
 		
 		long time=System.currentTimeMillis()+5000;
 		
-		try {
-			Sender.Connect.put(new Connect(task, 1, "shlee940322@naver.com"));
-			Sender.Connect.put(new Connect(task, 2, "poweroyh@naver.com"));
-			Sender.Connect.put(new Connect(task, 3, "poweroyh@gmail.com"));
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
+		Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
+		Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
 		
 		
 		while(true)
@@ -128,7 +127,7 @@ public class Sender {
 			if(System.currentTimeMillis()>time)
 			{
 				time=System.currentTimeMillis()+5000;
-				if(Sender.Connect.size()==0)
+				if(Sender.Connect.size()>0)
 				{
 					for(int i=67; i<=126; i++)
 					{
