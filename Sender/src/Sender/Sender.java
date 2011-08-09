@@ -11,6 +11,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.SynchronousQueue;
 import java.net.*;
@@ -30,30 +31,52 @@ public class Sender {
 	
 	//private static NettyRpcClient client;
 	
+	static ExecutorService executorService;
+	
 	public static void main(String ar[])
 	{
 		Sender.DNS_Cache = new HashMap<String, DNS>();
 		//Sender.DNS_Cache.
 		Sender.Connect = new SynchronousQueue<Connect>();
 		
+		ExecutorService executorService = Executors.newFixedThreadPool(2950);
+
 		class TaskThread extends Thread
 		{
 			String ip;
 			int port;
 			
-			public TaskThread(String ip, int port)
+			public TaskThread(String ip)
 			{
 				this.ip = ip;
-				this.port = port;
 			}
+			
 		    public void run()
 		    {
 		    	Connect c = null;
+		    	long time=System.currentTimeMillis();
+		    	
 		    	while(true)
 		    	{
 		    		c = Sender.Connect.poll();
 		    		if(c!=null)
-		    			c.Send(ip, port);
+		    		{
+		    			c.Send(ip);
+		    			time = System.currentTimeMillis();
+		    		}
+		    		else
+		    		{
+		    			if(System.currentTimeMillis()>time+5000)
+		    			{
+		    				//스래드가 5초이상 놀고있구먼.
+		    				try {
+								this.wait();
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+		    			}
+		    		}
 		    		
 		    		try {
 		    			Thread.sleep(0);
@@ -64,6 +87,7 @@ public class Sender {
 		    	}
 		    }
 		}
+		
 		/*
 		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("localhost", 7004));
@@ -72,17 +96,36 @@ public class Sender {
 		Protocol.SenderController.SenderHandler.Interface blockingService = (Interface) Protocol.SenderController.SenderHandler.newBlockingStub(channel);
 		*/
 		
+		/*
 		int p = 7000;
 		for(int i=67; i<=126; i++)
 		{
 			for(int ii=0; ii<2; ii++)
 			{
-				new TaskThread(String.format("183.111.9.%d", i), p).start();
+				executorService.execute(new TaskThread(String.format("183.111.9.%d", i), p));//.start();
 				p++;
+			}
+		}*/
+		
+		long time=System.currentTimeMillis()+5000;
+		
+		while(true)
+		{
+			Monitoring.Run();
+			if(System.currentTimeMillis()>time)
+			{
+				time=System.currentTimeMillis()+5000;
+				if(Sender.Connect.size()==0)
+				{
+					for(int i=67; i<=126; i++)
+					{
+							executorService.execute(new TaskThread(String.format("183.111.9.%d", i)));//.start();
+					}
+				}
 			}
 		}
 		
-		Monitoring.Run();
+		/*
 		
 		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
 		
@@ -102,10 +145,11 @@ public class Sender {
 				Sender.Connect.put(new Connect(task, 6, "toori67@gmail.com"));
 				Sender.Connect.put(new Connect(task, 7, "junzang01@naver.com"));*/
 			//}
+		/*
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 	}
 	
 	public static DNS GetDNS(String Host)

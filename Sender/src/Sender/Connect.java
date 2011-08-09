@@ -20,7 +20,7 @@ public class Connect {
 		this.Mail = Mail;
 	}
 	
-	public boolean Send(String ip, int port)
+	public boolean Send(String ip)
 	{
 		try{
 			int hoststart = this.Mail.indexOf("@");
@@ -66,6 +66,8 @@ public class Connect {
 		            if(!this.SendCmd("DATA", "354"))
 		            	continue;
 	
+		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
+		            //
 		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s<img src=\"http://www.owl.or.kr/read.php?key=%d\" width=\"0\" height=\"0\">\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, 123));
 	
 		            if(!this.SendCmd(".", "250"))
