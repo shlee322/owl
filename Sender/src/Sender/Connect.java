@@ -35,7 +35,7 @@ public class Connect {
 	
 			for (Server server : dns.Server) {
 				try {
-						socket = new Socket(server.Host, 25);
+						socket = new Socket(server.Host, 25, InetAddress.getByName(ip), -1);
 				} catch (Exception e) {
 					e.printStackTrace();
 					continue;

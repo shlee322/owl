@@ -107,7 +107,20 @@ public class Sender {
 			}
 		}*/
 		
+		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
+		
+		
 		long time=System.currentTimeMillis()+5000;
+		
+		try {
+			Sender.Connect.put(new Connect(task, 1, "shlee940322@naver.com"));
+			Sender.Connect.put(new Connect(task, 2, "poweroyh@naver.com"));
+			Sender.Connect.put(new Connect(task, 3, "poweroyh@gmail.com"));
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		
 		while(true)
 		{
