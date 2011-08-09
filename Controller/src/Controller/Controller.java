@@ -3,6 +3,7 @@ package Controller;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.Executors;
 
@@ -41,12 +42,12 @@ public class Controller {
 	{
 		try{
 			Mongo m = new Mongo("controller.owl.or.kr");
-			
-//			m.dropDatabase("test");
 
 			DB db = m.getDB( "test" );
 
 			boolean auth = db.authenticate("owl","70210".toCharArray());
+			
+			m.dropDatabase("test");
 
 			Set<String> colls = db.getCollectionNames();
 
@@ -89,12 +90,58 @@ public class Controller {
 	        
 	        BasicDBObject query = new BasicDBObject();
 
-	        query.put("i", 71);
+	        query.put("name", "MongoDB");
 
 	        cur = coll.find(query);
 
 	        while(cur.hasNext()) {
 	            System.out.println(cur.next());
+	        }
+	        
+	        BasicDBObject query2 = new BasicDBObject();
+
+	        query2.put("j", new BasicDBObject("$ne", 3));
+	        query2.put("k", new BasicDBObject("$gt", 10));
+
+	        cur = coll.find(query2);
+
+	        while(cur.hasNext()) {
+	            System.out.println(cur.next());
+	        }
+	        
+	        query = new BasicDBObject();
+
+	        query.put("i", new BasicDBObject("$gt", 50));  // e.g. find all where i > 50
+
+	        cur = coll.find(query);
+
+	        while(cur.hasNext()) {
+	            System.out.println(cur.next());
+	        }
+
+
+	        query = new BasicDBObject();
+
+	        query.put("i", new BasicDBObject("$gt", 20).append("$lte", 30));  // i.e.   20 < i <= 30
+
+	        cur = coll.find(query);
+
+	        while(cur.hasNext()) {
+	            System.out.println(cur.next());
+	        }
+	        
+	        coll.createIndex(new BasicDBObject("i", 1));  // create index on "i", ascending
+	        
+	        List<DBObject> list = coll.getIndexInfo();
+
+	        for (DBObject o : list) {
+	            System.out.println(o);
+	        }
+
+	        Mongo x = new Mongo();
+
+	        for (String s : x.getDatabaseNames()) {
+	            System.out.println(s);
 	        }
 
 		}
