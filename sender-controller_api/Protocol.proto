@@ -11,34 +11,62 @@ message CertifyResponse {
 }
 
 message NewTaskRequest {
+    required int64 Time = 1;
 }
 
 message NewTaskResponse {
-    required int64 TaskId = 1;
+    required int64 UserId = 1;
+    required int64 MailId = 2;
 }
 
 message GetMailListRequest {
-    required int64 TaskId = 1;
+    required int64 UserId = 1;
+    required int64 MailId = 2;
 }
 
 message GetMailListResponse {
-    required int64 TaskId = 1;
-    required int64 AddressId = 2;
-    required string Address = 3;
+    required int64 UserId = 1;
+    required int64 MailId = 2;
+    required int64 AddressId = 3;
+    required string Address = 4;
 }
 
 message GetMailStatusRequest {
-    required int64 TaskId = 1;
-    required int64 AddressId = 2;
-    required int32 code = 3;
+    required int64 UserId = 1;
+    required int64 MailId = 2;
+    required int64 AddressId = 3;
+    required int32 code = 4;
 }
 
 message GetMailStatusResponse {
 }
+
+message MonitoringRequest {
+    required double CPUus = 1;
+    required double CPUsy = 2;
+    required double CPUni = 3;
+    required double CPUid = 4;
+    required double CPUwa = 5;
+    required double CPUhi = 6;
+    required double CPUsi = 7;
+    required double CPUst = 8;
+    required int64 Memory = 9;
+    required double NetworkIn = 10;
+    required double NetworkOut = 11;
+    required int64 Thread = 12;
+    required int64 SendCount = 13;
+}
+
+message MonitoringResponse {
+}
+
+
+
 
 service SenderHandler {
     rpc Certify(CertifyRequest) returns (CertifyResponse);
     rpc NewTask(NewTaskRequest) returns (NewTaskResponse);
     rpc GetMailList(GetMailListRequest) returns (GetMailListResponse);
     rpc GetMailStatus(GetMailStatusRequest) returns (GetMailStatusResponse);
+    rpc Monitoring(MonitoringRequest) returns (MonitoringResponse);
 }
