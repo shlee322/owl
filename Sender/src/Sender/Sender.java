@@ -3,6 +3,7 @@ package Sender;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -12,21 +13,23 @@ import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-/*
+
 import org.jboss.netty.channel.ChannelFactory;
 import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
 
-import Protocol.SenderController.SenderHandler.Interface;
+import Protocol.SenderController.SenderHandler.BlockingInterface;
 import Protocol.SenderController.SenderHandler.Stub;
-*/
-//import com.googlecode.protobuf.netty.*;
-//�붾젆�좊━ �섏젙���섎뒗媛�
+
+import com.google.protobuf.RpcController;
+import com.googlecode.protobuf.netty.NettyRpcChannel;
+import com.googlecode.protobuf.netty.NettyRpcClient;
+
 public class Sender {
 	public static HashMap <String, DNS> DNS_Cache;
 	//public static HashMap<long, Task> TaskList;
 	public static Queue<Connect> Connect;
 	
-	//private static NettyRpcClient client;
+	private static NettyRpcClient client;
 	
 	static ExecutorService executorService;
 	
@@ -89,15 +92,13 @@ public class Sender {
 		    	}
 		    }
 		}
-		
-		/*
+/*
 		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
-		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("localhost", 7004));
-		
-		Stub calcService = Protocol.SenderController.SenderHandler.newStub(channel);
-		Protocol.SenderController.SenderHandler.Interface blockingService = (Interface) Protocol.SenderController.SenderHandler.newBlockingStub(channel);
-		*/
-		
+		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("controller.owl.or.kr", 7004));
+
+		BlockingInterface blockingCalcService = Protocol.SenderController.SenderHandler.newBlockingStub(channel);
+		RpcController controller = channel.newRpcController();
+*/
 		/*
 		int p = 7000;
 		for(int i=67; i<=126; i++)
@@ -116,7 +117,7 @@ public class Sender {
 			Sender.Connect.offer(new Connect(task, 1, "jagur@jagur.kr"));
     		//Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
     		//Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
-			//Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
+			Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
 		}
 		
 		

@@ -68,7 +68,7 @@ public class Connect {
 	
 		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
 		            //
-		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n%s<img src=\"http://www.owl.or.kr/read.php?key=%s\" width=\"0\" height=\"0\">\n", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, "4.7.123"));
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n%s<img src=\"http://www.owl.or.kr/read.php?user=%d&mail=%d&address=%d&key=%s\" width=\"0\" height=\"0\">\n", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, 4, 7, 11, "123"));
 	
 		            if(!this.SendCmd(".", "250"))
 		            	continue;

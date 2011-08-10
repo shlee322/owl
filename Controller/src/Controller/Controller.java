@@ -23,7 +23,7 @@ public class Controller {
 	static NettyRpcServer Sender_Server;
 	static TServer Client_Server;
 	public static void main(String ar[]) throws TTransportException
-	{/*
+	{
 		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		
 		Controller.Sender_Server.registerService(Protocol.SenderController.SenderHandler.newReflectiveService(new SenderHandler()));
@@ -32,7 +32,8 @@ public class Controller {
 		final TNonblockingServerSocket socket = new TNonblockingServerSocket(9099);
 		final controlApi.controlApi.Processor processor = new controlApi.controlApi.Processor(new ClientHandler());
 		Controller.Client_Server = new THsHaServer(processor, socket, new TFramedTransport.Factory(), new TBinaryProtocol.Factory());
-		Controller.Client_Server.serve();*/
+		Controller.Client_Server.serve();
+		
 		Controller.MonggoDB();
 		
 		//일단은 대충대충 만듬
