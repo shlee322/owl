@@ -37,17 +37,25 @@ public class Controller {
 		
 		//일단은 대충대충 만듬
 		MongoDB MongoDB = new MongoDB();
-		MongoDB.DBStart("jin7h");
-		//MongoDB.Del_User("poweroyh");
+		MongoDB.DBStart("poweroyh");
+		MongoDB.Del_User("poweroyh");
+		
 		MongoDB.Add_Group("SWmaestro");
 		MongoDB.Add_Person("SWmaestro", "오유환", "poweroyh@naver.com", "010-2563-7816");
 		MongoDB.Add_Person("SWmaestro", "이성민", "poweroyh@naver.com", "010-1111-2222");
 		MongoDB.Add_Person("SWmaestro", "이상혁", "poweroyh@naver.com", "010-3333-4444");
-		MongoDB.Add_Person("SWmaestro", "임성은", "ㅁㅁㄴㅇㅁㄴㅇ@naver.com", "010-2563-7816");
+		MongoDB.Add_Person("SWmaestro", "임성은", "ㅁㅁㄴㅇㅁㄴㅇ@naver.c.om", "010-2563-7816");
 		MongoDB.Add_Person("SWmaestro", "전수열", "poweroyh@naver.com", "1111-2222-7816");
 		MongoDB.Add_Person("SWmaestro", "김종헌", "poweroyh@naver.com", "010-2563-3333");
-		MongoDB.printResults();
+	//	MongoDB.printResults();
 		MongoDB.Add_Group("SWmaestro");
+		ArrayList<Person> PersonList = new ArrayList<Person>();
+		PersonList = MongoDB.Load_Group("SWmaestro");
+		
+		for (Person person : PersonList) {
+			System.out.println(person.Name);
+			
+		}
 		
 	}
 }
@@ -68,8 +76,8 @@ class MongoDB
 		m.dropDatabase(UserName);
 	}
 
-	//디비 시작
-	void DBStart(String User)
+	//디비 시작 (클라에서 로그온 했을때 무조건 이 메소드는 실행 해야함!)
+	boolean DBStart(String User)
 	{
 		try{
 			m = new Mongo("controller.owl.or.kr");
@@ -78,34 +86,45 @@ class MongoDB
 			db = m.getDB(UserName);
 	
 			boolean auth = db.authenticate("owl","70210".toCharArray());
+			return true;
 		}
 		catch (Exception e) {
-			// TODO: handle exception
+			return false;
 		}
 	}
 	
 	//그룹 추가
-	void Add_Group(String G_Name)
+	boolean Add_Group(String G_Name)
 	{
-		GroupName = UserName + "_" + G_Name;
-		
-		Set<String> colls = db.getCollectionNames();
-		
-		if(!colls.isEmpty())
+		try
 		{
-			if(db.collectionExists(GroupName))
+			GroupName = UserName + "_" + G_Name;
+			
+			Set<String> colls = db.getCollectionNames();
+			
+			if(!colls.isEmpty())
 			{
-				System.out.println("같은 그룹명 있음");
+				if(db.collectionExists(GroupName))
+				{
+					System.out.println("같은 그룹명 있음");
+					return true;
+				}
+				else
+				{
+					GroupColl = db.createCollection(GroupName, null);
+					return true;
+				}
 			}
 			else
 			{
 				GroupColl = db.createCollection(GroupName, null);
+				return true;
 			}
 		}
-		else
-		{
-			GroupColl = db.createCollection(GroupName, null);
+		catch (Exception e) {
+			return false;
 		}
+		
 	}
 	
 	//그룹 리스트 로드
@@ -125,9 +144,11 @@ class MongoDB
 			while (cur.hasNext())
 			{
 				Person P_Temp = new Person();
-				P_Temp.Name = (String) cur.curr().get("name");
-				P_Temp.Mail_Address = (String) cur.curr().get("mail");
-				P_Temp.Phone = (String) cur.curr().get("phone");
+				
+				P_Temp.Index = Integer.parseInt(cur.next().get("index").toString());
+				P_Temp.Name = cur.curr().get("name").toString();
+				P_Temp.Mail_Address = cur.curr().get("mail").toString();
+				P_Temp.Phone = cur.curr().get("phone").toString();
 				
 				PersonList.add(P_Temp);
 			}		
@@ -140,12 +161,20 @@ class MongoDB
 	}
 	
 	//사람 추가
-	void Add_Person(String G_Name, String P_Name, String Mail_Address, String Phone)
+	Boolean Add_Person(String G_Name, String P_Name, String Mail_Address, String Phone)
 	{
-		GroupName = UserName + "_" + G_Name;
-		GroupColl = db.getCollection(GroupName);
-		int num = (int) GroupColl.getCount();
-		GroupColl.insert(MakePersonDocument(num+1, P_Name, Mail_Address, Phone));		
+		try
+		{
+			GroupName = UserName + "_" + G_Name;
+			GroupColl = db.getCollection(GroupName);
+			int num = (int) GroupColl.getCount();
+			GroupColl.insert(MakePersonDocument(num+1, P_Name, Mail_Address, Phone));
+			
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
 	}
 	
 	void printResults()
@@ -160,10 +189,10 @@ class MongoDB
 		}
 	}
 
-	private static BasicDBObject MakePersonDocument(int id, String P_Name, String Mail_Address, String Phone)
+	private static BasicDBObject MakePersonDocument(int index, String P_Name, String Mail_Address, String Phone)
 	{
 		BasicDBObject doc = new BasicDBObject();
-		doc.put("id", id);
+		doc.put("index", index);
 		doc.put("name", P_Name);
 		doc.put("mail", Mail_Address);
 		doc.put("phone", Phone);
@@ -173,7 +202,7 @@ class MongoDB
 
 class Person
 {
-	public int index;
+	public int Index;
 	public String Name;
 	public String Mail_Address;
 	public String Phone;
