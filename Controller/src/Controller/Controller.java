@@ -73,6 +73,7 @@ class MongoDB
 	static String SendMailList;
 	
 	DBCollection GroupColl;
+	DBCollection SendMailColl;
 	
 	void Del_User(String User)
 	{	
@@ -183,11 +184,65 @@ class MongoDB
 			return false;
 		}
 	}
-	/*
-	ArrayList<Send_Mail> Add_Mail_Content(int index, int Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
+	
+	//메일 내용부분 추가
+	Boolean Add_Mail_Content(long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
 	{
+		try
+		{
+			SendMailColl = AdressDB.getCollection("Mail_Content");
+			
+			GroupColl.insert(MakeSendMailDocument(1, Send_Time, Send_Num, From_Adress, Mail_Title, Mail_Content));
+			
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	//받는 사람 정보 추가
+	Boolean Add_To_Person(long Send_Time, int index, Boolean Sending, int Check_Time, String To_Adress, String Cord)
+	{
+		try
+		{
+			String String_Send_Time = Long.toString(Send_Time);
+			SendMailColl = AdressDB.getCollection(String_Send_Time);
+			
+			GroupColl.insert(MakeToPersonDocument(index, Sending, Check_Time, To_Adress, Cord));
+			
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	//0이 이하 1이 이상 두개다 날짜면 사이
+	ArrayList<Send_Mail> Load_Mail_List(long day, long checkday)
+	{
+		DBCursor cur;
+		SendMailColl = AdressDB.getCollection("Mail_Content");
+		ArrayList<Send_Mail> Mail = new ArrayList<Send_Mail>();
+		//이하
+		//cur = SendMailColl.find(new BasicDBObject().append("id", new BasicDBObject((checkday == 0 ? "$lte" : "$gte"), day)));// <= 상혁이꺼
+		if(checkday == 0)
+		{
+			cur = SendMailColl.find(new BasicDBObject().append("id", new BasicDBObject("$lte", day)));// <=
+		}
+		//이상
+		else if(checkday == 1)
+		{
+			cur = SendMailColl.find(new BasicDBObject().append("id", new BasicDBObject("$gte", day)));// >=
+		}
+		//사이값
+		else
+		{
+			cur = SendMailColl.find(new BasicDBObject().append("id", new BasicDBObject("$gte", day)).append("id", new BasicDBObject("$lte", checkday)));
+		}
 		
-	}*/
+		return Mail;
+	}
 	
 	void printResults()
 	{
@@ -211,7 +266,7 @@ class MongoDB
 		return doc;
 	}
 	
-	private static BasicDBObject MakeSendMailDocument(int index, int Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
+	private static BasicDBObject MakeSendMailDocument(int index, long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
 	{
 		BasicDBObject doc = new BasicDBObject();
 		doc.put("index", index);
@@ -245,17 +300,17 @@ class Person
 
 class Send_Mail
 {
-	public int Send_Time;
+	public long Send_Time;
 	public int Send_Num;
 	
 	public String From_Adress;
 	public String Mail_Title;
 	public String Mail_Content;
 	
-	public ArrayList<From_Person> person;
+	public ArrayList<To_Person> person;
 }
 
-class From_Person
+class To_Person
 {
 	public Boolean Sending;
 	
