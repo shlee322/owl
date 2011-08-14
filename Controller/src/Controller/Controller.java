@@ -63,8 +63,12 @@ public class Controller {
 class MongoDB
 {
 	static Mongo m;
-	static DB db;
+	
+	static DB AdressDB;
+	static DB SendMailDB;
+	
 	static String UserName;
+	static String SendDBName;
 	static String GroupName;
 	static String SendMailList;
 	
@@ -83,9 +87,12 @@ class MongoDB
 			m = new Mongo("controller.owl.or.kr");
 			
 			UserName = User;
-			db = m.getDB(UserName);
-	
-			boolean auth = db.authenticate("owl","70210".toCharArray());
+			AdressDB = m.getDB(UserName);	
+			AdressDB.authenticate("owl","70210".toCharArray());
+			
+			SendDBName = User + "_SendMail";
+			SendMailDB = m.getDB(SendDBName);
+			SendMailDB.authenticate("owl","70210".toCharArray());
 			return true;
 		}
 		catch (Exception e) {
@@ -100,24 +107,24 @@ class MongoDB
 		{
 			GroupName = UserName + "_" + G_Name;
 			
-			Set<String> colls = db.getCollectionNames();
+			Set<String> colls = AdressDB.getCollectionNames();
 			
 			if(!colls.isEmpty())
 			{
-				if(db.collectionExists(GroupName))
+				if(AdressDB.collectionExists(GroupName))
 				{
 					System.out.println("같은 그룹명 있음");
 					return true;
 				}
 				else
 				{
-					GroupColl = db.createCollection(GroupName, null);
+					GroupColl = AdressDB.createCollection(GroupName, null);
 					return true;
 				}
 			}
 			else
 			{
-				GroupColl = db.createCollection(GroupName, null);
+				GroupColl = AdressDB.createCollection(GroupName, null);
 				return true;
 			}
 		}
@@ -133,7 +140,7 @@ class MongoDB
 		ArrayList<Person> PersonList = new ArrayList<Person>();
 		GroupName = UserName + "_" + G_Name;
 		
-		GroupColl = db.getCollection(GroupName);
+		GroupColl = AdressDB.getCollection(GroupName);
 		
 		if(GroupColl.getCount() != 0)
 		{
@@ -166,7 +173,7 @@ class MongoDB
 		try
 		{
 			GroupName = UserName + "_" + G_Name;
-			GroupColl = db.getCollection(GroupName);
+			GroupColl = AdressDB.getCollection(GroupName);
 			int num = (int) GroupColl.getCount();
 			GroupColl.insert(MakePersonDocument(num+1, P_Name, Mail_Address, Phone));
 			
@@ -176,6 +183,11 @@ class MongoDB
 			return false;
 		}
 	}
+	/*
+	ArrayList<Send_Mail> Add_Mail_Content(int index, int Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
+	{
+		
+	}*/
 	
 	void printResults()
 	{
@@ -198,6 +210,29 @@ class MongoDB
 		doc.put("phone", Phone);
 		return doc;
 	}
+	
+	private static BasicDBObject MakeSendMailDocument(int index, int Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
+	{
+		BasicDBObject doc = new BasicDBObject();
+		doc.put("index", index);
+		doc.put("time", Send_Time);
+		doc.put("num", Send_Num);
+		doc.put("from_adress", From_Adress);
+		doc.put("title", Mail_Title);
+		doc.put("content", Mail_Content);
+		return doc;
+	}
+	
+	private static BasicDBObject MakeToPersonDocument(int index, Boolean Sending, int Check_Time, String To_Adress, String Cord)
+	{
+		BasicDBObject doc = new BasicDBObject();
+		doc.put("index", index);
+		doc.put("num", Sending);
+		doc.put("to_adress", Check_Time);
+		doc.put("title", To_Adress);
+		doc.put("content", Cord);
+		return doc;
+	}
 }
 
 class Person
@@ -206,4 +241,26 @@ class Person
 	public String Name;
 	public String Mail_Address;
 	public String Phone;
+}
+
+class Send_Mail
+{
+	public int Send_Time;
+	public int Send_Num;
+	
+	public String From_Adress;
+	public String Mail_Title;
+	public String Mail_Content;
+	
+	public ArrayList<From_Person> person;
+}
+
+class From_Person
+{
+	public Boolean Sending;
+	
+	public int Check_Time;	
+	
+	public String To_Adress;
+	public String Cord;	
 }
