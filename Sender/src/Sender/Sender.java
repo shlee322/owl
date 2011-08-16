@@ -17,10 +17,13 @@ import java.util.concurrent.Executors;
 import org.jboss.netty.channel.ChannelFactory;
 import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
 
+import Protocol.SenderController.NewTaskRequest;
+import Protocol.SenderController.NewTaskResponse;
 import Protocol.SenderController.SenderHandler.BlockingInterface;
 import Protocol.SenderController.SenderHandler.Stub;
 
 import com.google.protobuf.RpcController;
+import com.google.protobuf.ServiceException;
 import com.googlecode.protobuf.netty.NettyRpcChannel;
 import com.googlecode.protobuf.netty.NettyRpcClient;
 
@@ -92,23 +95,13 @@ public class Sender {
 		    	}
 		    }
 		}
-/*
+
 		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("controller.owl.or.kr", 7004));
 
 		BlockingInterface blockingCalcService = Protocol.SenderController.SenderHandler.newBlockingStub(channel);
 		RpcController controller = channel.newRpcController();
-*/
-		/*
-		int p = 7000;
-		for(int i=67; i<=126; i++)
-		{
-			for(int ii=0; ii<2; ii++)
-			{
-				executorService.execute(new TaskThread(String.format("183.111.9.%d", i), p));//.start();
-				p++;
-			}
-		}*/
+/*
 		
 		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
 		
@@ -119,26 +112,25 @@ public class Sender {
     		//Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
 			Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
 		}
-		
+		*/
 		
 		long time=System.currentTimeMillis()+5000;
 		
-		
-		//원래는 synchronized(Sender.Connect) 해줘야함
-/*
-		for(int i=0; i<1000; i++)
-		{
-    			Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
-    			Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
-			//Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
-		}
-	*/	
-		
+		long test = 0;
+
 		while(true)
 		{
 			Monitoring.Run();
 			if(System.currentTimeMillis()>time)
-			{
+			{				
+				try {
+					blockingCalcService.newTask(controller, NewTaskRequest.newBuilder().setTime(test).build());
+					test = System.currentTimeMillis();
+				} catch (ServiceException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
 				time=System.currentTimeMillis()+5000;
 				if(Sender.Connect.size()>0)
 				{
