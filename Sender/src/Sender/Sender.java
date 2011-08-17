@@ -95,6 +95,7 @@ public class Sender {
 		    	}
 		    }
 		}
+		/*
 
 		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("controller.owl.or.kr", 7004));
@@ -121,16 +122,18 @@ public class Sender {
 		while(true)
 		{
 			Monitoring.Run();
-			if(System.currentTimeMillis()>time)
-			{				
+			
+			//if(System.currentTimeMillis()>time)
+			//{
+			/*
 				try {
 					blockingCalcService.newTask(controller, NewTaskRequest.newBuilder().setTime(test).build());
 					test = System.currentTimeMillis();
 				} catch (ServiceException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
-				}
-
+				}*/
+/*
 				time=System.currentTimeMillis()+5000;
 				if(Sender.Connect.size()>0)
 				{
@@ -139,7 +142,7 @@ public class Sender {
 							executorService.execute(new TaskThread(String.format("183.111.9.%d", i)));//.start();
 					}
 				}
-			}
+			}*/
 		}
 		
 		/*

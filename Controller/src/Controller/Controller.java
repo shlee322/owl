@@ -24,11 +24,13 @@ public class Controller {
 	static NettyRpcServer Sender_Server;
 	static TServer Client_Server;
 	public static void main(String ar[]) throws TTransportException
-	{/*
+	{
 		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		
 		Controller.Sender_Server.registerService(Protocol.SenderController.SenderHandler.newReflectiveService(new SenderHandler()));
-		Controller.Sender_Server.serve(new InetSocketAddress(7004));*/
+		Controller.Sender_Server.serve(new InetSocketAddress(7004));
+		
+		
 
 		/*
 		final TNonblockingServerSocket socket = new TNonblockingServerSocket(9099);
