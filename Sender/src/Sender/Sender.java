@@ -2,50 +2,89 @@ package Sender;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Hashtable;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.SynchronousQueue;
-import java.net.*;
 
 import org.jboss.netty.channel.ChannelFactory;
 import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
 
-import Protocol.SenderController.SenderHandler.Interface;
+import Protocol.SenderController.NewTaskRequest;
+import Protocol.SenderController.NewTaskResponse;
+import Protocol.SenderController.SenderHandler.BlockingInterface;
 import Protocol.SenderController.SenderHandler.Stub;
 
-import com.googlecode.protobuf.netty.*;
-//�붾젆�좊━ �섏젙���섎뒗媛�
+import com.google.protobuf.RpcController;
+import com.google.protobuf.ServiceException;
+import com.googlecode.protobuf.netty.NettyRpcChannel;
+import com.googlecode.protobuf.netty.NettyRpcClient;
+
 public class Sender {
 	public static HashMap <String, DNS> DNS_Cache;
 	//public static HashMap<long, Task> TaskList;
-	public static SynchronousQueue<Connect> Connect;
+	public static Queue<Connect> Connect;
 	
 	private static NettyRpcClient client;
+	
+	static ExecutorService executorService;
 	
 	public static void main(String ar[])
 	{
 		Sender.DNS_Cache = new HashMap<String, DNS>();
 		//Sender.DNS_Cache.
-		Sender.Connect = new SynchronousQueue<Connect>();
+		Sender.Connect = new LinkedList<Connect>();
 		
+		ExecutorService executorService = Executors.newFixedThreadPool(2950);
+
 		class TaskThread extends Thread
 		{
+			String ip;
+
+			public TaskThread(String ip)
+			{
+				this.ip = ip;
+			}
+			
 		    public void run()
 		    {
 		    	Connect c = null;
+		    	long time=System.currentTimeMillis();
+		    	
 		    	while(true)
 		    	{
-		    		c = Sender.Connect.poll();
+		    		synchronized(Sender.Connect)
+		    		{
+		    			c = Sender.Connect.poll();
+		    		}
+		    		
 		    		if(c!=null)
-		    			c.Send();
+		    		{
+		    			c.Send(ip);
+		    			time = System.currentTimeMillis();
+		    		}
+		    		else
+		    		{
+		    			if(System.currentTimeMillis()>time+5000)
+		    			{
+		    				//스래드가 5초이상 놀고있구먼.
+		    				/*
+		    				try {
+								this.wait();
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}*/
+		    				return;
+		    			}
+		    		}
 		    		
 		    		try {
 		    			Thread.sleep(0);
@@ -56,132 +95,78 @@ public class Sender {
 		    	}
 		    }
 		}
-		
+
 		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
-		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("localhost", 7004));
+		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("controller.owl.or.kr", 7004));
+
+		BlockingInterface blockingCalcService = Protocol.SenderController.SenderHandler.newBlockingStub(channel);
+		RpcController controller = channel.newRpcController();
+/*
 		
-		Stub calcService = Protocol.SenderController.SenderHandler.newStub(channel);
-		Protocol.SenderController.SenderHandler.Interface blockingService = (Interface) Protocol.SenderController.SenderHandler.newBlockingStub(channel);
+		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
 		
-		for(int i=0; i<50; i++) //占쏙옙占쏙옙 IP占쏙옙 占쏙옙占쏙옙占쏙옙 50(IP占쏙옙)*16占쏙옙 = 800, 占쏙옙占쏙옙 처占쏙옙占쏙옙占쏙옙占쏙옙 占썅간占쌕꿔서
-			new TaskThread().start();
-		
-		Monitoring.Run();
-		
-		
-		
-		System.out.println("처占쏙옙 占쏙옙占쏙옙占쏙옙 占쌔븝옙 占싹뤄옙");
-		
-		System.out.print("占쏙옙占쏙옙:");
-		System.out.println(System.currentTimeMillis());
-		
-		Task task = new Task(1, "test@laeradr.com", "占쌓쏙옙트","占쌓쏙옙트占쌉니댐옙.");
-		try {
-			for(int i=0; i<100; i++)
-				Sender.Connect.put(new Connect(task, 1, "shlee322@gmail.com"));
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		/*
-		while(true)
-		{//
-			try {
-				Sender.Socket = new Socket("127.0.0.1", 7004);
-				InputStream in = Sender.Socket.getInputStream();
-				Sender.out = Sender.Socket.getOutputStream();
-				
-				byte []buffer = new byte[1024];
-				String string_buffer="";
-				int len;
-				
-				out.write("Prove\1abcdefg\1test\0".getBytes());
-				
-				while(true)
-				{
-					len = in.read(buffer);
-					String string = new String(buffer, 0, len);//占쏙옙占쏙옙 占쌓놂옙 占쏙옙占쌜몌옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙.
-					string = string_buffer + string;
-					String[] Packet = string.split("\0");
-					
-					int count = Packet.length;
-					if(buffer[len-1]!=0)
-					{
-						count -= 1;
-						string_buffer += Packet[count];
-					}
-					
-					for(int i=0; i<count; i++)
-						Processing(Packet[i]);
-				}
-				in.close();
-				Sender.Socket.close();
-			} catch (UnknownHostException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+		for(int i=0; i<10000000; i++)
+		{
+			Sender.Connect.offer(new Connect(task, 1, "jagur@jagur.kr"));
+    		//Sender.Connect.offer(new Connect(task, 1, "shlee940322@naver.com"));
+    		//Sender.Connect.offer(new Connect(task, 2, "poweroyh@naver.com"));
+			Sender.Connect.offer(new Connect(task, 3, "poweroyh@gmail.com"));
 		}
 		*/
 		
+		long time=System.currentTimeMillis()+5000;
 		
-		
-		
-		
-		
-		
-		
-		/*
-		class BThread extends Thread
-		{
-		    public void run()
-		    {
-				//占쌓쏙옙트
-				Task task = new Task(1, "test@laeradr.com", "占쌓쏙옙트","占쌓쏙옙트占쌉니댐옙.");
+		long test = 0;
 
-		    	for(int i=0; i<20; i++)
-		    	{
-		    		//try {
-			    		try {
-							//Sender.Connect.put(new Connect(task, 1, "poweroyh@naver.com"));
-							//Sender.Connect.put(new Connect(task, 1, "sungeun1990@naver.com"));
-							Sender.Connect.put(new Connect(task, 1, "shlee940322@naver.com"));
-							//Sender.Connect.put(new Connect(task, 1, "joseph4u@naver.com"));
-						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
-			    		
-		    			//Thread.sleep(0);
-		    		//} catch (InterruptedException e) {
-		    			// TODO Auto-generated catch block
-		    		//	e.printStackTrace();
-		    		//}
-		    	}
-		    }
+		while(true)
+		{
+			Monitoring.Run();
+			if(System.currentTimeMillis()>time)
+			{				
+				try {
+					blockingCalcService.newTask(controller, NewTaskRequest.newBuilder().setTime(test).build());
+					test = System.currentTimeMillis();
+				} catch (ServiceException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
+				time=System.currentTimeMillis()+5000;
+				if(Sender.Connect.size()>0)
+				{
+					for(int i=67; i<=126; i++)
+					{
+							executorService.execute(new TaskThread(String.format("183.111.9.%d", i)));//.start();
+					}
+				}
+			}
 		}
 		
-		new BThread().start();
+		/*
 		
-    	Connect c = null;
-    	while(true)
-    	{
-    		c = Sender.Connect.poll();
-    		if(c!=null)
-    			c.Send();
-    		try {
-    			Thread.sleep(0);
-    		} catch (InterruptedException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		}
-    	}
-    	
-    	
-    	
-//*/
+		Task task = new Task(1, "test@owl.or.kr", "대용량 메일 전송 테스트입니다.","히히");
+		
+		try {
+			//for(int i=0; i<100; i++)
+			//{
+				Sender.Connect.put(new Connect(task, 1, "shlee940322@naver.com"));
+				Sender.Connect.put(new Connect(task, 2, "poweroyh@naver.com"));
+				Sender.Connect.put(new Connect(task, 3, "poweroyh@gmail.com"));
+
+				/*
+				
+				Sender.Connect.put(new Connect(task, 2, "jaugr@jagur.kr"));
+				Sender.Connect.put(new Connect(task, 3, "xoul@joyfl.kr"));
+				Sender.Connect.put(new Connect(task, 4, "pd@viewide.kr"));
+				Sender.Connect.put(new Connect(task, 5, "jhoney510@gmail.com"));
+				Sender.Connect.put(new Connect(task, 6, "toori67@gmail.com"));
+				Sender.Connect.put(new Connect(task, 7, "junzang01@naver.com"));*/
+			//}
+		/*
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
 	}
 	
 	public static DNS GetDNS(String Host)
@@ -201,6 +186,13 @@ public class Sender {
 			return null;
 		}
 		
+		try {
+			p.waitFor();
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
 		BufferedReader reader=new BufferedReader(new InputStreamReader(p.getInputStream()));
 		String line = null;
 		String []Data;
@@ -210,17 +202,21 @@ public class Sender {
 			while ((line = reader.readLine()) != null) {
 				 if(line.length() < host_len || !line.substring(0, host_len).equals(Host))
 					 continue;
+				 if(line.indexOf("mail") == -1)
+					 continue;
 				 
 				 Data = line.split(" "); //Data[3] : 占쎌선占쏙옙占쏙옙, Data[7] : 占쏙옙占싹쇽옙占쏙옙
 				 Server server = new Server();
 				 server.ranking = Integer.parseInt(Data[3].substring(0, Data[3].length()-1));
-				 server.Host = Data[7];
+				 server.Host = Data[4].substring(0, Data[4].length() - 1);
+				 //System.out.println(server.ranking + " " + server.Host);
 				 MailServer.add(server);
-				 
 			 }
+			reader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 		 
 		 Comparator<Server> comparator = new Comparator<Server>() {
 			 @Override

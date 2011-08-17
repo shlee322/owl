@@ -1,4 +1,4 @@
-//���� : 2011-07-15 15:00
+//���� : 2011-07-15 15:00
 package Sender;
 
 import java.io.*;
@@ -20,92 +20,87 @@ public class Connect {
 		this.Mail = Mail;
 	}
 	
-	public boolean Send()
+	public boolean Send(String ip)
 	{
-		System.out.print(Thread.currentThread().getName() + " �غ�:");
-		System.out.println(System.currentTimeMillis());
-		
-		int hoststart = this.Mail.indexOf("@");
-		String User = this.Mail.substring(0, hoststart);
-		String Host = this.Mail.substring(hoststart+1);
-		
-		System.out.print(Thread.currentThread().getName() + " DNS ���ϱ�:");
-		System.out.println(System.currentTimeMillis());
-		DNS dns = Sender.GetDNS(Host);
-		
-		System.out.print(Thread.currentThread().getName() + " DNS ���ϱ� �Ϸ�:");
-		System.out.println(System.currentTimeMillis());
-		
-		Socket socket;
-		
-		boolean send = false;
-
-		for (Server server : dns.Server) {
-			try {
-					socket = new Socket(server.Host, 25);
-					//server.Address = socket.getInetAddress();
-			} catch (Exception e) {
-				e.printStackTrace();
-				continue;
-			}
+		try{
+			int hoststart = this.Mail.indexOf("@");
+			String User = this.Mail.substring(0, hoststart);
+			String Host = this.Mail.substring(hoststart+1);
+	
+			DNS dns = Sender.GetDNS(Host);
+	
+			Socket socket;
 			
-			try {
-				out = new PrintWriter(socket.getOutputStream(), true);
-	            in = new BufferedReader(
-	                                    new InputStreamReader(socket.getInputStream())
-	            );
+			boolean send = false;
+	
+			for (Server server : dns.Server) {
+				try {
+					socket = new Socket(server.Host, 25, InetAddress.getByName(ip), 0);
+				} catch (Exception e) {
+					e.printStackTrace();
+					continue;
+				}
+				
+				try {
+					out = new PrintWriter(socket.getOutputStream(), true);
+		            in = new BufferedReader(
+		                                    new InputStreamReader(socket.getInputStream())
+		            );
+	
+		            String Msg = in.readLine();
+		            
+		            //IO에러는 다음 서버에 접속시도를 하고 SMTP서버쪽에서 에러를 던져주면 예외를 발생시킨다.
 
-	            String Msg = in.readLine();
-	  
-	            
-	            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
-	            	continue;
-	            
-	            //���� �϶� ó�� ���� ����
-	            if(!this.SendCmd("HELO", "250"))
-	            	continue;
-	            
-	            if(!this.SendCmd(String.format("MAIL FROM:<%s>", this.Task.From), "250"))
-	            	continue;
-	            
-	            if(!this.SendCmd(String.format("RCPT TO:<%s>", this.Mail), "250"))
-	            	continue;
-
-	            if(!this.SendCmd("DATA", "354"))
-	            {
-	            }
-
-	            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n\n%s", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message));
-	            
-	            //out.println(this.Task.Message);
-	            if(!this.SendCmd(".", "250"))
-	            {
-	            
-	            }
-	            
-	            
-	            socket.close();
-	            send = true;
-	    		System.out.print(Thread.currentThread().getName() + " ����:");
-	    		System.out.println(System.currentTimeMillis());
-	    		break;
-			} catch (IOException e) {
-				e.printStackTrace();
+		            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
+		            	throw new Exception(Msg);
+	
+		            if(!this.SendCmd("HELO", "250"))
+		            	continue;
+		            
+		            if(!this.SendCmd(String.format("MAIL FROM:<%s>", this.Task.From), "250"))
+		            	continue;
+		            
+		            if(!this.SendCmd(String.format("RCPT TO:<%s>", this.Mail), "250"))
+		            	continue;
+	
+		            if(!this.SendCmd("DATA", "354"))
+		            	continue;
+	
+		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
+		            //
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n%s<img src=\"http://www.owl.or.kr/read.php?user=%d&mail=%d&address=%d&key=%s\" width=\"0\" height=\"0\">\n", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, 4, 7, 11, "123"));
+	
+		            if(!this.SendCmd(".", "250"))
+		            	continue;
+		            out.println("quit");
+		            socket.close();
+		            send = true;
+		            //System.out.println(String.format("전송성공 %d %s", System.currentTimeMillis(), this.Mail));
+		            Monitoring.sendcount++;
+		    		break;
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}
+			if(!send)
+				throw new Exception("서버 접근 실패");
+		}catch (Exception e)
+		{
+			e.printStackTrace();
+			//이제 이걸 컨트롤러쪽으로 던져주던지....
 		}
 		
-		try {
-			if(!send)
-				Sender.Connect.put(this);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//try {
+			//if(!send)
+			//	Sender.Connect.put(this);
+		//} catch (InterruptedException e) {
+			//e.printStackTrace();
+		//}
 		
 		return true;
 	}
 	
-	boolean SendCmd(String Cmd, String S)
+	boolean SendCmd(String Cmd, String S) throws Exception
 	{
 		out.println(Cmd);
         String Msg;
@@ -115,6 +110,9 @@ public class Connect {
 			e.printStackTrace();
 			return false;
 		}
-		return Msg.substring(0, Msg.indexOf(" ")).equals(S);
+		boolean r = Msg.substring(0, Msg.indexOf(" ")).equals(S);
+		if(!r)
+			throw new Exception(Msg);
+		return true;
 	}
 }
