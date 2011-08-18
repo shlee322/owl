@@ -1,0 +1,51 @@
+﻿<Page x:Name="page" x:Class="testWindow.second"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1024"
+	Title="second" Background="#FF4B4B4B" Loaded="page_Loaded">
+	<Page.Resources>
+		<Storyboard x:Key="logInDone">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="page">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="1">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BackEase EasingMode="EaseOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="clearMail">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(BlurEffect.Radius)" Storyboard.TargetName="mail">
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BackEase EasingMode="EaseOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="clearChart">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(BlurEffect.Radius)" Storyboard.TargetName="chart">
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BackEase EasingMode="EaseOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Page.Resources>
+    <Grid Background="Black">
+        <Image Name="mail" Margin="168,196.5,0,247.5" Source="Icon/Mail.png" Stretch="Fill" HorizontalAlignment="Left" Width="256" MouseEnter="mail_MouseEnter" MouseLeave="mail_MouseLeave" Cursor="Hand">
+        	<Image.Effect>
+        		<BlurEffect Radius="10"/>
+        	</Image.Effect>
+        </Image>
+        <Image Name="chart" HorizontalAlignment="Right" Margin="0,241.5,168,247.5" Source="Icon/bar_chart_256.png" Stretch="Fill" Width="211" MouseEnter="chart_MouseEnter" MouseLeave="chart_MouseLeave" Cursor="Hand" >
+        	<Image.Effect>
+        		<BlurEffect Radius="10"/>
+        	</Image.Effect>
+        </Image>
+    </Grid>
+</Page>
