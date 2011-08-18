@@ -23,5 +23,39 @@ namespace testWindow
         {
             InitializeComponent();
         }
+
+        private void Grid_DragOver(object sender, DragEventArgs e)
+        {
+            bool dropEnabled = true; 
+            if (e.Data.GetDataPresent(DataFormats.FileDrop, true)) 
+            { 
+                string[] filenames = e.Data.GetData(DataFormats.FileDrop, true) as string[];
+                foreach (string filename in filenames)
+                {
+                    if (System.IO.Path.GetExtension(filename).ToUpperInvariant() != ".PNG")
+                    {
+                        dropEnabled = false; 
+                        break;
+                    }
+                } 
+            } else
+            { 
+                dropEnabled = false; 
+            } 
+            if (!dropEnabled) 
+            {
+                e.Effects = DragDropEffects.None; e.Handled = true;
+            }
+        }
+
+        private void Grid_Drop(object sender, DragEventArgs e)
+        {
+            string[] droppedFilenames = e.Data.GetData(DataFormats.FileDrop, true) as string[];
+            BitmapImage sImage = new BitmapImage();
+            sImage.BeginInit();
+            sImage.UriSource = new Uri(droppedFilenames[0], UriKind.RelativeOrAbsolute);
+            sImage.EndInit();
+            senderImg.Source = sImage;
+        }
     }
 }

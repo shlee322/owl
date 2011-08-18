@@ -29,7 +29,7 @@ namespace testWindow
         {
             App.id = textId.Text;
             App.passwd = textPasswd.Password;
-            
+            App.originWindow = mainWindow;
             //로그인이 참이면//
             //if loged in//
             App.isLogined = true;

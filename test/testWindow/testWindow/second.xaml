@@ -37,7 +37,7 @@
 		</Storyboard>
 	</Page.Resources>
     <Grid Background="Black">
-        <Image Name="mail" Margin="168,196.5,0,247.5" Source="Icon/Mail.png" Stretch="Fill" HorizontalAlignment="Left" Width="256" MouseEnter="mail_MouseEnter" MouseLeave="mail_MouseLeave" Cursor="Hand">
+        <Image Name="mail" Margin="168,196.5,0,247.5" Source="Icon/Mail.png" Stretch="Fill"  HorizontalAlignment="Left" Width="256" MouseEnter="mail_MouseEnter" MouseLeave="mail_MouseLeave" Cursor="Hand" MouseLeftButtonDown="mail_MouseLeftButtonDown">
         	<Image.Effect>
         		<BlurEffect Radius="10"/>
         	</Image.Effect>

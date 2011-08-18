@@ -15,8 +15,8 @@
     	<Canvas Margin="8,160,0,8" Background="White" HorizontalAlignment="Left" Width="378">
     		<TextBox Height="516" Canvas.Left="8" TextWrapping="Wrap" Text="TextBox" Canvas.Top="8" Width="362" Background="{x:Null}" FontSize="18.667" BorderBrush="{x:Null}" BorderThickness="3"/>
     	</Canvas>
-        <Grid Margin="398,8,8,117" Background="Black" RenderTransformOrigin="0.5,0.5" >
-        	<Image Height="250" Source="Icon/paint.png" Stretch="Fill" Width="310" Margin="189,185,119,140" />
+        <Grid Margin="398,8,8,117" Background="Black" RenderTransformOrigin="0.5,0.5" AllowDrop="True" DragOver="Grid_DragOver" Drop="Grid_Drop" >
+        	<Image Name="senderImg"  Source="Icon/paint.png" Stretch="None"  Margin="6,6,0,6" />
         </Grid>
         <Image Height="105" Margin="0,0,8,8" Source="Icon/send.png" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="105"/>
 

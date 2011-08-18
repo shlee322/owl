@@ -31,6 +31,6 @@
     	<TextBox Name="textId"  Height="52" Margin="157.333,0,137,180" TextWrapping="Wrap" Text="ID" VerticalAlignment="Bottom" FontSize="26.667"/>
         <PasswordBox Name="textPasswd" Height="52" Margin="157.333,0,137,94" VerticalAlignment="Bottom" FontSize="26.667" FontFamily="맑은 고딕"/>
         <Button Content="Login" HorizontalAlignment="Right" Height="33.334" Margin="0,0,137,21" VerticalAlignment="Bottom" Width="110.667" Click="Button_Click" FontSize="21.333" FontFamily="Century Gothic" FontWeight="Bold" />
-        <Image Margin="342,72,382,306" Source="logo/owl.bmp" Stretch="Fill"/>
+        <Image Margin="342,72,382,306" Source="logo/owl.bmp" Stretch="UniformToFill"/>
     </Grid>
 </Window>
