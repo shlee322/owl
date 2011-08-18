@@ -11,7 +11,7 @@
     	<Grid.ColumnDefinitions>
     		<ColumnDefinition/>
     	</Grid.ColumnDefinitions>
-    	<StackPanel x:Name="address" Margin="8,8,0,0" Background="Black" HorizontalAlignment="Left" Width="378" Height="138" VerticalAlignment="Top"/>
+    	<StackPanel x:Name="address" Margin="8,8,0,0" Background="Black" HorizontalAlignment="Left" Width="378" Height="138" VerticalAlignment="Top" AllowDrop="True" DragOver="address_DragOver" Drop="address_Drop"/>
     	<Canvas Margin="8,160,0,8" Background="White" HorizontalAlignment="Left" Width="378">
     		<TextBox Height="516" Canvas.Left="8" TextWrapping="Wrap" Text="TextBox" Canvas.Top="8" Width="362" Background="{x:Null}" FontSize="18.667" BorderBrush="{x:Null}" BorderThickness="3"/>
     	</Canvas>
