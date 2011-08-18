@@ -124,7 +124,7 @@ public class MongoDB {
 		{
 			SendMailColl = AdressDB.getCollection("Mail_Content");
 
-			GroupColl.insert(MakeSendMailDocument(1, Send_Time, Send_Num,
+			GroupColl.insert(MakeSendMailDocument(Send_Time, Send_Num,
 					From_Adress, Mail_Title, Mail_Content));
 
 			return true;
@@ -208,6 +208,70 @@ public class MongoDB {
 		}
 		return Mail;
 	}
+	//그룹
+	Boolean UpdateGroup(String GroupName, String Re_GroupName)
+	{
+		try
+		{
+			GroupColl = AdressDB.getCollection(UserName + "_" + GroupName);
+			GroupColl.rename(UserName + "_" + Re_GroupName);
+			
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	//그룹멤버
+	Boolean UpdateUser(String GroupName, ArrayList<Person> P1)
+	{
+		try
+		{
+			GroupColl = AdressDB.getCollection(UserName + "_" + GroupName);
+			
+			for (Person person : P1)
+			{
+				BasicDBObject doc;
+				doc = MakePersonDocument(person.Index, person.Name, person.Mail_Address, person.Phone);
+				GroupColl.update(new BasicDBObject().append("index", person.Index), doc);
+			}
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	Boolean UpdateMailList(Send_Mail send)
+	{
+		try
+		{
+			SendMailColl = AdressDB.getCollection(Long.toString(send.Send_Time));
+			
+			BasicDBObject doc;
+			doc = MakeSendMailDocument(send.Send_Time, send.Send_Num, send.From_Adress, send.Mail_Title, send.Mail_Content);
+			GroupColl.update(new BasicDBObject().append("time", send.Send_Time), doc);
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	Boolean UpdateMailList_User(To_Person person)
+	{
+		try
+		{
+			
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	
 
 	void printResults() {
 		DBCursor cur;
@@ -231,11 +295,8 @@ public class MongoDB {
 		return doc;
 	}
 
-	private static BasicDBObject MakeSendMailDocument(int index,
-			long Send_Time, int Send_Num, String From_Adress,
-			String Mail_Title, String Mail_Content) {
+	private static BasicDBObject MakeSendMailDocument(long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content) {
 		BasicDBObject doc = new BasicDBObject();
-		doc.put("index", index);
 		doc.put("time", Send_Time);
 		doc.put("num", Send_Num);
 		doc.put("from_adress", From_Adress);
@@ -277,7 +338,7 @@ class Send_Mail {
 }
 
 class To_Person {
-	int index;
+	public int index;
 	public Boolean Sending;
 
 	public long Check_Time;

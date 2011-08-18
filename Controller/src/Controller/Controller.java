@@ -56,8 +56,8 @@ public class Controller {
 		
 		for (Person person : PersonList) {
 			System.out.println(person.Name);
-			
 		}
+		MongoDB.UpdateGroup("SWmaestro", "Re_GroupName");
 		
 		
 	}
