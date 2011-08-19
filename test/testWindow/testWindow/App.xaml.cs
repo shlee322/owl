@@ -15,5 +15,6 @@ namespace testWindow
         static public string id;
         static public string passwd;
         static public Boolean isLogined;
+        static public Window originWindow;
     }
 }

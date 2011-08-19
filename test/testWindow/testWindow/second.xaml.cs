@@ -60,5 +60,10 @@ namespace testWindow
 
         }
 
+        private void mail_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            App.originWindow.Content = new writeMail();
+        }
+
     }
 }
