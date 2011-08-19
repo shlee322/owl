@@ -87,8 +87,7 @@ public class MongoDB {
 			while (cur.hasNext()) {
 				Person P_Temp = new Person();
 
-				P_Temp.Index = Integer.parseInt(cur.next().get("index")
-						.toString());
+				P_Temp.ObjectID = cur.next().get("_id").toString();
 				P_Temp.Name = cur.curr().get("name").toString();
 				P_Temp.Mail_Address = cur.curr().get("mail").toString();
 				P_Temp.Phone = cur.curr().get("phone").toString();
@@ -102,14 +101,12 @@ public class MongoDB {
 	}
 
 	// 사람 추가
-	Boolean Add_Person(String G_Name, String P_Name, String Mail_Address,
-			String Phone) {
-		try {
+	Boolean Add_Person(String G_Name, String P_Name, String Mail_Address, String Phone) {
+		try
+		{
 			GroupName = UserName + "_" + G_Name;
 			GroupColl = AdressDB.getCollection(GroupName);
-			int num = (int) GroupColl.getCount();
-			GroupColl.insert(MakePersonDocument(num + 1, P_Name, Mail_Address,
-					Phone));
+			GroupColl.insert(MakePersonDocument(P_Name, Mail_Address, Phone));
 
 			return true;
 		} catch (Exception e) {
@@ -141,9 +138,7 @@ public class MongoDB {
 			String String_Send_Time = Long.toString(Send_Time);
 			SendMailColl = AdressDB.getCollection(String_Send_Time);
 
-			int index = (int) SendMailColl.getCount();
-
-			GroupColl.insert(MakeToPersonDocument(index, Sending, Check_Time, To_Adress, Cord, Group_Name, Key));
+			GroupColl.insert(MakeToPersonDocument(Sending, Check_Time, To_Adress, Cord, Group_Name, Key));
 
 			return true;
 		} catch (Exception e) {
@@ -196,7 +191,7 @@ public class MongoDB {
 
 			while (Personcur.hasNext()) {
 				To_Person Temp_Person = new To_Person();
-				Temp_Person.index = Integer.parseInt(cur.next().get("index").toString());
+				Temp_Person.ObjectID = cur.next().get("_id").toString();
 				Temp_Person.Check_Time = Long.parseLong(cur.curr().get("checktime").toString());
 				Temp_Person.Cord = cur.curr().get("cord").toString();
 				Temp_Person.Sending = Boolean.valueOf(cur.curr().get("sending").toString());
@@ -209,7 +204,7 @@ public class MongoDB {
 		return Mail;
 	}
 	//그룹
-	Boolean UpdateGroup(String GroupName, String Re_GroupName)
+	Boolean Update_Group(String GroupName, String Re_GroupName)
 	{
 		try
 		{
@@ -224,7 +219,7 @@ public class MongoDB {
 	}
 	
 	//그룹멤버
-	Boolean UpdateUser(String GroupName, ArrayList<Person> P1)
+	Boolean Update_User(String GroupName, ArrayList<Person> P1)
 	{
 		try
 		{
@@ -233,8 +228,8 @@ public class MongoDB {
 			for (Person person : P1)
 			{
 				BasicDBObject doc;
-				doc = MakePersonDocument(person.Index, person.Name, person.Mail_Address, person.Phone);
-				GroupColl.update(new BasicDBObject().append("index", person.Index), doc);
+				doc = MakePersonDocument(person.Name, person.Mail_Address, person.Phone);
+				GroupColl.update(new BasicDBObject().append("_id", person.ObjectID), doc);
 			}
 			return true;
 		}
@@ -243,15 +238,14 @@ public class MongoDB {
 		}
 	}
 	
-	Boolean UpdateMailList(Send_Mail send)
+	Boolean Update_MailList(Send_Mail send)
 	{
 		try
 		{
-			SendMailColl = AdressDB.getCollection(Long.toString(send.Send_Time));
-			
+			SendMailColl = AdressDB.getCollection("Mail_Content");
 			BasicDBObject doc;
 			doc = MakeSendMailDocument(send.Send_Time, send.Send_Num, send.From_Adress, send.Mail_Title, send.Mail_Content);
-			GroupColl.update(new BasicDBObject().append("time", send.Send_Time), doc);
+			SendMailColl.update(new BasicDBObject().append("time", send.Send_Time), doc);
 			return true;
 		}
 		catch (Exception e) {
@@ -259,11 +253,18 @@ public class MongoDB {
 		}
 	}
 	
-	Boolean UpdateMailList_User(To_Person person)
+	Boolean Update_MailList_User(ArrayList<To_Person> person, String SendTime)
 	{
 		try
 		{
+			SendMailColl = AdressDB.getCollection(SendTime);
+			BasicDBObject doc;
 			
+			for (To_Person Person : person) {
+				doc = MakeToPersonDocument(Person.Sending, Person.Check_Time, Person.To_Adress, Person.Cord, Person.Group_Name, Person.Key);
+				SendMailColl.update(new BasicDBObject().append("_id", Person.ObjectID), doc);
+				
+			}
 			return true;
 		}
 		catch (Exception e) {
@@ -271,7 +272,20 @@ public class MongoDB {
 		}
 	}
 	
-	
+	Boolean Del_MailList(Send_Mail send)
+	{
+		try
+		{
+			SendMailColl = AdressDB.getCollection("Mail_Content");
+			SendMailColl.remove(new BasicDBObject().append("time", send.Send_Time));
+			SendMailColl = AdressDB.getCollection(Long.toString(send.Send_Time));
+			SendMailColl.drop();
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
 
 	void printResults() {
 		DBCursor cur;
@@ -285,10 +299,8 @@ public class MongoDB {
 		}
 	}
 
-	private static BasicDBObject MakePersonDocument(int index, String P_Name,
-			String Mail_Address, String Phone) {
+	private static BasicDBObject MakePersonDocument(String P_Name, String Mail_Address, String Phone) {
 		BasicDBObject doc = new BasicDBObject();
-		doc.put("index", index);
 		doc.put("name", P_Name);
 		doc.put("mail", Mail_Address);
 		doc.put("phone", Phone);
@@ -305,10 +317,8 @@ public class MongoDB {
 		return doc;
 	}
 
-	private static BasicDBObject MakeToPersonDocument(int index,
-			Boolean Sending, int Check_Time, String To_Adress, String Cord, String Group_Name, String Key) {
+	private static BasicDBObject MakeToPersonDocument(Boolean Sending, long Check_Time, String To_Adress, String Cord, String Group_Name, String Key) {
 		BasicDBObject doc = new BasicDBObject();
-		doc.put("index", index);
 		doc.put("sending", Sending);
 		doc.put("checktime", Check_Time);
 		doc.put("toaddress", To_Adress);
@@ -320,13 +330,14 @@ public class MongoDB {
 }
 
 class Person {
-	public int Index;
+	public String ObjectID;
 	public String Name;
 	public String Mail_Address;
 	public String Phone;
 }
 
 class Send_Mail {
+	public String ObjectID;
 	public long Send_Time;
 	public int Send_Num;
 
@@ -338,7 +349,7 @@ class Send_Mail {
 }
 
 class To_Person {
-	public int index;
+	public String ObjectID;
 	public Boolean Sending;
 
 	public long Check_Time;
