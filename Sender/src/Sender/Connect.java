@@ -8,21 +8,26 @@ import java.net.*;
 
 import org.apache.log4j.Logger;
 
+import com.google.protobuf.ServiceException;
+
+import Protocol.SenderController.MailStatusRequest;
 import biz.source_code.base64Coder.Base64Coder;
 
 public class Connect {
 	static Logger logger = Logger.getLogger(Connect.class);
 	
 	Task Task;
-	long ToIndex;
+	String ObjectId;
+	String Key;
 	String Mail;
 	PrintWriter out = null;
     BufferedReader in = null;
     
-	public Connect(Task Task, long ToIndex, String Mail)
+	public Connect(Task Task, String ObjectId, String Key, String Mail)
 	{
 		this.Task = Task;
-		this.ToIndex = ToIndex;
+		this.ObjectId = ObjectId;
+		this.Key = Key;
 		this.Mail = Mail;
 	}
 	
@@ -91,6 +96,12 @@ public class Connect {
 				throw new Exception("서버 접근 실패");
 		}catch (Exception e)
 		{
+			try {
+				Sender.SenderHandler.mailStatus(Sender.controller, MailStatusRequest.newBuilder().setObjectId(ObjectId).setCode(e.getMessage()).build());
+			} catch (ServiceException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			//Connect.logger.error(e.getMessage());
 			e.printStackTrace();
 			//이제 이걸 컨트롤러쪽으로 던져주던지....

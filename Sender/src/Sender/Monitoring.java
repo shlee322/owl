@@ -57,12 +57,6 @@ public class Monitoring extends Thread {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-			/*
-			for (int i = 0; i < 80; i++)
-			      System.out.println("");
-			System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", Thread.activeCount(), cpustat, Net.receive_byte, Net.transmit_byte, usedMemory(), scount));
-			*/
 		}
 	}
 	

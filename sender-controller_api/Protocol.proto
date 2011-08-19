@@ -32,12 +32,12 @@ message GetMailListResponse {
     required string Address = 3;
 }
 
-message GetMailStatusRequest {
+message MailStatusRequest {
     required string ObjectId = 1;
     required string code = 2;
 }
 
-message GetMailStatusResponse {
+message MailStatusResponse {
 }
 
 message MonitoringRequest {
@@ -58,6 +58,6 @@ service SenderHandler {
     rpc Certify(CertifyRequest) returns (CertifyResponse);
     rpc NewTask(NewTaskRequest) returns (NewTaskResponse);
     rpc GetMailList(GetMailListRequest) returns (GetMailListResponse);
-    rpc GetMailStatus(GetMailStatusRequest) returns (GetMailStatusResponse);
+    rpc MailStatus(MailStatusRequest) returns (MailStatusResponse);
     rpc Monitoring(MonitoringRequest) returns (MonitoringResponse);
 }
