@@ -17,22 +17,22 @@ C:\Users\toori\Documents\Visual Studio 2010\Projects\testWindow\testWindow\obj\x
 C:\Users\toori\Documents\Visual Studio 2010\Projects\testWindow\testWindow\obj\x86\Debug\writeMail.g.cs
 C:\Users\toori\Documents\Visual Studio 2010\Projects\testWindow\testWindow\obj\x86\Debug\GenerateResource.read.0.tlog
 C:\Users\toori\Documents\Visual Studio 2010\Projects\testWindow\testWindow\obj\x86\Debug\GenerateResource.write.0.tlog
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.exe
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.pdb
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\bin\Debug\testWindow.exe
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\bin\Debug\testWindow.pdb
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\MainWindow.baml
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\second.baml
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\writeMail.baml
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\MainWindow.g.cs
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\second.g.cs
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\writeMail.g.cs
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\App.g.cs
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow_MarkupCompile.cache
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.g.resources
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.Properties.Resources.resources
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.read.0.tlog
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.write.0.tlog
-C:\Users\ou\SoMa\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\bin\Debug\testWindow.exe
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\bin\Debug\testWindow.pdb
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\MainWindow.baml
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\second.baml
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\writeMail.baml
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\MainWindow.g.cs
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\second.g.cs
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\writeMail.g.cs
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\App.g.cs
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow_MarkupCompile.cache
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.g.resources
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.Properties.Resources.resources
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.read.0.tlog
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.write.0.tlog
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.exe
+C:\Users\stephan\Desktop\owl\test\testWindow\testWindow\obj\x86\Debug\testWindow.pdb
