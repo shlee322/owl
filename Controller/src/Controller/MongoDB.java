@@ -115,14 +115,13 @@ public class MongoDB {
 	}
 
 	// 메일 내용부분 추가
-	Boolean Add_Mail_Content(long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
+	Boolean Add_Mail_Content(Boolean Sending, long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content)
 	{
 		try
 		{
 			SendMailColl = AdressDB.getCollection("Mail_Content");
 
-			GroupColl.insert(MakeSendMailDocument(Send_Time, Send_Num,
-					From_Adress, Mail_Title, Mail_Content));
+			GroupColl.insert(MakeSendMailDocument(Sending, Send_Time, Send_Num, From_Adress, Mail_Title, Mail_Content));
 
 			return true;
 		} catch (Exception e) {
@@ -244,7 +243,7 @@ public class MongoDB {
 		{
 			SendMailColl = AdressDB.getCollection("Mail_Content");
 			BasicDBObject doc;
-			doc = MakeSendMailDocument(send.Send_Time, send.Send_Num, send.From_Adress, send.Mail_Title, send.Mail_Content);
+			doc = MakeSendMailDocument(send.Sending, send.Send_Time, send.Send_Num, send.From_Adress, send.Mail_Title, send.Mail_Content);
 			SendMailColl.update(new BasicDBObject().append("time", send.Send_Time), doc);
 			return true;
 		}
@@ -307,8 +306,9 @@ public class MongoDB {
 		return doc;
 	}
 
-	private static BasicDBObject MakeSendMailDocument(long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content) {
+	private static BasicDBObject MakeSendMailDocument(Boolean Sending, long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content) {
 		BasicDBObject doc = new BasicDBObject();
+		doc.put("sending", Sending);
 		doc.put("time", Send_Time);
 		doc.put("num", Send_Num);
 		doc.put("from_adress", From_Adress);
@@ -337,6 +337,8 @@ class Person {
 }
 
 class Send_Mail {
+	public Boolean Sending;
+	
 	public String ObjectID;
 	public long Send_Time;
 	public int Send_Num;
@@ -345,7 +347,7 @@ class Send_Mail {
 	public String Mail_Title;
 	public String Mail_Content;
 
-	public ArrayList<To_Person> person;
+	public ArrayList<To_Person> person = new ArrayList<To_Person>();
 }
 
 class To_Person {
