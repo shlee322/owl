@@ -112,6 +112,13 @@ public class Controller {
 		test.person.add(testp);
 		
 		testarray.add(test);
+		
+		for (Send_Mail send_Mail : testarray) {
+			MongoDB.Add_Mail_Content(send_Mail.Sending, send_Mail.Send_Time, send_Mail.Send_Num, send_Mail.From_Adress, send_Mail.Mail_Title, send_Mail.Mail_Content);
+			for (To_Person toperson : send_Mail.person) {
+				MongoDB.Add_To_Person(send_Mail.Send_Time, toperson.Sending, toperson.Check_Time, toperson.To_Adress, toperson.Cord, toperson.Group_Name, toperson.Key);
+			}
+		}
 	}
 }
 

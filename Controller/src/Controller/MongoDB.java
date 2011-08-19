@@ -119,9 +119,9 @@ public class MongoDB {
 	{
 		try
 		{
-			SendMailColl = AdressDB.getCollection("Mail_Content");
+			SendMailColl = SendMailDB.getCollection("Mail_Content");
 
-			GroupColl.insert(MakeSendMailDocument(Sending, Send_Time, Send_Num, From_Adress, Mail_Title, Mail_Content));
+			SendMailColl.insert(MakeSendMailDocument(Sending, Send_Time, Send_Num, From_Adress, Mail_Title, Mail_Content));
 
 			return true;
 		} catch (Exception e) {
@@ -130,14 +130,14 @@ public class MongoDB {
 	}
 
 	// 받는 사람 정보 추가
-	Boolean Add_To_Person(long Send_Time, Boolean Sending, int Check_Time, String To_Adress, String Cord, String Group_Name, String Key)
+	Boolean Add_To_Person(long Send_Time, Boolean Sending, long check_Time, String To_Adress, String Cord, String Group_Name, String Key)
 	{
 		try
 		{
 			String String_Send_Time = Long.toString(Send_Time);
-			SendMailColl = AdressDB.getCollection(String_Send_Time);
+			SendMailColl = SendMailDB.getCollection(String_Send_Time);
 
-			GroupColl.insert(MakeToPersonDocument(Sending, Check_Time, To_Adress, Cord, Group_Name, Key));
+			SendMailColl.insert(MakeToPersonDocument(Sending, check_Time, To_Adress, Cord, Group_Name, Key));
 
 			return true;
 		} catch (Exception e) {
