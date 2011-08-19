@@ -6,7 +6,11 @@ import java.lang.*;
 import java.util.*;
 import java.net.*;
 
+import org.apache.log4j.Logger;
+
 public class Connect {
+	static Logger logger = Logger.getLogger(Connect.class);
+	
 	Task Task;
 	long ToIndex;
 	String Mail;
@@ -35,7 +39,7 @@ public class Connect {
 	
 			for (Server server : dns.Server) {
 				try {
-					socket = new Socket(server.Host, 25, InetAddress.getByName(ip), 0);
+					socket = new Socket(server.getHost(), 25, InetAddress.getByName(ip), 0);
 				} catch (Exception e) {
 					e.printStackTrace();
 					continue;
@@ -75,7 +79,7 @@ public class Connect {
 		            out.println("quit");
 		            socket.close();
 		            send = true;
-		            //System.out.println(String.format("전송성공 %d %s", System.currentTimeMillis(), this.Mail));
+
 		            Monitoring.sendcount++;
 		    		break;
 				} catch (IOException e) {
@@ -86,17 +90,10 @@ public class Connect {
 				throw new Exception("서버 접근 실패");
 		}catch (Exception e)
 		{
-			e.printStackTrace();
+			Connect.logger.error(e.getMessage());
+			//e.printStackTrace();
 			//이제 이걸 컨트롤러쪽으로 던져주던지....
 		}
-		
-		//try {
-			//if(!send)
-			//	Sender.Connect.put(this);
-		//} catch (InterruptedException e) {
-			//e.printStackTrace();
-		//}
-		
 		return true;
 	}
 	

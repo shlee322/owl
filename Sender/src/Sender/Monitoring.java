@@ -6,13 +6,13 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Monitoring {
-	static long time=0;
+public class Monitoring extends Thread {
+	long time=0;
 	
 	static long sendcount=0;
-	static long temp_sendcount=0;
+	long temp_sendcount=0;
 	
-	static class NetworkMonitoring
+	class NetworkMonitoring
 	{
 		public long receive_byte=0;
 		public long receive_pakcet=0;
@@ -20,27 +20,30 @@ public class Monitoring {
 		public long transmit_packet=0;
 	}
 	
-	static NetworkMonitoring LastNetworkMonitoring = new NetworkMonitoring();
+	NetworkMonitoring LastNetworkMonitoring = new NetworkMonitoring();
 	
-	static public void Run()
-	{
-		if(System.currentTimeMillis()<=time)
-			return;
-		time=System.currentTimeMillis()+500;
-		
-		NetworkMonitoring Net = Monitoring.Network();
-		double cpustat = Monitoring.CPU();
-		
-		long scount = sendcount + temp_sendcount;
-		temp_sendcount = sendcount;
-		sendcount = 0;
-
-		for (int i = 0; i < 80; i++)
-		      System.out.println("");
-		System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", Thread.activeCount(), cpustat, Net.receive_byte, Net.transmit_byte, usedMemory(), scount));
+	public void run()
+    {
+		while(true)
+		{
+			if(System.currentTimeMillis()<=time)
+				continue;
+			time=System.currentTimeMillis()+500;
+			
+			NetworkMonitoring Net = this.Network();
+			double cpustat = this.CPU();
+			
+			long scount = sendcount + temp_sendcount;
+			temp_sendcount = sendcount;
+			sendcount = 0;
+	
+			for (int i = 0; i < 80; i++)
+			      System.out.println("");
+			System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", Thread.activeCount(), cpustat, Net.receive_byte, Net.transmit_byte, usedMemory(), scount));
+		}
 	}
 	
-	static private NetworkMonitoring Network()
+	private NetworkMonitoring Network()
 	{
 		Process p = null;
 		
@@ -95,7 +98,7 @@ public class Monitoring {
 		return null;
 	}
 	
-	static private double CPU()
+	private double CPU()
 	{
 		Process p = null;
 		
@@ -124,7 +127,7 @@ public class Monitoring {
 		return Double.parseDouble(line);
 	}
 	
-	static private long usedMemory()
+	private long usedMemory()
 	{
 		return Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 	}
