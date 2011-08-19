@@ -15,27 +15,26 @@ message NewTaskRequest {
 }
 
 message NewTaskResponse {
-    required int64 UserId = 1;
-    required int64 MailId = 2;
+    required string ObjectId = 1;
+    required string From = 2;
+    required string Subject = 3;
+    required string Message = 4;
+    required int64 Time = 5;
 }
 
 message GetMailListRequest {
-    required int64 UserId = 1;
-    required int64 MailId = 2;
+    required string ObjectId = 1;
 }
 
 message GetMailListResponse {
-    required int64 UserId = 1;
-    required int64 MailId = 2;
-    required int64 AddressId = 3;
-    required string Address = 4;
+    required string ObjectId = 1;
+    required string Key = 2;
+    required string Address = 3;
 }
 
 message GetMailStatusRequest {
-    required int64 UserId = 1;
-    required int64 MailId = 2;
-    required int64 AddressId = 3;
-    required int32 code = 4;
+    required string ObjectId = 1;
+    required string code = 2;
 }
 
 message GetMailStatusResponse {
@@ -44,19 +43,16 @@ message GetMailStatusResponse {
 message MonitoringRequest {
     required double CPU = 1;
     required int64 Memory = 2;
-    required double NetworkIn_Byte = 3;
-    required double NetworkIn_Pakcet = 4;
-    required double NetworkOut_Byte = 5;
-    required double NetworkOut_Pakcet = 6;
+    required int64 NetworkIn_Byte = 3;
+    required int64 NetworkIn_Pakcet = 4;
+    required int64 NetworkOut_Byte = 5;
+    required int64 NetworkOut_Pakcet = 6;
     required int64 Thread = 7;
     required int64 SendCount = 8;
 }
 
 message MonitoringResponse {
 }
-
-
-
 
 service SenderHandler {
     rpc Certify(CertifyRequest) returns (CertifyResponse);

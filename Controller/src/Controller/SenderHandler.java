@@ -13,44 +13,41 @@ import Protocol.SenderController.MonitoringResponse;
 import Protocol.SenderController.NewTaskRequest;
 import Protocol.SenderController.NewTaskResponse;
 import Protocol.SenderController.SenderHandler.*;
-import Protocol.SenderController.*;
 
-public class SenderHandler implements Interface{
-
+public class SenderHandler implements BlockingInterface{
 	@Override
-	public void certify(RpcController controller, CertifyRequest request,
-			RpcCallback<CertifyResponse> done) {
+	public CertifyResponse certify(RpcController controller,
+			CertifyRequest request) throws ServiceException {
 		// TODO Auto-generated method stub
-		
+		return null;
 	}
 
 	@Override
-	public void newTask(RpcController controller, NewTaskRequest request,
-			RpcCallback<NewTaskResponse> done) {
+	public NewTaskResponse newTask(RpcController controller,
+			NewTaskRequest request) throws ServiceException {
 		// TODO Auto-generated method stub
-		
-		
+		return null;
 	}
 
 	@Override
-	public void getMailList(RpcController controller,
-			GetMailListRequest request, RpcCallback<GetMailListResponse> done) {
+	public GetMailListResponse getMailList(RpcController controller,
+			GetMailListRequest request) throws ServiceException {
 		// TODO Auto-generated method stub
-		
+		return null;
 	}
 
 	@Override
-	public void getMailStatus(RpcController controller,
-			GetMailStatusRequest request,
-			RpcCallback<GetMailStatusResponse> done) {
+	public GetMailStatusResponse getMailStatus(RpcController controller,
+			GetMailStatusRequest request) throws ServiceException {
 		// TODO Auto-generated method stub
-		
+		return null;
 	}
 
 	@Override
-	public void monitoring(RpcController controller, MonitoringRequest request,
-			RpcCallback<MonitoringResponse> done) {
+	public MonitoringResponse monitoring(RpcController controller,
+			MonitoringRequest request) throws ServiceException {
 		// TODO Auto-generated method stub
-		
+		//System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", request.getThread(), request.getCPU(), request.getNetworkInByte(), request.getNetworkInPakcet(), request.getMemory(), request.getSendCount()));
+		return MonitoringResponse.newBuilder().build();
 	}
 }

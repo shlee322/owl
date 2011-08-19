@@ -24,10 +24,10 @@ public class Controller {
 	static TServer Client_Server;
 	public static void main(String ar[]) throws TTransportException
 	{
-		/*
+		
 		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		
-		Controller.Sender_Server.registerService(Protocol.SenderController.SenderHandler.newReflectiveService(new SenderHandler()));
+		Controller.Sender_Server.registerBlockingService(Protocol.SenderController.SenderHandler.newReflectiveBlockingService(new SenderHandler()));
 		Controller.Sender_Server.serve(new InetSocketAddress(7004));
 		
 		ServerBootstrap webbootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(
@@ -42,7 +42,7 @@ public class Controller {
 		
 		
 
-		
+		/*
 		final TNonblockingServerSocket socket = new TNonblockingServerSocket(9099);
 		final controlApi.controlApi.Processor processor = new controlApi.controlApi.Processor(new ClientHandler());
 		Controller.Client_Server = new THsHaServer(processor, socket, new TFramedTransport.Factory(), new TBinaryProtocol.Factory());
@@ -70,6 +70,7 @@ public class Controller {
 			System.out.println(person.Mail_Address);
 			
 		}*/
+		/*
 		ArrayList<Person> as = new ArrayList<Person>();
 		Person a = PersonList.get(1);
 		a.Mail_Address = "fuckyou!!!";
@@ -79,7 +80,7 @@ public class Controller {
 		for (Person person : PersonList) {
 			System.out.println(person.Mail_Address);
 			
-		}
+		}*/
 	}
 }
 

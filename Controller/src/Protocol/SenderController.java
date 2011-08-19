@@ -936,36 +936,69 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_NewTaskResponse_fieldAccessorTable;
     }
     
-    // required int64 UserId = 1;
-    public static final int USERID_FIELD_NUMBER = 1;
-    private boolean hasUserId;
-    private long userId_ = 0L;
-    public boolean hasUserId() { return hasUserId; }
-    public long getUserId() { return userId_; }
+    // required string ObjectId = 1;
+    public static final int OBJECTID_FIELD_NUMBER = 1;
+    private boolean hasObjectId;
+    private java.lang.String objectId_ = "";
+    public boolean hasObjectId() { return hasObjectId; }
+    public java.lang.String getObjectId() { return objectId_; }
     
-    // required int64 MailId = 2;
-    public static final int MAILID_FIELD_NUMBER = 2;
-    private boolean hasMailId;
-    private long mailId_ = 0L;
-    public boolean hasMailId() { return hasMailId; }
-    public long getMailId() { return mailId_; }
+    // required string From = 2;
+    public static final int FROM_FIELD_NUMBER = 2;
+    private boolean hasFrom;
+    private java.lang.String from_ = "";
+    public boolean hasFrom() { return hasFrom; }
+    public java.lang.String getFrom() { return from_; }
+    
+    // required string Subject = 3;
+    public static final int SUBJECT_FIELD_NUMBER = 3;
+    private boolean hasSubject;
+    private java.lang.String subject_ = "";
+    public boolean hasSubject() { return hasSubject; }
+    public java.lang.String getSubject() { return subject_; }
+    
+    // required string Message = 4;
+    public static final int MESSAGE_FIELD_NUMBER = 4;
+    private boolean hasMessage;
+    private java.lang.String message_ = "";
+    public boolean hasMessage() { return hasMessage; }
+    public java.lang.String getMessage() { return message_; }
+    
+    // required int64 Time = 5;
+    public static final int TIME_FIELD_NUMBER = 5;
+    private boolean hasTime;
+    private long time_ = 0L;
+    public boolean hasTime() { return hasTime; }
+    public long getTime() { return time_; }
     
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasUserId) return false;
-      if (!hasMailId) return false;
+      if (!hasObjectId) return false;
+      if (!hasFrom) return false;
+      if (!hasSubject) return false;
+      if (!hasMessage) return false;
+      if (!hasTime) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasUserId()) {
-        output.writeInt64(1, getUserId());
+      if (hasObjectId()) {
+        output.writeString(1, getObjectId());
       }
-      if (hasMailId()) {
-        output.writeInt64(2, getMailId());
+      if (hasFrom()) {
+        output.writeString(2, getFrom());
+      }
+      if (hasSubject()) {
+        output.writeString(3, getSubject());
+      }
+      if (hasMessage()) {
+        output.writeString(4, getMessage());
+      }
+      if (hasTime()) {
+        output.writeInt64(5, getTime());
       }
       getUnknownFields().writeTo(output);
     }
@@ -976,13 +1009,25 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasUserId()) {
+      if (hasObjectId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, getUserId());
+          .computeStringSize(1, getObjectId());
       }
-      if (hasMailId()) {
+      if (hasFrom()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(2, getMailId());
+          .computeStringSize(2, getFrom());
+      }
+      if (hasSubject()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeStringSize(3, getSubject());
+      }
+      if (hasMessage()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeStringSize(4, getMessage());
+      }
+      if (hasTime()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(5, getTime());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1142,11 +1187,20 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.NewTaskResponse other) {
         if (other == Protocol.SenderController.NewTaskResponse.getDefaultInstance()) return this;
-        if (other.hasUserId()) {
-          setUserId(other.getUserId());
+        if (other.hasObjectId()) {
+          setObjectId(other.getObjectId());
         }
-        if (other.hasMailId()) {
-          setMailId(other.getMailId());
+        if (other.hasFrom()) {
+          setFrom(other.getFrom());
+        }
+        if (other.hasSubject()) {
+          setSubject(other.getSubject());
+        }
+        if (other.hasMessage()) {
+          setMessage(other.getMessage());
+        }
+        if (other.hasTime()) {
+          setTime(other.getTime());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1173,12 +1227,24 @@ public final class SenderController {
               }
               break;
             }
-            case 8: {
-              setUserId(input.readInt64());
+            case 10: {
+              setObjectId(input.readString());
               break;
             }
-            case 16: {
-              setMailId(input.readInt64());
+            case 18: {
+              setFrom(input.readString());
+              break;
+            }
+            case 26: {
+              setSubject(input.readString());
+              break;
+            }
+            case 34: {
+              setMessage(input.readString());
+              break;
+            }
+            case 40: {
+              setTime(input.readInt64());
               break;
             }
           }
@@ -1186,39 +1252,105 @@ public final class SenderController {
       }
       
       
-      // required int64 UserId = 1;
-      public boolean hasUserId() {
-        return result.hasUserId();
+      // required string ObjectId = 1;
+      public boolean hasObjectId() {
+        return result.hasObjectId();
       }
-      public long getUserId() {
-        return result.getUserId();
+      public java.lang.String getObjectId() {
+        return result.getObjectId();
       }
-      public Builder setUserId(long value) {
-        result.hasUserId = true;
-        result.userId_ = value;
+      public Builder setObjectId(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasObjectId = true;
+        result.objectId_ = value;
         return this;
       }
-      public Builder clearUserId() {
-        result.hasUserId = false;
-        result.userId_ = 0L;
+      public Builder clearObjectId() {
+        result.hasObjectId = false;
+        result.objectId_ = getDefaultInstance().getObjectId();
         return this;
       }
       
-      // required int64 MailId = 2;
-      public boolean hasMailId() {
-        return result.hasMailId();
+      // required string From = 2;
+      public boolean hasFrom() {
+        return result.hasFrom();
       }
-      public long getMailId() {
-        return result.getMailId();
+      public java.lang.String getFrom() {
+        return result.getFrom();
       }
-      public Builder setMailId(long value) {
-        result.hasMailId = true;
-        result.mailId_ = value;
+      public Builder setFrom(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasFrom = true;
+        result.from_ = value;
         return this;
       }
-      public Builder clearMailId() {
-        result.hasMailId = false;
-        result.mailId_ = 0L;
+      public Builder clearFrom() {
+        result.hasFrom = false;
+        result.from_ = getDefaultInstance().getFrom();
+        return this;
+      }
+      
+      // required string Subject = 3;
+      public boolean hasSubject() {
+        return result.hasSubject();
+      }
+      public java.lang.String getSubject() {
+        return result.getSubject();
+      }
+      public Builder setSubject(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasSubject = true;
+        result.subject_ = value;
+        return this;
+      }
+      public Builder clearSubject() {
+        result.hasSubject = false;
+        result.subject_ = getDefaultInstance().getSubject();
+        return this;
+      }
+      
+      // required string Message = 4;
+      public boolean hasMessage() {
+        return result.hasMessage();
+      }
+      public java.lang.String getMessage() {
+        return result.getMessage();
+      }
+      public Builder setMessage(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasMessage = true;
+        result.message_ = value;
+        return this;
+      }
+      public Builder clearMessage() {
+        result.hasMessage = false;
+        result.message_ = getDefaultInstance().getMessage();
+        return this;
+      }
+      
+      // required int64 Time = 5;
+      public boolean hasTime() {
+        return result.hasTime();
+      }
+      public long getTime() {
+        return result.getTime();
+      }
+      public Builder setTime(long value) {
+        result.hasTime = true;
+        result.time_ = value;
+        return this;
+      }
+      public Builder clearTime() {
+        result.hasTime = false;
+        result.time_ = 0L;
         return this;
       }
       
@@ -1261,36 +1393,25 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailListRequest_fieldAccessorTable;
     }
     
-    // required int64 UserId = 1;
-    public static final int USERID_FIELD_NUMBER = 1;
-    private boolean hasUserId;
-    private long userId_ = 0L;
-    public boolean hasUserId() { return hasUserId; }
-    public long getUserId() { return userId_; }
-    
-    // required int64 MailId = 2;
-    public static final int MAILID_FIELD_NUMBER = 2;
-    private boolean hasMailId;
-    private long mailId_ = 0L;
-    public boolean hasMailId() { return hasMailId; }
-    public long getMailId() { return mailId_; }
+    // required string ObjectId = 1;
+    public static final int OBJECTID_FIELD_NUMBER = 1;
+    private boolean hasObjectId;
+    private java.lang.String objectId_ = "";
+    public boolean hasObjectId() { return hasObjectId; }
+    public java.lang.String getObjectId() { return objectId_; }
     
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasUserId) return false;
-      if (!hasMailId) return false;
+      if (!hasObjectId) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasUserId()) {
-        output.writeInt64(1, getUserId());
-      }
-      if (hasMailId()) {
-        output.writeInt64(2, getMailId());
+      if (hasObjectId()) {
+        output.writeString(1, getObjectId());
       }
       getUnknownFields().writeTo(output);
     }
@@ -1301,13 +1422,9 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasUserId()) {
+      if (hasObjectId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, getUserId());
-      }
-      if (hasMailId()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(2, getMailId());
+          .computeStringSize(1, getObjectId());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1467,11 +1584,8 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.GetMailListRequest other) {
         if (other == Protocol.SenderController.GetMailListRequest.getDefaultInstance()) return this;
-        if (other.hasUserId()) {
-          setUserId(other.getUserId());
-        }
-        if (other.hasMailId()) {
-          setMailId(other.getMailId());
+        if (other.hasObjectId()) {
+          setObjectId(other.getObjectId());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1498,12 +1612,8 @@ public final class SenderController {
               }
               break;
             }
-            case 8: {
-              setUserId(input.readInt64());
-              break;
-            }
-            case 16: {
-              setMailId(input.readInt64());
+            case 10: {
+              setObjectId(input.readString());
               break;
             }
           }
@@ -1511,39 +1621,24 @@ public final class SenderController {
       }
       
       
-      // required int64 UserId = 1;
-      public boolean hasUserId() {
-        return result.hasUserId();
+      // required string ObjectId = 1;
+      public boolean hasObjectId() {
+        return result.hasObjectId();
       }
-      public long getUserId() {
-        return result.getUserId();
+      public java.lang.String getObjectId() {
+        return result.getObjectId();
       }
-      public Builder setUserId(long value) {
-        result.hasUserId = true;
-        result.userId_ = value;
+      public Builder setObjectId(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasObjectId = true;
+        result.objectId_ = value;
         return this;
       }
-      public Builder clearUserId() {
-        result.hasUserId = false;
-        result.userId_ = 0L;
-        return this;
-      }
-      
-      // required int64 MailId = 2;
-      public boolean hasMailId() {
-        return result.hasMailId();
-      }
-      public long getMailId() {
-        return result.getMailId();
-      }
-      public Builder setMailId(long value) {
-        result.hasMailId = true;
-        result.mailId_ = value;
-        return this;
-      }
-      public Builder clearMailId() {
-        result.hasMailId = false;
-        result.mailId_ = 0L;
+      public Builder clearObjectId() {
+        result.hasObjectId = false;
+        result.objectId_ = getDefaultInstance().getObjectId();
         return this;
       }
       
@@ -1586,29 +1681,22 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailListResponse_fieldAccessorTable;
     }
     
-    // required int64 UserId = 1;
-    public static final int USERID_FIELD_NUMBER = 1;
-    private boolean hasUserId;
-    private long userId_ = 0L;
-    public boolean hasUserId() { return hasUserId; }
-    public long getUserId() { return userId_; }
+    // required string ObjectId = 1;
+    public static final int OBJECTID_FIELD_NUMBER = 1;
+    private boolean hasObjectId;
+    private java.lang.String objectId_ = "";
+    public boolean hasObjectId() { return hasObjectId; }
+    public java.lang.String getObjectId() { return objectId_; }
     
-    // required int64 MailId = 2;
-    public static final int MAILID_FIELD_NUMBER = 2;
-    private boolean hasMailId;
-    private long mailId_ = 0L;
-    public boolean hasMailId() { return hasMailId; }
-    public long getMailId() { return mailId_; }
+    // required string Key = 2;
+    public static final int KEY_FIELD_NUMBER = 2;
+    private boolean hasKey;
+    private java.lang.String key_ = "";
+    public boolean hasKey() { return hasKey; }
+    public java.lang.String getKey() { return key_; }
     
-    // required int64 AddressId = 3;
-    public static final int ADDRESSID_FIELD_NUMBER = 3;
-    private boolean hasAddressId;
-    private long addressId_ = 0L;
-    public boolean hasAddressId() { return hasAddressId; }
-    public long getAddressId() { return addressId_; }
-    
-    // required string Address = 4;
-    public static final int ADDRESS_FIELD_NUMBER = 4;
+    // required string Address = 3;
+    public static final int ADDRESS_FIELD_NUMBER = 3;
     private boolean hasAddress;
     private java.lang.String address_ = "";
     public boolean hasAddress() { return hasAddress; }
@@ -1617,9 +1705,8 @@ public final class SenderController {
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasUserId) return false;
-      if (!hasMailId) return false;
-      if (!hasAddressId) return false;
+      if (!hasObjectId) return false;
+      if (!hasKey) return false;
       if (!hasAddress) return false;
       return true;
     }
@@ -1627,17 +1714,14 @@ public final class SenderController {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasUserId()) {
-        output.writeInt64(1, getUserId());
+      if (hasObjectId()) {
+        output.writeString(1, getObjectId());
       }
-      if (hasMailId()) {
-        output.writeInt64(2, getMailId());
-      }
-      if (hasAddressId()) {
-        output.writeInt64(3, getAddressId());
+      if (hasKey()) {
+        output.writeString(2, getKey());
       }
       if (hasAddress()) {
-        output.writeString(4, getAddress());
+        output.writeString(3, getAddress());
       }
       getUnknownFields().writeTo(output);
     }
@@ -1648,21 +1732,17 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasUserId()) {
+      if (hasObjectId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, getUserId());
+          .computeStringSize(1, getObjectId());
       }
-      if (hasMailId()) {
+      if (hasKey()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(2, getMailId());
-      }
-      if (hasAddressId()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(3, getAddressId());
+          .computeStringSize(2, getKey());
       }
       if (hasAddress()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(4, getAddress());
+          .computeStringSize(3, getAddress());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1822,14 +1902,11 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.GetMailListResponse other) {
         if (other == Protocol.SenderController.GetMailListResponse.getDefaultInstance()) return this;
-        if (other.hasUserId()) {
-          setUserId(other.getUserId());
+        if (other.hasObjectId()) {
+          setObjectId(other.getObjectId());
         }
-        if (other.hasMailId()) {
-          setMailId(other.getMailId());
-        }
-        if (other.hasAddressId()) {
-          setAddressId(other.getAddressId());
+        if (other.hasKey()) {
+          setKey(other.getKey());
         }
         if (other.hasAddress()) {
           setAddress(other.getAddress());
@@ -1859,19 +1936,15 @@ public final class SenderController {
               }
               break;
             }
-            case 8: {
-              setUserId(input.readInt64());
+            case 10: {
+              setObjectId(input.readString());
               break;
             }
-            case 16: {
-              setMailId(input.readInt64());
+            case 18: {
+              setKey(input.readString());
               break;
             }
-            case 24: {
-              setAddressId(input.readInt64());
-              break;
-            }
-            case 34: {
+            case 26: {
               setAddress(input.readString());
               break;
             }
@@ -1880,61 +1953,49 @@ public final class SenderController {
       }
       
       
-      // required int64 UserId = 1;
-      public boolean hasUserId() {
-        return result.hasUserId();
+      // required string ObjectId = 1;
+      public boolean hasObjectId() {
+        return result.hasObjectId();
       }
-      public long getUserId() {
-        return result.getUserId();
+      public java.lang.String getObjectId() {
+        return result.getObjectId();
       }
-      public Builder setUserId(long value) {
-        result.hasUserId = true;
-        result.userId_ = value;
+      public Builder setObjectId(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasObjectId = true;
+        result.objectId_ = value;
         return this;
       }
-      public Builder clearUserId() {
-        result.hasUserId = false;
-        result.userId_ = 0L;
-        return this;
-      }
-      
-      // required int64 MailId = 2;
-      public boolean hasMailId() {
-        return result.hasMailId();
-      }
-      public long getMailId() {
-        return result.getMailId();
-      }
-      public Builder setMailId(long value) {
-        result.hasMailId = true;
-        result.mailId_ = value;
-        return this;
-      }
-      public Builder clearMailId() {
-        result.hasMailId = false;
-        result.mailId_ = 0L;
+      public Builder clearObjectId() {
+        result.hasObjectId = false;
+        result.objectId_ = getDefaultInstance().getObjectId();
         return this;
       }
       
-      // required int64 AddressId = 3;
-      public boolean hasAddressId() {
-        return result.hasAddressId();
+      // required string Key = 2;
+      public boolean hasKey() {
+        return result.hasKey();
       }
-      public long getAddressId() {
-        return result.getAddressId();
+      public java.lang.String getKey() {
+        return result.getKey();
       }
-      public Builder setAddressId(long value) {
-        result.hasAddressId = true;
-        result.addressId_ = value;
+      public Builder setKey(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasKey = true;
+        result.key_ = value;
         return this;
       }
-      public Builder clearAddressId() {
-        result.hasAddressId = false;
-        result.addressId_ = 0L;
+      public Builder clearKey() {
+        result.hasKey = false;
+        result.key_ = getDefaultInstance().getKey();
         return this;
       }
       
-      // required string Address = 4;
+      // required string Address = 3;
       public boolean hasAddress() {
         return result.hasAddress();
       }
@@ -1994,40 +2055,24 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailStatusRequest_fieldAccessorTable;
     }
     
-    // required int64 UserId = 1;
-    public static final int USERID_FIELD_NUMBER = 1;
-    private boolean hasUserId;
-    private long userId_ = 0L;
-    public boolean hasUserId() { return hasUserId; }
-    public long getUserId() { return userId_; }
+    // required string ObjectId = 1;
+    public static final int OBJECTID_FIELD_NUMBER = 1;
+    private boolean hasObjectId;
+    private java.lang.String objectId_ = "";
+    public boolean hasObjectId() { return hasObjectId; }
+    public java.lang.String getObjectId() { return objectId_; }
     
-    // required int64 MailId = 2;
-    public static final int MAILID_FIELD_NUMBER = 2;
-    private boolean hasMailId;
-    private long mailId_ = 0L;
-    public boolean hasMailId() { return hasMailId; }
-    public long getMailId() { return mailId_; }
-    
-    // required int64 AddressId = 3;
-    public static final int ADDRESSID_FIELD_NUMBER = 3;
-    private boolean hasAddressId;
-    private long addressId_ = 0L;
-    public boolean hasAddressId() { return hasAddressId; }
-    public long getAddressId() { return addressId_; }
-    
-    // required int32 code = 4;
-    public static final int CODE_FIELD_NUMBER = 4;
+    // required string code = 2;
+    public static final int CODE_FIELD_NUMBER = 2;
     private boolean hasCode;
-    private int code_ = 0;
+    private java.lang.String code_ = "";
     public boolean hasCode() { return hasCode; }
-    public int getCode() { return code_; }
+    public java.lang.String getCode() { return code_; }
     
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasUserId) return false;
-      if (!hasMailId) return false;
-      if (!hasAddressId) return false;
+      if (!hasObjectId) return false;
       if (!hasCode) return false;
       return true;
     }
@@ -2035,17 +2080,11 @@ public final class SenderController {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasUserId()) {
-        output.writeInt64(1, getUserId());
-      }
-      if (hasMailId()) {
-        output.writeInt64(2, getMailId());
-      }
-      if (hasAddressId()) {
-        output.writeInt64(3, getAddressId());
+      if (hasObjectId()) {
+        output.writeString(1, getObjectId());
       }
       if (hasCode()) {
-        output.writeInt32(4, getCode());
+        output.writeString(2, getCode());
       }
       getUnknownFields().writeTo(output);
     }
@@ -2056,21 +2095,13 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasUserId()) {
+      if (hasObjectId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(1, getUserId());
-      }
-      if (hasMailId()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(2, getMailId());
-      }
-      if (hasAddressId()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(3, getAddressId());
+          .computeStringSize(1, getObjectId());
       }
       if (hasCode()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, getCode());
+          .computeStringSize(2, getCode());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -2230,14 +2261,8 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.GetMailStatusRequest other) {
         if (other == Protocol.SenderController.GetMailStatusRequest.getDefaultInstance()) return this;
-        if (other.hasUserId()) {
-          setUserId(other.getUserId());
-        }
-        if (other.hasMailId()) {
-          setMailId(other.getMailId());
-        }
-        if (other.hasAddressId()) {
-          setAddressId(other.getAddressId());
+        if (other.hasObjectId()) {
+          setObjectId(other.getObjectId());
         }
         if (other.hasCode()) {
           setCode(other.getCode());
@@ -2267,20 +2292,12 @@ public final class SenderController {
               }
               break;
             }
-            case 8: {
-              setUserId(input.readInt64());
+            case 10: {
+              setObjectId(input.readString());
               break;
             }
-            case 16: {
-              setMailId(input.readInt64());
-              break;
-            }
-            case 24: {
-              setAddressId(input.readInt64());
-              break;
-            }
-            case 32: {
-              setCode(input.readInt32());
+            case 18: {
+              setCode(input.readString());
               break;
             }
           }
@@ -2288,75 +2305,45 @@ public final class SenderController {
       }
       
       
-      // required int64 UserId = 1;
-      public boolean hasUserId() {
-        return result.hasUserId();
+      // required string ObjectId = 1;
+      public boolean hasObjectId() {
+        return result.hasObjectId();
       }
-      public long getUserId() {
-        return result.getUserId();
+      public java.lang.String getObjectId() {
+        return result.getObjectId();
       }
-      public Builder setUserId(long value) {
-        result.hasUserId = true;
-        result.userId_ = value;
+      public Builder setObjectId(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasObjectId = true;
+        result.objectId_ = value;
         return this;
       }
-      public Builder clearUserId() {
-        result.hasUserId = false;
-        result.userId_ = 0L;
-        return this;
-      }
-      
-      // required int64 MailId = 2;
-      public boolean hasMailId() {
-        return result.hasMailId();
-      }
-      public long getMailId() {
-        return result.getMailId();
-      }
-      public Builder setMailId(long value) {
-        result.hasMailId = true;
-        result.mailId_ = value;
-        return this;
-      }
-      public Builder clearMailId() {
-        result.hasMailId = false;
-        result.mailId_ = 0L;
+      public Builder clearObjectId() {
+        result.hasObjectId = false;
+        result.objectId_ = getDefaultInstance().getObjectId();
         return this;
       }
       
-      // required int64 AddressId = 3;
-      public boolean hasAddressId() {
-        return result.hasAddressId();
-      }
-      public long getAddressId() {
-        return result.getAddressId();
-      }
-      public Builder setAddressId(long value) {
-        result.hasAddressId = true;
-        result.addressId_ = value;
-        return this;
-      }
-      public Builder clearAddressId() {
-        result.hasAddressId = false;
-        result.addressId_ = 0L;
-        return this;
-      }
-      
-      // required int32 code = 4;
+      // required string code = 2;
       public boolean hasCode() {
         return result.hasCode();
       }
-      public int getCode() {
+      public java.lang.String getCode() {
         return result.getCode();
       }
-      public Builder setCode(int value) {
-        result.hasCode = true;
+      public Builder setCode(java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  result.hasCode = true;
         result.code_ = value;
         return this;
       }
       public Builder clearCode() {
         result.hasCode = false;
-        result.code_ = 0;
+        result.code_ = getDefaultInstance().getCode();
         return this;
       }
       
@@ -2644,92 +2631,57 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_MonitoringRequest_fieldAccessorTable;
     }
     
-    // required double CPUus = 1;
-    public static final int CPUUS_FIELD_NUMBER = 1;
-    private boolean hasCPUus;
-    private double cPUus_ = 0D;
-    public boolean hasCPUus() { return hasCPUus; }
-    public double getCPUus() { return cPUus_; }
+    // required double CPU = 1;
+    public static final int CPU_FIELD_NUMBER = 1;
+    private boolean hasCPU;
+    private double cPU_ = 0D;
+    public boolean hasCPU() { return hasCPU; }
+    public double getCPU() { return cPU_; }
     
-    // required double CPUsy = 2;
-    public static final int CPUSY_FIELD_NUMBER = 2;
-    private boolean hasCPUsy;
-    private double cPUsy_ = 0D;
-    public boolean hasCPUsy() { return hasCPUsy; }
-    public double getCPUsy() { return cPUsy_; }
-    
-    // required double CPUni = 3;
-    public static final int CPUNI_FIELD_NUMBER = 3;
-    private boolean hasCPUni;
-    private double cPUni_ = 0D;
-    public boolean hasCPUni() { return hasCPUni; }
-    public double getCPUni() { return cPUni_; }
-    
-    // required double CPUid = 4;
-    public static final int CPUID_FIELD_NUMBER = 4;
-    private boolean hasCPUid;
-    private double cPUid_ = 0D;
-    public boolean hasCPUid() { return hasCPUid; }
-    public double getCPUid() { return cPUid_; }
-    
-    // required double CPUwa = 5;
-    public static final int CPUWA_FIELD_NUMBER = 5;
-    private boolean hasCPUwa;
-    private double cPUwa_ = 0D;
-    public boolean hasCPUwa() { return hasCPUwa; }
-    public double getCPUwa() { return cPUwa_; }
-    
-    // required double CPUhi = 6;
-    public static final int CPUHI_FIELD_NUMBER = 6;
-    private boolean hasCPUhi;
-    private double cPUhi_ = 0D;
-    public boolean hasCPUhi() { return hasCPUhi; }
-    public double getCPUhi() { return cPUhi_; }
-    
-    // required double CPUsi = 7;
-    public static final int CPUSI_FIELD_NUMBER = 7;
-    private boolean hasCPUsi;
-    private double cPUsi_ = 0D;
-    public boolean hasCPUsi() { return hasCPUsi; }
-    public double getCPUsi() { return cPUsi_; }
-    
-    // required double CPUst = 8;
-    public static final int CPUST_FIELD_NUMBER = 8;
-    private boolean hasCPUst;
-    private double cPUst_ = 0D;
-    public boolean hasCPUst() { return hasCPUst; }
-    public double getCPUst() { return cPUst_; }
-    
-    // required int64 Memory = 9;
-    public static final int MEMORY_FIELD_NUMBER = 9;
+    // required int64 Memory = 2;
+    public static final int MEMORY_FIELD_NUMBER = 2;
     private boolean hasMemory;
     private long memory_ = 0L;
     public boolean hasMemory() { return hasMemory; }
     public long getMemory() { return memory_; }
     
-    // required double NetworkIn = 10;
-    public static final int NETWORKIN_FIELD_NUMBER = 10;
-    private boolean hasNetworkIn;
-    private double networkIn_ = 0D;
-    public boolean hasNetworkIn() { return hasNetworkIn; }
-    public double getNetworkIn() { return networkIn_; }
+    // required int64 NetworkIn_Byte = 3;
+    public static final int NETWORKIN_BYTE_FIELD_NUMBER = 3;
+    private boolean hasNetworkInByte;
+    private long networkInByte_ = 0L;
+    public boolean hasNetworkInByte() { return hasNetworkInByte; }
+    public long getNetworkInByte() { return networkInByte_; }
     
-    // required double NetworkOut = 11;
-    public static final int NETWORKOUT_FIELD_NUMBER = 11;
-    private boolean hasNetworkOut;
-    private double networkOut_ = 0D;
-    public boolean hasNetworkOut() { return hasNetworkOut; }
-    public double getNetworkOut() { return networkOut_; }
+    // required int64 NetworkIn_Pakcet = 4;
+    public static final int NETWORKIN_PAKCET_FIELD_NUMBER = 4;
+    private boolean hasNetworkInPakcet;
+    private long networkInPakcet_ = 0L;
+    public boolean hasNetworkInPakcet() { return hasNetworkInPakcet; }
+    public long getNetworkInPakcet() { return networkInPakcet_; }
     
-    // required int64 Thread = 12;
-    public static final int THREAD_FIELD_NUMBER = 12;
+    // required int64 NetworkOut_Byte = 5;
+    public static final int NETWORKOUT_BYTE_FIELD_NUMBER = 5;
+    private boolean hasNetworkOutByte;
+    private long networkOutByte_ = 0L;
+    public boolean hasNetworkOutByte() { return hasNetworkOutByte; }
+    public long getNetworkOutByte() { return networkOutByte_; }
+    
+    // required int64 NetworkOut_Pakcet = 6;
+    public static final int NETWORKOUT_PAKCET_FIELD_NUMBER = 6;
+    private boolean hasNetworkOutPakcet;
+    private long networkOutPakcet_ = 0L;
+    public boolean hasNetworkOutPakcet() { return hasNetworkOutPakcet; }
+    public long getNetworkOutPakcet() { return networkOutPakcet_; }
+    
+    // required int64 Thread = 7;
+    public static final int THREAD_FIELD_NUMBER = 7;
     private boolean hasThread;
     private long thread_ = 0L;
     public boolean hasThread() { return hasThread; }
     public long getThread() { return thread_; }
     
-    // required int64 SendCount = 13;
-    public static final int SENDCOUNT_FIELD_NUMBER = 13;
+    // required int64 SendCount = 8;
+    public static final int SENDCOUNT_FIELD_NUMBER = 8;
     private boolean hasSendCount;
     private long sendCount_ = 0L;
     public boolean hasSendCount() { return hasSendCount; }
@@ -2738,17 +2690,12 @@ public final class SenderController {
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasCPUus) return false;
-      if (!hasCPUsy) return false;
-      if (!hasCPUni) return false;
-      if (!hasCPUid) return false;
-      if (!hasCPUwa) return false;
-      if (!hasCPUhi) return false;
-      if (!hasCPUsi) return false;
-      if (!hasCPUst) return false;
+      if (!hasCPU) return false;
       if (!hasMemory) return false;
-      if (!hasNetworkIn) return false;
-      if (!hasNetworkOut) return false;
+      if (!hasNetworkInByte) return false;
+      if (!hasNetworkInPakcet) return false;
+      if (!hasNetworkOutByte) return false;
+      if (!hasNetworkOutPakcet) return false;
       if (!hasThread) return false;
       if (!hasSendCount) return false;
       return true;
@@ -2757,44 +2704,29 @@ public final class SenderController {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasCPUus()) {
-        output.writeDouble(1, getCPUus());
-      }
-      if (hasCPUsy()) {
-        output.writeDouble(2, getCPUsy());
-      }
-      if (hasCPUni()) {
-        output.writeDouble(3, getCPUni());
-      }
-      if (hasCPUid()) {
-        output.writeDouble(4, getCPUid());
-      }
-      if (hasCPUwa()) {
-        output.writeDouble(5, getCPUwa());
-      }
-      if (hasCPUhi()) {
-        output.writeDouble(6, getCPUhi());
-      }
-      if (hasCPUsi()) {
-        output.writeDouble(7, getCPUsi());
-      }
-      if (hasCPUst()) {
-        output.writeDouble(8, getCPUst());
+      if (hasCPU()) {
+        output.writeDouble(1, getCPU());
       }
       if (hasMemory()) {
-        output.writeInt64(9, getMemory());
+        output.writeInt64(2, getMemory());
       }
-      if (hasNetworkIn()) {
-        output.writeDouble(10, getNetworkIn());
+      if (hasNetworkInByte()) {
+        output.writeInt64(3, getNetworkInByte());
       }
-      if (hasNetworkOut()) {
-        output.writeDouble(11, getNetworkOut());
+      if (hasNetworkInPakcet()) {
+        output.writeInt64(4, getNetworkInPakcet());
+      }
+      if (hasNetworkOutByte()) {
+        output.writeInt64(5, getNetworkOutByte());
+      }
+      if (hasNetworkOutPakcet()) {
+        output.writeInt64(6, getNetworkOutPakcet());
       }
       if (hasThread()) {
-        output.writeInt64(12, getThread());
+        output.writeInt64(7, getThread());
       }
       if (hasSendCount()) {
-        output.writeInt64(13, getSendCount());
+        output.writeInt64(8, getSendCount());
       }
       getUnknownFields().writeTo(output);
     }
@@ -2805,57 +2737,37 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasCPUus()) {
+      if (hasCPU()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(1, getCPUus());
-      }
-      if (hasCPUsy()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(2, getCPUsy());
-      }
-      if (hasCPUni()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(3, getCPUni());
-      }
-      if (hasCPUid()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(4, getCPUid());
-      }
-      if (hasCPUwa()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(5, getCPUwa());
-      }
-      if (hasCPUhi()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(6, getCPUhi());
-      }
-      if (hasCPUsi()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(7, getCPUsi());
-      }
-      if (hasCPUst()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(8, getCPUst());
+          .computeDoubleSize(1, getCPU());
       }
       if (hasMemory()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(9, getMemory());
+          .computeInt64Size(2, getMemory());
       }
-      if (hasNetworkIn()) {
+      if (hasNetworkInByte()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(10, getNetworkIn());
+          .computeInt64Size(3, getNetworkInByte());
       }
-      if (hasNetworkOut()) {
+      if (hasNetworkInPakcet()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(11, getNetworkOut());
+          .computeInt64Size(4, getNetworkInPakcet());
+      }
+      if (hasNetworkOutByte()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(5, getNetworkOutByte());
+      }
+      if (hasNetworkOutPakcet()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(6, getNetworkOutPakcet());
       }
       if (hasThread()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(12, getThread());
+          .computeInt64Size(7, getThread());
       }
       if (hasSendCount()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(13, getSendCount());
+          .computeInt64Size(8, getSendCount());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -3015,38 +2927,23 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.MonitoringRequest other) {
         if (other == Protocol.SenderController.MonitoringRequest.getDefaultInstance()) return this;
-        if (other.hasCPUus()) {
-          setCPUus(other.getCPUus());
-        }
-        if (other.hasCPUsy()) {
-          setCPUsy(other.getCPUsy());
-        }
-        if (other.hasCPUni()) {
-          setCPUni(other.getCPUni());
-        }
-        if (other.hasCPUid()) {
-          setCPUid(other.getCPUid());
-        }
-        if (other.hasCPUwa()) {
-          setCPUwa(other.getCPUwa());
-        }
-        if (other.hasCPUhi()) {
-          setCPUhi(other.getCPUhi());
-        }
-        if (other.hasCPUsi()) {
-          setCPUsi(other.getCPUsi());
-        }
-        if (other.hasCPUst()) {
-          setCPUst(other.getCPUst());
+        if (other.hasCPU()) {
+          setCPU(other.getCPU());
         }
         if (other.hasMemory()) {
           setMemory(other.getMemory());
         }
-        if (other.hasNetworkIn()) {
-          setNetworkIn(other.getNetworkIn());
+        if (other.hasNetworkInByte()) {
+          setNetworkInByte(other.getNetworkInByte());
         }
-        if (other.hasNetworkOut()) {
-          setNetworkOut(other.getNetworkOut());
+        if (other.hasNetworkInPakcet()) {
+          setNetworkInPakcet(other.getNetworkInPakcet());
+        }
+        if (other.hasNetworkOutByte()) {
+          setNetworkOutByte(other.getNetworkOutByte());
+        }
+        if (other.hasNetworkOutPakcet()) {
+          setNetworkOutPakcet(other.getNetworkOutPakcet());
         }
         if (other.hasThread()) {
           setThread(other.getThread());
@@ -3080,54 +2977,34 @@ public final class SenderController {
               break;
             }
             case 9: {
-              setCPUus(input.readDouble());
+              setCPU(input.readDouble());
               break;
             }
-            case 17: {
-              setCPUsy(input.readDouble());
-              break;
-            }
-            case 25: {
-              setCPUni(input.readDouble());
-              break;
-            }
-            case 33: {
-              setCPUid(input.readDouble());
-              break;
-            }
-            case 41: {
-              setCPUwa(input.readDouble());
-              break;
-            }
-            case 49: {
-              setCPUhi(input.readDouble());
-              break;
-            }
-            case 57: {
-              setCPUsi(input.readDouble());
-              break;
-            }
-            case 65: {
-              setCPUst(input.readDouble());
-              break;
-            }
-            case 72: {
+            case 16: {
               setMemory(input.readInt64());
               break;
             }
-            case 81: {
-              setNetworkIn(input.readDouble());
+            case 24: {
+              setNetworkInByte(input.readInt64());
               break;
             }
-            case 89: {
-              setNetworkOut(input.readDouble());
+            case 32: {
+              setNetworkInPakcet(input.readInt64());
               break;
             }
-            case 96: {
+            case 40: {
+              setNetworkOutByte(input.readInt64());
+              break;
+            }
+            case 48: {
+              setNetworkOutPakcet(input.readInt64());
+              break;
+            }
+            case 56: {
               setThread(input.readInt64());
               break;
             }
-            case 104: {
+            case 64: {
               setSendCount(input.readInt64());
               break;
             }
@@ -3136,151 +3013,25 @@ public final class SenderController {
       }
       
       
-      // required double CPUus = 1;
-      public boolean hasCPUus() {
-        return result.hasCPUus();
+      // required double CPU = 1;
+      public boolean hasCPU() {
+        return result.hasCPU();
       }
-      public double getCPUus() {
-        return result.getCPUus();
+      public double getCPU() {
+        return result.getCPU();
       }
-      public Builder setCPUus(double value) {
-        result.hasCPUus = true;
-        result.cPUus_ = value;
+      public Builder setCPU(double value) {
+        result.hasCPU = true;
+        result.cPU_ = value;
         return this;
       }
-      public Builder clearCPUus() {
-        result.hasCPUus = false;
-        result.cPUus_ = 0D;
-        return this;
-      }
-      
-      // required double CPUsy = 2;
-      public boolean hasCPUsy() {
-        return result.hasCPUsy();
-      }
-      public double getCPUsy() {
-        return result.getCPUsy();
-      }
-      public Builder setCPUsy(double value) {
-        result.hasCPUsy = true;
-        result.cPUsy_ = value;
-        return this;
-      }
-      public Builder clearCPUsy() {
-        result.hasCPUsy = false;
-        result.cPUsy_ = 0D;
+      public Builder clearCPU() {
+        result.hasCPU = false;
+        result.cPU_ = 0D;
         return this;
       }
       
-      // required double CPUni = 3;
-      public boolean hasCPUni() {
-        return result.hasCPUni();
-      }
-      public double getCPUni() {
-        return result.getCPUni();
-      }
-      public Builder setCPUni(double value) {
-        result.hasCPUni = true;
-        result.cPUni_ = value;
-        return this;
-      }
-      public Builder clearCPUni() {
-        result.hasCPUni = false;
-        result.cPUni_ = 0D;
-        return this;
-      }
-      
-      // required double CPUid = 4;
-      public boolean hasCPUid() {
-        return result.hasCPUid();
-      }
-      public double getCPUid() {
-        return result.getCPUid();
-      }
-      public Builder setCPUid(double value) {
-        result.hasCPUid = true;
-        result.cPUid_ = value;
-        return this;
-      }
-      public Builder clearCPUid() {
-        result.hasCPUid = false;
-        result.cPUid_ = 0D;
-        return this;
-      }
-      
-      // required double CPUwa = 5;
-      public boolean hasCPUwa() {
-        return result.hasCPUwa();
-      }
-      public double getCPUwa() {
-        return result.getCPUwa();
-      }
-      public Builder setCPUwa(double value) {
-        result.hasCPUwa = true;
-        result.cPUwa_ = value;
-        return this;
-      }
-      public Builder clearCPUwa() {
-        result.hasCPUwa = false;
-        result.cPUwa_ = 0D;
-        return this;
-      }
-      
-      // required double CPUhi = 6;
-      public boolean hasCPUhi() {
-        return result.hasCPUhi();
-      }
-      public double getCPUhi() {
-        return result.getCPUhi();
-      }
-      public Builder setCPUhi(double value) {
-        result.hasCPUhi = true;
-        result.cPUhi_ = value;
-        return this;
-      }
-      public Builder clearCPUhi() {
-        result.hasCPUhi = false;
-        result.cPUhi_ = 0D;
-        return this;
-      }
-      
-      // required double CPUsi = 7;
-      public boolean hasCPUsi() {
-        return result.hasCPUsi();
-      }
-      public double getCPUsi() {
-        return result.getCPUsi();
-      }
-      public Builder setCPUsi(double value) {
-        result.hasCPUsi = true;
-        result.cPUsi_ = value;
-        return this;
-      }
-      public Builder clearCPUsi() {
-        result.hasCPUsi = false;
-        result.cPUsi_ = 0D;
-        return this;
-      }
-      
-      // required double CPUst = 8;
-      public boolean hasCPUst() {
-        return result.hasCPUst();
-      }
-      public double getCPUst() {
-        return result.getCPUst();
-      }
-      public Builder setCPUst(double value) {
-        result.hasCPUst = true;
-        result.cPUst_ = value;
-        return this;
-      }
-      public Builder clearCPUst() {
-        result.hasCPUst = false;
-        result.cPUst_ = 0D;
-        return this;
-      }
-      
-      // required int64 Memory = 9;
+      // required int64 Memory = 2;
       public boolean hasMemory() {
         return result.hasMemory();
       }
@@ -3298,43 +3049,79 @@ public final class SenderController {
         return this;
       }
       
-      // required double NetworkIn = 10;
-      public boolean hasNetworkIn() {
-        return result.hasNetworkIn();
+      // required int64 NetworkIn_Byte = 3;
+      public boolean hasNetworkInByte() {
+        return result.hasNetworkInByte();
       }
-      public double getNetworkIn() {
-        return result.getNetworkIn();
+      public long getNetworkInByte() {
+        return result.getNetworkInByte();
       }
-      public Builder setNetworkIn(double value) {
-        result.hasNetworkIn = true;
-        result.networkIn_ = value;
+      public Builder setNetworkInByte(long value) {
+        result.hasNetworkInByte = true;
+        result.networkInByte_ = value;
         return this;
       }
-      public Builder clearNetworkIn() {
-        result.hasNetworkIn = false;
-        result.networkIn_ = 0D;
-        return this;
-      }
-      
-      // required double NetworkOut = 11;
-      public boolean hasNetworkOut() {
-        return result.hasNetworkOut();
-      }
-      public double getNetworkOut() {
-        return result.getNetworkOut();
-      }
-      public Builder setNetworkOut(double value) {
-        result.hasNetworkOut = true;
-        result.networkOut_ = value;
-        return this;
-      }
-      public Builder clearNetworkOut() {
-        result.hasNetworkOut = false;
-        result.networkOut_ = 0D;
+      public Builder clearNetworkInByte() {
+        result.hasNetworkInByte = false;
+        result.networkInByte_ = 0L;
         return this;
       }
       
-      // required int64 Thread = 12;
+      // required int64 NetworkIn_Pakcet = 4;
+      public boolean hasNetworkInPakcet() {
+        return result.hasNetworkInPakcet();
+      }
+      public long getNetworkInPakcet() {
+        return result.getNetworkInPakcet();
+      }
+      public Builder setNetworkInPakcet(long value) {
+        result.hasNetworkInPakcet = true;
+        result.networkInPakcet_ = value;
+        return this;
+      }
+      public Builder clearNetworkInPakcet() {
+        result.hasNetworkInPakcet = false;
+        result.networkInPakcet_ = 0L;
+        return this;
+      }
+      
+      // required int64 NetworkOut_Byte = 5;
+      public boolean hasNetworkOutByte() {
+        return result.hasNetworkOutByte();
+      }
+      public long getNetworkOutByte() {
+        return result.getNetworkOutByte();
+      }
+      public Builder setNetworkOutByte(long value) {
+        result.hasNetworkOutByte = true;
+        result.networkOutByte_ = value;
+        return this;
+      }
+      public Builder clearNetworkOutByte() {
+        result.hasNetworkOutByte = false;
+        result.networkOutByte_ = 0L;
+        return this;
+      }
+      
+      // required int64 NetworkOut_Pakcet = 6;
+      public boolean hasNetworkOutPakcet() {
+        return result.hasNetworkOutPakcet();
+      }
+      public long getNetworkOutPakcet() {
+        return result.getNetworkOutPakcet();
+      }
+      public Builder setNetworkOutPakcet(long value) {
+        result.hasNetworkOutPakcet = true;
+        result.networkOutPakcet_ = value;
+        return this;
+      }
+      public Builder clearNetworkOutPakcet() {
+        result.hasNetworkOutPakcet = false;
+        result.networkOutPakcet_ = 0L;
+        return this;
+      }
+      
+      // required int64 Thread = 7;
       public boolean hasThread() {
         return result.hasThread();
       }
@@ -3352,7 +3139,7 @@ public final class SenderController {
         return this;
       }
       
-      // required int64 SendCount = 13;
+      // required int64 SendCount = 8;
       public boolean hasSendCount() {
         return result.hasSendCount();
       }
@@ -4170,29 +3957,27 @@ public final class SenderController {
       "\n\016Protocol.proto\",\n\016CertifyRequest\022\014\n\004ke" +
       "y1\030\001 \002(\t\022\014\n\004key2\030\002 \002(\t\"!\n\017CertifyRespons" +
       "e\022\016\n\006result\030\001 \002(\010\"\036\n\016NewTaskRequest\022\014\n\004T" +
-      "ime\030\001 \002(\003\"1\n\017NewTaskResponse\022\016\n\006UserId\030\001" +
-      " \002(\003\022\016\n\006MailId\030\002 \002(\003\"4\n\022GetMailListReque" +
-      "st\022\016\n\006UserId\030\001 \002(\003\022\016\n\006MailId\030\002 \002(\003\"Y\n\023Ge" +
-      "tMailListResponse\022\016\n\006UserId\030\001 \002(\003\022\016\n\006Mai" +
-      "lId\030\002 \002(\003\022\021\n\tAddressId\030\003 \002(\003\022\017\n\007Address\030" +
-      "\004 \002(\t\"W\n\024GetMailStatusRequest\022\016\n\006UserId\030" +
-      "\001 \002(\003\022\016\n\006MailId\030\002 \002(\003\022\021\n\tAddressId\030\003 \002(\003",
-      "\022\014\n\004code\030\004 \002(\005\"\027\n\025GetMailStatusResponse\"" +
-      "\345\001\n\021MonitoringRequest\022\r\n\005CPUus\030\001 \002(\001\022\r\n\005" +
-      "CPUsy\030\002 \002(\001\022\r\n\005CPUni\030\003 \002(\001\022\r\n\005CPUid\030\004 \002(" +
-      "\001\022\r\n\005CPUwa\030\005 \002(\001\022\r\n\005CPUhi\030\006 \002(\001\022\r\n\005CPUsi" +
-      "\030\007 \002(\001\022\r\n\005CPUst\030\010 \002(\001\022\016\n\006Memory\030\t \002(\003\022\021\n" +
-      "\tNetworkIn\030\n \002(\001\022\022\n\nNetworkOut\030\013 \002(\001\022\016\n\006" +
-      "Thread\030\014 \002(\003\022\021\n\tSendCount\030\r \002(\003\"\024\n\022Monit" +
-      "oringResponse2\234\002\n\rSenderHandler\022,\n\007Certi" +
-      "fy\022\017.CertifyRequest\032\020.CertifyResponse\022,\n" +
-      "\007NewTask\022\017.NewTaskRequest\032\020.NewTaskRespo",
-      "nse\0228\n\013GetMailList\022\023.GetMailListRequest\032" +
-      "\024.GetMailListResponse\022>\n\rGetMailStatus\022\025" +
-      ".GetMailStatusRequest\032\026.GetMailStatusRes" +
-      "ponse\0225\n\nMonitoring\022\022.MonitoringRequest\032" +
-      "\023.MonitoringResponseB\034\n\010ProtocolB\020Sender" +
-      "Controller"
+      "ime\030\001 \002(\003\"a\n\017NewTaskResponse\022\020\n\010ObjectId" +
+      "\030\001 \002(\t\022\014\n\004From\030\002 \002(\t\022\017\n\007Subject\030\003 \002(\t\022\017\n" +
+      "\007Message\030\004 \002(\t\022\014\n\004Time\030\005 \002(\003\"&\n\022GetMailL" +
+      "istRequest\022\020\n\010ObjectId\030\001 \002(\t\"E\n\023GetMailL" +
+      "istResponse\022\020\n\010ObjectId\030\001 \002(\t\022\013\n\003Key\030\002 \002" +
+      "(\t\022\017\n\007Address\030\003 \002(\t\"6\n\024GetMailStatusRequ" +
+      "est\022\020\n\010ObjectId\030\001 \002(\t\022\014\n\004code\030\002 \002(\t\"\027\n\025G",
+      "etMailStatusResponse\"\271\001\n\021MonitoringReque" +
+      "st\022\013\n\003CPU\030\001 \002(\001\022\016\n\006Memory\030\002 \002(\003\022\026\n\016Netwo" +
+      "rkIn_Byte\030\003 \002(\003\022\030\n\020NetworkIn_Pakcet\030\004 \002(" +
+      "\003\022\027\n\017NetworkOut_Byte\030\005 \002(\003\022\031\n\021NetworkOut" +
+      "_Pakcet\030\006 \002(\003\022\016\n\006Thread\030\007 \002(\003\022\021\n\tSendCou" +
+      "nt\030\010 \002(\003\"\024\n\022MonitoringResponse2\234\002\n\rSende" +
+      "rHandler\022,\n\007Certify\022\017.CertifyRequest\032\020.C" +
+      "ertifyResponse\022,\n\007NewTask\022\017.NewTaskReque" +
+      "st\032\020.NewTaskResponse\0228\n\013GetMailList\022\023.Ge" +
+      "tMailListRequest\032\024.GetMailListResponse\022>",
+      "\n\rGetMailStatus\022\025.GetMailStatusRequest\032\026" +
+      ".GetMailStatusResponse\0225\n\nMonitoring\022\022.M" +
+      "onitoringRequest\032\023.MonitoringResponseB\034\n" +
+      "\010ProtocolB\020SenderController"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -4228,7 +4013,7 @@ public final class SenderController {
           internal_static_NewTaskResponse_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_NewTaskResponse_descriptor,
-              new java.lang.String[] { "UserId", "MailId", },
+              new java.lang.String[] { "ObjectId", "From", "Subject", "Message", "Time", },
               Protocol.SenderController.NewTaskResponse.class,
               Protocol.SenderController.NewTaskResponse.Builder.class);
           internal_static_GetMailListRequest_descriptor =
@@ -4236,7 +4021,7 @@ public final class SenderController {
           internal_static_GetMailListRequest_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_GetMailListRequest_descriptor,
-              new java.lang.String[] { "UserId", "MailId", },
+              new java.lang.String[] { "ObjectId", },
               Protocol.SenderController.GetMailListRequest.class,
               Protocol.SenderController.GetMailListRequest.Builder.class);
           internal_static_GetMailListResponse_descriptor =
@@ -4244,7 +4029,7 @@ public final class SenderController {
           internal_static_GetMailListResponse_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_GetMailListResponse_descriptor,
-              new java.lang.String[] { "UserId", "MailId", "AddressId", "Address", },
+              new java.lang.String[] { "ObjectId", "Key", "Address", },
               Protocol.SenderController.GetMailListResponse.class,
               Protocol.SenderController.GetMailListResponse.Builder.class);
           internal_static_GetMailStatusRequest_descriptor =
@@ -4252,7 +4037,7 @@ public final class SenderController {
           internal_static_GetMailStatusRequest_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_GetMailStatusRequest_descriptor,
-              new java.lang.String[] { "UserId", "MailId", "AddressId", "Code", },
+              new java.lang.String[] { "ObjectId", "Code", },
               Protocol.SenderController.GetMailStatusRequest.class,
               Protocol.SenderController.GetMailStatusRequest.Builder.class);
           internal_static_GetMailStatusResponse_descriptor =
@@ -4268,7 +4053,7 @@ public final class SenderController {
           internal_static_MonitoringRequest_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_MonitoringRequest_descriptor,
-              new java.lang.String[] { "CPUus", "CPUsy", "CPUni", "CPUid", "CPUwa", "CPUhi", "CPUsi", "CPUst", "Memory", "NetworkIn", "NetworkOut", "Thread", "SendCount", },
+              new java.lang.String[] { "CPU", "Memory", "NetworkInByte", "NetworkInPakcet", "NetworkOutByte", "NetworkOutPakcet", "Thread", "SendCount", },
               Protocol.SenderController.MonitoringRequest.class,
               Protocol.SenderController.MonitoringRequest.Builder.class);
           internal_static_MonitoringResponse_descriptor =

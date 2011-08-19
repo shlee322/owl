@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.protobuf.ServiceException;
+
+import Protocol.SenderController.MonitoringRequest;
+
 public class Monitoring extends Thread {
 	long time=0;
 	
@@ -36,6 +40,24 @@ public class Monitoring extends Thread {
 			long scount = sendcount + temp_sendcount;
 			temp_sendcount = sendcount;
 			sendcount = 0;
+			
+			try {
+				Sender.SenderHandler.monitoring(Sender.controller,
+						MonitoringRequest.newBuilder()
+						.setCPU(cpustat)
+						.setMemory(usedMemory())
+						.setNetworkInByte(Net.receive_byte)
+						.setNetworkInPakcet(Net.receive_pakcet)
+						.setNetworkOutByte(Net.transmit_byte)
+						.setNetworkOutPakcet(Net.transmit_packet)
+						.setThread(Thread.activeCount())
+						.setSendCount(scount)
+						.build());
+			} catch (ServiceException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 			/*
 			for (int i = 0; i < 80; i++)
 			      System.out.println("");

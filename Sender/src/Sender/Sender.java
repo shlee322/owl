@@ -41,7 +41,9 @@ public class Sender {
 	//public static HashMap<long, Task> TaskList;
 	public static Queue<Connect> Connect;
 	
-	private static NettyRpcClient client;
+	public static BlockingInterface SenderHandler;
+	public static RpcController controller;
+
 	
 	static ExecutorService executorService;
 	
@@ -77,11 +79,11 @@ public class Sender {
 		Sender.Monitoring_Network = properties.getProperty("Monitoring_Network");
 		
 		
-		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
+		NettyRpcClient client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress(properties.getProperty("Controller_Host"), Integer.parseInt(properties.getProperty("Controller_Port"))));
 
-		BlockingInterface blockingCalcService = Protocol.SenderController.SenderHandler.newBlockingStub(channel);
-		RpcController controller = channel.newRpcController();
+		Sender.SenderHandler = Protocol.SenderController.SenderHandler.newBlockingStub(channel);
+		Sender.controller = channel.newRpcController();
 		
 		
 		//모니터링 시작
