@@ -147,7 +147,7 @@ public class MongoDB {
 	}
 
 	// 0이 이하 1이 이상 두개다 날짜면 사이
-	void Load_Mail_List(long day, long checkday)
+	ArrayList<Send_Mail> Load_Mail_List(long day, long checkday)
 	{
 		DBCursor cur;
 		SendMailColl = AdressDB.getCollection("Mail_Content");
@@ -157,17 +157,17 @@ public class MongoDB {
 		// BasicDBObject((checkday == 0 ? "$lte" : "$gte"), day)));// <= 상혁이꺼
 		if (checkday == 0) {
 			cur = SendMailColl.find(new BasicDBObject().append("time", new BasicDBObject("$lte", day)));// <=
-			Add_Mail_List(cur);
+			return Add_Mail_List(cur);
 		}
 		// 이상
 		else if (checkday == 1) {
 			cur = SendMailColl.find(new BasicDBObject().append("time", new BasicDBObject("$gte", day)));// >=
-			Add_Mail_List(cur);
+			return Add_Mail_List(cur);
 		}
 		// 사이값
 		else {
 			cur = SendMailColl.find(new BasicDBObject().append("time", new BasicDBObject("$gte", day)).append("time", new BasicDBObject("$lte", checkday)));
-			Add_Mail_List(cur);
+			return Add_Mail_List(cur);
 		}
 	}
 
