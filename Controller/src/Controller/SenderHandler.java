@@ -6,8 +6,8 @@ import Protocol.SenderController.CertifyRequest;
 import Protocol.SenderController.CertifyResponse;
 import Protocol.SenderController.GetMailListRequest;
 import Protocol.SenderController.GetMailListResponse;
-import Protocol.SenderController.GetMailStatusRequest;
-import Protocol.SenderController.GetMailStatusResponse;
+import Protocol.SenderController.MailStatusRequest;
+import Protocol.SenderController.MailStatusResponse;
 import Protocol.SenderController.MonitoringRequest;
 import Protocol.SenderController.MonitoringResponse;
 import Protocol.SenderController.NewTaskRequest;
@@ -37,12 +37,12 @@ public class SenderHandler implements BlockingInterface{
 	}
 
 	@Override
-	public GetMailStatusResponse getMailStatus(RpcController controller,
-			GetMailStatusRequest request) throws ServiceException {
+	public MailStatusResponse mailStatus(RpcController controller,
+			MailStatusRequest request) throws ServiceException {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	
 	@Override
 	public MonitoringResponse monitoring(RpcController controller,
 			MonitoringRequest request) throws ServiceException {
