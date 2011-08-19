@@ -48,6 +48,7 @@ public class SenderHandler implements BlockingInterface{
 			MonitoringRequest request) throws ServiceException {
 		// TODO Auto-generated method stub
 		//System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", request.getThread(), request.getCPU(), request.getNetworkInByte(), request.getNetworkInPakcet(), request.getMemory(), request.getSendCount()));
+
 		return MonitoringResponse.newBuilder().build();
 	}
 }

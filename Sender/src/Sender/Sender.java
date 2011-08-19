@@ -89,37 +89,34 @@ public class Sender {
 		//모니터링 시작
 		new Monitoring().start();
 		
-		class Test extends Thread {
-			public void run()
-			{
-				Task task = new Task(0, "test@owl.or.kr", "테스트입니다.", "테스트죠뭐..");/*
-				for(int i=0; i<100000; i++)
-				{
-					synchronized(Sender.Connect)
-					{
-						Sender.Connect.add(new Connect(task, 0, "poweroyh@naver.com"));
-						Sender.Connect.add(new Connect(task, 0, "shlee940322@naver.com"));
-					}
-				}*/
-				synchronized(Sender.Connect)
-				{
-				Sender.Connect.add(new Connect(task, 0, "poweroyh@naver.com"));
-				Sender.Connect.add(new Connect(task, 0, "shlee940322@naver.com"));
-				Sender.Connect.add(new Connect(task, 0, "shlee322@gmail.com"));
-				}
-				
-			}
-		}
-		
-		new Test().start();
-		
-		
 		long time=System.currentTimeMillis()+5000;
+		long NewTaskTime=0;
 
 		while(true)
 		{
 			if(System.currentTimeMillis()>time)
 			{
+				try {
+					NewTaskResponse Task = Sender.SenderHandler.newTask(Sender.controller, NewTaskRequest.newBuilder().setTime(NewTaskTime).build());
+					time=Task.getTime();
+					String[] ObjectId = Task.getObjectId().split("\1");
+					String[] From = Task.getFrom().split("\1");
+					String[] Subject = Task.getSubject().split("\1");
+					String[] Message = Task.getMessage().split("\1");
+					
+					for(int i=0; i<ObjectId.length; i++)
+					{
+						Task newTask = new Task(ObjectId[i], From[i], Subject[i], Message[i]);
+						newTask.Load();
+					}
+					
+				} catch (ServiceException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				
+				
 				time=System.currentTimeMillis()+5000;
 				if(Sender.Connect.size()>0)
 				{
@@ -132,14 +129,6 @@ public class Sender {
 					}
 				}
 			}
-				/*
-				try {
-					blockingCalcService.newTask(controller, NewTaskRequest.newBuilder().setTime(test).build());
-					test = System.currentTimeMillis();
-				} catch (ServiceException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}*/
 		}
 	}
 	

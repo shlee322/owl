@@ -2028,31 +2028,31 @@ public final class SenderController {
     // @@protoc_insertion_point(class_scope:GetMailListResponse)
   }
   
-  public static final class GetMailStatusRequest extends
+  public static final class MailStatusRequest extends
       com.google.protobuf.GeneratedMessage {
-    // Use GetMailStatusRequest.newBuilder() to construct.
-    private GetMailStatusRequest() {
+    // Use MailStatusRequest.newBuilder() to construct.
+    private MailStatusRequest() {
       initFields();
     }
-    private GetMailStatusRequest(boolean noInit) {}
+    private MailStatusRequest(boolean noInit) {}
     
-    private static final GetMailStatusRequest defaultInstance;
-    public static GetMailStatusRequest getDefaultInstance() {
+    private static final MailStatusRequest defaultInstance;
+    public static MailStatusRequest getDefaultInstance() {
       return defaultInstance;
     }
     
-    public GetMailStatusRequest getDefaultInstanceForType() {
+    public MailStatusRequest getDefaultInstanceForType() {
       return defaultInstance;
     }
     
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return Protocol.SenderController.internal_static_GetMailStatusRequest_descriptor;
+      return Protocol.SenderController.internal_static_MailStatusRequest_descriptor;
     }
     
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return Protocol.SenderController.internal_static_GetMailStatusRequest_fieldAccessorTable;
+      return Protocol.SenderController.internal_static_MailStatusRequest_fieldAccessorTable;
     }
     
     // required string ObjectId = 1;
@@ -2108,41 +2108,41 @@ public final class SenderController {
       return size;
     }
     
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(
+    public static Protocol.SenderController.MailStatusRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(
+    public static Protocol.SenderController.MailStatusRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(byte[] data)
+    public static Protocol.SenderController.MailStatusRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(
+    public static Protocol.SenderController.MailStatusRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(java.io.InputStream input)
+    public static Protocol.SenderController.MailStatusRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(
+    public static Protocol.SenderController.MailStatusRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input, extensionRegistry)
                .buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseDelimitedFrom(java.io.InputStream input)
+    public static Protocol.SenderController.MailStatusRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       Builder builder = newBuilder();
       if (builder.mergeDelimitedFrom(input)) {
@@ -2151,7 +2151,7 @@ public final class SenderController {
         return null;
       }
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseDelimitedFrom(
+    public static Protocol.SenderController.MailStatusRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2162,12 +2162,12 @@ public final class SenderController {
         return null;
       }
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(
+    public static Protocol.SenderController.MailStatusRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusRequest parseFrom(
+    public static Protocol.SenderController.MailStatusRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2177,25 +2177,25 @@ public final class SenderController {
     
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(Protocol.SenderController.GetMailStatusRequest prototype) {
+    public static Builder newBuilder(Protocol.SenderController.MailStatusRequest prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
     
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> {
-      private Protocol.SenderController.GetMailStatusRequest result;
+      private Protocol.SenderController.MailStatusRequest result;
       
-      // Construct using Protocol.SenderController.GetMailStatusRequest.newBuilder()
+      // Construct using Protocol.SenderController.MailStatusRequest.newBuilder()
       private Builder() {}
       
       private static Builder create() {
         Builder builder = new Builder();
-        builder.result = new Protocol.SenderController.GetMailStatusRequest();
+        builder.result = new Protocol.SenderController.MailStatusRequest();
         return builder;
       }
       
-      protected Protocol.SenderController.GetMailStatusRequest internalGetResult() {
+      protected Protocol.SenderController.MailStatusRequest internalGetResult() {
         return result;
       }
       
@@ -2204,7 +2204,7 @@ public final class SenderController {
           throw new IllegalStateException(
             "Cannot call clear() after build().");
         }
-        result = new Protocol.SenderController.GetMailStatusRequest();
+        result = new Protocol.SenderController.MailStatusRequest();
         return this;
       }
       
@@ -2214,24 +2214,24 @@ public final class SenderController {
       
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return Protocol.SenderController.GetMailStatusRequest.getDescriptor();
+        return Protocol.SenderController.MailStatusRequest.getDescriptor();
       }
       
-      public Protocol.SenderController.GetMailStatusRequest getDefaultInstanceForType() {
-        return Protocol.SenderController.GetMailStatusRequest.getDefaultInstance();
+      public Protocol.SenderController.MailStatusRequest getDefaultInstanceForType() {
+        return Protocol.SenderController.MailStatusRequest.getDefaultInstance();
       }
       
       public boolean isInitialized() {
         return result.isInitialized();
       }
-      public Protocol.SenderController.GetMailStatusRequest build() {
+      public Protocol.SenderController.MailStatusRequest build() {
         if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return buildPartial();
       }
       
-      private Protocol.SenderController.GetMailStatusRequest buildParsed()
+      private Protocol.SenderController.MailStatusRequest buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
         if (!isInitialized()) {
           throw newUninitializedMessageException(
@@ -2240,27 +2240,27 @@ public final class SenderController {
         return buildPartial();
       }
       
-      public Protocol.SenderController.GetMailStatusRequest buildPartial() {
+      public Protocol.SenderController.MailStatusRequest buildPartial() {
         if (result == null) {
           throw new IllegalStateException(
             "build() has already been called on this Builder.");
         }
-        Protocol.SenderController.GetMailStatusRequest returnMe = result;
+        Protocol.SenderController.MailStatusRequest returnMe = result;
         result = null;
         return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof Protocol.SenderController.GetMailStatusRequest) {
-          return mergeFrom((Protocol.SenderController.GetMailStatusRequest)other);
+        if (other instanceof Protocol.SenderController.MailStatusRequest) {
+          return mergeFrom((Protocol.SenderController.MailStatusRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
       
-      public Builder mergeFrom(Protocol.SenderController.GetMailStatusRequest other) {
-        if (other == Protocol.SenderController.GetMailStatusRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(Protocol.SenderController.MailStatusRequest other) {
+        if (other == Protocol.SenderController.MailStatusRequest.getDefaultInstance()) return this;
         if (other.hasObjectId()) {
           setObjectId(other.getObjectId());
         }
@@ -2347,43 +2347,43 @@ public final class SenderController {
         return this;
       }
       
-      // @@protoc_insertion_point(builder_scope:GetMailStatusRequest)
+      // @@protoc_insertion_point(builder_scope:MailStatusRequest)
     }
     
     static {
-      defaultInstance = new GetMailStatusRequest(true);
+      defaultInstance = new MailStatusRequest(true);
       Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
-    // @@protoc_insertion_point(class_scope:GetMailStatusRequest)
+    // @@protoc_insertion_point(class_scope:MailStatusRequest)
   }
   
-  public static final class GetMailStatusResponse extends
+  public static final class MailStatusResponse extends
       com.google.protobuf.GeneratedMessage {
-    // Use GetMailStatusResponse.newBuilder() to construct.
-    private GetMailStatusResponse() {
+    // Use MailStatusResponse.newBuilder() to construct.
+    private MailStatusResponse() {
       initFields();
     }
-    private GetMailStatusResponse(boolean noInit) {}
+    private MailStatusResponse(boolean noInit) {}
     
-    private static final GetMailStatusResponse defaultInstance;
-    public static GetMailStatusResponse getDefaultInstance() {
+    private static final MailStatusResponse defaultInstance;
+    public static MailStatusResponse getDefaultInstance() {
       return defaultInstance;
     }
     
-    public GetMailStatusResponse getDefaultInstanceForType() {
+    public MailStatusResponse getDefaultInstanceForType() {
       return defaultInstance;
     }
     
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return Protocol.SenderController.internal_static_GetMailStatusResponse_descriptor;
+      return Protocol.SenderController.internal_static_MailStatusResponse_descriptor;
     }
     
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return Protocol.SenderController.internal_static_GetMailStatusResponse_fieldAccessorTable;
+      return Protocol.SenderController.internal_static_MailStatusResponse_fieldAccessorTable;
     }
     
     private void initFields() {
@@ -2409,41 +2409,41 @@ public final class SenderController {
       return size;
     }
     
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(
+    public static Protocol.SenderController.MailStatusResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(
+    public static Protocol.SenderController.MailStatusResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(byte[] data)
+    public static Protocol.SenderController.MailStatusResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(
+    public static Protocol.SenderController.MailStatusResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(java.io.InputStream input)
+    public static Protocol.SenderController.MailStatusResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(
+    public static Protocol.SenderController.MailStatusResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input, extensionRegistry)
                .buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseDelimitedFrom(java.io.InputStream input)
+    public static Protocol.SenderController.MailStatusResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       Builder builder = newBuilder();
       if (builder.mergeDelimitedFrom(input)) {
@@ -2452,7 +2452,7 @@ public final class SenderController {
         return null;
       }
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseDelimitedFrom(
+    public static Protocol.SenderController.MailStatusResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2463,12 +2463,12 @@ public final class SenderController {
         return null;
       }
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(
+    public static Protocol.SenderController.MailStatusResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static Protocol.SenderController.GetMailStatusResponse parseFrom(
+    public static Protocol.SenderController.MailStatusResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2478,25 +2478,25 @@ public final class SenderController {
     
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(Protocol.SenderController.GetMailStatusResponse prototype) {
+    public static Builder newBuilder(Protocol.SenderController.MailStatusResponse prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
     
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> {
-      private Protocol.SenderController.GetMailStatusResponse result;
+      private Protocol.SenderController.MailStatusResponse result;
       
-      // Construct using Protocol.SenderController.GetMailStatusResponse.newBuilder()
+      // Construct using Protocol.SenderController.MailStatusResponse.newBuilder()
       private Builder() {}
       
       private static Builder create() {
         Builder builder = new Builder();
-        builder.result = new Protocol.SenderController.GetMailStatusResponse();
+        builder.result = new Protocol.SenderController.MailStatusResponse();
         return builder;
       }
       
-      protected Protocol.SenderController.GetMailStatusResponse internalGetResult() {
+      protected Protocol.SenderController.MailStatusResponse internalGetResult() {
         return result;
       }
       
@@ -2505,7 +2505,7 @@ public final class SenderController {
           throw new IllegalStateException(
             "Cannot call clear() after build().");
         }
-        result = new Protocol.SenderController.GetMailStatusResponse();
+        result = new Protocol.SenderController.MailStatusResponse();
         return this;
       }
       
@@ -2515,24 +2515,24 @@ public final class SenderController {
       
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return Protocol.SenderController.GetMailStatusResponse.getDescriptor();
+        return Protocol.SenderController.MailStatusResponse.getDescriptor();
       }
       
-      public Protocol.SenderController.GetMailStatusResponse getDefaultInstanceForType() {
-        return Protocol.SenderController.GetMailStatusResponse.getDefaultInstance();
+      public Protocol.SenderController.MailStatusResponse getDefaultInstanceForType() {
+        return Protocol.SenderController.MailStatusResponse.getDefaultInstance();
       }
       
       public boolean isInitialized() {
         return result.isInitialized();
       }
-      public Protocol.SenderController.GetMailStatusResponse build() {
+      public Protocol.SenderController.MailStatusResponse build() {
         if (result != null && !isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return buildPartial();
       }
       
-      private Protocol.SenderController.GetMailStatusResponse buildParsed()
+      private Protocol.SenderController.MailStatusResponse buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
         if (!isInitialized()) {
           throw newUninitializedMessageException(
@@ -2541,27 +2541,27 @@ public final class SenderController {
         return buildPartial();
       }
       
-      public Protocol.SenderController.GetMailStatusResponse buildPartial() {
+      public Protocol.SenderController.MailStatusResponse buildPartial() {
         if (result == null) {
           throw new IllegalStateException(
             "build() has already been called on this Builder.");
         }
-        Protocol.SenderController.GetMailStatusResponse returnMe = result;
+        Protocol.SenderController.MailStatusResponse returnMe = result;
         result = null;
         return returnMe;
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof Protocol.SenderController.GetMailStatusResponse) {
-          return mergeFrom((Protocol.SenderController.GetMailStatusResponse)other);
+        if (other instanceof Protocol.SenderController.MailStatusResponse) {
+          return mergeFrom((Protocol.SenderController.MailStatusResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
       
-      public Builder mergeFrom(Protocol.SenderController.GetMailStatusResponse other) {
-        if (other == Protocol.SenderController.GetMailStatusResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(Protocol.SenderController.MailStatusResponse other) {
+        if (other == Protocol.SenderController.MailStatusResponse.getDefaultInstance()) return this;
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
       }
@@ -2592,16 +2592,16 @@ public final class SenderController {
       }
       
       
-      // @@protoc_insertion_point(builder_scope:GetMailStatusResponse)
+      // @@protoc_insertion_point(builder_scope:MailStatusResponse)
     }
     
     static {
-      defaultInstance = new GetMailStatusResponse(true);
+      defaultInstance = new MailStatusResponse(true);
       Protocol.SenderController.internalForceInit();
       defaultInstance.initFields();
     }
     
-    // @@protoc_insertion_point(class_scope:GetMailStatusResponse)
+    // @@protoc_insertion_point(class_scope:MailStatusResponse)
   }
   
   public static final class MonitoringRequest extends
@@ -3434,10 +3434,10 @@ public final class SenderController {
           Protocol.SenderController.GetMailListRequest request,
           com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailListResponse> done);
       
-      public abstract void getMailStatus(
+      public abstract void mailStatus(
           com.google.protobuf.RpcController controller,
-          Protocol.SenderController.GetMailStatusRequest request,
-          com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done);
+          Protocol.SenderController.MailStatusRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.MailStatusResponse> done);
       
       public abstract void monitoring(
           com.google.protobuf.RpcController controller,
@@ -3474,11 +3474,11 @@ public final class SenderController {
         }
         
         @Override
-        public  void getMailStatus(
+        public  void mailStatus(
             com.google.protobuf.RpcController controller,
-            Protocol.SenderController.GetMailStatusRequest request,
-            com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done) {
-          impl.getMailStatus(controller, request, done);
+            Protocol.SenderController.MailStatusRequest request,
+            com.google.protobuf.RpcCallback<Protocol.SenderController.MailStatusResponse> done) {
+          impl.mailStatus(controller, request, done);
         }
         
         @Override
@@ -3518,7 +3518,7 @@ public final class SenderController {
             case 2:
               return impl.getMailList(controller, (Protocol.SenderController.GetMailListRequest)request);
             case 3:
-              return impl.getMailStatus(controller, (Protocol.SenderController.GetMailStatusRequest)request);
+              return impl.mailStatus(controller, (Protocol.SenderController.MailStatusRequest)request);
             case 4:
               return impl.monitoring(controller, (Protocol.SenderController.MonitoringRequest)request);
             default:
@@ -3542,7 +3542,7 @@ public final class SenderController {
             case 2:
               return Protocol.SenderController.GetMailListRequest.getDefaultInstance();
             case 3:
-              return Protocol.SenderController.GetMailStatusRequest.getDefaultInstance();
+              return Protocol.SenderController.MailStatusRequest.getDefaultInstance();
             case 4:
               return Protocol.SenderController.MonitoringRequest.getDefaultInstance();
             default:
@@ -3566,7 +3566,7 @@ public final class SenderController {
             case 2:
               return Protocol.SenderController.GetMailListResponse.getDefaultInstance();
             case 3:
-              return Protocol.SenderController.GetMailStatusResponse.getDefaultInstance();
+              return Protocol.SenderController.MailStatusResponse.getDefaultInstance();
             case 4:
               return Protocol.SenderController.MonitoringResponse.getDefaultInstance();
             default:
@@ -3592,10 +3592,10 @@ public final class SenderController {
         Protocol.SenderController.GetMailListRequest request,
         com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailListResponse> done);
     
-    public abstract void getMailStatus(
+    public abstract void mailStatus(
         com.google.protobuf.RpcController controller,
-        Protocol.SenderController.GetMailStatusRequest request,
-        com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done);
+        Protocol.SenderController.MailStatusRequest request,
+        com.google.protobuf.RpcCallback<Protocol.SenderController.MailStatusResponse> done);
     
     public abstract void monitoring(
         com.google.protobuf.RpcController controller,
@@ -3640,8 +3640,8 @@ public final class SenderController {
               done));
           return;
         case 3:
-          this.getMailStatus(controller, (Protocol.SenderController.GetMailStatusRequest)request,
-            com.google.protobuf.RpcUtil.<Protocol.SenderController.GetMailStatusResponse>specializeCallback(
+          this.mailStatus(controller, (Protocol.SenderController.MailStatusRequest)request,
+            com.google.protobuf.RpcUtil.<Protocol.SenderController.MailStatusResponse>specializeCallback(
               done));
           return;
         case 4:
@@ -3670,7 +3670,7 @@ public final class SenderController {
         case 2:
           return Protocol.SenderController.GetMailListRequest.getDefaultInstance();
         case 3:
-          return Protocol.SenderController.GetMailStatusRequest.getDefaultInstance();
+          return Protocol.SenderController.MailStatusRequest.getDefaultInstance();
         case 4:
           return Protocol.SenderController.MonitoringRequest.getDefaultInstance();
         default:
@@ -3694,7 +3694,7 @@ public final class SenderController {
         case 2:
           return Protocol.SenderController.GetMailListResponse.getDefaultInstance();
         case 3:
-          return Protocol.SenderController.GetMailStatusResponse.getDefaultInstance();
+          return Protocol.SenderController.MailStatusResponse.getDefaultInstance();
         case 4:
           return Protocol.SenderController.MonitoringResponse.getDefaultInstance();
         default:
@@ -3763,19 +3763,19 @@ public final class SenderController {
             Protocol.SenderController.GetMailListResponse.getDefaultInstance()));
       }
       
-      public  void getMailStatus(
+      public  void mailStatus(
           com.google.protobuf.RpcController controller,
-          Protocol.SenderController.GetMailStatusRequest request,
-          com.google.protobuf.RpcCallback<Protocol.SenderController.GetMailStatusResponse> done) {
+          Protocol.SenderController.MailStatusRequest request,
+          com.google.protobuf.RpcCallback<Protocol.SenderController.MailStatusResponse> done) {
         channel.callMethod(
           getDescriptor().getMethods().get(3),
           controller,
           request,
-          Protocol.SenderController.GetMailStatusResponse.getDefaultInstance(),
+          Protocol.SenderController.MailStatusResponse.getDefaultInstance(),
           com.google.protobuf.RpcUtil.generalizeCallback(
             done,
-            Protocol.SenderController.GetMailStatusResponse.class,
-            Protocol.SenderController.GetMailStatusResponse.getDefaultInstance()));
+            Protocol.SenderController.MailStatusResponse.class,
+            Protocol.SenderController.MailStatusResponse.getDefaultInstance()));
       }
       
       public  void monitoring(
@@ -3815,9 +3815,9 @@ public final class SenderController {
           Protocol.SenderController.GetMailListRequest request)
           throws com.google.protobuf.ServiceException;
       
-      public Protocol.SenderController.GetMailStatusResponse getMailStatus(
+      public Protocol.SenderController.MailStatusResponse mailStatus(
           com.google.protobuf.RpcController controller,
-          Protocol.SenderController.GetMailStatusRequest request)
+          Protocol.SenderController.MailStatusRequest request)
           throws com.google.protobuf.ServiceException;
       
       public Protocol.SenderController.MonitoringResponse monitoring(
@@ -3869,15 +3869,15 @@ public final class SenderController {
       }
       
       
-      public Protocol.SenderController.GetMailStatusResponse getMailStatus(
+      public Protocol.SenderController.MailStatusResponse mailStatus(
           com.google.protobuf.RpcController controller,
-          Protocol.SenderController.GetMailStatusRequest request)
+          Protocol.SenderController.MailStatusRequest request)
           throws com.google.protobuf.ServiceException {
-        return (Protocol.SenderController.GetMailStatusResponse) channel.callBlockingMethod(
+        return (Protocol.SenderController.MailStatusResponse) channel.callBlockingMethod(
           getDescriptor().getMethods().get(3),
           controller,
           request,
-          Protocol.SenderController.GetMailStatusResponse.getDefaultInstance());
+          Protocol.SenderController.MailStatusResponse.getDefaultInstance());
       }
       
       
@@ -3926,15 +3926,15 @@ public final class SenderController {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_GetMailListResponse_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_GetMailStatusRequest_descriptor;
+    internal_static_MailStatusRequest_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_GetMailStatusRequest_fieldAccessorTable;
+      internal_static_MailStatusRequest_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_GetMailStatusResponse_descriptor;
+    internal_static_MailStatusResponse_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_GetMailStatusResponse_fieldAccessorTable;
+      internal_static_MailStatusResponse_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
     internal_static_MonitoringRequest_descriptor;
   private static
@@ -3962,22 +3962,22 @@ public final class SenderController {
       "\007Message\030\004 \002(\t\022\014\n\004Time\030\005 \002(\003\"&\n\022GetMailL" +
       "istRequest\022\020\n\010ObjectId\030\001 \002(\t\"E\n\023GetMailL" +
       "istResponse\022\020\n\010ObjectId\030\001 \002(\t\022\013\n\003Key\030\002 \002" +
-      "(\t\022\017\n\007Address\030\003 \002(\t\"6\n\024GetMailStatusRequ" +
-      "est\022\020\n\010ObjectId\030\001 \002(\t\022\014\n\004code\030\002 \002(\t\"\027\n\025G",
-      "etMailStatusResponse\"\271\001\n\021MonitoringReque" +
-      "st\022\013\n\003CPU\030\001 \002(\001\022\016\n\006Memory\030\002 \002(\003\022\026\n\016Netwo" +
-      "rkIn_Byte\030\003 \002(\003\022\030\n\020NetworkIn_Pakcet\030\004 \002(" +
-      "\003\022\027\n\017NetworkOut_Byte\030\005 \002(\003\022\031\n\021NetworkOut" +
-      "_Pakcet\030\006 \002(\003\022\016\n\006Thread\030\007 \002(\003\022\021\n\tSendCou" +
-      "nt\030\010 \002(\003\"\024\n\022MonitoringResponse2\234\002\n\rSende" +
-      "rHandler\022,\n\007Certify\022\017.CertifyRequest\032\020.C" +
-      "ertifyResponse\022,\n\007NewTask\022\017.NewTaskReque" +
-      "st\032\020.NewTaskResponse\0228\n\013GetMailList\022\023.Ge" +
-      "tMailListRequest\032\024.GetMailListResponse\022>",
-      "\n\rGetMailStatus\022\025.GetMailStatusRequest\032\026" +
-      ".GetMailStatusResponse\0225\n\nMonitoring\022\022.M" +
-      "onitoringRequest\032\023.MonitoringResponseB\034\n" +
-      "\010ProtocolB\020SenderController"
+      "(\t\022\017\n\007Address\030\003 \002(\t\"3\n\021MailStatusRequest" +
+      "\022\020\n\010ObjectId\030\001 \002(\t\022\014\n\004code\030\002 \002(\t\"\024\n\022Mail",
+      "StatusResponse\"\271\001\n\021MonitoringRequest\022\013\n\003" +
+      "CPU\030\001 \002(\001\022\016\n\006Memory\030\002 \002(\003\022\026\n\016NetworkIn_B" +
+      "yte\030\003 \002(\003\022\030\n\020NetworkIn_Pakcet\030\004 \002(\003\022\027\n\017N" +
+      "etworkOut_Byte\030\005 \002(\003\022\031\n\021NetworkOut_Pakce" +
+      "t\030\006 \002(\003\022\016\n\006Thread\030\007 \002(\003\022\021\n\tSendCount\030\010 \002" +
+      "(\003\"\024\n\022MonitoringResponse2\223\002\n\rSenderHandl" +
+      "er\022,\n\007Certify\022\017.CertifyRequest\032\020.Certify" +
+      "Response\022,\n\007NewTask\022\017.NewTaskRequest\032\020.N" +
+      "ewTaskResponse\0228\n\013GetMailList\022\023.GetMailL" +
+      "istRequest\032\024.GetMailListResponse\0225\n\nMail",
+      "Status\022\022.MailStatusRequest\032\023.MailStatusR" +
+      "esponse\0225\n\nMonitoring\022\022.MonitoringReques" +
+      "t\032\023.MonitoringResponseB\034\n\010ProtocolB\020Send" +
+      "erController"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -4032,22 +4032,22 @@ public final class SenderController {
               new java.lang.String[] { "ObjectId", "Key", "Address", },
               Protocol.SenderController.GetMailListResponse.class,
               Protocol.SenderController.GetMailListResponse.Builder.class);
-          internal_static_GetMailStatusRequest_descriptor =
+          internal_static_MailStatusRequest_descriptor =
             getDescriptor().getMessageTypes().get(6);
-          internal_static_GetMailStatusRequest_fieldAccessorTable = new
+          internal_static_MailStatusRequest_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-              internal_static_GetMailStatusRequest_descriptor,
+              internal_static_MailStatusRequest_descriptor,
               new java.lang.String[] { "ObjectId", "Code", },
-              Protocol.SenderController.GetMailStatusRequest.class,
-              Protocol.SenderController.GetMailStatusRequest.Builder.class);
-          internal_static_GetMailStatusResponse_descriptor =
+              Protocol.SenderController.MailStatusRequest.class,
+              Protocol.SenderController.MailStatusRequest.Builder.class);
+          internal_static_MailStatusResponse_descriptor =
             getDescriptor().getMessageTypes().get(7);
-          internal_static_GetMailStatusResponse_fieldAccessorTable = new
+          internal_static_MailStatusResponse_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-              internal_static_GetMailStatusResponse_descriptor,
+              internal_static_MailStatusResponse_descriptor,
               new java.lang.String[] { },
-              Protocol.SenderController.GetMailStatusResponse.class,
-              Protocol.SenderController.GetMailStatusResponse.Builder.class);
+              Protocol.SenderController.MailStatusResponse.class,
+              Protocol.SenderController.MailStatusResponse.Builder.class);
           internal_static_MonitoringRequest_descriptor =
             getDescriptor().getMessageTypes().get(8);
           internal_static_MonitoringRequest_fieldAccessorTable = new
