@@ -39,7 +39,7 @@ public class Controller {
 		Controller.Client_Server.serve();
 		*/
 		//일단은 대충대충 만듬
-		
+		/*
 		MongoDB MongoDB = new MongoDB();
 		MongoDB.DBStart("poweroyh");
 		MongoDB.Del_User("poweroyh");
@@ -59,7 +59,7 @@ public class Controller {
 		for (Person person : PersonList) {
 			System.out.println(person.Name);
 			
-		}
+		}*/
 		
 		
 	}

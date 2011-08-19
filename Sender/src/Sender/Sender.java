@@ -76,13 +76,13 @@ public class Sender {
 		Sender.Monitoring_CPU = properties.getProperty("Monitoring_CPU");
 		Sender.Monitoring_Network = properties.getProperty("Monitoring_Network");
 		
-		/*
+		
 		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress(properties.getProperty("Controller_Host"), Integer.parseInt(properties.getProperty("Controller_Port"))));
 
 		BlockingInterface blockingCalcService = Protocol.SenderController.SenderHandler.newBlockingStub(channel);
 		RpcController controller = channel.newRpcController();
-		*/
+		
 		
 		//모니터링 시작
 		new Monitoring().start();
