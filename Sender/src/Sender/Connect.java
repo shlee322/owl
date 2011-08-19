@@ -8,6 +8,8 @@ import java.net.*;
 
 import org.apache.log4j.Logger;
 
+import biz.source_code.base64Coder.Base64Coder;
+
 public class Connect {
 	static Logger logger = Logger.getLogger(Connect.class);
 	
@@ -52,13 +54,12 @@ public class Connect {
 		            );
 	
 		            String Msg = in.readLine();
-		            
 		            //IO에러는 다음 서버에 접속시도를 하고 SMTP서버쪽에서 에러를 던져주면 예외를 발생시킨다.
 
-		            if(!Msg.substring(0, Msg.indexOf(" ")).equals("220"))
+		            if(!Msg.substring(0, 3).equals("220"))
 		            	throw new Exception(Msg);
 	
-		            if(!this.SendCmd("HELO", "250"))
+		            if(!this.SendCmd("EHLO owl.or.kr", "250"))
 		            	continue;
 		            
 		            if(!this.SendCmd(String.format("MAIL FROM:<%s>", this.Task.From), "250"))
@@ -72,7 +73,7 @@ public class Connect {
 	
 		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
 		            //
-		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: %s\n%s<img src=\"http://www.owl.or.kr/read.php?user=%d&mail=%d&address=%d&key=%s\" width=\"0\" height=\"0\">\n", this.Task.From, this.Mail, this.Task.Subject, this.Task.Message, 4, 7, 11, "123"));
+		            out.println(String.format("MIME-Version: 1.0\nFrom: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr/read.php?objectid=%s&key=%s\" width=\"0\" height=\"0\">","123","123"))));
 	
 		            if(!this.SendCmd(".", "250"))
 		            	continue;
@@ -90,8 +91,8 @@ public class Connect {
 				throw new Exception("서버 접근 실패");
 		}catch (Exception e)
 		{
-			Connect.logger.error(e.getMessage());
-			//e.printStackTrace();
+			//Connect.logger.error(e.getMessage());
+			e.printStackTrace();
 			//이제 이걸 컨트롤러쪽으로 던져주던지....
 		}
 		return true;
@@ -100,16 +101,23 @@ public class Connect {
 	boolean SendCmd(String Cmd, String S) throws Exception
 	{
 		out.println(Cmd);
-        String Msg;
+        String Msg="";
 		try {
-			Msg = in.readLine();
+			while(true)
+			{
+				Msg = in.readLine();
+
+				if(!Msg.substring(0, 3).equals(S))
+					throw new Exception(Msg);
+
+				if(!Msg.substring(3, 4).equals("-"))
+					break;
+			}
 		} catch (IOException e) {
+			
 			e.printStackTrace();
 			return false;
 		}
-		boolean r = Msg.substring(0, Msg.indexOf(" ")).equals(S);
-		if(!r)
-			throw new Exception(Msg);
 		return true;
 	}
 }

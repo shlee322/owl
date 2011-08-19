@@ -1,6 +1,8 @@
 package Sender;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.InetSocketAddress;
@@ -10,6 +12,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Properties;
 import java.util.Queue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -23,6 +26,9 @@ import Protocol.SenderController.NewTaskResponse;
 import Protocol.SenderController.SenderHandler.BlockingInterface;
 import Protocol.SenderController.SenderHandler.Stub;
 
+import biz.source_code.base64Coder.Base64Coder;
+
+import com.google.protobuf.Message;
 import com.google.protobuf.RpcController;
 import com.google.protobuf.ServiceException;
 import com.googlecode.protobuf.netty.NettyRpcChannel;
@@ -42,23 +48,37 @@ public class Sender {
 	static String[] IPList;
 	static int IPCount;
 	
+	static String Monitoring_CPU;
+	static String Monitoring_Network;
+	
 	public static void main(String ar[])
 	{
 		Sender.DNS_Cache = new HashMap<String, DNS>();
 		Sender.Connect = new LinkedList<Connect>();
-		
+
 		//나중에 파일로 처리
-		Sender.IPList = new String[59];
-		for(int i=0; i<59; i++)
-				Sender.IPList[i] = String.format("183.111.9.%d", i+67);
+		Properties properties = new Properties();
+		try {
+			FileInputStream properties_file;
+			properties_file = new FileInputStream("sender.properties");
+			properties.load(properties_file);
+			properties_file.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		
+		Sender.IPList = properties.getProperty("IPList").split(",");
 		Sender.IPCount = 0;
 
-		ExecutorService executorService = Executors.newFixedThreadPool(2950); //IP수 * IP당 갯수
+		ExecutorService executorService = Executors.newFixedThreadPool(Integer.parseInt(properties.getProperty("MAX_ThreadCount"))); //IP수 * IP당 갯수
+		
+		Sender.Monitoring_CPU = properties.getProperty("Monitoring_CPU");
+		Sender.Monitoring_Network = properties.getProperty("Monitoring_Network");
 		
 		/*
-
 		Sender.client =  new NettyRpcClient((ChannelFactory) new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
-		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress("controller.owl.or.kr", 7004));
+		NettyRpcChannel channel = client.blockingConnect(new InetSocketAddress(properties.getProperty("Controller_Host"), Integer.parseInt(properties.getProperty("Controller_Port"))));
 
 		BlockingInterface blockingCalcService = Protocol.SenderController.SenderHandler.newBlockingStub(channel);
 		RpcController controller = channel.newRpcController();
@@ -70,7 +90,7 @@ public class Sender {
 		class Test extends Thread {
 			public void run()
 			{
-				Task task = new Task(0, "test@owl.or.kr", "테스트입니다.", "테스트죠뭐..");
+				Task task = new Task(0, "test@owl.or.kr", "테스트입니다.", "테스트죠뭐..");/*
 				for(int i=0; i<100000; i++)
 				{
 					synchronized(Sender.Connect)
@@ -78,7 +98,14 @@ public class Sender {
 						Sender.Connect.add(new Connect(task, 0, "poweroyh@naver.com"));
 						Sender.Connect.add(new Connect(task, 0, "shlee940322@naver.com"));
 					}
+				}*/
+				synchronized(Sender.Connect)
+				{
+				Sender.Connect.add(new Connect(task, 0, "poweroyh@naver.com"));
+				Sender.Connect.add(new Connect(task, 0, "shlee940322@naver.com"));
+				Sender.Connect.add(new Connect(task, 0, "shlee322@gmail.com"));
 				}
+				
 			}
 		}
 		
@@ -134,7 +161,6 @@ public class Sender {
 		try {
 			p.waitFor();
 		} catch (InterruptedException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		
@@ -150,11 +176,10 @@ public class Sender {
 				 if(line.indexOf("mail") == -1)
 					 continue;
 				 
-				 Data = line.split(" "); //Data[3] : 占쎌선占쏙옙占쏙옙, Data[7] : 占쏙옙占싹쇽옙占쏙옙
+				 Data = line.split(" ");
 				 Server server = new Server();
-				 server.ranking = Integer.parseInt(Data[3].substring(0, Data[3].length()-1));
+				 server.ranking = Integer.parseInt(Data[3]);
 				 server.Host = Data[4].substring(0, Data[4].length() - 1);
-				 //System.out.println(server.ranking + " " + server.Host);
 				 MailServer.add(server);
 			 }
 			reader.close();

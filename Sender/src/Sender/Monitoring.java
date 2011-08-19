@@ -36,10 +36,11 @@ public class Monitoring extends Thread {
 			long scount = sendcount + temp_sendcount;
 			temp_sendcount = sendcount;
 			sendcount = 0;
-	
+			/*
 			for (int i = 0; i < 80; i++)
 			      System.out.println("");
 			System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", Thread.activeCount(), cpustat, Net.receive_byte, Net.transmit_byte, usedMemory(), scount));
+			*/
 		}
 	}
 	
@@ -48,7 +49,7 @@ public class Monitoring extends Thread {
 		Process p = null;
 		
 		try {
-			p = Runtime.getRuntime().exec(new String[]{"sh","network.sh"});
+			p = Runtime.getRuntime().exec(new String[]{"sh",Sender.Monitoring_Network});
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -103,7 +104,7 @@ public class Monitoring extends Thread {
 		Process p = null;
 		
 		try {
-			p = Runtime.getRuntime().exec(new String[]{"sh","cpu.sh"});
+			p = Runtime.getRuntime().exec(new String[]{"sh",Sender.Monitoring_CPU});
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
