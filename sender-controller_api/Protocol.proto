@@ -42,19 +42,14 @@ message GetMailStatusResponse {
 }
 
 message MonitoringRequest {
-    required double CPUus = 1;
-    required double CPUsy = 2;
-    required double CPUni = 3;
-    required double CPUid = 4;
-    required double CPUwa = 5;
-    required double CPUhi = 6;
-    required double CPUsi = 7;
-    required double CPUst = 8;
-    required int64 Memory = 9;
-    required double NetworkIn = 10;
-    required double NetworkOut = 11;
-    required int64 Thread = 12;
-    required int64 SendCount = 13;
+    required double CPU = 1;
+    required int64 Memory = 2;
+    required double NetworkIn_Byte = 3;
+    required double NetworkIn_Pakcet = 4;
+    required double NetworkOut_Byte = 5;
+    required double NetworkOut_Pakcet = 6;
+    required int64 Thread = 7;
+    required int64 SendCount = 8;
 }
 
 message MonitoringResponse {

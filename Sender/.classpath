@@ -5,5 +5,6 @@
 	<classpathentry kind="lib" path="netty-3.2.4.Final.jar"/>
 	<classpathentry kind="lib" path="netty-protobuf-rpc-1.0.0.jar"/>
 	<classpathentry kind="lib" path="protobuf-java-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/이상혁/Projects/owl/Controller/log4j-1.2.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
