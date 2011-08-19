@@ -14,6 +14,7 @@ import org.apache.thrift.server.TServer;
 import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TNonblockingServerSocket;
 import org.apache.thrift.transport.TTransportException;
+import org.jboss.netty.bootstrap.ServerBootstrap;
 import org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory;
 
 import com.googlecode.protobuf.netty.*;
@@ -29,6 +30,16 @@ public class Controller {
 		Controller.Sender_Server.registerService(Protocol.SenderController.SenderHandler.newReflectiveService(new SenderHandler()));
 		Controller.Sender_Server.serve(new InetSocketAddress(7004));
 		
+		ServerBootstrap webbootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(
+				Executors.newCachedThreadPool(),
+				Executors.newCachedThreadPool()));
+				  
+		// Set up the event pipeline factory.
+		webbootstrap.setPipelineFactory(new HttpServerPipelineFactory());
+		  
+		// Bind and start to accept incoming connections.
+		webbootstrap.bind(new InetSocketAddress(8080));
+		
 		
 
 		
@@ -37,18 +48,18 @@ public class Controller {
 		Controller.Client_Server = new THsHaServer(processor, socket, new TFramedTransport.Factory(), new TBinaryProtocol.Factory());
 		Controller.Client_Server.serve();
 		*/
-		//¼ë‹¨€ €ì¶©ëì¶ë§Œë“¬
+		//ï¿½ë‹¨ï¿½ ï¿½ì¶©ï¿½ï¿½ë§Œë“¬
 		/*
 		MongoDB MongoDB = new MongoDB();
 		MongoDB.DBStart("poweroyh");
 		MongoDB.Del_User("poweroyh");
 		
 		MongoDB.Add_Group("SWmaestro");
-		MongoDB.Add_Person("SWmaestro", "¤ìœ , "poweroyh@naver.com", "010-2563-7816");
-		MongoDB.Add_Person("SWmaestro", "´ì„±ë¯, "poweroyh@naver.com", "010-1111-2222");
-		MongoDB.Add_Person("SWmaestro", "´ìƒ, "poweroyh@naver.com", "010-3333-4444");
-		MongoDB.Add_Person("SWmaestro", "„ì„±€", "ã…´ã…‡ã„´naver.c.om", "010-2563-7816");
-		MongoDB.Add_Person("SWmaestro", "„ìˆ˜, "poweroyh@naver.com", "1111-2222-7816");
+		MongoDB.Add_Person("SWmaestro", "ï¿½ìœ , "poweroyh@naver.com", "010-2563-7816");
+		MongoDB.Add_Person("SWmaestro", "ï¿½ì„±ï¿½, "poweroyh@naver.com", "010-1111-2222");
+		MongoDB.Add_Person("SWmaestro", "ï¿½ìƒ, "poweroyh@naver.com", "010-3333-4444");
+		MongoDB.Add_Person("SWmaestro", "ï¿½ì„±ï¿½", "ï¿½ã…ï¿½ã…‡ï¿½ã„´naver.c.om", "010-2563-7816");
+		MongoDB.Add_Person("SWmaestro", "ï¿½ìˆ˜, "poweroyh@naver.com", "1111-2222-7816");
 		MongoDB.Add_Person("SWmaestro", "ê¹€ì¢…í—Œ", "poweroyh@naver.com", "010-2563-3333");
 	//	MongoDB.printResults();
 		MongoDB.Add_Group("SWmaestro");
