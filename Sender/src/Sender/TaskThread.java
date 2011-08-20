@@ -25,7 +25,7 @@ class TaskThread extends Thread
     		{
     			c.Send(ip);
     			time = System.currentTimeMillis();
-    			c.Task.Load();
+    			c.Task.Load(c);
     		}
     		else
     		{

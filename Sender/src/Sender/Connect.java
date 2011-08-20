@@ -37,7 +37,7 @@ public class Connect {
 			int hoststart = this.Mail.indexOf("@");
 			String User = this.Mail.substring(0, hoststart);
 			String Host = this.Mail.substring(hoststart+1);
-	
+
 			DNS dns = Sender.GetDNS(Host);
 	
 			Socket socket;
@@ -78,7 +78,7 @@ public class Connect {
 	
 		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
 		            //
-		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nMIME-Version: 1.0\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr:8080/tracker.php?objectid=%s&key=%s\" width=\"0\" height=\"0\">","123","123"))));
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nMIME-Version: 1.0\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr:8080/tracker.php?time=%d&objectid=%s&key=%s\" width=\"0\" height=\"0\">",this.Task.Time,this.ObjectId,this.Key))));
 	
 		            if(!this.SendCmd(".", "250"))
 		            	continue;
@@ -94,17 +94,16 @@ public class Connect {
 			}
 			if(!send)
 				throw new Exception("서버 접근 실패");
+			System.out.println(String.format("전송성공 [%s]", this.Mail));
 		}catch (Exception e)
 		{
 			try {
-				Sender.SenderHandler.mailStatus(Sender.controller, MailStatusRequest.newBuilder().setObjectId(ObjectId).setCode(e.getMessage()).build());
+				Sender.SenderHandler.mailStatus(Sender.controller, MailStatusRequest.newBuilder().setTime(this.Task.Time).setObjectId(ObjectId).setCode(e.getMessage()).build());
 			} catch (ServiceException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 			//Connect.logger.error(e.getMessage());
-			e.printStackTrace();
-			//이제 이걸 컨트롤러쪽으로 던져주던지....
 		}
 		return true;
 	}

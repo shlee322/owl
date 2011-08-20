@@ -22,9 +22,12 @@ import com.googlecode.protobuf.netty.*;
 public class Controller {
 	static NettyRpcServer Sender_Server;
 	static TServer Client_Server;
+	public static MongoDB MongoDB;
 	public static void main(String ar[]) throws TTransportException
 	{
-		/*
+		Controller.MongoDB = new MongoDB();
+		Controller.MongoDB.DBStart("System");
+		
 		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
 		
 		Controller.Sender_Server.registerBlockingService(Protocol.SenderController.SenderHandler.newReflectiveBlockingService(new SenderHandler()));
@@ -39,8 +42,7 @@ public class Controller {
 		  
 		// Bind and start to accept incoming connections.
 		webbootstrap.bind(new InetSocketAddress(8080));
-		
-		*/
+
 
 		/*
 		final TNonblockingServerSocket socket = new TNonblockingServerSocket(9099);
@@ -48,7 +50,7 @@ public class Controller {
 		Controller.Client_Server = new THsHaServer(processor, socket, new TFramedTransport.Factory(), new TBinaryProtocol.Factory());
 		Controller.Client_Server.serve();
 		*/
-		
+		/*
 		MongoDB MongoDB = new MongoDB();
 		MongoDB.DBStart("poweroyh");
 		//MongoDB.Del_User("poweroyh");
@@ -125,7 +127,7 @@ public class Controller {
 		System.out.println("1313854583302");
 		
 		MongoDB.Load_Sender_Person(Long.parseLong("1313867538488"), 3);
-		
+		*/
 	}
 }
 
