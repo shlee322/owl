@@ -1,0 +1,54 @@
+﻿<ribbon:RibbonWindow x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
+        Title="MainWindow"
+		x:Name="RibbonWindow"
+		Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ribbon:Ribbon x:Name="Ribbon" Grid.Row="0">
+            <ribbon:Ribbon.ApplicationMenu>
+                <ribbon:RibbonApplicationMenu SmallImageSource="Images\SmallIcon.png">
+                    <ribbon:RibbonApplicationMenuItem Header="Hello _Ribbon"
+                                                      x:Name="MenuItem1"
+                                                      ImageSource="Images\LargeIcon.png"/>
+                </ribbon:RibbonApplicationMenu>
+            </ribbon:Ribbon.ApplicationMenu>
+            <ribbon:RibbonTab x:Name="MailTab" 
+                              Header="메일">
+                <ribbon:RibbonGroup x:Name="Group1" 
+                                    Header="발송">
+                    <ribbon:RibbonButton x:Name="Button1"
+                                         LargeImageSource="Images\LargeIcon.png"
+                                         Label="발송" />
+                    
+                    <ribbon:RibbonCheckBox Label="예약발송" /><DatePicker />
+                </ribbon:RibbonGroup>
+                <ribbon:RibbonGroup x:Name="Group2" 
+                                    Header="수신인">
+                    <ListView>
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Width="120" Header="Date" />
+                                <GridViewColumn Width="120" Header="Day Of Week" />
+                                <GridViewColumn Width="120" Header="Year" />
+                            </GridView>
+                        </ListView.View>
+                        d
+                    </ListView>
+                    <ribbon:RibbonButton x:Name="Button2"
+                                         LargeImageSource="Images\LargeIcon.png"
+                                         Label="불러오기" />
+                </ribbon:RibbonGroup>
+            </ribbon:RibbonTab>
+        </ribbon:Ribbon>
+
+        <WebBrowser Grid.Row="1" Height="Auto" HorizontalAlignment="Left" Name="SmartEditor" VerticalAlignment="Center" Width="Auto" Source="C:\Users\이상혁\Projects\Client\Client\bin\Debug\SmartEditor\Editor.html" />
+    </Grid>
+</ribbon:RibbonWindow>
