@@ -51,7 +51,7 @@ public class Controller {
 		
 		MongoDB MongoDB = new MongoDB();
 		MongoDB.DBStart("poweroyh");
-		MongoDB.Del_User("poweroyh");
+		//MongoDB.Del_User("poweroyh");
 		
 		MongoDB.Add_Group("SWmaestro");
 		MongoDB.Add_Person("SWmaestro", "�유", "poweroyh@naver.com", "010-2563-7816");
@@ -89,12 +89,12 @@ public class Controller {
 		test.Send_Num = 6;
 		test.Send_Time = System.currentTimeMillis();
 		test.Sending = false;
+		test.UserName = "poweroyh";
 		
 		To_Person testp= new To_Person();
 		testp.Check_Time = 0;
 		testp.Cord = null;
 		testp.Group_Name = "SWmaestro";
-		testp.Key = null;
 		testp.ObjectID = null;
 		testp.Sending = false;
 		testp.To_Adress = "poweroyh@naver.com";
@@ -114,11 +114,18 @@ public class Controller {
 		testarray.add(test);
 		
 		for (Send_Mail send_Mail : testarray) {
-			MongoDB.Add_Mail_Content(send_Mail.Sending, send_Mail.Send_Time, send_Mail.Send_Num, send_Mail.From_Adress, send_Mail.Mail_Title, send_Mail.Mail_Content);
+			MongoDB.Add_Mail_Content(send_Mail.Sending, send_Mail.Send_Time, send_Mail.Send_Num, send_Mail.From_Adress, send_Mail.Mail_Title, send_Mail.Mail_Content, send_Mail.UserName);
 			for (To_Person toperson : send_Mail.person) {
-				MongoDB.Add_To_Person(send_Mail.Send_Time, toperson.Sending, toperson.Check_Time, toperson.To_Adress, toperson.Cord, toperson.Group_Name, toperson.Key);
+				MongoDB.Add_To_Person(send_Mail.Send_Time, toperson.To_Adress, toperson.Group_Name);
 			}
 		}
+		ArrayList<Send_Mail> Mail = new ArrayList<Send_Mail>();
+		System.out.println("1313854041287");
+		Mail = MongoDB.Load_Mail_List(Long.parseLong("1313854041287"), Long.parseLong("1313854583302"));
+		System.out.println("1313854583302");
+		
+		MongoDB.Load_Sender_Person(Long.parseLong("1313867538488"), 3);
+		
 	}
 }
 

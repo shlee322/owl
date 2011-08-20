@@ -32,3 +32,5 @@ C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.g.res
 C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\client.Properties.Resources.resources
 C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\이상혁\Projects\owl\test\client_c#\client\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ou\SoMa\owl\test\client_c#\client\obj\x86\Debug\client.exe
+C:\Users\ou\SoMa\owl\test\client_c#\client\obj\x86\Debug\client.pdb
