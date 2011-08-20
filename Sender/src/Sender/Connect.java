@@ -78,7 +78,7 @@ public class Connect {
 	
 		            //스마트폰에서 확인시 utf8 인코딩쪽에 문제가 있는것 같음.
 		            //
-		            out.println(String.format("MIME-Version: 1.0\nFrom: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr:8080/tracker.php?objectid=%s&key=%s\" width=\"0\" height=\"0\">","123","123"))));
+		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nMIME-Version: 1.0\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr:8080/tracker.php?objectid=%s&key=%s\" width=\"0\" height=\"0\">","123","123"))));
 	
 		            if(!this.SendCmd(".", "250"))
 		            	continue;

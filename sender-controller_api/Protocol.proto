@@ -15,26 +15,26 @@ message NewTaskRequest {
 }
 
 message NewTaskResponse {
-    required string ObjectId = 1;
+    required string Time = 1;
     required string From = 2;
     required string Subject = 3;
     required string Message = 4;
-    required int64 Time = 5;
 }
 
 message GetMailListRequest {
-    required string ObjectId = 1;
+    required int64 Time = 1;
 }
 
 message GetMailListResponse {
-    required string ObjectId = 1;
-    required string Key = 2;
-    required string Address = 3;
+    required string ObjectId = 2;
+    required string Key = 3;
+    required string Address = 4;
 }
 
 message MailStatusRequest {
-    required string ObjectId = 1;
-    required string code = 2;
+    required int64 Time = 1;
+    required string ObjectId = 2;
+    required string code = 3;
 }
 
 message MailStatusResponse {

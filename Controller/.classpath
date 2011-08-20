@@ -6,7 +6,7 @@
 	<classpathentry kind="lib" path="libthrift.jar"/>
 	<classpathentry kind="lib" path="protobuf-java-2.3.0.jar"/>
 	<classpathentry kind="lib" path="mongo-2.6.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ou/SoMa/owl/Controller/netty-3.2.5.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ou/SoMa/owl/Controller/owl-netty-protobuf-rpc.jar"/>
+	<classpathentry kind="lib" path="netty-3.2.5.Final.jar"/>
+	<classpathentry kind="lib" path="owl-netty-protobuf-rpc.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

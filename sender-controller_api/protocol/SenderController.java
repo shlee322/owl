@@ -936,12 +936,12 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_NewTaskResponse_fieldAccessorTable;
     }
     
-    // required string ObjectId = 1;
-    public static final int OBJECTID_FIELD_NUMBER = 1;
-    private boolean hasObjectId;
-    private java.lang.String objectId_ = "";
-    public boolean hasObjectId() { return hasObjectId; }
-    public java.lang.String getObjectId() { return objectId_; }
+    // required string Time = 1;
+    public static final int TIME_FIELD_NUMBER = 1;
+    private boolean hasTime;
+    private java.lang.String time_ = "";
+    public boolean hasTime() { return hasTime; }
+    public java.lang.String getTime() { return time_; }
     
     // required string From = 2;
     public static final int FROM_FIELD_NUMBER = 2;
@@ -964,29 +964,21 @@ public final class SenderController {
     public boolean hasMessage() { return hasMessage; }
     public java.lang.String getMessage() { return message_; }
     
-    // required int64 Time = 5;
-    public static final int TIME_FIELD_NUMBER = 5;
-    private boolean hasTime;
-    private long time_ = 0L;
-    public boolean hasTime() { return hasTime; }
-    public long getTime() { return time_; }
-    
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasObjectId) return false;
+      if (!hasTime) return false;
       if (!hasFrom) return false;
       if (!hasSubject) return false;
       if (!hasMessage) return false;
-      if (!hasTime) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasObjectId()) {
-        output.writeString(1, getObjectId());
+      if (hasTime()) {
+        output.writeString(1, getTime());
       }
       if (hasFrom()) {
         output.writeString(2, getFrom());
@@ -997,9 +989,6 @@ public final class SenderController {
       if (hasMessage()) {
         output.writeString(4, getMessage());
       }
-      if (hasTime()) {
-        output.writeInt64(5, getTime());
-      }
       getUnknownFields().writeTo(output);
     }
     
@@ -1009,9 +998,9 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasObjectId()) {
+      if (hasTime()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(1, getObjectId());
+          .computeStringSize(1, getTime());
       }
       if (hasFrom()) {
         size += com.google.protobuf.CodedOutputStream
@@ -1024,10 +1013,6 @@ public final class SenderController {
       if (hasMessage()) {
         size += com.google.protobuf.CodedOutputStream
           .computeStringSize(4, getMessage());
-      }
-      if (hasTime()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt64Size(5, getTime());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1187,8 +1172,8 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.NewTaskResponse other) {
         if (other == Protocol.SenderController.NewTaskResponse.getDefaultInstance()) return this;
-        if (other.hasObjectId()) {
-          setObjectId(other.getObjectId());
+        if (other.hasTime()) {
+          setTime(other.getTime());
         }
         if (other.hasFrom()) {
           setFrom(other.getFrom());
@@ -1198,9 +1183,6 @@ public final class SenderController {
         }
         if (other.hasMessage()) {
           setMessage(other.getMessage());
-        }
-        if (other.hasTime()) {
-          setTime(other.getTime());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1228,7 +1210,7 @@ public final class SenderController {
               break;
             }
             case 10: {
-              setObjectId(input.readString());
+              setTime(input.readString());
               break;
             }
             case 18: {
@@ -1243,33 +1225,29 @@ public final class SenderController {
               setMessage(input.readString());
               break;
             }
-            case 40: {
-              setTime(input.readInt64());
-              break;
-            }
           }
         }
       }
       
       
-      // required string ObjectId = 1;
-      public boolean hasObjectId() {
-        return result.hasObjectId();
+      // required string Time = 1;
+      public boolean hasTime() {
+        return result.hasTime();
       }
-      public java.lang.String getObjectId() {
-        return result.getObjectId();
+      public java.lang.String getTime() {
+        return result.getTime();
       }
-      public Builder setObjectId(java.lang.String value) {
+      public Builder setTime(java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  result.hasObjectId = true;
-        result.objectId_ = value;
+  result.hasTime = true;
+        result.time_ = value;
         return this;
       }
-      public Builder clearObjectId() {
-        result.hasObjectId = false;
-        result.objectId_ = getDefaultInstance().getObjectId();
+      public Builder clearTime() {
+        result.hasTime = false;
+        result.time_ = getDefaultInstance().getTime();
         return this;
       }
       
@@ -1336,24 +1314,6 @@ public final class SenderController {
         return this;
       }
       
-      // required int64 Time = 5;
-      public boolean hasTime() {
-        return result.hasTime();
-      }
-      public long getTime() {
-        return result.getTime();
-      }
-      public Builder setTime(long value) {
-        result.hasTime = true;
-        result.time_ = value;
-        return this;
-      }
-      public Builder clearTime() {
-        result.hasTime = false;
-        result.time_ = 0L;
-        return this;
-      }
-      
       // @@protoc_insertion_point(builder_scope:NewTaskResponse)
     }
     
@@ -1393,25 +1353,25 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailListRequest_fieldAccessorTable;
     }
     
-    // required string ObjectId = 1;
-    public static final int OBJECTID_FIELD_NUMBER = 1;
-    private boolean hasObjectId;
-    private java.lang.String objectId_ = "";
-    public boolean hasObjectId() { return hasObjectId; }
-    public java.lang.String getObjectId() { return objectId_; }
+    // required int64 Time = 1;
+    public static final int TIME_FIELD_NUMBER = 1;
+    private boolean hasTime;
+    private long time_ = 0L;
+    public boolean hasTime() { return hasTime; }
+    public long getTime() { return time_; }
     
     private void initFields() {
     }
     public final boolean isInitialized() {
-      if (!hasObjectId) return false;
+      if (!hasTime) return false;
       return true;
     }
     
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hasObjectId()) {
-        output.writeString(1, getObjectId());
+      if (hasTime()) {
+        output.writeInt64(1, getTime());
       }
       getUnknownFields().writeTo(output);
     }
@@ -1422,9 +1382,9 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
-      if (hasObjectId()) {
+      if (hasTime()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(1, getObjectId());
+          .computeInt64Size(1, getTime());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1584,8 +1544,8 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.GetMailListRequest other) {
         if (other == Protocol.SenderController.GetMailListRequest.getDefaultInstance()) return this;
-        if (other.hasObjectId()) {
-          setObjectId(other.getObjectId());
+        if (other.hasTime()) {
+          setTime(other.getTime());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -1612,8 +1572,8 @@ public final class SenderController {
               }
               break;
             }
-            case 10: {
-              setObjectId(input.readString());
+            case 8: {
+              setTime(input.readInt64());
               break;
             }
           }
@@ -1621,24 +1581,21 @@ public final class SenderController {
       }
       
       
-      // required string ObjectId = 1;
-      public boolean hasObjectId() {
-        return result.hasObjectId();
+      // required int64 Time = 1;
+      public boolean hasTime() {
+        return result.hasTime();
       }
-      public java.lang.String getObjectId() {
-        return result.getObjectId();
+      public long getTime() {
+        return result.getTime();
       }
-      public Builder setObjectId(java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  result.hasObjectId = true;
-        result.objectId_ = value;
+      public Builder setTime(long value) {
+        result.hasTime = true;
+        result.time_ = value;
         return this;
       }
-      public Builder clearObjectId() {
-        result.hasObjectId = false;
-        result.objectId_ = getDefaultInstance().getObjectId();
+      public Builder clearTime() {
+        result.hasTime = false;
+        result.time_ = 0L;
         return this;
       }
       
@@ -1681,22 +1638,22 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_GetMailListResponse_fieldAccessorTable;
     }
     
-    // required string ObjectId = 1;
-    public static final int OBJECTID_FIELD_NUMBER = 1;
+    // required string ObjectId = 2;
+    public static final int OBJECTID_FIELD_NUMBER = 2;
     private boolean hasObjectId;
     private java.lang.String objectId_ = "";
     public boolean hasObjectId() { return hasObjectId; }
     public java.lang.String getObjectId() { return objectId_; }
     
-    // required string Key = 2;
-    public static final int KEY_FIELD_NUMBER = 2;
+    // required string Key = 3;
+    public static final int KEY_FIELD_NUMBER = 3;
     private boolean hasKey;
     private java.lang.String key_ = "";
     public boolean hasKey() { return hasKey; }
     public java.lang.String getKey() { return key_; }
     
-    // required string Address = 3;
-    public static final int ADDRESS_FIELD_NUMBER = 3;
+    // required string Address = 4;
+    public static final int ADDRESS_FIELD_NUMBER = 4;
     private boolean hasAddress;
     private java.lang.String address_ = "";
     public boolean hasAddress() { return hasAddress; }
@@ -1715,13 +1672,13 @@ public final class SenderController {
                         throws java.io.IOException {
       getSerializedSize();
       if (hasObjectId()) {
-        output.writeString(1, getObjectId());
+        output.writeString(2, getObjectId());
       }
       if (hasKey()) {
-        output.writeString(2, getKey());
+        output.writeString(3, getKey());
       }
       if (hasAddress()) {
-        output.writeString(3, getAddress());
+        output.writeString(4, getAddress());
       }
       getUnknownFields().writeTo(output);
     }
@@ -1734,15 +1691,15 @@ public final class SenderController {
       size = 0;
       if (hasObjectId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(1, getObjectId());
+          .computeStringSize(2, getObjectId());
       }
       if (hasKey()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(2, getKey());
+          .computeStringSize(3, getKey());
       }
       if (hasAddress()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(3, getAddress());
+          .computeStringSize(4, getAddress());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1936,15 +1893,15 @@ public final class SenderController {
               }
               break;
             }
-            case 10: {
+            case 18: {
               setObjectId(input.readString());
               break;
             }
-            case 18: {
+            case 26: {
               setKey(input.readString());
               break;
             }
-            case 26: {
+            case 34: {
               setAddress(input.readString());
               break;
             }
@@ -1953,7 +1910,7 @@ public final class SenderController {
       }
       
       
-      // required string ObjectId = 1;
+      // required string ObjectId = 2;
       public boolean hasObjectId() {
         return result.hasObjectId();
       }
@@ -1974,7 +1931,7 @@ public final class SenderController {
         return this;
       }
       
-      // required string Key = 2;
+      // required string Key = 3;
       public boolean hasKey() {
         return result.hasKey();
       }
@@ -1995,7 +1952,7 @@ public final class SenderController {
         return this;
       }
       
-      // required string Address = 3;
+      // required string Address = 4;
       public boolean hasAddress() {
         return result.hasAddress();
       }
@@ -2055,15 +2012,22 @@ public final class SenderController {
       return Protocol.SenderController.internal_static_MailStatusRequest_fieldAccessorTable;
     }
     
-    // required string ObjectId = 1;
-    public static final int OBJECTID_FIELD_NUMBER = 1;
+    // required int64 Time = 1;
+    public static final int TIME_FIELD_NUMBER = 1;
+    private boolean hasTime;
+    private long time_ = 0L;
+    public boolean hasTime() { return hasTime; }
+    public long getTime() { return time_; }
+    
+    // required string ObjectId = 2;
+    public static final int OBJECTID_FIELD_NUMBER = 2;
     private boolean hasObjectId;
     private java.lang.String objectId_ = "";
     public boolean hasObjectId() { return hasObjectId; }
     public java.lang.String getObjectId() { return objectId_; }
     
-    // required string code = 2;
-    public static final int CODE_FIELD_NUMBER = 2;
+    // required string code = 3;
+    public static final int CODE_FIELD_NUMBER = 3;
     private boolean hasCode;
     private java.lang.String code_ = "";
     public boolean hasCode() { return hasCode; }
@@ -2072,6 +2036,7 @@ public final class SenderController {
     private void initFields() {
     }
     public final boolean isInitialized() {
+      if (!hasTime) return false;
       if (!hasObjectId) return false;
       if (!hasCode) return false;
       return true;
@@ -2080,11 +2045,14 @@ public final class SenderController {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (hasTime()) {
+        output.writeInt64(1, getTime());
+      }
       if (hasObjectId()) {
-        output.writeString(1, getObjectId());
+        output.writeString(2, getObjectId());
       }
       if (hasCode()) {
-        output.writeString(2, getCode());
+        output.writeString(3, getCode());
       }
       getUnknownFields().writeTo(output);
     }
@@ -2095,13 +2063,17 @@ public final class SenderController {
       if (size != -1) return size;
     
       size = 0;
+      if (hasTime()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(1, getTime());
+      }
       if (hasObjectId()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(1, getObjectId());
+          .computeStringSize(2, getObjectId());
       }
       if (hasCode()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeStringSize(2, getCode());
+          .computeStringSize(3, getCode());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -2261,6 +2233,9 @@ public final class SenderController {
       
       public Builder mergeFrom(Protocol.SenderController.MailStatusRequest other) {
         if (other == Protocol.SenderController.MailStatusRequest.getDefaultInstance()) return this;
+        if (other.hasTime()) {
+          setTime(other.getTime());
+        }
         if (other.hasObjectId()) {
           setObjectId(other.getObjectId());
         }
@@ -2292,11 +2267,15 @@ public final class SenderController {
               }
               break;
             }
-            case 10: {
-              setObjectId(input.readString());
+            case 8: {
+              setTime(input.readInt64());
               break;
             }
             case 18: {
+              setObjectId(input.readString());
+              break;
+            }
+            case 26: {
               setCode(input.readString());
               break;
             }
@@ -2305,7 +2284,25 @@ public final class SenderController {
       }
       
       
-      // required string ObjectId = 1;
+      // required int64 Time = 1;
+      public boolean hasTime() {
+        return result.hasTime();
+      }
+      public long getTime() {
+        return result.getTime();
+      }
+      public Builder setTime(long value) {
+        result.hasTime = true;
+        result.time_ = value;
+        return this;
+      }
+      public Builder clearTime() {
+        result.hasTime = false;
+        result.time_ = 0L;
+        return this;
+      }
+      
+      // required string ObjectId = 2;
       public boolean hasObjectId() {
         return result.hasObjectId();
       }
@@ -2326,7 +2323,7 @@ public final class SenderController {
         return this;
       }
       
-      // required string code = 2;
+      // required string code = 3;
       public boolean hasCode() {
         return result.hasCode();
       }
@@ -3957,27 +3954,27 @@ public final class SenderController {
       "\n\016Protocol.proto\",\n\016CertifyRequest\022\014\n\004ke" +
       "y1\030\001 \002(\t\022\014\n\004key2\030\002 \002(\t\"!\n\017CertifyRespons" +
       "e\022\016\n\006result\030\001 \002(\010\"\036\n\016NewTaskRequest\022\014\n\004T" +
-      "ime\030\001 \002(\003\"a\n\017NewTaskResponse\022\020\n\010ObjectId" +
-      "\030\001 \002(\t\022\014\n\004From\030\002 \002(\t\022\017\n\007Subject\030\003 \002(\t\022\017\n" +
-      "\007Message\030\004 \002(\t\022\014\n\004Time\030\005 \002(\003\"&\n\022GetMailL" +
-      "istRequest\022\020\n\010ObjectId\030\001 \002(\t\"E\n\023GetMailL" +
-      "istResponse\022\020\n\010ObjectId\030\001 \002(\t\022\013\n\003Key\030\002 \002" +
-      "(\t\022\017\n\007Address\030\003 \002(\t\"3\n\021MailStatusRequest" +
-      "\022\020\n\010ObjectId\030\001 \002(\t\022\014\n\004code\030\002 \002(\t\"\024\n\022Mail",
-      "StatusResponse\"\271\001\n\021MonitoringRequest\022\013\n\003" +
-      "CPU\030\001 \002(\001\022\016\n\006Memory\030\002 \002(\003\022\026\n\016NetworkIn_B" +
-      "yte\030\003 \002(\003\022\030\n\020NetworkIn_Pakcet\030\004 \002(\003\022\027\n\017N" +
-      "etworkOut_Byte\030\005 \002(\003\022\031\n\021NetworkOut_Pakce" +
-      "t\030\006 \002(\003\022\016\n\006Thread\030\007 \002(\003\022\021\n\tSendCount\030\010 \002" +
-      "(\003\"\024\n\022MonitoringResponse2\223\002\n\rSenderHandl" +
-      "er\022,\n\007Certify\022\017.CertifyRequest\032\020.Certify" +
-      "Response\022,\n\007NewTask\022\017.NewTaskRequest\032\020.N" +
-      "ewTaskResponse\0228\n\013GetMailList\022\023.GetMailL" +
-      "istRequest\032\024.GetMailListResponse\0225\n\nMail",
-      "Status\022\022.MailStatusRequest\032\023.MailStatusR" +
-      "esponse\0225\n\nMonitoring\022\022.MonitoringReques" +
-      "t\032\023.MonitoringResponseB\034\n\010ProtocolB\020Send" +
-      "erController"
+      "ime\030\001 \002(\003\"O\n\017NewTaskResponse\022\014\n\004Time\030\001 \002" +
+      "(\t\022\014\n\004From\030\002 \002(\t\022\017\n\007Subject\030\003 \002(\t\022\017\n\007Mes" +
+      "sage\030\004 \002(\t\"\"\n\022GetMailListRequest\022\014\n\004Time" +
+      "\030\001 \002(\003\"E\n\023GetMailListResponse\022\020\n\010ObjectI" +
+      "d\030\002 \002(\t\022\013\n\003Key\030\003 \002(\t\022\017\n\007Address\030\004 \002(\t\"A\n" +
+      "\021MailStatusRequest\022\014\n\004Time\030\001 \002(\003\022\020\n\010Obje" +
+      "ctId\030\002 \002(\t\022\014\n\004code\030\003 \002(\t\"\024\n\022MailStatusRe",
+      "sponse\"\271\001\n\021MonitoringRequest\022\013\n\003CPU\030\001 \002(" +
+      "\001\022\016\n\006Memory\030\002 \002(\003\022\026\n\016NetworkIn_Byte\030\003 \002(" +
+      "\003\022\030\n\020NetworkIn_Pakcet\030\004 \002(\003\022\027\n\017NetworkOu" +
+      "t_Byte\030\005 \002(\003\022\031\n\021NetworkOut_Pakcet\030\006 \002(\003\022" +
+      "\016\n\006Thread\030\007 \002(\003\022\021\n\tSendCount\030\010 \002(\003\"\024\n\022Mo" +
+      "nitoringResponse2\223\002\n\rSenderHandler\022,\n\007Ce" +
+      "rtify\022\017.CertifyRequest\032\020.CertifyResponse" +
+      "\022,\n\007NewTask\022\017.NewTaskRequest\032\020.NewTaskRe" +
+      "sponse\0228\n\013GetMailList\022\023.GetMailListReque" +
+      "st\032\024.GetMailListResponse\0225\n\nMailStatus\022\022",
+      ".MailStatusRequest\032\023.MailStatusResponse\022" +
+      "5\n\nMonitoring\022\022.MonitoringRequest\032\023.Moni" +
+      "toringResponseB\034\n\010ProtocolB\020SenderContro" +
+      "ller"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -4013,7 +4010,7 @@ public final class SenderController {
           internal_static_NewTaskResponse_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_NewTaskResponse_descriptor,
-              new java.lang.String[] { "ObjectId", "From", "Subject", "Message", "Time", },
+              new java.lang.String[] { "Time", "From", "Subject", "Message", },
               Protocol.SenderController.NewTaskResponse.class,
               Protocol.SenderController.NewTaskResponse.Builder.class);
           internal_static_GetMailListRequest_descriptor =
@@ -4021,7 +4018,7 @@ public final class SenderController {
           internal_static_GetMailListRequest_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_GetMailListRequest_descriptor,
-              new java.lang.String[] { "ObjectId", },
+              new java.lang.String[] { "Time", },
               Protocol.SenderController.GetMailListRequest.class,
               Protocol.SenderController.GetMailListRequest.Builder.class);
           internal_static_GetMailListResponse_descriptor =
@@ -4037,7 +4034,7 @@ public final class SenderController {
           internal_static_MailStatusRequest_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_MailStatusRequest_descriptor,
-              new java.lang.String[] { "ObjectId", "Code", },
+              new java.lang.String[] { "Time", "ObjectId", "Code", },
               Protocol.SenderController.MailStatusRequest.class,
               Protocol.SenderController.MailStatusRequest.Builder.class);
           internal_static_MailStatusResponse_descriptor =
