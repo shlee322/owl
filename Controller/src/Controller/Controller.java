@@ -106,22 +106,22 @@ public class Controller {
 		MongoDB.Load_Sender_Person(Long.parseLong("1313892208998"), 3);
 		MongoDB.Update_Cord(Long.parseLong("1313892208998"), "4e506771dbd4ae78febe3484", "코드다 시발");
 		
-//		
-//		
-//		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
-//		
-//		Controller.Sender_Server.registerBlockingService(Protocol.SenderController.SenderHandler.newReflectiveBlockingService(new SenderHandler()));
-//		Controller.Sender_Server.serve(new InetSocketAddress(7004));
-//		
-//		ServerBootstrap webbootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(
-//				Executors.newCachedThreadPool(),
-//				Executors.newCachedThreadPool()));
-//				  
-//		// Set up the event pipeline factory.
-//		webbootstrap.setPipelineFactory(new HttpServerPipelineFactory());
-//		  
-//		// Bind and start to accept incoming connections.
-//		webbootstrap.bind(new InetSocketAddress(8080));
+		
+		
+		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
+		
+		Controller.Sender_Server.registerBlockingService(Protocol.SenderController.SenderHandler.newReflectiveBlockingService(new SenderHandler()));
+		Controller.Sender_Server.serve(new InetSocketAddress(7004));
+		
+		ServerBootstrap webbootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(
+				Executors.newCachedThreadPool(),
+				Executors.newCachedThreadPool()));
+				  
+		// Set up the event pipeline factory.
+		webbootstrap.setPipelineFactory(new HttpServerPipelineFactory());
+		  
+		// Bind and start to accept incoming connections.
+		webbootstrap.bind(new InetSocketAddress(8080));
 
 
 		/*

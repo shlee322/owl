@@ -28,7 +28,7 @@ public class SenderHandler implements BlockingInterface{
 	@Override
 	public NewTaskResponse newTask(RpcController controller,
 			NewTaskRequest request) throws ServiceException {
-		ArrayList<Send_Mail> List = Controller.MongoDB.Load_Mail_List(request.getTime(), 1);
+		ArrayList<Send_Mail> List = Controller.MongoDB.Load_Mail_List(request.getTime()+1, 1);
 		String Time="";
 		String From="";
 		String Subject="";

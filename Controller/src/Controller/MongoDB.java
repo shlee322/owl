@@ -244,7 +244,8 @@ public class MongoDB {
 		{
 			for(int i=0;i<num;i++)
 			{
-				Personcur.hasNext();
+				if(!Personcur.hasNext())
+					break;
 				To_Sender_Person Temp_Person = new To_Sender_Person();
 				Temp_Person.ObjectID = Personcur.next().get("_id").toString();
 				Temp_Person.To_Adress = Personcur.curr().get("toaddress").toString();
