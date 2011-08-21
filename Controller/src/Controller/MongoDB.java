@@ -28,7 +28,7 @@ public class MongoDB {
 
 	void Del_User(String User) {
 		UserName = User;
-		m.dropDatabase(UserName);
+		//m.dropDatabase(UserName);
 		m.dropDatabase("SendMail");
 	}
 
@@ -40,6 +40,19 @@ public class MongoDB {
 			UserName = User;
 			AdressDB = m.getDB(UserName);
 			AdressDB.authenticate("owl", "70210".toCharArray());
+
+			SendDBName = "SendMail";
+			SendMailDB = m.getDB(SendDBName);
+			SendMailDB.authenticate("owl", "70210".toCharArray());
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
+	boolean SenderDBStart() {
+		try {
+			m = new Mongo("controller.owl.or.kr");
 
 			SendDBName = "SendMail";
 			SendMailDB = m.getDB(SendDBName);
@@ -228,18 +241,21 @@ public class MongoDB {
 		
 		Personcur = SendMailColl.find(new BasicDBObject("sending", false));
 		
-		while (Personcur.hasNext())
+		for(int i=0;i<num;i++)
 		{
+			Personcur.hasNext();
 			To_Sender_Person Temp_Person = new To_Sender_Person();
 			Temp_Person.ObjectID = Personcur.next().get("_id").toString();
 			Temp_Person.To_Adress = Personcur.curr().get("toaddress").toString();
 			Temp_Person.Key = Integer.parseInt(Personcur.curr().get("key").toString());
 			Sender_Person_List.add(Temp_Person);
 		}
-		 
+		
+		Boolean True;
+		True = true;
 		for (To_Sender_Person person : Sender_Person_List) {
-			BasicDBObject newDocument3 = new BasicDBObject().append("$set", new BasicDBObject().append("sending", true));
-			SendMailColl.update(new BasicDBObject().append("_id", person.ObjectID), newDocument3);
+			BasicDBObject newDocument3 = new BasicDBObject().append("$set", new BasicDBObject().append("sending", True));
+			SendMailColl.update(new BasicDBObject().append("key", person.Key), newDocument3);
 		}
 		return Sender_Person_List;
 	}
@@ -298,13 +314,12 @@ public class MongoDB {
 	{
 		try
 		{
-			SendMailColl = AdressDB.getCollection(SendTime);
+			SendMailColl = SendMailDB.getCollection(SendTime);
 			BasicDBObject doc;
 			
 			for (To_Person Person : person) {
 				doc = MakeToPersonDocument(Person.Sending, Person.Check_Time, Person.To_Adress, Person.Cord, Person.Group_Name, Person.Key);
 				SendMailColl.update(new BasicDBObject().append("_id", Person.ObjectID), doc);
-				
 			}
 			return true;
 		}
@@ -317,9 +332,9 @@ public class MongoDB {
 	{
 		try
 		{
-			SendMailColl = AdressDB.getCollection("Mail_Content");
+			SendMailColl = SendMailDB.getCollection("Mail_Content");
 			SendMailColl.remove(new BasicDBObject().append("time", send.Send_Time));
-			SendMailColl = AdressDB.getCollection(Long.toString(send.Send_Time));
+			SendMailColl = SendMailDB.getCollection(Long.toString(send.Send_Time));
 			SendMailColl.drop();
 			return true;
 		}
@@ -332,8 +347,9 @@ public class MongoDB {
 	{
 		try
 		{
-			DBCursor Personcur;
 			SendMailColl = SendMailDB.getCollection(Long.toString(Send_Time));
+			BasicDBObject newDocument3 = new BasicDBObject().append("$set", new BasicDBObject().append("cord", Cord));
+			SendMailColl.update(new BasicDBObject().append("_id", ObjectID), newDocument3);
 			
 			return true;
 		}

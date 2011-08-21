@@ -26,22 +26,101 @@ public class Controller {
 	public static void main(String ar[]) throws TTransportException
 	{
 		Controller.MongoDB = new MongoDB();
-		Controller.MongoDB.DBStart("System");
 		
-		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
+		Controller.MongoDB.SenderDBStart();
+		//MongoDB.Del_User("a");
 		
-		Controller.Sender_Server.registerBlockingService(Protocol.SenderController.SenderHandler.newReflectiveBlockingService(new SenderHandler()));
-		Controller.Sender_Server.serve(new InetSocketAddress(7004));
+//		ArrayList<Send_Mail> testarray = new ArrayList<Send_Mail>();
+//		
+//		Send_Mail test = new Send_Mail();
+//		test.From_Adress = "poweroyh@owl.or.kr";
+//		test.Mail_Content = "테스트입니다!!!!";
+//		test.Mail_Title = "테스트라구요";
+//		test.Send_Num = 6;
+//		test.Send_Time = System.currentTimeMillis();
+//		test.Sending = false;
+//		test.UserName = "poweroyh";
+//		
+//		To_Person testp= new To_Person();
+//		testp.Check_Time = 0;
+//		testp.Cord = null;
+//		testp.Group_Name = "SWmaestro";
+//		testp.ObjectID = null;
+//		testp.Sending = false;
+//		testp.To_Adress = "poweroyh@naver.com";
+//		test.person.add(testp);
+//		
+//		To_Person testa= new To_Person();
+//		testa.Check_Time = 0;
+//		testa.Cord = null;
+//		testa.Group_Name = "SWmaestro";
+//		testa.ObjectID = null;
+//		testa.Sending = false;
+//		testa.To_Adress = "poweroyh@nate.com";
+//		test.person.add(testa);
+//		
+//		To_Person testb= new To_Person();
+//		testb.Check_Time = 0;
+//		testb.Cord = null;
+//		testb.Group_Name = "SWmaestro";
+//		testb.ObjectID = null;
+//		testb.Sending = false;
+//		testb.To_Adress = "poweroyh@gmail.com";
+//		test.person.add(testb);
+//		
+//		To_Person testc= new To_Person();
+//		testc.Check_Time = 0;
+//		testc.Cord = null;
+//		testc.Group_Name = "SWmaestro";
+//		testc.ObjectID = null;
+//		testc.Sending = false;
+//		testc.To_Adress = "poweroyh@daum.net";
+//		test.person.add(testc);
+//		
+//		To_Person testd= new To_Person();
+//		testd.Check_Time = 0;
+//		testd.Cord = null;
+//		testd.Group_Name = "SWmaestro";
+//		testd.ObjectID = null;
+//		testd.Sending = false;
+//		testd.To_Adress = "shlee322@gmail.com";
+//		test.person.add(testd);
+//		
+//		To_Person teste= new To_Person();
+//		teste.Check_Time = 0;
+//		teste.Cord = null;
+//		teste.Group_Name = "SWmaestro";
+//		teste.ObjectID = null;
+//		teste.Sending = false;
+//		teste.To_Adress = "shlee322@naver.com";
+//		test.person.add(teste);
+//		
+//		testarray.add(test);
+//		
+//		for (Send_Mail send_Mail : testarray) {
+//			MongoDB.Add_Mail_Content(send_Mail.Sending, send_Mail.Send_Time, send_Mail.Send_Num, send_Mail.From_Adress, send_Mail.Mail_Title, send_Mail.Mail_Content, send_Mail.UserName);
+//			for (To_Person toperson : send_Mail.person) {
+//				MongoDB.Add_To_Person(send_Mail.Send_Time, toperson.To_Adress, toperson.Group_Name);
+//			}
+//		}
+		MongoDB.Load_Sender_Person(Long.parseLong("1313892208998"), 3);
 		
-		ServerBootstrap webbootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(
-				Executors.newCachedThreadPool(),
-				Executors.newCachedThreadPool()));
-				  
-		// Set up the event pipeline factory.
-		webbootstrap.setPipelineFactory(new HttpServerPipelineFactory());
-		  
-		// Bind and start to accept incoming connections.
-		webbootstrap.bind(new InetSocketAddress(8080));
+//		
+//		
+//		Controller.Sender_Server = new NettyRpcServer(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),Executors.newCachedThreadPool()));
+//		
+//		Controller.Sender_Server.registerBlockingService(Protocol.SenderController.SenderHandler.newReflectiveBlockingService(new SenderHandler()));
+//		Controller.Sender_Server.serve(new InetSocketAddress(7004));
+//		
+//		ServerBootstrap webbootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(
+//				Executors.newCachedThreadPool(),
+//				Executors.newCachedThreadPool()));
+//				  
+//		// Set up the event pipeline factory.
+//		webbootstrap.setPipelineFactory(new HttpServerPipelineFactory());
+//		  
+//		// Bind and start to accept incoming connections.
+//		webbootstrap.bind(new InetSocketAddress(8080));
 
 
 		/*
