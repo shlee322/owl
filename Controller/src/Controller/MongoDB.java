@@ -364,6 +364,26 @@ public class MongoDB {
 			return false;
 		}
 	}
+	
+	Boolean Update_CheckTime(long Send_Time, String ObjectID, int key)
+	{
+		try
+		{
+			long Check_Time;
+			Check_Time = System.currentTimeMillis();
+			
+			SendMailColl = SendMailDB.getCollection(Long.toString(Send_Time));
+			ObjectId id = new ObjectId(ObjectID);
+
+			BasicDBObject newDocument3 = new BasicDBObject().append("$set", new BasicDBObject().append("checktime", Check_Time));
+			SendMailColl.update(new BasicDBObject().append("_id", id).append("key", key), newDocument3);
+			
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
 
 	void printResults() {
 		DBCursor cur;
