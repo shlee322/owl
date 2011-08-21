@@ -240,22 +240,25 @@ public class MongoDB {
 		SendMailColl = SendMailDB.getCollection(Time.toString());
 		
 		Personcur = SendMailColl.find(new BasicDBObject("sending", false));
-		
-		for(int i=0;i<num;i++)
+		if(Personcur.count() != 0)
 		{
-			Personcur.hasNext();
-			To_Sender_Person Temp_Person = new To_Sender_Person();
-			Temp_Person.ObjectID = Personcur.next().get("_id").toString();
-			Temp_Person.To_Adress = Personcur.curr().get("toaddress").toString();
-			Temp_Person.Key = Integer.parseInt(Personcur.curr().get("key").toString());
-			Sender_Person_List.add(Temp_Person);
+			for(int i=0;i<num;i++)
+			{
+				Personcur.hasNext();
+				To_Sender_Person Temp_Person = new To_Sender_Person();
+				Temp_Person.ObjectID = Personcur.next().get("_id").toString();
+				Temp_Person.To_Adress = Personcur.curr().get("toaddress").toString();
+				Temp_Person.Key = Integer.parseInt(Personcur.curr().get("key").toString());
+				Sender_Person_List.add(Temp_Person);
+			}
 		}
 		
 		Boolean True;
 		True = true;
 		for (To_Sender_Person person : Sender_Person_List) {
 			BasicDBObject newDocument3 = new BasicDBObject().append("$set", new BasicDBObject().append("sending", True));
-			SendMailColl.update(new BasicDBObject().append("key", person.Key), newDocument3);
+			ObjectId id = new ObjectId(person.ObjectID);
+			SendMailColl.update(new BasicDBObject().append("_id", id), newDocument3);
 		}
 		return Sender_Person_List;
 	}
@@ -319,7 +322,8 @@ public class MongoDB {
 			
 			for (To_Person Person : person) {
 				doc = MakeToPersonDocument(Person.Sending, Person.Check_Time, Person.To_Adress, Person.Cord, Person.Group_Name, Person.Key);
-				SendMailColl.update(new BasicDBObject().append("_id", Person.ObjectID), doc);
+				ObjectId id = new ObjectId(Person.ObjectID);
+				SendMailColl.update(new BasicDBObject().append("_id", id), doc);
 			}
 			return true;
 		}
@@ -348,8 +352,10 @@ public class MongoDB {
 		try
 		{
 			SendMailColl = SendMailDB.getCollection(Long.toString(Send_Time));
+			ObjectId id = new ObjectId(ObjectID);
+
 			BasicDBObject newDocument3 = new BasicDBObject().append("$set", new BasicDBObject().append("cord", Cord));
-			SendMailColl.update(new BasicDBObject().append("_id", ObjectID), newDocument3);
+			SendMailColl.update(new BasicDBObject().append("_id", id), newDocument3);
 			
 			return true;
 		}

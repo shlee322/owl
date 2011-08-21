@@ -104,6 +104,7 @@ public class Controller {
 //			}
 //		}
 		MongoDB.Load_Sender_Person(Long.parseLong("1313892208998"), 3);
+		MongoDB.Update_Cord(Long.parseLong("1313892208998"), "4e506771dbd4ae78febe3484", "코드다 시발");
 		
 //		
 //		
