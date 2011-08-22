@@ -38,13 +38,15 @@ public class Sender {
 	static Logger logger = Logger.getLogger(Sender.class);
 
 	public static HashMap<String, DNS> DNS_Cache;
-	// public static HashMap<long, Task> TaskList;
 	public static Queue<Connect> Connect;
 
 	public static BlockingInterface SenderHandler;
 	public static RpcController controller;
 
 	static ExecutorService executorService;
+	
+	static int SenderIndex;
+	static String SenderKey;
 
 	static String[] IPList;
 	static int IPCount;
@@ -66,6 +68,9 @@ public class Sender {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		Sender.SenderIndex = Integer.parseInt(properties.getProperty("Index"));
+		Sender.SenderKey = properties.getProperty("Key");
 
 		Sender.IPList = properties.getProperty("IPList").split(",");
 		Sender.IPCount = 0;

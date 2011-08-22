@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="mongo-2.6.3.jar"/>
 	<classpathentry kind="lib" path="netty-3.2.5.Final.jar"/>
 	<classpathentry kind="lib" path="owl-netty-protobuf-rpc.jar"/>
+	<classpathentry kind="lib" path="log4j-1.2.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,17 +1,10 @@
 option java_package = "Protocol";
 option java_outer_classname = "SenderController";
 
-message CertifyRequest {
-    required string key1 = 1;
-    required string key2 = 2;
-}
-
-message CertifyResponse {
-    required bool result = 1;
-}
-
 message NewTaskRequest {
-    required int64 Time = 1;
+    required int32 SenderIndex = 1;
+    required string SenderKey = 2;
+    required int64 Time = 3;
 }
 
 message NewTaskResponse {
@@ -22,7 +15,9 @@ message NewTaskResponse {
 }
 
 message GetMailListRequest {
-    required int64 Time = 1;
+    required int32 SenderIndex = 1;
+    required string SenderKey = 2;
+    required int64 Time = 3;
 }
 
 message GetMailListResponse {
@@ -32,30 +27,33 @@ message GetMailListResponse {
 }
 
 message MailStatusRequest {
-    required int64 Time = 1;
-    required string ObjectId = 2;
-    required string code = 3;
+    required int32 SenderIndex = 1;
+    required string SenderKey = 2;
+    required int64 Time = 3;
+    required string ObjectId = 4;
+    required string code = 5;
 }
 
 message MailStatusResponse {
 }
 
 message MonitoringRequest {
-    required double CPU = 1;
-    required int64 Memory = 2;
-    required int64 NetworkIn_Byte = 3;
-    required int64 NetworkIn_Pakcet = 4;
-    required int64 NetworkOut_Byte = 5;
-    required int64 NetworkOut_Pakcet = 6;
-    required int64 Thread = 7;
-    required int64 SendCount = 8;
+    required int32 SenderIndex = 1;
+    required string SenderKey = 2;
+    required double CPU = 3;
+    required int64 Memory = 4;
+    required int64 NetworkIn_Byte = 5;
+    required int64 NetworkIn_Pakcet = 6;
+    required int64 NetworkOut_Byte = 7;
+    required int64 NetworkOut_Pakcet = 8;
+    required int64 Thread = 9;
+    required int64 SendCount = 10;
 }
 
 message MonitoringResponse {
 }
 
 service SenderHandler {
-    rpc Certify(CertifyRequest) returns (CertifyResponse);
     rpc NewTask(NewTaskRequest) returns (NewTaskResponse);
     rpc GetMailList(GetMailListRequest) returns (GetMailListResponse);
     rpc MailStatus(MailStatusRequest) returns (MailStatusResponse);
