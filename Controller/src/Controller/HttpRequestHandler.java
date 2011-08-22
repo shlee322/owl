@@ -58,6 +58,7 @@ import org.jboss.netty.util.CharsetUtil;
 	    		  System.out.println(params.get("time").get(0));
 		    	  System.out.println(params.get("objectid").get(0));
 		    	  System.out.println(params.get("key").get(0));
+		    	  
 	    	  }catch (Exception e2) {
 	    	  }
 		    	  

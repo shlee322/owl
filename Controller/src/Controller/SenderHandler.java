@@ -85,6 +85,15 @@ public class SenderHandler implements BlockingInterface{
 		if(!Controller.Senders[SenderIndex].Key.equals(request.getSenderKey()))
 			return MonitoringResponse.newBuilder().build();
 		
+		Controller.Senders[SenderIndex].Monitoring.CPU = request.getCPU();
+		Controller.Senders[SenderIndex].Monitoring.Memory = request.getMemory();
+		Controller.Senders[SenderIndex].Monitoring.NetworkIn_Byte = request.getNetworkInByte();
+		Controller.Senders[SenderIndex].Monitoring.NetworkIn_Pakcet = request.getNetworkInPakcet();
+		Controller.Senders[SenderIndex].Monitoring.NetworkOut_Byte = request.getNetworkOutByte();
+		Controller.Senders[SenderIndex].Monitoring.NetworkOut_Pakcet = request.getNetworkOutPakcet();
+		Controller.Senders[SenderIndex].Monitoring.SendCount = request.getSendCount();
+		Controller.Senders[SenderIndex].Monitoring.Thread = request.getThread();
+		
 		// TODO Auto-generated method stub
 		//System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", request.getThread(), request.getCPU(), request.getNetworkInByte(), request.getNetworkInPakcet(), request.getMemory(), request.getSendCount()));
 
