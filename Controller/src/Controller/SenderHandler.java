@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 import com.google.protobuf.*;
 
-import Protocol.SenderController.CertifyRequest;
-import Protocol.SenderController.CertifyResponse;
 import Protocol.SenderController.GetMailListRequest;
 import Protocol.SenderController.GetMailListResponse;
 import Protocol.SenderController.MailStatusRequest;
@@ -17,17 +15,15 @@ import Protocol.SenderController.NewTaskResponse;
 import Protocol.SenderController.SenderHandler.*;
 
 public class SenderHandler implements BlockingInterface{
-	
-	@Override
-	public CertifyResponse certify(RpcController controller,
-			CertifyRequest request) throws ServiceException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	@Override
 	public NewTaskResponse newTask(RpcController controller,
 			NewTaskRequest request) throws ServiceException {
+		int SenderIndex = request.getSenderIndex();
+		if(SenderIndex<0 || Controller.Senders.length<=SenderIndex)
+			return NewTaskResponse.newBuilder().build();
+		if(!Controller.Senders[SenderIndex].Key.equals(request.getSenderKey()))
+			return NewTaskResponse.newBuilder().build();
+		
 		ArrayList<Send_Mail> List = Controller.MongoDB.Load_Mail_List(request.getTime()+1, 1);
 		String Time="";
 		String From="";
@@ -39,12 +35,19 @@ public class SenderHandler implements BlockingInterface{
 			Subject = String.format("%s%s\1", Subject,send_Mail.Mail_Title);
 			Message = String.format("%s%s\1", Message,send_Mail.Mail_Content);
 		}
+		
 		return NewTaskResponse.newBuilder().setTime(Time).setFrom(From).setSubject(Subject).setMessage(Message).build();
 	}
 
 	@Override
 	public GetMailListResponse getMailList(RpcController controller,
 			GetMailListRequest request) throws ServiceException {
+		int SenderIndex = request.getSenderIndex();
+		if(SenderIndex<0 || Controller.Senders.length<=SenderIndex)
+			return GetMailListResponse.newBuilder().build();
+		if(!Controller.Senders[SenderIndex].Key.equals(request.getSenderKey()))
+			return GetMailListResponse.newBuilder().build();
+		
 		ArrayList<To_Sender_Person> Person = Controller.MongoDB.Load_Sender_Person(request.getTime(), 10);
 		String ObjectId="";
 		String Key = "";
@@ -61,6 +64,12 @@ public class SenderHandler implements BlockingInterface{
 	@Override
 	public MailStatusResponse mailStatus(RpcController controller,
 			MailStatusRequest request) throws ServiceException {
+		int SenderIndex = request.getSenderIndex();
+		if(SenderIndex<0 || Controller.Senders.length<=SenderIndex)
+			return MailStatusResponse.newBuilder().build();
+		if(!Controller.Senders[SenderIndex].Key.equals(request.getSenderKey()))
+			return MailStatusResponse.newBuilder().build();
+		
 		// TODO Auto-generated method stub
 		Controller.MongoDB.Update_Cord(request.getTime(), request.getObjectId(), request.getCode());
 		System.out.println(request.getCode());
@@ -70,6 +79,12 @@ public class SenderHandler implements BlockingInterface{
 	@Override
 	public MonitoringResponse monitoring(RpcController controller,
 			MonitoringRequest request) throws ServiceException {
+		int SenderIndex = request.getSenderIndex();
+		if(SenderIndex<0 || Controller.Senders.length<=SenderIndex)
+			return MonitoringResponse.newBuilder().build();
+		if(!Controller.Senders[SenderIndex].Key.equals(request.getSenderKey()))
+			return MonitoringResponse.newBuilder().build();
+		
 		// TODO Auto-generated method stub
 		//System.out.print(String.format("스레드수 : %d CPU : %f 네트워크 : %d %d 메모리 : %d 초당전송량 : %d\n", request.getThread(), request.getCPU(), request.getNetworkInByte(), request.getNetworkInPakcet(), request.getMemory(), request.getSendCount()));
 

@@ -31,7 +31,8 @@ message MailStatusRequest {
     required string SenderKey = 2;
     required int64 Time = 3;
     required string ObjectId = 4;
-    required string code = 5;
+    required string Code = 5;
+    required int64 ProcessTime = 6;
 }
 
 message MailStatusResponse {

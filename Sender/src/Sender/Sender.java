@@ -112,7 +112,7 @@ public class Sender {
 			if (System.currentTimeMillis() > time) {
 				try {
 					NewTaskResponse Task = Sender.SenderHandler.newTask(
-							Sender.controller, NewTaskRequest.newBuilder()
+							Sender.controller, NewTaskRequest.newBuilder().setSenderIndex(Sender.SenderIndex).setSenderKey(Sender.SenderKey)
 									.setTime(NewTaskTime).build());
 					String[] Time = Task.getTime().split("\1");
 					String[] From = Task.getFrom().split("\1");

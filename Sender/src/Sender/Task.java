@@ -34,7 +34,7 @@ public class Task {
 			if(this.Connects.size()==0)
 			{
 				try {
-					GetMailListResponse Response = Sender.SenderHandler.getMailList(Sender.controller, GetMailListRequest.newBuilder().setTime(this.Time).build());
+					GetMailListResponse Response = Sender.SenderHandler.getMailList(Sender.controller, GetMailListRequest.newBuilder().setSenderIndex(Sender.SenderIndex).setSenderKey(Sender.SenderKey).setTime(this.Time).build());
 					if(Response.getObjectId().equals(""))
 						return;
 					String[] ObjectId=Response.getObjectId().split("\1");

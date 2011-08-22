@@ -43,7 +43,7 @@ public class Monitoring extends Thread {
 			
 			try {
 				Sender.SenderHandler.monitoring(Sender.controller,
-						MonitoringRequest.newBuilder()
+						MonitoringRequest.newBuilder().setSenderIndex(Sender.SenderIndex).setSenderKey(Sender.SenderKey)
 						.setCPU(cpustat)
 						.setMemory(usedMemory())
 						.setNetworkInByte(Net.receive_byte)

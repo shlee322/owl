@@ -34,6 +34,8 @@ public class Connect {
 	
 	public boolean Send(String ip)
 	{
+		long ProcessTime=System.currentTimeMillis();
+		
 		try{
 			int hoststart = this.Mail.indexOf("@");
 			String User = this.Mail.substring(0, hoststart);
@@ -97,7 +99,7 @@ public class Connect {
 		{
 		}
 		try {
-			Sender.SenderHandler.mailStatus(Sender.controller, MailStatusRequest.newBuilder().setTime(this.Task.Time).setObjectId(ObjectId).setCode(Msg).build());
+			Sender.SenderHandler.mailStatus(Sender.controller, MailStatusRequest.newBuilder().setTime(this.Task.Time).setSenderIndex(Sender.SenderIndex).setSenderKey(Sender.SenderKey).setObjectId(ObjectId).setCode(Msg).setProcessTime(System.currentTimeMillis() - ProcessTime).build());
 		} catch (ServiceException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
