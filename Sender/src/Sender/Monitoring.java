@@ -32,7 +32,7 @@ public class Monitoring extends Thread {
 		{
 			if(System.currentTimeMillis()<=time)
 				continue;
-			time=System.currentTimeMillis()+500;
+			time=System.currentTimeMillis()+Sender.MonitoringDelay;
 			
 			NetworkMonitoring Net = this.Network();
 			double cpustat = this.CPU();

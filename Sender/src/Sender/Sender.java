@@ -53,6 +53,9 @@ public class Sender {
 
 	static String Monitoring_CPU;
 	static String Monitoring_Network;
+	
+	static int Delay;
+	static int MonitoringDelay;
 
 	public static void main(String ar[]) {
 		Sender.DNS_Cache = new HashMap<String, DNS>();
@@ -95,11 +98,14 @@ public class Sender {
 		Sender.SenderHandler = Protocol.SenderController.SenderHandler
 				.newBlockingStub(channel);
 		Sender.controller = channel.newRpcController();
+		
+		Sender.Delay = Integer.parseInt(properties.getProperty("Delay"));
+		Sender.MonitoringDelay = Integer.parseInt(properties.getProperty("MonitoringDelay"));
 
 		// 모니터링 시작
 		new Monitoring().start();
 
-		long time = System.currentTimeMillis() + 5000;
+		long time = System.currentTimeMillis() + Sender.Delay;
 		long NewTaskTime = 0;
 
 		while (true) {
@@ -122,7 +128,7 @@ public class Sender {
 					e.printStackTrace();
 				}
 
-				time = System.currentTimeMillis() + 5000;
+				time = System.currentTimeMillis() + Sender.Delay;
 				if (Sender.Connect.size() > 0) {
 					synchronized (IPList) {
 						executorService

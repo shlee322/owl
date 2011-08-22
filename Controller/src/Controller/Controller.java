@@ -42,10 +42,7 @@ public class Controller {
 		Controller.Senders =  new Sender[Integer.parseInt(properties.getProperty("Sender_Number"))];
 		for(int i=0; i<Controller.Senders.length; i++)
 			Controller.Senders[i] = new Sender(properties.getProperty(String.format("Sender%s_Name",i)), properties.getProperty(String.format("Sender%s_Key",i)));
-		
-		//Sender.SenderIndex = Integer.parseInt(properties.getProperty("Index"));
-		//Sender.SenderKey = properties.getProperty("Key");
-		
+
 		Controller.MongoDB = new MongoDB();
 		
 		Controller.MongoDB.SenderDBStart();
