@@ -1,10 +1,12 @@
 package Controller;
 
+import java.io.FileInputStream;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.Executors;
 
@@ -23,8 +25,27 @@ public class Controller {
 	static NettyRpcServer Sender_Server;
 	static TServer Client_Server;
 	public static MongoDB MongoDB;
+	public static Sender[] Senders;
+	
 	public static void main(String ar[]) throws TTransportException
 	{
+		Properties properties = new Properties();
+		try {
+			FileInputStream properties_file;
+			properties_file = new FileInputStream("controller.properties");
+			properties.load(properties_file);
+			properties_file.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		Controller.Senders =  new Sender[Integer.parseInt(properties.getProperty("Sender_Number"))];
+		for(int i=0; i<Controller.Senders.length; i++)
+			Controller.Senders[i] = new Sender(properties.getProperty(String.format("Sender%s_Name",i)), properties.getProperty(String.format("Sender%s_Key",i)));
+		
+		//Sender.SenderIndex = Integer.parseInt(properties.getProperty("Index"));
+		//Sender.SenderKey = properties.getProperty("Key");
+		
 		Controller.MongoDB = new MongoDB();
 		
 		Controller.MongoDB.SenderDBStart();
@@ -103,8 +124,8 @@ public class Controller {
 //				MongoDB.Add_To_Person(send_Mail.Send_Time, toperson.To_Adress, toperson.Group_Name);
 //			}
 //		}
-		MongoDB.Load_Sender_Person(Long.parseLong("1313892208998"), 3);
-		MongoDB.Update_Cord(Long.parseLong("1313892208998"), "4e506771dbd4ae78febe3484", "코드다 시발");
+		//MongoDB.Load_Sender_Person(Long.parseLong("1313892208998"), 3);
+		//MongoDB.Update_Cord(Long.parseLong("1313892208998"), "4e506771dbd4ae78febe3484", "코드다 시발");
 		
 		
 		
@@ -150,6 +171,12 @@ public class Controller {
 		for (Person person : PersonList) {
 			System.out.println(person.Mail_Address);
 			
+		}
+			properties_file = new FileInputStream("controller.properties");
+			properties.load(properties_file);
+			properties_file.close();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		
 		ArrayList<Person> as = new ArrayList<Person>();
