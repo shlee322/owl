@@ -58,6 +58,13 @@ public class SenderHandler implements BlockingInterface{
 			Address = String.format("%s%s\1", Address, to_Sender_Person.To_Adress);
 		}
 		
+		if(ObjectId.length()!=0)
+		{
+			ObjectId = ObjectId.substring(0, ObjectId.length() - 2);
+			Key = Key.substring(0, Key.length() - 2);
+			Address = Address.substring(0, Address.length() - 2);
+		}
+		
 		return GetMailListResponse.newBuilder().setObjectId(ObjectId).setKey(Key).setAddress(Address).build();
 	}
 

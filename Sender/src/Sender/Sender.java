@@ -114,15 +114,20 @@ public class Sender {
 					NewTaskResponse Task = Sender.SenderHandler.newTask(
 							Sender.controller, NewTaskRequest.newBuilder().setSenderIndex(Sender.SenderIndex).setSenderKey(Sender.SenderKey)
 									.setTime(NewTaskTime).build());
-					String[] Time = Task.getTime().split("\1");
-					String[] From = Task.getFrom().split("\1");
-					String[] Subject = Task.getSubject().split("\1");
-					String[] Message = Task.getMessage().split("\1");
 
-					NewTaskTime = Long.parseLong(Time[Time.length - 1]);
-					for (int i = 0; i < Time.length; i++)
-						new Task(Long.parseLong(Time[i]), From[i], Subject[i],
-								Message[i]).Load(null);
+					if(!Task.getTime().equals(""))
+					{
+						String[] Time = Task.getTime().split("\1");
+						String[] From = Task.getFrom().split("\1");
+						String[] Subject = Task.getSubject().split("\1");
+						String[] Message = Task.getMessage().split("\1");
+	
+						NewTaskTime = Long.parseLong(Time[Time.length - 1]);
+						for (int i = 0; i < Time.length; i++)
+							new Task(Long.parseLong(Time[i]), From[i], Subject[i],
+									Message[i]).Load(null);
+					}
+
 				} catch (ServiceException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
