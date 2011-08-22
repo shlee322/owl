@@ -23,6 +23,7 @@ public class Connect {
 	PrintWriter out = null;
     BufferedReader in = null;
     String Msg="";
+    String IP;
     
 	public Connect(Task Task, String ObjectId, String Key, String Mail)
 	{
@@ -34,6 +35,7 @@ public class Connect {
 	
 	public boolean Send(String ip)
 	{
+		this.IP = ip;
 		long ProcessTime=System.currentTimeMillis();
 		
 		try{
@@ -81,7 +83,7 @@ public class Connect {
 
 		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nMIME-Version: 1.0\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr:8080/tracker.php?time=%d&objectid=%s&key=%s\" width=\"0\" height=\"0\">",this.Task.Time,this.ObjectId,this.Key))));
 	
-		            if(!this.SendCmd(".", "250"))
+		            if(!this.SendCmd("\n.", "250"))
 		            	continue;
 		            out.println("quit");
 		            socket.close();
@@ -110,13 +112,13 @@ public class Connect {
 	boolean SendCmd(String Cmd, String S) throws Exception
 	{
 		out.println(Cmd);
-		this.Msg = this.Msg + ">" + Cmd;
+		this.Msg = this.Msg + "\n" + this.IP + " > " + Cmd;
         String Msg="";
 		try {
 			while(true)
 			{
 				Msg = in.readLine();
-				this.Msg = this.Msg + "<" + Msg;
+				this.Msg = this.Msg + "\n" + this.IP + " > " + Msg;
 
 				if(!Msg.substring(0, 3).equals(S))
 					throw new Exception(Msg);
