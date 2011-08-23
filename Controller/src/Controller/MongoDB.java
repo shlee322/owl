@@ -17,6 +17,7 @@ public class MongoDB {
 
 	DB AdressDB;
 	DB SendMailDB;
+	DB UserDB;
 
 	String UserName;
 	String SendDBName;
@@ -25,12 +26,7 @@ public class MongoDB {
 
 	DBCollection GroupColl;
 	DBCollection SendMailColl;
-
-	void Del_User(String User) {
-		UserName = User;
-		//m.dropDatabase(UserName);
-		m.dropDatabase("SendMail");
-	}
+	DBCollection UserColl;
 	
 	// 디비 시작 (클라에서 로그온 했을때 무조건 이 메소드는 실행 해야함!)
 	boolean DBStart(String User) {
@@ -44,6 +40,9 @@ public class MongoDB {
 			SendDBName = "SendMail";
 			SendMailDB = m.getDB(SendDBName);
 			SendMailDB.authenticate("owl", "70210".toCharArray());
+			
+			UserDB = m.getDB("User");
+			UserDB.authenticate("owl", "70210".toCharArray());
 			return true;
 		} catch (Exception e) {
 			return false;
@@ -63,6 +62,72 @@ public class MongoDB {
 		}
 	}
 
+	Boolean Add_User(String Id, String Pw)
+	{
+		try
+		{
+			UserColl = UserDB.getCollection("User");
+			UserColl.insert(MakeUserDocument(Id, Pw));
+			
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
+	ArrayList<User> Load_UserList()
+	{
+		ArrayList<User> User_List = new ArrayList<User>();
+		UserColl = UserDB.getCollection("User");
+
+		if (UserColl.getCount() != 0) {
+			DBCursor cur;
+
+			cur = UserColl.find();
+
+			while (cur.hasNext()) {
+				User U_Temp = new User();
+
+				U_Temp.ID = cur.next().get("_id").toString();
+				U_Temp.PW = cur.curr().get("name").toString();
+				U_Temp.Key = null;
+
+				User_List.add(U_Temp);
+			}
+		}		
+		return User_List;
+	}
+	
+	boolean Update_User(String Id, String NewPw)
+	{
+		try
+		{
+			UserColl = UserDB.getCollection("User");
+			BasicDBObject doc;
+			doc = MakeUserDocument(Id,NewPw);
+			UserColl.update(new BasicDBObject().append("id", Id), doc);
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	Boolean Del_User(String Id, String Pw) {
+		try
+		{
+			m.dropDatabase(Id);
+			UserColl = UserDB.getCollection("User");
+			BasicDBObject doc;
+			doc = MakeUserDocument(Id,Pw);
+			UserColl.remove(doc);
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
 	// 그룹 추가
 	boolean Add_Group(String G_Name) {
 		try {
@@ -87,6 +152,19 @@ public class MongoDB {
 		}
 	}
 
+	// 사람 추가
+	Boolean Add_Person(String G_Name, String P_Name, String Mail_Address, String Phone) {
+		try
+		{
+			GroupColl = AdressDB.getCollection(G_Name);
+			GroupColl.insert(MakePersonDocument(P_Name, Mail_Address, Phone));
+
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
 	// 그룹 리스트 로드
 	Set<String> Load_Group() {
 		Set<String> ad = AdressDB.getCollectionNames();
@@ -94,6 +172,7 @@ public class MongoDB {
 		for (String string : ad) {
 			System.out.println(string);
 		}
+		
 		return ad;
 	}
 
@@ -123,20 +202,55 @@ public class MongoDB {
 		return PersonList;
 	}
 
-	
-	// 사람 추가
-	Boolean Add_Person(String G_Name, String P_Name, String Mail_Address, String Phone) {
+	//그룹
+	Boolean Update_Group(String GroupName, String Re_GroupName)
+	{
 		try
 		{
-			GroupColl = AdressDB.getCollection(G_Name);
-			GroupColl.insert(MakePersonDocument(P_Name, Mail_Address, Phone));
-
+			GroupColl = AdressDB.getCollection(GroupName);
+			GroupColl.rename(Re_GroupName);
+			
 			return true;
-		} catch (Exception e) {
+		}
+		catch (Exception e) {
 			return false;
 		}
 	}
-
+	
+	//그룹멤버
+	Boolean Update_Person(String GroupName, ArrayList<Person> P1)
+	{
+		try
+		{
+			GroupColl = AdressDB.getCollection(GroupName);
+			
+			for (Person person : P1)
+			{
+				BasicDBObject doc;
+				doc = MakePersonDocument(person.Name, person.Mail_Address, person.Phone);
+				GroupColl.update(new BasicDBObject().append("_id", person.ObjectID), doc);
+			}
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
+	Boolean Del_Group(String G_Name)
+	{
+		try
+		{
+			GroupColl = AdressDB.getCollection(G_Name);
+			GroupColl.drop();
+			
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	}
+	
 	// 메일 내용부분 추가
 	Boolean Add_Mail_Content(Boolean Sending, long Send_Time, int Send_Num, String From_Adress, String Mail_Title, String Mail_Content, String UserName)
 	{
@@ -215,26 +329,6 @@ public class MongoDB {
 			Mail_Temp.Send_Time = Long.parseLong(cur.curr().get("time").toString());
 			Mail_Temp.UserName = cur.curr().get("username").toString();
 			Mail.add(Mail_Temp);
-			/*
-			DBCursor Personcur;
-
-			SendMailColl = SendMailDB.getCollection(Long.toString(Mail_Temp.Send_Time));
-			Personcur = SendMailColl.find();
-
-			while (Personcur.hasNext()) {
-				To_Person Temp_Person = new To_Person();
-				Temp_Person.ObjectID = cur.next().get("_id").toString();
-				Temp_Person.Check_Time = Long.parseLong(cur.curr().get("checktime").toString());
-				Temp_Person.Cord = cur.curr().get("cord").toString();
-				Temp_Person.Sending = Boolean.valueOf(cur.curr().get("sending").toString());
-				Temp_Person.To_Adress = cur.curr().get("toaddress").toString();
-				Temp_Person.Group_Name = cur.curr().get("group_name").toString();
-				Temp_Person.Key = cur.curr().get("key").toString();
-				Mail_Temp.person.add(Temp_Person);
-			}*/
-		}
-		for (Send_Mail send_Mail : Mail) {
-			System.out.println(send_Mail.Send_Time);
 		}
 		return Mail;
 	}
@@ -271,40 +365,6 @@ public class MongoDB {
 		return Sender_Person_List;
 	}
 	
-	//그룹
-	Boolean Update_Group(String GroupName, String Re_GroupName)
-	{
-		try
-		{
-			GroupColl = AdressDB.getCollection(GroupName);
-			GroupColl.rename(Re_GroupName);
-			
-			return true;
-		}
-		catch (Exception e) {
-			return false;
-		}
-	}
-	
-	//그룹멤버
-	Boolean Update_User(String GroupName, ArrayList<Person> P1)
-	{
-		try
-		{
-			GroupColl = AdressDB.getCollection(GroupName);
-			
-			for (Person person : P1)
-			{
-				BasicDBObject doc;
-				doc = MakePersonDocument(person.Name, person.Mail_Address, person.Phone);
-				GroupColl.update(new BasicDBObject().append("_id", person.ObjectID), doc);
-			}
-			return true;
-		}
-		catch (Exception e) {
-			return false;
-		}
-	}
 	
 	Boolean Update_MailList(Send_Mail send)
 	{
@@ -404,6 +464,12 @@ public class MongoDB {
 		}
 	}
 
+	private static BasicDBObject MakeUserDocument(String Id, String Pw) {
+		BasicDBObject doc = new BasicDBObject();
+		doc.put("id", Id);
+		doc.put("password", Pw);
+		return doc;
+	}
 
 	private static BasicDBObject MakePersonDocument(String P_Name, String Mail_Address, String Phone) {
 		BasicDBObject doc = new BasicDBObject();
