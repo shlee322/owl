@@ -60,9 +60,9 @@ public class SenderHandler implements BlockingInterface{
 		
 		if(ObjectId.length()!=0)
 		{
-			ObjectId = ObjectId.substring(0, ObjectId.length() - 2);
-			Key = Key.substring(0, Key.length() - 2);
-			Address = Address.substring(0, Address.length() - 2);
+			ObjectId = ObjectId.substring(0, ObjectId.length() - 1);
+			Key = Key.substring(0, Key.length() - 1);
+			Address = Address.substring(0, Address.length() - 1);
 		}
 		
 		return GetMailListResponse.newBuilder().setObjectId(ObjectId).setKey(Key).setAddress(Address).build();
@@ -78,7 +78,7 @@ public class SenderHandler implements BlockingInterface{
 			return MailStatusResponse.newBuilder().build();
 
 		
-		Controller.MongoDB.Update_Cord(request.getTime(), request.getObjectId(), request.getCode(), request.getProcessTime());
+		Controller.MongoDB.Update_Cord(request.getTime(), request.getObjectId(), request.getCode()/*, request.getProcessTime()*/);
 		System.out.println(request.getCode());
 		return MailStatusResponse.newBuilder().build();
 	}

@@ -51,9 +51,11 @@ public class Connect {
 	
 			for (Server server : dns.Server) {
 				try {
+					this.Msg = this.Msg + "\n" + this.IP + " > " + server.Host + " 접속시도";
 					socket = new Socket(server.getHost(), 25, InetAddress.getByName(ip), 0);
+					this.Msg = this.Msg + "\n" + this.IP + " > " + server.Host + " 접속성공";
 				} catch (Exception e) {
-					e.printStackTrace();
+					this.Msg = this.Msg + "\n" + this.IP + " > " + server.Host + " 접속실패\n" + e.getMessage();
 					continue;
 				}
 				
@@ -81,10 +83,12 @@ public class Connect {
 		            if(!this.SendCmd("DATA", "354"))
 		            	continue;
 
-		            out.println(String.format("From: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nMIME-Version: 1.0\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr:8080/tracker.php?time=%d&objectid=%s&key=%s\" width=\"0\" height=\"0\">",this.Task.Time,this.ObjectId,this.Key))));
-	
-		            if(!this.SendCmd("\n.", "250"))
+		            String SendMsg = String.format("From: <%s>\nTo: <%s>\nSubject: =?UTF-8?B?%s?=\nMIME-Version: 1.0\nContent-Type: text/html; charset=UTF-8\nContent-Transfer-Encoding: base64\n\n%s", this.Task.From, this.Mail, Base64Coder.encodeString(this.Task.Subject), Base64Coder.encodeString(this.Task.Message + String.format("<img src=\"http://www.owl.or.kr:8080/tracker.php?time=%d&objectid=%s&key=%s\" width=\"0\" height=\"0\">",this.Task.Time,this.ObjectId,this.Key)));
+		            out.println(SendMsg);
+		            this.Msg = this.Msg + "\n" + this.IP + " > " + SendMsg;
+		            if(!this.SendCmd("\r\n.\r", "250"))
 		            	continue;
+		            
 		            out.println("quit");
 		            socket.close();
 		            send = true;
@@ -92,14 +96,18 @@ public class Connect {
 		            Monitoring.sendcount++;
 		    		break;
 				} catch (IOException e) {
-					e.printStackTrace();
+					this.Msg = this.Msg + "\n" + this.IP + " > " + e.getMessage();
 				}
 			}
 			if(!send)
 				throw new Exception("서버 접근 실패");
 		}catch (Exception e)
 		{
+			this.Msg = this.Msg + "\n" + this.IP + " > " + e.getMessage();
 		}
+		
+		System.out.println(String.format(Msg, 0));
+		
 		try {
 			Sender.SenderHandler.mailStatus(Sender.controller, MailStatusRequest.newBuilder().setTime(this.Task.Time).setSenderIndex(Sender.SenderIndex).setSenderKey(Sender.SenderKey).setObjectId(ObjectId).setCode(Msg).setProcessTime(System.currentTimeMillis() - ProcessTime).build());
 		} catch (ServiceException e1) {
@@ -118,7 +126,7 @@ public class Connect {
 			while(true)
 			{
 				Msg = in.readLine();
-				this.Msg = this.Msg + "\n" + this.IP + " > " + Msg;
+				this.Msg = this.Msg + "\n" + this.IP + " < " + Msg;
 
 				if(!Msg.substring(0, 3).equals(S))
 					throw new Exception(Msg);

@@ -45,6 +45,7 @@ public class Task {
 					{
 						for(int i=0; i<ObjectId.length; i++)
 						{
+							System.out.println(String.format("%s %s %s", ObjectId[i], Key[i], Address[i]));
 							Connect connect = new Connect(this, ObjectId[i], Key[i], Address[i]);
 							this.Connects.add(connect);
 							Sender.Connect.add(connect);
