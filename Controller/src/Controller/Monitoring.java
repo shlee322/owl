@@ -1,12 +1,12 @@
 package Controller;
 
 public class Monitoring {
-    static public double CPU;
-    static public long Memory;
-    static public long NetworkIn_Byte;
-    static public long NetworkIn_Pakcet;
-    static public long NetworkOut_Byte;
-    static public long NetworkOut_Pakcet;
-    static public long Thread;
-    static public long SendCount;
+    public double CPU;
+    public long Memory;
+    public long NetworkIn_Byte;
+    public long NetworkIn_Pakcet;
+    public long NetworkOut_Byte;
+    public long NetworkOut_Pakcet;
+    public long Thread;
+    public long SendCount;
 }
