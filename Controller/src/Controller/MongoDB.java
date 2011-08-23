@@ -31,7 +31,7 @@ public class MongoDB {
 		//m.dropDatabase(UserName);
 		m.dropDatabase("SendMail");
 	}
-
+	
 	// 디비 시작 (클라에서 로그온 했을때 무조건 이 메소드는 실행 해야함!)
 	boolean DBStart(String User) {
 		try {
@@ -66,14 +66,14 @@ public class MongoDB {
 	// 그룹 추가
 	boolean Add_Group(String G_Name) {
 		try {
-			GroupName = UserName + "_" + G_Name;
+			GroupName = G_Name;
 
 			Set<String> colls = AdressDB.getCollectionNames();
 
 			if (!colls.isEmpty()) {
 				if (AdressDB.collectionExists(GroupName)) {
-					System.out.println("같은 그룹명 있음");
-					return true;
+					//같은 그룹명 있을시 펄스
+					return false;
 				} else {
 					GroupColl = AdressDB.createCollection(GroupName, null);
 					return true;
@@ -85,15 +85,22 @@ public class MongoDB {
 		} catch (Exception e) {
 			return false;
 		}
-
 	}
 
 	// 그룹 리스트 로드
-	ArrayList<Person> Load_Group(String G_Name) {
-		ArrayList<Person> PersonList = new ArrayList<Person>();
-		GroupName = UserName + "_" + G_Name;
+	Set<String> Load_Group() {
+		Set<String> ad = AdressDB.getCollectionNames();
+		
+		for (String string : ad) {
+			System.out.println(string);
+		}
+		return ad;
+	}
 
-		GroupColl = AdressDB.getCollection(GroupName);
+	ArrayList<Person> Load_GroupList(String G_Name) {
+		ArrayList<Person> PersonList = new ArrayList<Person>();
+
+		GroupColl = AdressDB.getCollection(G_Name);
 
 		if (GroupColl.getCount() != 0) {
 			DBCursor cur;
@@ -116,12 +123,12 @@ public class MongoDB {
 		return PersonList;
 	}
 
+	
 	// 사람 추가
 	Boolean Add_Person(String G_Name, String P_Name, String Mail_Address, String Phone) {
 		try
 		{
-			GroupName = UserName + "_" + G_Name;
-			GroupColl = AdressDB.getCollection(GroupName);
+			GroupColl = AdressDB.getCollection(G_Name);
 			GroupColl.insert(MakePersonDocument(P_Name, Mail_Address, Phone));
 
 			return true;
@@ -269,8 +276,8 @@ public class MongoDB {
 	{
 		try
 		{
-			GroupColl = AdressDB.getCollection(UserName + "_" + GroupName);
-			GroupColl.rename(UserName + "_" + Re_GroupName);
+			GroupColl = AdressDB.getCollection(GroupName);
+			GroupColl.rename(Re_GroupName);
 			
 			return true;
 		}
@@ -284,7 +291,7 @@ public class MongoDB {
 	{
 		try
 		{
-			GroupColl = AdressDB.getCollection(UserName + "_" + GroupName);
+			GroupColl = AdressDB.getCollection(GroupName);
 			
 			for (Person person : P1)
 			{
@@ -469,4 +476,10 @@ class To_Sender_Person
 	public String ObjectID;
 	public int Key;
 	public String To_Adress;
+}
+
+class User {
+	String ID;
+	String PW;
+	String Key;
 }
