@@ -76,9 +76,9 @@ public class SenderHandler implements BlockingInterface{
 			return MailStatusResponse.newBuilder().build();
 		if(!Controller.Senders[SenderIndex].Key.equals(request.getSenderKey()))
 			return MailStatusResponse.newBuilder().build();
+
 		
-		// TODO Auto-generated method stub
-		Controller.MongoDB.Update_Cord(request.getTime(), request.getObjectId(), request.getCode());
+		Controller.MongoDB.Update_Cord(request.getTime(), request.getObjectId(), request.getCode(), request.getProcessTime());
 		System.out.println(request.getCode());
 		return MailStatusResponse.newBuilder().build();
 	}

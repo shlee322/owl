@@ -54,11 +54,7 @@ import org.jboss.netty.util.CharsetUtil;
 	    	  QueryStringDecoder queryStringDecoder = new QueryStringDecoder(request.getUri());
 	    	  Map<String, List<String>> params = queryStringDecoder.getParameters();
 	    	  try{
-	    		  ///Controller.MongoDB.
-	    		  System.out.println(params.get("time").get(0));
-		    	  System.out.println(params.get("objectid").get(0));
-		    	  System.out.println(params.get("key").get(0));
-		    	  
+		    	  Controller.MongoDB.Update_CheckTime(Long.parseLong(params.get("time").get(0)), params.get("objectid").get(0), Integer.parseInt(params.get("key").get(0)));
 	    	  }catch (Exception e2) {
 	    	  }
 		    	  
