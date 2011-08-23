@@ -28,21 +28,31 @@ public class MongoDB {
 	DBCollection SendMailColl;
 	DBCollection UserColl;
 	
-	// 디비 시작 (클라에서 로그온 했을때 무조건 이 메소드는 실행 해야함!)
-	boolean DBStart(String User) {
+	boolean DBStart()
+	{
 		try {
 			m = new Mongo("controller.owl.or.kr");
-
-			UserName = User;
-			AdressDB = m.getDB(UserName);
-			AdressDB.authenticate("owl", "70210".toCharArray());
-
 			SendDBName = "SendMail";
 			SendMailDB = m.getDB(SendDBName);
 			SendMailDB.authenticate("owl", "70210".toCharArray());
 			
 			UserDB = m.getDB("User");
 			UserDB.authenticate("owl", "70210".toCharArray());
+			
+			return true;
+			
+		} catch (Exception e) {
+			return false;
+		}
+		
+	}
+	// 디비 시작 (클라에서 로그온 했을때 무조건 이 메소드는 실행 해야함!)
+	boolean LogIn(String User) {
+		try {
+			UserName = User;
+			AdressDB = m.getDB(UserName);
+			AdressDB.authenticate("owl", "70210".toCharArray());
+
 			return true;
 		} catch (Exception e) {
 			return false;
