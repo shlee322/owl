@@ -1,0 +1,19 @@
+﻿<Window x:Class="Client_LSH.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="1280">
+    <Grid>
+        <ListBox Height="113" HorizontalAlignment="Left" Margin="12,636,0,0" Name="Log" VerticalAlignment="Top" Width="1237" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="13,12,0,0" Name="CPU" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="462" HorizontalAlignment="Left" Margin="640,168,0,0" Name="View" VerticalAlignment="Top" Width="606" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="319,12,0,0" Name="NowCPU" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="13,168,0,0" Name="Memory" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="319,168,0,0" Name="NowMemory" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="12,324,0,0" Name="Network" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="319,324,0,0" Name="NowNetwork" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="12,480,0,0" Name="SendCount" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="319,480,0,0" Name="NowSendCount" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="640,12,0,0" Name="Thread" VerticalAlignment="Top" Width="300" />
+        <WindowsFormsHost Height="150" HorizontalAlignment="Left" Margin="946,12,0,0" Name="NowThread" VerticalAlignment="Top" Width="300" />
+    </Grid>
+</Window>

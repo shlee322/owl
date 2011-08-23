@@ -1,0 +1,14 @@
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\bin\Debug\Client_LSH.exe
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\bin\Debug\Client_LSH.pdb
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\bin\Debug\ZedGraph.dll
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\MainWindow.baml
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\MainWindow.g.cs
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\App.g.cs
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH_MarkupCompile.cache
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.g.resources
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.Properties.Resources.resources
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.exe
+C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.pdb
