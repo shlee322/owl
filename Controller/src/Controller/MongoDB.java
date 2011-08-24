@@ -27,6 +27,11 @@ public class MongoDB {
 	DBCollection GroupColl;
 	DBCollection SendMailColl;
 	DBCollection UserColl;
+
+	public MongoDB()
+	{
+		this.DBStart();
+	}
 	
 	boolean DBStart()
 	{
@@ -343,6 +348,7 @@ public class MongoDB {
 		return Mail;
 	}
 	
+
 	ArrayList<To_Sender_Person> Load_Sender_Person(Long Time, int num)
 	{
 		ArrayList<To_Sender_Person> Sender_Person_List = new ArrayList<To_Sender_Person>();
