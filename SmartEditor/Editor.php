@@ -16,6 +16,6 @@ function pasteHTMLDemo(id, sHTML){
 }
 
 function getHTML(){
-	alert(oEditors.getById["ir1"].getIR());
+	return oEditors.getById["ir1"].getIR();
 }
 </script>
