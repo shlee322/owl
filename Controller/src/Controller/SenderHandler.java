@@ -24,7 +24,7 @@ public class SenderHandler implements BlockingInterface{
 		if(!Controller.Senders[SenderIndex].Key.equals(request.getSenderKey()))
 			return NewTaskResponse.newBuilder().build();
 		
-		ArrayList<Send_Mail> List = Controller.MongoDB.Load_Mail_List(request.getTime()+1, 1);
+		ArrayList<Send_Mail> List = Controller.MongoDB.Load_Mail_List(request.getTime()+1, System.currentTimeMillis());
 		String Time="";
 		String From="";
 		String Subject="";
