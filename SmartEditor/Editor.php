@@ -1,3 +1,4 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <script type="text/javascript" src="js/HuskyEZCreator.js" charset="utf-8"></script>
 <p>
 <a href="#" onclick="javascript:window.open('uploader.php?id=ir1', 'uploader', 'width=300, height=200');">이미지 삽입</a>
