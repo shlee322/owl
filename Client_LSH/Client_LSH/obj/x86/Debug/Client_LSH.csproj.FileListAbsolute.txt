@@ -12,3 +12,17 @@ C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\GenerateResource
 C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.exe
 C:\Users\SW Maestro\Desktop\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.pdb
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.exe
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.pdb
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\MainWindow.baml
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\MainWindow.g.cs
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\App.g.cs
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH_MarkupCompile.cache
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.g.resources
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\Client_LSH.Properties.Resources.resources
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Projects\owl\Client_LSH\Client_LSH\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Projects\owl\Client_LSH\Client_LSH\bin\Debug\Client_LSH.exe
+E:\Projects\owl\Client_LSH\Client_LSH\bin\Debug\Client_LSH.pdb
+E:\Projects\owl\Client_LSH\Client_LSH\bin\Debug\ZedGraph.dll
