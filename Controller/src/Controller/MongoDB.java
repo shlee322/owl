@@ -1,5 +1,6 @@
 package Controller;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Set;
@@ -103,8 +104,8 @@ public class MongoDB {
 			while (cur.hasNext()) {
 				User U_Temp = new User();
 
-				U_Temp.ID = cur.next().get("_id").toString();
-				U_Temp.PW = cur.curr().get("name").toString();
+				U_Temp.ID = cur.next().get("id").toString();
+				U_Temp.PW = cur.curr().get("password").toString();
 				U_Temp.Key = null;
 
 				User_List.add(U_Temp);
@@ -381,6 +382,29 @@ public class MongoDB {
 		return Sender_Person_List;
 	}
 	
+	ArrayList<To_Person> Load_Client_person(Long Time)
+	{
+		ArrayList<To_Person> Client_Person_List = new ArrayList<To_Person>();
+		DBCursor Personcur;
+
+		SendMailColl = SendMailDB.getCollection(Time.toString());
+		
+		Personcur = SendMailColl.find();
+
+		while (Personcur.hasNext()) {
+			To_Person P_Temp = new To_Person();
+			P_Temp.ObjectID = Personcur.next().get("_id").toString();
+			P_Temp.Sending = Boolean.valueOf(Personcur.curr().get("sending").toString());
+			P_Temp.Check_Time = Long.parseLong(Personcur.curr().get("checktime").toString());
+			P_Temp.To_Adress = Personcur.curr().get("toaddress").toString();
+			P_Temp.Cord = Personcur.curr().get("cord").toString();
+			P_Temp.Group_Name = Personcur.curr().get("group_name").toString();
+			P_Temp.Key = Integer.parseInt(Personcur.curr().get("key").toString());
+	
+			Client_Person_List.add(P_Temp);
+		}
+		return Client_Person_List;
+	}
 	
 	Boolean Update_MailList(Send_Mail send)
 	{
@@ -416,13 +440,13 @@ public class MongoDB {
 		}
 	}
 	
-	Boolean Del_MailList(Send_Mail send)
+	Boolean Del_MailList(String Time)
 	{
 		try
 		{
 			SendMailColl = SendMailDB.getCollection("Mail_Content");
-			SendMailColl.remove(new BasicDBObject().append("time", send.Send_Time));
-			SendMailColl = SendMailDB.getCollection(Long.toString(send.Send_Time));
+			SendMailColl.remove(new BasicDBObject().append("time", Time));
+			SendMailColl = SendMailDB.getCollection(Time);
 			SendMailColl.drop();
 			return true;
 		}
