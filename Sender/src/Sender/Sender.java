@@ -58,6 +58,8 @@ public class Sender {
 	
 	static int Delay;
 	static int MonitoringDelay;
+	
+	static int CreateCount;
 
 	public static void main(String ar[]) {
 		Sender.DNS_Cache = new HashMap<String, DNS>();
@@ -88,6 +90,8 @@ public class Sender {
 		Sender.Monitoring_CPU = properties.getProperty("Monitoring_CPU");
 		Sender.Monitoring_Network = properties
 				.getProperty("Monitoring_Network");
+		
+		Sender.CreateCount = Integer.parseInt(properties.getProperty("CreateCount"));
 
 		NettyRpcClient client = new NettyRpcClient(
 				(ChannelFactory) new NioClientSocketChannelFactory(
@@ -138,11 +142,14 @@ public class Sender {
 				time = System.currentTimeMillis() + Sender.Delay;
 				if (Sender.Connect.size() > 0) {
 					synchronized (IPList) {
-						executorService
-								.execute(new TaskThread(IPList[IPCount]));
-						IPCount++;
-						if (IPCount >= IPList.length)
-							IPCount = 0;
+						for(int i=0; i<Sender.CreateCount; i++)
+						{
+							executorService
+									.execute(new TaskThread(IPList[IPCount]));
+							IPCount++;
+							if (IPCount >= IPList.length)
+								IPCount = 0;
+						}
 					}
 				}
 			}

@@ -31,20 +31,12 @@ namespace Client_LSH
             this.NowSendCount.Child = new ZedGraphControl();
             this.Thread.Child = new ZedGraphControl();
             this.NowThread.Child = new ZedGraphControl();
-            this.View.Child = new ZedGraphControl();
-
 
             this.InitGraph((ZedGraphControl)this.CPU.Child, (ZedGraphControl)this.NowCPU.Child, "CPU");
             this.InitGraph((ZedGraphControl)this.Memory.Child, (ZedGraphControl)this.NowMemory.Child, "Memory");
             this.InitGraph((ZedGraphControl)this.Network.Child, (ZedGraphControl)this.NowNetwork.Child, "Network");
             this.InitGraph((ZedGraphControl)this.SendCount.Child, (ZedGraphControl)this.NowSendCount.Child, "SendCount");
             this.InitGraph((ZedGraphControl)this.Thread.Child, (ZedGraphControl)this.NowThread.Child, "Thread");
-
-            ((ZedGraphControl)this.View.Child).GraphPane.Title.Text = "View";
-            ((ZedGraphControl)this.View.Child).GraphPane.Title.FontSpec.Size = 36;
-            ((ZedGraphControl)this.View.Child).GraphPane.XAxis.Title.Text = "Time";
-            ((ZedGraphControl)this.View.Child).GraphPane.XAxis.Title.FontSpec.Size = 24;
-            ((ZedGraphControl)this.View.Child).GraphPane.YAxis.Title.FontSpec.Size = 24;
 
             this.Init();
             this.RunThread = new System.Threading.Thread(this.Run);
@@ -84,16 +76,23 @@ namespace Client_LSH
                 ((ZedGraphControl)this.NowSendCount.Child).GraphPane.CurveList[0].AddPoint(i, r.Next(0, 100));
                 ((ZedGraphControl)this.NowThread.Child).GraphPane.CurveList[0].AddPoint(i, r.Next(0, 100));
 
+                
+
                 //((ZedGraphControl)this.NowThread.Child).GraphPane.CurveList[0].
 
                 //((ZedGraphControl)this.NowCPU.Child).GraphPane.CurveList[0].Points[i].ColorValue = 1111111111111111;
             }
+
+            //((ZedGraphControl)this.View.Child).GraphPane.
 
             ((ZedGraphControl)this.NowCPU.Child).GraphPane.XAxis.Scale.TextLabels = SenderArray;
             ((ZedGraphControl)this.NowMemory.Child).GraphPane.XAxis.Scale.TextLabels = SenderArray;
             ((ZedGraphControl)this.NowNetwork.Child).GraphPane.XAxis.Scale.TextLabels = SenderArray;
             ((ZedGraphControl)this.NowSendCount.Child).GraphPane.XAxis.Scale.TextLabels = SenderArray;
             ((ZedGraphControl)this.NowThread.Child).GraphPane.XAxis.Scale.TextLabels = SenderArray;
+
+
+
         }
 
         private void InitGraph(ZedGraphControl zed1, ZedGraphControl zed2, string Title)
@@ -104,7 +103,6 @@ namespace Client_LSH
             zed1.GraphPane.XAxis.Title.FontSpec.Size = 24;
             zed1.GraphPane.YAxis.Title.FontSpec.Size = 24;
             zed1.GraphPane.XAxis.Type = AxisType.Date;
-            
 
             zed2.GraphPane.Title.Text = "Now " + Title;
             zed2.GraphPane.Title.FontSpec.Size = 36;
