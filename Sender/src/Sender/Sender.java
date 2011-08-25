@@ -16,18 +16,20 @@ import java.util.Properties;
 import java.util.Queue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
 import org.apache.log4j.Logger;
 import org.jboss.netty.channel.ChannelFactory;
 import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
+import org.xbill.DNS.Lookup;
+import org.xbill.DNS.MXRecord;
+import org.xbill.DNS.Record;
+import org.xbill.DNS.TextParseException;
+import org.xbill.DNS.Type;
 
 import Protocol.SenderController.NewTaskRequest;
 import Protocol.SenderController.NewTaskResponse;
 import Protocol.SenderController.SenderHandler.BlockingInterface;
 import Protocol.SenderController.SenderHandler.Stub;
-
 import biz.source_code.base64Coder.Base64Coder;
-
 import com.google.protobuf.Message;
 import com.google.protobuf.RpcController;
 import com.google.protobuf.ServiceException;
@@ -50,7 +52,7 @@ public class Sender {
 
 	static String[] IPList;
 	static int IPCount;
-
+	
 	static String Monitoring_CPU;
 	static String Monitoring_Network;
 	
@@ -155,61 +157,25 @@ public class Sender {
 				return dns;
 			dns = new DNS();
 			
-			Record[] records = new (address, Type.MX).run();
-			
-	
-			Process p = null;
-			List<Server> MailServer = new ArrayList();
-	
+			Record[] records;
 			try {
-				p = Runtime.getRuntime().exec(
-						String.format("nslookup -q=mx %s", Host));
-			} catch (IOException e) {
-				e.printStackTrace();
-				return null;
-			}
-	
-			try {
-				p.waitFor();
-			} catch (InterruptedException e1) {
-				e1.printStackTrace();
-			}
-	
-			BufferedReader reader = new BufferedReader(new InputStreamReader(
-					p.getInputStream()));
-			String line = null;
-			String[] Data;
-	
-			try {
-				int host_len = Host.length();
-				while ((line = reader.readLine()) != null) {
-					if (line.indexOf("mail") == -1)
-						continue;
-	
-					Data = line.split(" ");
-					Server server = new Server();
-					server.ranking = Integer.parseInt(Data[3]);
-					server.Host = Data[4].substring(0, Data[4].length() - 1);
-					MailServer.add(server);
-				}
-				reader.close();
-			} catch (IOException e) {
+				records = new Lookup(Host, Type.MX).run();
+
+				List<Server> MailServer = new ArrayList();
+				
+				for (Record record : records) {
+					Server s = new Server();
+					s.Host = ((MXRecord) record).getTarget().toString();
+					MailServer.add(s);
+				  }
+		
+				dns.Server = new Server[0];
+				dns.Server = (Server[]) MailServer.toArray(dns.Server);
+		
+				Sender.DNS_Cache.put(Host, dns);
+			} catch (TextParseException e) {
 				e.printStackTrace();
 			}
-	
-			Comparator<Server> comparator = new Comparator<Server>() {
-				@Override
-				public int compare(Server o1, Server o2) {
-					return (o1.ranking < o2.ranking ? 0 : 1);
-				}
-			};
-	
-			Collections.sort(MailServer, comparator);
-	
-			dns.Server = new Server[0];
-			dns.Server = (Server[]) MailServer.toArray(dns.Server);
-	
-			Sender.DNS_Cache.put(Host, dns);
 	
 			return dns;
 		}
