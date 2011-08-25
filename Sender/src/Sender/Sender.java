@@ -154,6 +154,9 @@ public class Sender {
 			if (dns != null)
 				return dns;
 			dns = new DNS();
+			
+			Record[] records = new (address, Type.MX).run();
+			
 	
 			Process p = null;
 			List<Server> MailServer = new ArrayList();
