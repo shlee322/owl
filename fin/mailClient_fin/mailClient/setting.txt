@@ -1,0 +1,5 @@
+ip=192.168.1.106
+port=9091
+logo=image/owl.bmp
+name=owl
+phone=000-000-0000

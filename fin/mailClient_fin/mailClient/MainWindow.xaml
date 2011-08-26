@@ -1,0 +1,36 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        mc:Ignorable="d"
+	x:Class="mailClient.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="1400" Height="950">
+	<Window.Resources>
+		<Storyboard x:Key="nextPage">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="LayoutRoot">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="0.456*"/>
+			<RowDefinition Height="409.194"/>
+			<RowDefinition Height="0.544*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.506*"/>
+			<ColumnDefinition Width="867.104"/>
+			<ColumnDefinition Width="0.494*"/>
+		</Grid.ColumnDefinitions>
+		<TextBox x:Name="idBox"  Height="52" Margin="0,61.974,28.382,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" FontSize="32" Background="#FF898989" BorderBrush="#FF4B0E0E" BorderThickness="3" SelectionBrush="#FF4B0E0E" HorizontalAlignment="Right" Width="320.456" Grid.Column="1" Grid.Row="1"/>
+		<PasswordBox x:Name="pwBox"  Margin="0,167.974,28.382,189.456" FontSize="32" Background="#FF898989" BorderBrush="#FF4B0E0E" BorderThickness="3" SelectionBrush="#FF4B0E0E" Height="51.788" HorizontalAlignment="Right" Width="320.456" Grid.Column="1" Grid.Row="1"/>
+		<Border x:Name="clickBtn"  BorderBrush="#FF7C1515" BorderThickness="3" Margin="0,0,28.382,71.712" CornerRadius="20" Background="#FF4E4E4E" MouseEnter="clickBtn_MouseEnter" MouseLeave="clickBtn_MouseLeave" Cursor="Hand" Opacity="0.6" MouseLeftButtonDown="clickBtn_MouseLeftButtonDown" HorizontalAlignment="Right" Width="159.216" Grid.Column="1" Grid.Row="1" Height="53.744" VerticalAlignment="Bottom" >
+			<TextBlock Margin="-2.333,-0.999,-3.667,-5.001" TextWrapping="Wrap" FontSize="32"><Run Language="ko-kr" Text="  "/><Run FontWeight="Bold" Language="ko-kr" Text=" LogIn"/></TextBlock>
+		</Border>
+		<Image Source="image/logo.png" Grid.Column="1" Margin="-119.734,-99.28,385.838,18.474" Grid.Row="1"/>
+	</Grid>
+</Window>
