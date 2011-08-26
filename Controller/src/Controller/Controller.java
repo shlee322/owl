@@ -28,7 +28,7 @@ public class Controller {
 	public static Sender[] Senders;
 	
 	public static void main(String ar[]) throws TTransportException
-	{/*
+	{
 		Properties properties = new Properties();
 		try {
 			FileInputStream properties_file;
@@ -61,6 +61,14 @@ public class Controller {
 		  
 		// Bind and start to accept incoming connections.
 		webbootstrap.bind(new InetSocketAddress(8080));
+		
+		try {
+			apiServer.thriftApiServer.thniftApiServerMain(null);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 
 
 		/*
@@ -69,7 +77,7 @@ public class Controller {
 		Controller.Client_Server = new THsHaServer(processor, socket, new TFramedTransport.Factory(), new TBinaryProtocol.Factory());
 		Controller.Client_Server.serve();
 		*/
-		
+		/*
 		MongoDB MongoDB = new MongoDB();
 		MongoDB.DBStart();
 		MongoDB.LogIn("poweroyh");
@@ -88,7 +96,7 @@ public class Controller {
 		
 		for (Person person : PersonList) {
 			System.out.println(person.Mail_Address);
-		}
+		}*/
 		/*
 		}
 			properties_file = new FileInputStream("controller.properties");
