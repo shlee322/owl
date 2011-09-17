@@ -7,6 +7,8 @@ import java.util.Set;
 
 import org.bson.types.ObjectId;
 
+import Controller.Controller;
+
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -37,7 +39,7 @@ public class MongoDB {
 	boolean DBStart()
 	{
 		try {
-			m = new Mongo("controller.owl.or.kr");
+			m = new Mongo(Controller.MongoDB_IP);
 			SendDBName = "SendMail";
 			SendMailDB = m.getDB(SendDBName);
 			SendMailDB.authenticate("owl", "70210".toCharArray());
@@ -67,7 +69,7 @@ public class MongoDB {
 	
 	boolean SenderDBStart() {
 		try {
-			m = new Mongo("controller.owl.or.kr");
+			m = new Mongo(Controller.MongoDB_IP);
 
 			SendDBName = "SendMail";
 			SendMailDB = m.getDB(SendDBName);

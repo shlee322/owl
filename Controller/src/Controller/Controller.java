@@ -24,6 +24,7 @@ import com.googlecode.protobuf.netty.*;
 public class Controller {
 	static NettyRpcServer Sender_Server;
 	static TServer Client_Server;
+	public static String MongoDB_IP;
 	public static MongoDB MongoDB;
 	public static Sender[] Senders;
 	
@@ -43,7 +44,9 @@ public class Controller {
 		for(int i=0; i<Controller.Senders.length; i++)
 			Controller.Senders[i] = new Sender(properties.getProperty(String.format("Sender%s_Name",i)), properties.getProperty(String.format("Sender%s_Key",i)));
 
+		Controller.MongoDB_IP = properties.getProperty("MongoDB_IP");
 		Controller.MongoDB = new MongoDB();
+		
 		
 		Controller.MongoDB.SenderDBStart();
 		

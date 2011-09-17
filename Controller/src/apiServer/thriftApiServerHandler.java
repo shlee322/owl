@@ -41,14 +41,15 @@ public class thriftApiServerHandler implements
 		logging.logging.debug("debug");
 		StringTokenizer st = new StringTokenizer(key, "@", false);
 		String id = st.nextToken();
+		String passwd = st.nextToken();
 		ArrayList<User> users = new ArrayList<User>();
 		users = mdb.Load_UserList();
 		for (int i = 0; i < users.size(); i++) {
 			System.out.println(users.get(i).ID);
-			if (users.get(i).ID.equals(id)) {
-				usrData.id = users.get(i).ID;
+			if ( (users.get(i).ID.equals(id)) && (users.get(i).PW.equals(passwd))  ) {
+				usrData.id = id;
 				//이 부분 문제 잇음 아이디별 데이터베이스 필요
-				mdb.LogIn("poweroyh");
+				mdb.LogIn(usrData.id);
 				return true;
 			}
 		}
@@ -233,11 +234,13 @@ public class thriftApiServerHandler implements
 		logging.logging.debug("debug");
 		// access to user DB
 		// change passwd
-		boolean success = true;
-		if (success) {
-			return true;
-		} else
-			return false;
+		String Id,Pw;
+		StringTokenizer st = new StringTokenizer(changePasswd,"@",false);
+		Id = st.nextToken();
+		Pw = st.nextToken();
+		boolean t = true;
+		t = mdb.Add_User(Id,Pw);
+		return true;
 	}
 
 	@Override

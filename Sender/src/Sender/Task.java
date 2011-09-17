@@ -31,7 +31,7 @@ public class Task {
 			if(c!=null)
 				this.Connects.remove(c);
 			
-			if(this.Connects.size()==0)
+			if(this.Connects.size()<10)
 			{
 				try {
 					GetMailListResponse Response = Sender.SenderHandler.getMailList(Sender.controller, GetMailListRequest.newBuilder().setSenderIndex(Sender.SenderIndex).setSenderKey(Sender.SenderKey).setTime(this.Time).build());
